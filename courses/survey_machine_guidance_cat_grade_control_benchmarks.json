@@ -1,0 +1,278 @@
+{
+  "survey_id": "survey_machine_guidance_cat_grade_control_benchmarks",
+  "title": "Pre-Course Survey: CAT Grade Control & Machine Guidance Systems",
+  "purpose": "Assess current understanding before training",
+  "estimated_time": "5 minutes",
+  "benchmark_categories": [
+    "Awareness",
+    "Practical Application",
+    "Safety",
+    "Technology"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "scale",
+      "question": "On a scale of 1-5, how confident are you setting up a CAT Grade Control system on an excavator or dozer?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Practical Application"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Under the Health and Safety at Work Act 2015 (HSWA), who is primarily responsible for ensuring workers are competent to operate machine guidance systems?",
+      "options": [
+        "The machine operator",
+        "PCBU (Person Conducting a Business or Undertaking)",
+        "WorkSafe New Zealand",
+        "The equipment manufacturer"
+      ],
+      "correct_answer": 1,
+      "benchmark_category": "Safety"
+    },
+    {
+      "id": 3,
+      "type": "scale",
+      "question": "How experienced are you with establishing and verifying physical benchmarks on a construction site?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Practical Application"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What is the primary purpose of a benchmark in machine guidance systems?",
+      "options": [
+        "To mark site boundaries",
+        "To provide a known reference point for calibration and verification",
+        "To indicate hazardous areas",
+        "To store GPS coordinates"
+      ],
+      "correct_answer": 1,
+      "benchmark_category": "Technology"
+    },
+    {
+      "id": 5,
+      "type": "scale",
+      "question": "How confident are you calibrating a CAT Grade Control system using GPS base stations or network RTK?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Technology"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "What file format is commonly used to load design surfaces into CAT Grade Control systems?",
+      "options": [
+        "PDF",
+        "DXF or LandXML",
+        "JPEG",
+        "Excel spreadsheet"
+      ],
+      "correct_answer": 1,
+      "benchmark_category": "Technology"
+    },
+    {
+      "id": 7,
+      "type": "open_text",
+      "question": "Describe your experience with loading and managing design files on machine guidance systems. What challenges have you encountered?",
+      "benchmark_category": "Practical Application"
+    },
+    {
+      "id": 8,
+      "type": "scale",
+      "question": "How experienced are you with performing machine calibrations (bucket/blade dimensions, mast measurements, etc.)?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Practical Application"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "What is the typical accuracy range for a properly calibrated CAT Grade Control 3D system using GPS?",
+      "options": [
+        "\u00b1500mm",
+        "\u00b1100mm",
+        "\u00b120-30mm",
+        "\u00b15mm"
+      ],
+      "correct_answer": 2,
+      "benchmark_category": "Technology"
+    },
+    {
+      "id": 10,
+      "type": "scale",
+      "question": "How confident are you troubleshooting GPS signal issues or loss of RTK corrections on site?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Technology"
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "Which of the following is a critical safety consideration when using machine guidance systems under HSWA?",
+      "options": [
+        "Systems eliminate the need for spotters",
+        "Operators must still maintain visual awareness and not rely solely on the screen",
+        "GPS accuracy is guaranteed in all conditions",
+        "Benchmarks do not require verification"
+      ],
+      "correct_answer": 1,
+      "benchmark_category": "Safety"
+    },
+    {
+      "id": 12,
+      "type": "open_text",
+      "question": "Describe a situation where you had to verify or check the accuracy of a machine guidance system. What process did you follow?",
+      "benchmark_category": "Practical Application"
+    },
+    {
+      "id": 13,
+      "type": "scale",
+      "question": "How experienced are you with conducting daily pre-start checks on CAT Grade Control hardware (antennas, sensors, cables)?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Safety"
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "question": "What does RTK stand for in GPS-based machine guidance?",
+      "options": [
+        "Real-Time Kinematics",
+        "Remote Tracking Kit",
+        "Rapid Technology Calibration",
+        "Regional Terrain Knowledge"
+      ],
+      "correct_answer": 0,
+      "benchmark_category": "Technology"
+    },
+    {
+      "id": 15,
+      "type": "open_text",
+      "question": "What are the most common errors or mistakes you have observed when setting up or using machine guidance systems on site?",
+      "benchmark_category": "Awareness"
+    },
+    {
+      "id": 16,
+      "type": "scale",
+      "question": "How confident are you interpreting cut/fill displays and grade indicators on the CAT Grade Control screen during operation?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Practical Application"
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "question": "According to HSWA, what must be done before allowing a worker to operate machine guidance equipment?",
+      "options": [
+        "They must have 5 years of excavator experience",
+        "They must be provided with information, training, and supervision to work safely",
+        "They must hold a university degree",
+        "They must be over 25 years old"
+      ],
+      "correct_answer": 1,
+      "benchmark_category": "Safety"
+    },
+    {
+      "id": 18,
+      "type": "scale",
+      "question": "How experienced are you training or mentoring other operators on CAT Grade Control systems?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Awareness"
+    },
+    {
+      "id": 19,
+      "type": "open_text",
+      "question": "If you were to train a new operator on machine guidance systems, what are the three most important things you would teach them first?",
+      "benchmark_category": "Awareness"
+    },
+    {
+      "id": 20,
+      "type": "scale",
+      "question": "How confident are you explaining the relationship between site benchmarks, GPS coordinates, and design file accuracy to others?",
+      "scale_min": 1,
+      "scale_max": 5,
+      "scale_labels": [
+        "Never done it",
+        "Seen it done",
+        "Done with help",
+        "Can do alone",
+        "Can teach others"
+      ],
+      "benchmark_category": "Awareness"
+    }
+  ],
+  "scoring": {
+    "novice": "0-40%: Recommend starting with foundation module",
+    "developing": "41-70%: Standard pathway \u2014 all modules",
+    "proficient": "71-85%: Fast-track available \u2014 skip foundation",
+    "expert": "86-100%: Consider Trainer pathway directly"
+  },
+  "trainer_pathway_trigger": 85,
+  "cat_grade_control_assessment": true,
+  "description": "Pre-course survey for CAT Grade Control and Machine Guidance Systems. Benchmark your knowledge before training.",
+  "price": 0,
+  "price_intro": 0,
+  "thumbnail": "\ud83d\udd27",
+  "duration": "2-3 hours",
+  "level": "All Levels"
+}

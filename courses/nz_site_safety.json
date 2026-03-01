@@ -17,14 +17,14 @@
       "duration": "40 min",
       "lessons": [
         {
-          "title": "HSWA 2015 — New Zealand Primary Safety Law",
+          "title": "HSWA 2015 \u2014 New Zealand Primary Safety Law",
           "type": "lesson",
-          "content": "**Health and Safety at Work Act 2015 (HSWA)**\nNew Zealand primary workplace health and safety legislation. Modelled on the Australian WHS Act 2011 with a similar PCBU framework.\n\n**PCBU — Person Conducting a Business or Undertaking**\nThe primary duty holder. Civil construction companies, subcontractors, and sole traders are all PCBUs.\n\n**Primary Duty of Care (Section 36):**\nA PCBU must ensure, so far as is reasonably practicable:\n- Health and safety of workers\n- Health and safety of others at risk from the work\n\n**Worker Duties (Section 45):**\n- Take reasonable care for own health and safety\n- Take reasonable care not to adversely affect others\n- Comply with reasonable PCBU instructions\n\n**WorkSafe New Zealand:**\nThe national regulator. WorkSafe NZ can:\n- Enter and inspect any workplace\n- Issue improvement and prohibition notices\n- Prosecute PCBUs for serious failures\n- Investigate notifiable events\n\n**Maximum Penalties (HSWA 2015):**\n- Individual officer: Up to $300,000 or 5 years imprisonment\n- PCBU (company): Up to $3,000,000"
+          "content": "**Health and Safety at Work Act 2015 (HSWA)**\nNew Zealand primary workplace health and safety legislation. Modelled on the Australian WHS Act 2011 with a similar PCBU framework.\n\n**PCBU \u2014 Person Conducting a Business or Undertaking**\nThe primary duty holder. Civil construction companies, subcontractors, and sole traders are all PCBUs.\n\n**Primary Duty of Care (Section 36):**\nA PCBU must ensure, so far as is reasonably practicable:\n- Health and safety of workers\n- Health and safety of others at risk from the work\n\n**Worker Duties (Section 45):**\n- Take reasonable care for own health and safety\n- Take reasonable care not to adversely affect others\n- Comply with reasonable PCBU instructions\n\n**WorkSafe New Zealand:**\nThe national regulator. WorkSafe NZ can:\n- Enter and inspect any workplace\n- Issue improvement and prohibition notices\n- Prosecute PCBUs for serious failures\n- Investigate notifiable events\n\n**Maximum Penalties (HSWA 2015):**\n- Individual officer: Up to $300,000 or 5 years imprisonment\n- PCBU (company): Up to $3,000,000"
         },
         {
-          "title": "Notifiable Events — What and How to Report",
+          "title": "Notifiable Events \u2014 What and How to Report",
           "type": "lesson",
-          "content": "**Three Categories of Notifiable Events:**\n\n1. Notifiable death — death of any person in connection with work\n2. Notifiable illness or injury — requires immediate hospitalisation; amputation; serious head, eye, or spinal injury; loss of bodily function; serious infection\n3. Notifiable incident — a serious near miss exposing a person to serious risk\n\n**How to Notify WorkSafe:**\n- Call WorkSafe NZ immediately: 0800 030 040\n- Preserve the scene — do not disturb without WorkSafe permission\n- Follow up with written notification if required\n\n**Internal Reporting Best Practice:**\n- Report ALL near misses, not just injuries\n- Use your company hazard and incident register\n- Near misses are free lessons — the next one may not be\n\n**Key Contacts:**\n- WorkSafe NZ: 0800 030 040\n- worksafe.govt.nz\n- Dial Before You Dig: 0800 DIG KNOW"
+          "content": "**Three Categories of Notifiable Events:**\n\n1. Notifiable death \u2014 death of any person in connection with work\n2. Notifiable illness or injury \u2014 requires immediate hospitalisation; amputation; serious head, eye, or spinal injury; loss of bodily function; serious infection\n3. Notifiable incident \u2014 a serious near miss exposing a person to serious risk\n\n**How to Notify WorkSafe:**\n- Call WorkSafe NZ immediately: 0800 030 040\n- Preserve the scene \u2014 do not disturb without WorkSafe permission\n- Follow up with written notification if required\n\n**Internal Reporting Best Practice:**\n- Report ALL near misses, not just injuries\n- Use your company hazard and incident register\n- Near misses are free lessons \u2014 the next one may not be\n\n**Key Contacts:**\n- WorkSafe NZ: 0800 030 040\n- worksafe.govt.nz\n- Dial Before You Dig: 0800 DIG KNOW"
         },
         {
           "title": "Quiz",
@@ -83,12 +83,12 @@
         {
           "title": "PPE, Site Induction and Fall Protection",
           "type": "lesson",
-          "content": "**Mandatory PPE on NZ Civil Construction Sites:**\n- Hard hat: AS/NZS 1801 or equivalent\n- High-visibility clothing: Class D/N (AS/NZS 4602.1)\n- Safety footwear: Steel cap boots (AS/NZS 2210.3)\n- Eye protection when required: AS/NZS 1337\n- Hearing protection in high-noise areas\n\n**Site Induction — Required Before Starting Any Work:**\n- Complete site-specific induction\n- Sign the induction register\n- Know the muster point (emergency assembly area)\n- Know first aider name and location\n- Understand site emergency plan and evacuation route\n\n**Fall Protection in NZ:**\nRequired at 2 metres or more above a lower level.\nPriority order of controls:\n1. Guardrails (most preferred)\n2. Safety nets\n3. Personal fall arrest system (harness — last resort)\n\n**Underground Services:**\nBefore ANY excavation call 0800 DIG KNOW (Dial Before You Dig NZ).\nCommon services: water, gas, electrical, telecommunications, stormwater.\nUse potholing to expose exact service locations before machine work."
+          "content": "**Mandatory PPE on NZ Civil Construction Sites:**\n- Hard hat: AS/NZS 1801 or equivalent\n- High-visibility clothing: Class D/N (AS/NZS 4602.1)\n- Safety footwear: Steel cap boots (AS/NZS 2210.3)\n- Eye protection when required: AS/NZS 1337\n- Hearing protection in high-noise areas\n\n**Site Induction \u2014 Required Before Starting Any Work:**\n- Complete site-specific induction\n- Sign the induction register\n- Know the muster point (emergency assembly area)\n- Know first aider name and location\n- Understand site emergency plan and evacuation route\n\n**Fall Protection in NZ:**\nRequired at 2 metres or more above a lower level.\nPriority order of controls:\n1. Guardrails (most preferred)\n2. Safety nets\n3. Personal fall arrest system (harness \u2014 last resort)\n\n**Underground Services:**\nBefore ANY excavation call 0800 DIG KNOW (Dial Before You Dig NZ).\nCommon services: water, gas, electrical, telecommunications, stormwater.\nUse potholing to expose exact service locations before machine work."
         },
         {
-          "title": "Hazardous Substances — HSNO Act 1996",
+          "title": "Hazardous Substances \u2014 HSNO Act 1996",
           "type": "lesson",
-          "content": "**Hazardous Substances and New Organisms (HSNO) Act 1996**\nControls hazardous substances in NZ. Administered by the Environmental Protection Authority (EPA).\n\n**Key HSNO Hazard Classes:**\n- Class 1: Explosives\n- Class 2: Flammable gases\n- Class 3: Flammable liquids (diesel, petrol, solvents)\n- Class 4: Flammable solids\n- Class 5: Oxidising substances\n- Class 6: Toxic substances\n- Class 8: Corrosive substances\n\n**Safety Data Sheets (SDS):**\n- Must be available on site for every hazardous substance used\n- Workers must be trained to understand SDS content\n- Never use any substance without first reading its SDS\n\n**Silica Dust in NZ:**\n- Workplace Exposure Standard: 0.05 mg/m3 respirable\n- Released when cutting concrete, rock, masonry\n- Controls: Wet cutting, vacuum extraction, P2 respirator\n\n**Asbestos:**\n- Found in NZ infrastructure built before 2000\n- Governed by Asbestos Regulations 2016 (under HSWA)\n- Stop work if asbestos suspected — never disturb without testing\n- Class A removal: licensed asbestos removalist required"
+          "content": "**Hazardous Substances and New Organisms (HSNO) Act 1996**\nControls hazardous substances in NZ. Administered by the Environmental Protection Authority (EPA).\n\n**Key HSNO Hazard Classes:**\n- Class 1: Explosives\n- Class 2: Flammable gases\n- Class 3: Flammable liquids (diesel, petrol, solvents)\n- Class 4: Flammable solids\n- Class 5: Oxidising substances\n- Class 6: Toxic substances\n- Class 8: Corrosive substances\n\n**Safety Data Sheets (SDS):**\n- Must be available on site for every hazardous substance used\n- Workers must be trained to understand SDS content\n- Never use any substance without first reading its SDS\n\n**Silica Dust in NZ:**\n- Workplace Exposure Standard: 0.05 mg/m3 respirable\n- Released when cutting concrete, rock, masonry\n- Controls: Wet cutting, vacuum extraction, P2 respirator\n\n**Asbestos:**\n- Found in NZ infrastructure built before 2000\n- Governed by Asbestos Regulations 2016 (under HSWA)\n- Stop work if asbestos suspected \u2014 never disturb without testing\n- Class A removal: licensed asbestos removalist required"
         },
         {
           "title": "Quiz",
@@ -141,18 +141,18 @@
     },
     {
       "id": 3,
-      "title": "NZ Traffic Management — CoPTTM",
+      "title": "NZ Traffic Management \u2014 CoPTTM",
       "duration": "30 min",
       "lessons": [
         {
           "title": "Code of Practice for Temporary Traffic Management",
           "type": "lesson",
-          "content": "**CoPTTM — Code of Practice for Temporary Traffic Management**\n\nPublished by the NZ Transport Agency (NZTA). CoPTTM sets the national standard for all temporary traffic management on NZ roads.\n\n**NZ Traffic Management Qualifications:**\n\nTCP — Traffic Control Person\n- Operates stop/slow bat at simple sites\n- No formal cert required but training recommended\n\nTMO1 — Traffic Management Operative Level 1\n- Minimum qualification to work in most road traffic management roles\n- Covers setting out cones, signs, and operating stop/slow bat\n\nTMO2 — Traffic Management Operative Level 2\n- Implements full traffic management plans\n\nSTMS — Site Traffic Management Supervisor\n- Designs and manages all TTM on site\n- Must be present or on-call when TTM is active\n\n**Traffic Management Plan (TMP):**\n- Required for all work affecting traffic\n- Prepared by qualified STMS or designer\n- Approved by road controlling authority before work starts\n- All workers on site must be briefed on the TMP\n\n**Minimum PPE for Traffic Management:**\n- Class D/N high-visibility vest (AS/NZS 4602.1)\n- Hard hat\n- Safety footwear"
+          "content": "**CoPTTM \u2014 Code of Practice for Temporary Traffic Management**\n\nPublished by the NZ Transport Agency (NZTA). CoPTTM sets the national standard for all temporary traffic management on NZ roads.\n\n**NZ Traffic Management Qualifications:**\n\nTCP \u2014 Traffic Control Person\n- Operates stop/slow bat at simple sites\n- No formal cert required but training recommended\n\nTMO1 \u2014 Traffic Management Operative Level 1\n- Minimum qualification to work in most road traffic management roles\n- Covers setting out cones, signs, and operating stop/slow bat\n\nTMO2 \u2014 Traffic Management Operative Level 2\n- Implements full traffic management plans\n\nSTMS \u2014 Site Traffic Management Supervisor\n- Designs and manages all TTM on site\n- Must be present or on-call when TTM is active\n\n**Traffic Management Plan (TMP):**\n- Required for all work affecting traffic\n- Prepared by qualified STMS or designer\n- Approved by road controlling authority before work starts\n- All workers on site must be briefed on the TMP\n\n**Minimum PPE for Traffic Management:**\n- Class D/N high-visibility vest (AS/NZS 4602.1)\n- Hard hat\n- Safety footwear"
         },
         {
           "title": "NZ Plant and Equipment Safety",
           "type": "lesson",
-          "content": "**Plant Pre-Start Requirements (NZ):**\n\nUnder HSWA 2015 and Health and Safety at Work (General Risk and Workplace Management) Regulations 2016, all plant must be:\n- Maintained in safe condition\n- Operated only by trained and competent persons\n- Pre-start inspected daily — defects recorded\n\n**NZ Excavator Operation:**\n- No national government licence required in NZ\n- PCBU must ensure operator is trained and competent\n- Operator must hold or be working toward unit standard competency\n- Key unit: US 17284 — Operate a hydraulic excavator\n\n**Exclusion Zones:**\n- Establish exclusion zone around operating plant\n- No person inside exclusion zone while machine is operating\n- Spotter required when reversing or working near people\n\n**Safe Digging Near Services:**\n1. Call 0800 DIG KNOW — get service locations marked\n2. Hand dig or pothole within 500mm of marked services\n3. Reduce dig depth to expose exact service location\n4. Only then use machine outside 500mm clearance zone"
+          "content": "**Plant Pre-Start Requirements (NZ):**\n\nUnder HSWA 2015 and Health and Safety at Work (General Risk and Workplace Management) Regulations 2016, all plant must be:\n- Maintained in safe condition\n- Operated only by trained and competent persons\n- Pre-start inspected daily \u2014 defects recorded\n\n**NZ Excavator Operation:**\n- No national government licence required in NZ\n- PCBU must ensure operator is trained and competent\n- Operator must hold or be working toward unit standard competency\n- Key unit: US 17284 \u2014 Operate a hydraulic excavator\n\n**Exclusion Zones:**\n- Establish exclusion zone around operating plant\n- No person inside exclusion zone while machine is operating\n- Spotter required when reversing or working near people\n\n**Safe Digging Near Services:**\n1. Call 0800 DIG KNOW \u2014 get service locations marked\n2. Hand dig or pothole within 500mm of marked services\n3. Reduce dig depth to expose exact service location\n4. Only then use machine outside 500mm clearance zone"
         },
         {
           "title": "Quiz",
@@ -173,7 +173,7 @@
               "q": "TMO1 qualification allows a worker to:",
               "options": [
                 "Design traffic management plans",
-                "Work in road traffic management roles — cones, signs, stop/slow bat",
+                "Work in road traffic management roles \u2014 cones, signs, stop/slow bat",
                 "Supervise all TTM on site",
                 "Approve TMPs"
               ],
@@ -211,7 +211,7 @@
         {
           "title": "Course Summary",
           "type": "lesson",
-          "content": "**Congratulations — You have completed NZ: Site Safety Induction!**\n\nKey knowledge covered:\n\n- HSWA 2015: PCBU duties, reasonably practicable, worker duties\n- WorkSafe NZ: National regulator — 0800 030 040\n- Notifiable events: Call immediately, preserve scene\n- Fall protection at 2 metres — guardrails preferred\n- 0800 DIG KNOW: Call before ANY excavation\n- Hand dig or pothole within 500mm of marked services\n- HSNO Act: Hazardous substances — SDS required on site\n- Silica: Use wet cutting or P2 respirator\n- Asbestos: Stop work if suspected — never disturb\n- CoPTTM: NZ traffic management standard\n- TMO1 minimum qualification for roadwork roles\n- No government excavator licence in NZ — PCBU verifies competency"
+          "content": "**Congratulations \u2014 You have completed NZ: Site Safety Induction!**\n\nKey knowledge covered:\n\n- HSWA 2015: PCBU duties, reasonably practicable, worker duties\n- WorkSafe NZ: National regulator \u2014 0800 030 040\n- Notifiable events: Call immediately, preserve scene\n- Fall protection at 2 metres \u2014 guardrails preferred\n- 0800 DIG KNOW: Call before ANY excavation\n- Hand dig or pothole within 500mm of marked services\n- HSNO Act: Hazardous substances \u2014 SDS required on site\n- Silica: Use wet cutting or P2 respirator\n- Asbestos: Stop work if suspected \u2014 never disturb\n- CoPTTM: NZ traffic management standard\n- TMO1 minimum qualification for roadwork roles\n- No government excavator licence in NZ \u2014 PCBU verifies competency"
         },
         {
           "title": "Quiz",
@@ -282,5 +282,7 @@
         }
       ]
     }
-  ]
+  ],
+  "price": 97,
+  "thumbnail": "\ud83c\udf0f"
 }

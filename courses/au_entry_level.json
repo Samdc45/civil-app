@@ -1,7 +1,7 @@
 {
   "id": "au-entry-level",
   "title": "AU: Civil Construction Induction",
-  "subtitle": "Entry-Level Safety and Compliance — Australia",
+  "subtitle": "Entry-Level Safety and Compliance \u2014 Australia",
   "description": "Essential knowledge for anyone starting in Australian civil construction. Covers the WHS Act, Safe Work Australia, HRW licensing, White Card, and Austroads standards.",
   "duration": "3-4 hours",
   "level": "Entry Level",
@@ -19,12 +19,12 @@
         {
           "title": "Work Health and Safety Act 2011",
           "type": "lesson",
-          "content": "Australia uses a harmonised Work Health and Safety (WHS) system.\n\n**PCBU — Person Conducting a Business or Undertaking**\nThe primary duty holder. Civil construction companies, subcontractors and sole traders are all PCBUs.\n\n**Primary Duty of Care (Section 19)**\nA PCBU must ensure, so far as is reasonably practicable:\n- Health and safety of workers\n- Health and safety of others affected by work\n\n**Worker Duties (Section 28)**\n- Take reasonable care for own health and safety\n- Not adversely affect health and safety of others\n- Comply with reasonable PCBU instructions\n\n**State Regulators (Enforcement Bodies)**\nNSW: SafeWork NSW | VIC: WorkSafe Victoria | QLD: WHSQ | WA: WorkSafe WA"
+          "content": "Australia uses a harmonised Work Health and Safety (WHS) system.\n\n**PCBU \u2014 Person Conducting a Business or Undertaking**\nThe primary duty holder. Civil construction companies, subcontractors and sole traders are all PCBUs.\n\n**Primary Duty of Care (Section 19)**\nA PCBU must ensure, so far as is reasonably practicable:\n- Health and safety of workers\n- Health and safety of others affected by work\n\n**Worker Duties (Section 28)**\n- Take reasonable care for own health and safety\n- Not adversely affect health and safety of others\n- Comply with reasonable PCBU instructions\n\n**State Regulators (Enforcement Bodies)**\nNSW: SafeWork NSW | VIC: WorkSafe Victoria | QLD: WHSQ | WA: WorkSafe WA"
         },
         {
           "title": "Incident Reporting and Notifiable Events",
           "type": "lesson",
-          "content": "**Three Types of Notifiable Incidents (Must Report Immediately)**\n\n1. Death of any person\n2. Serious injury or illness — hospitalisation, amputation, serious burns, spinal injury, loss of consciousness\n3. Dangerous incident — uncontrolled escape of hazardous substance, collapse of a structure, electric shock\n\n**How to Report**\n- Call your state regulator immediately — do not wait\n- Follow up with written notification\n- Preserve the scene — do not disturb without regulator permission\n\n**Penalty for Non-Reporting**\nUp to $50,000 for an individual, $250,000 for a corporation."
+          "content": "**Three Types of Notifiable Incidents (Must Report Immediately)**\n\n1. Death of any person\n2. Serious injury or illness \u2014 hospitalisation, amputation, serious burns, spinal injury, loss of consciousness\n3. Dangerous incident \u2014 uncontrolled escape of hazardous substance, collapse of a structure, electric shock\n\n**How to Report**\n- Call your state regulator immediately \u2014 do not wait\n- Follow up with written notification\n- Preserve the scene \u2014 do not disturb without regulator permission\n\n**Penalty for Non-Reporting**\nUp to $50,000 for an individual, $250,000 for a corporation."
         },
         {
           "title": "Quiz",
@@ -81,12 +81,12 @@
       "duration": "35 min",
       "lessons": [
         {
-          "title": "HRW Licensing — What Requires a Licence?",
+          "title": "HRW Licensing \u2014 What Requires a Licence?",
           "type": "lesson",
-          "content": "**Key Fact: Excavators Do NOT Require an HRW Licence in Australia**\nOperating earthmoving equipment does not require a government-issued licence. Employers must ensure operators are trained and competent.\n\n**Activities That DO Require HRW Licence:**\n- Scaffolding: Basic (SB), Intermediate (SI), Advanced (SA)\n- Dogging and Rigging: DG, RB, RI, RA\n- Cranes: Tower (CT), Vehicle Loading (CV), and more\n- Elevated Work Platforms over 11m (WP)\n- Forklifts (LF)\n\n**HRW Licence Process:**\n1. Complete approved training with a Registered Training Organisation (RTO)\n2. Pass written and practical assessment\n3. Apply to state regulator\n4. Licence issued — valid nationally under mutual recognition"
+          "content": "**Key Fact: Excavators Do NOT Require an HRW Licence in Australia**\nOperating earthmoving equipment does not require a government-issued licence. Employers must ensure operators are trained and competent.\n\n**Activities That DO Require HRW Licence:**\n- Scaffolding: Basic (SB), Intermediate (SI), Advanced (SA)\n- Dogging and Rigging: DG, RB, RI, RA\n- Cranes: Tower (CT), Vehicle Loading (CV), and more\n- Elevated Work Platforms over 11m (WP)\n- Forklifts (LF)\n\n**HRW Licence Process:**\n1. Complete approved training with a Registered Training Organisation (RTO)\n2. Pass written and practical assessment\n3. Apply to state regulator\n4. Licence issued \u2014 valid nationally under mutual recognition"
         },
         {
-          "title": "White Card — General Construction Induction",
+          "title": "White Card \u2014 General Construction Induction",
           "type": "lesson",
           "content": "**The White Card is Mandatory for ALL Construction Site Workers**\n\nLegal Basis: Work Health and Safety Regulations 2017, Regulation 316\n\n**What It Covers:**\n- WHS legislation awareness\n- Worker rights and responsibilities\n- Hazard identification and risk management\n- Incident reporting\n- Emergency procedures\n\n**Key Facts:**\n- Valid nationally across all states\n- No expiry date\n- Must carry on site at all times\n- Penalty: Up to $3,600 for working without White Card\n\n**Difference from NZ:** New Zealand has no equivalent White Card requirement."
         },
@@ -100,7 +100,7 @@
               "options": [
                 "A federal HRW licence",
                 "A state HRW licence",
-                "No HRW licence — but competency required",
+                "No HRW licence \u2014 but competency required",
                 "A White Card endorsement"
               ],
               "answer": 2
@@ -145,14 +145,14 @@
       "duration": "40 min",
       "lessons": [
         {
-          "title": "Austroads — The Road Standards Body",
+          "title": "Austroads \u2014 The Road Standards Body",
           "type": "lesson",
-          "content": "**What is Austroads?**\nAustroads is the peak body of Australasian road transport and traffic agencies. It develops technical guidelines used across Australia and New Zealand.\n\n**Key Austroads Publications:**\n- Guide to Pavement Technology (AGPT) — pavement design, materials, construction\n- AGPT Part 4B — Bituminous binders\n- AGPT Part 4D — Stabilised materials\n- Guide to Road Design\n- Guide to Traffic Management\n\n**State Road Authorities:**\n- NSW: Transport for NSW (TfNSW)\n- VIC: VicRoads\n- QLD: Department of Transport and Main Roads (TMR)\n- WA: Main Roads WA\n\n**Key Australian Standards:**\n- AS 1742 series — Manual of Uniform Traffic Control Devices\n- AS 2436 — Traffic management in work zones\n- AS 1289 — Methods of testing soils"
+          "content": "**What is Austroads?**\nAustroads is the peak body of Australasian road transport and traffic agencies. It develops technical guidelines used across Australia and New Zealand.\n\n**Key Austroads Publications:**\n- Guide to Pavement Technology (AGPT) \u2014 pavement design, materials, construction\n- AGPT Part 4B \u2014 Bituminous binders\n- AGPT Part 4D \u2014 Stabilised materials\n- Guide to Road Design\n- Guide to Traffic Management\n\n**State Road Authorities:**\n- NSW: Transport for NSW (TfNSW)\n- VIC: VicRoads\n- QLD: Department of Transport and Main Roads (TMR)\n- WA: Main Roads WA\n\n**Key Australian Standards:**\n- AS 1742 series \u2014 Manual of Uniform Traffic Control Devices\n- AS 2436 \u2014 Traffic management in work zones\n- AS 1289 \u2014 Methods of testing soils"
         },
         {
           "title": "Traffic Management in Australia",
           "type": "lesson",
-          "content": "**Traffic Control on Australian Roads**\nAll roadwork requires a Traffic Management Plan (TMP) and qualified personnel.\n\n**Core Training Units (National):**\n- RIIWHS302E — Implement Traffic Management Plan\n- RIIWHS205E — Control traffic with stop-slow bat\n\n**State-Specific Requirements:**\n- NSW: Traffic Control — Work Site Preparation\n- VIC: Implement Traffic Management Plan\n- QLD: RIIWHS302E required\n\n**Key Rules:**\n- TMP must be prepared by a qualified Traffic Management Designer\n- All workers directing traffic must hold relevant state certification\n- Minimum PPE: High-visibility vest, hard hat, safety footwear\n\n**Call Before You Dig:** Dial 1100 before any excavation work in Australia."
+          "content": "**Traffic Control on Australian Roads**\nAll roadwork requires a Traffic Management Plan (TMP) and qualified personnel.\n\n**Core Training Units (National):**\n- RIIWHS302E \u2014 Implement Traffic Management Plan\n- RIIWHS205E \u2014 Control traffic with stop-slow bat\n\n**State-Specific Requirements:**\n- NSW: Traffic Control \u2014 Work Site Preparation\n- VIC: Implement Traffic Management Plan\n- QLD: RIIWHS302E required\n\n**Key Rules:**\n- TMP must be prepared by a qualified Traffic Management Designer\n- All workers directing traffic must hold relevant state certification\n- Minimum PPE: High-visibility vest, hard hat, safety footwear\n\n**Call Before You Dig:** Dial 1100 before any excavation work in Australia."
         },
         {
           "title": "Quiz",
@@ -201,12 +201,12 @@
         {
           "title": "PPE Requirements and Site Rules",
           "type": "lesson",
-          "content": "**Mandatory PPE on Australian Construction Sites:**\n- Hard hat (AS/NZS 1801)\n- High-visibility clothing — Class D/N day/night (AS/NZS 4602.1)\n- Safety footwear — steel cap boots (AS/NZS 2210.3)\n- Eye protection when required (AS/NZS 1337)\n- Hearing protection in high-noise areas (AS/NZS 1269)\n\n**Site Access Controls:**\n- Sign in and out every day\n- Attend site induction before starting work\n- Follow Visitor/Worker identification requirements\n\n**Working at Heights:**\nAny work at 2m or above requires fall prevention measures:\n- Guardrails (preferred)\n- Safety mesh\n- Fall arrest harness (last resort — requires training)"
+          "content": "**Mandatory PPE on Australian Construction Sites:**\n- Hard hat (AS/NZS 1801)\n- High-visibility clothing \u2014 Class D/N day/night (AS/NZS 4602.1)\n- Safety footwear \u2014 steel cap boots (AS/NZS 2210.3)\n- Eye protection when required (AS/NZS 1337)\n- Hearing protection in high-noise areas (AS/NZS 1269)\n\n**Site Access Controls:**\n- Sign in and out every day\n- Attend site induction before starting work\n- Follow Visitor/Worker identification requirements\n\n**Working at Heights:**\nAny work at 2m or above requires fall prevention measures:\n- Guardrails (preferred)\n- Safety mesh\n- Fall arrest harness (last resort \u2014 requires training)"
         },
         {
           "title": "Hazardous Materials and Underground Services",
           "type": "lesson",
-          "content": "**Hazardous Materials in Civil Construction:**\n\n**Asbestos**\n- Found in older infrastructure built before 1990\n- Stop work if asbestos suspected — contact supervisor\n- Removal requires licensed asbestos removalist\n\n**Silica Dust**\n- Released when cutting/grinding concrete, rock, or sand\n- Causes silicosis — serious and permanent lung disease\n- Use wet cutting methods or P2 respirator\n\n**Underground Services**\n- Always call 1100 (Dial Before You Dig) before excavating\n- Water, gas, electrical, telecommunications services all underground\n- Use potholing to identify exact service locations\n- Do not use machine within 300mm of a marked service"
+          "content": "**Hazardous Materials in Civil Construction:**\n\n**Asbestos**\n- Found in older infrastructure built before 1990\n- Stop work if asbestos suspected \u2014 contact supervisor\n- Removal requires licensed asbestos removalist\n\n**Silica Dust**\n- Released when cutting/grinding concrete, rock, or sand\n- Causes silicosis \u2014 serious and permanent lung disease\n- Use wet cutting methods or P2 respirator\n\n**Underground Services**\n- Always call 1100 (Dial Before You Dig) before excavating\n- Water, gas, electrical, telecommunications services all underground\n- Use potholing to identify exact service locations\n- Do not use machine within 300mm of a marked service"
         },
         {
           "title": "Quiz",
@@ -255,7 +255,7 @@
         {
           "title": "Course Summary",
           "type": "lesson",
-          "content": "**Congratulations — You have completed AU: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- WHS Act 2011: PCBU duties, reasonably practicable, worker duties\n- Notifiable incidents: report immediately, preserve scene\n- High Risk Work: 29 licence classes, excavators do NOT require HRW licence\n- White Card: mandatory for all construction site workers, no expiry\n- Austroads: road and pavement technical standards\n- Traffic management: TMP required, state-specific certification\n- Call 1100 before any excavation\n\n**Key Differences vs NZ:**\n- Australia uses PCBU (NZ uses employer/PCBU)\n- White Card mandatory in AU (no equivalent in NZ)\n- Austroads = NZTA technical equivalent\n- 8 state regulators (NZ has one: WorkSafe NZ)"
+          "content": "**Congratulations \u2014 You have completed AU: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- WHS Act 2011: PCBU duties, reasonably practicable, worker duties\n- Notifiable incidents: report immediately, preserve scene\n- High Risk Work: 29 licence classes, excavators do NOT require HRW licence\n- White Card: mandatory for all construction site workers, no expiry\n- Austroads: road and pavement technical standards\n- Traffic management: TMP required, state-specific certification\n- Call 1100 before any excavation\n\n**Key Differences vs NZ:**\n- Australia uses PCBU (NZ uses employer/PCBU)\n- White Card mandatory in AU (no equivalent in NZ)\n- Austroads = NZTA technical equivalent\n- 8 state regulators (NZ has one: WorkSafe NZ)"
         },
         {
           "title": "Quiz",
@@ -287,7 +287,7 @@
               "options": [
                 "2 years",
                 "5 years",
-                "Forever — no expiry",
+                "Forever \u2014 no expiry",
                 "1 year"
               ],
               "answer": 2
@@ -297,7 +297,7 @@
               "options": [
                 "A federal HRW licence",
                 "A state HRW licence",
-                "No HRW licence — competency required",
+                "No HRW licence \u2014 competency required",
                 "A White Card endorsement"
               ],
               "answer": 2
@@ -346,5 +346,7 @@
         }
       ]
     }
-  ]
+  ],
+  "price": 97,
+  "thumbnail": "\ud83c\udf0f"
 }

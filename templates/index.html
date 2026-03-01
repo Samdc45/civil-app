@@ -116,19 +116,19 @@
       <!-- Title + Price -->
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
         <h3 style="font-size:1rem;line-height:1.3;flex:1;margin-right:8px">{{ course.title }}</h3>
-        <span class="badge badge-orange" style="white-space:nowrap">${{ course.price_intro }}</span>
+        <span class="badge badge-orange" style="white-space:nowrap">${{ course.price_intro | default("97") }}</span>
       </div>
 
       <!-- Description -->
       <p style="color:#8b949e;font-size:0.85rem;margin-bottom:14px;line-height:1.5">
-        {{ course.description[:110] }}...
+        {{ (course.description or "Professional civil construction safety training for global compliance.")[:110] }}...
       </p>
 
       <!-- Meta -->
       <div style="display:flex;gap:12px;font-size:0.78rem;color:#8b949e;margin-bottom:16px;flex-wrap:wrap">
-        <span>⏱ {{ course.duration }}</span>
+        <span>⏱ {{ course.duration | default("2-3 hours") }}</span>
         <span>📚 {{ course.modules|length }} modules</span>
-        <span>🎯 {{ course.level }}</span>
+        <span>🎯 {{ course.level | default("All Levels") }}</span>
       </div>
 
       <!-- CTA -->
@@ -140,7 +140,7 @@
           <a href="/course/{{ course.id }}" class="btn btn-secondary"
             style="flex:1;text-align:center">Preview</a>
           <a href="/enroll/{{ course.id }}" class="btn btn-primary"
-            style="flex:1;text-align:center">Enrol ${{ course.price_intro }}</a>
+            style="flex:1;text-align:center">Enrol ${{ course.price_intro | default("97") }}</a>
         </div>
       {% endif %}
     </div>

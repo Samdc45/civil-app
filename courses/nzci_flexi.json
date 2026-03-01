@@ -10,7 +10,7 @@
   "price_corporate": 997,
   "gumroad_intro": "https://southconsultants.gumroad.com/l/nzciflexi",
   "gumroad_cert": "https://southconsultants.gumroad.com/l/nzciflexicert",
-  "thumbnail": "🚧",
+  "thumbnail": "\ud83d\udea7",
   "color": "#f97316",
   "modules": [
     {
@@ -26,14 +26,14 @@
         {
           "title": "Excavator Components",
           "type": "lesson",
-          "content": "**Main Components:**\n- **Undercarriage**: Tracks, rollers, drive sprocket, idlers\n- **Slew Ring**: 360° rotation bearing\n- **Counterweight**: Balances boom weight\n- **Boom**: Main lifting arm\n- **Arm (Dipper)**: Secondary arm\n- **Bucket**: Various teeth/edge configurations\n- **Hydraulic System**: Pumps, valves, cylinders\n\n**Controls:**\n- Left joystick: Slew + arm in/out\n- Right joystick: Boom up/down + bucket curl\n- Travel pedals/levers: Track movement\n- Auxiliary: Attachments"
+          "content": "**Main Components:**\n- **Undercarriage**: Tracks, rollers, drive sprocket, idlers\n- **Slew Ring**: 360\u00b0 rotation bearing\n- **Counterweight**: Balances boom weight\n- **Boom**: Main lifting arm\n- **Arm (Dipper)**: Secondary arm\n- **Bucket**: Various teeth/edge configurations\n- **Hydraulic System**: Pumps, valves, cylinders\n\n**Controls:**\n- Left joystick: Slew + arm in/out\n- Right joystick: Boom up/down + bucket curl\n- Travel pedals/levers: Track movement\n- Auxiliary: Attachments"
         },
         {
           "title": "Module 1 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "What controls the 360° rotation of an excavator?",
+              "q": "What controls the 360\u00b0 rotation of an excavator?",
               "options": [
                 "The boom cylinder",
                 "The slew ring and motor",
@@ -64,10 +64,10 @@
         {
           "title": "Daily Pre-Start Procedure",
           "type": "lesson",
-          "content": "**Walk-Around Inspection (Pre-Start):**\n\n□ Check for ground oil/fluid leaks\n□ Inspect track tension and condition\n□ Check bucket teeth and cutting edge wear\n□ Inspect boom, arm, bucket pins and bushings\n□ Check hydraulic hoses for damage/leaks\n□ Verify all guards are in place\n□ Check ROPS/FOPS certification plate\n□ Verify fire extinguisher present and in date\n\n**Cabin Checks (Engine Off):**\n□ Engine oil level\n□ Coolant level\n□ Hydraulic oil level\n□ Fuel level\n□ All warning lights functional\n□ Seat belt operational\n□ All controls return to neutral"
+          "content": "**Walk-Around Inspection (Pre-Start):**\n\n\u25a1 Check for ground oil/fluid leaks\n\u25a1 Inspect track tension and condition\n\u25a1 Check bucket teeth and cutting edge wear\n\u25a1 Inspect boom, arm, bucket pins and bushings\n\u25a1 Check hydraulic hoses for damage/leaks\n\u25a1 Verify all guards are in place\n\u25a1 Check ROPS/FOPS certification plate\n\u25a1 Verify fire extinguisher present and in date\n\n**Cabin Checks (Engine Off):**\n\u25a1 Engine oil level\n\u25a1 Coolant level\n\u25a1 Hydraulic oil level\n\u25a1 Fuel level\n\u25a1 All warning lights functional\n\u25a1 Seat belt operational\n\u25a1 All controls return to neutral"
         },
         {
-          "title": "COGS — Certificate of Competence",
+          "title": "COGS \u2014 Certificate of Competence",
           "type": "lesson",
           "content": "**What is a COC/COGS?**\nA Certificate of Competence (COC) issued under the Health and Safety at Work Act 2015 is required to operate certain plant in NZ, including excavators over 4 tonnes.\n\n**Requirements:**\n- WorkSafe NZ approved training provider\n- Practical assessment on the machine class\n- Theory examination\n- Medical fitness declaration\n- Renewal every 5 years\n\n**Machine Classes:**\n- Class 1: Crawler excavator\n- Class 2: Wheeled excavator\n- Class 4: Backhoe loader\n\n**IMPORTANT:** Operating without a COC is a serious HSWA offence with fines up to $50,000."
         },
@@ -122,7 +122,7 @@
         {
           "title": "Trenching Safety",
           "type": "lesson",
-          "content": "**Cave-In Prevention:**\nAll trenches over 1.5m deep require engineered support or battered/benched sides.\n\n**Safe Batter Angles by Soil Type:**\n- Rock: Vertical (90°) may be acceptable\n- Dense clay: 60-75°\n- Sandy clay: 45-60°\n- Sand/gravel: 30-45°\n- Waterlogged: Shore or sheet pile required\n\n**Working Near Trenches:**\n- Spoil heap minimum 600mm from edge\n- Vehicles minimum 1m from edge (engineered setback for deep trenches)\n- Regular inspection by competent person\n- Escape route every 25m of trench\n\n**WaterCare/Council Requirements:**\nMany NZ councils require a Confined Space Permit for any work in trenches over 1.5m. Check locally."
+          "content": "**Cave-In Prevention:**\nAll trenches over 1.5m deep require engineered support or battered/benched sides.\n\n**Safe Batter Angles by Soil Type:**\n- Rock: Vertical (90\u00b0) may be acceptable\n- Dense clay: 60-75\u00b0\n- Sandy clay: 45-60\u00b0\n- Sand/gravel: 30-45\u00b0\n- Waterlogged: Shore or sheet pile required\n\n**Working Near Trenches:**\n- Spoil heap minimum 600mm from edge\n- Vehicles minimum 1m from edge (engineered setback for deep trenches)\n- Regular inspection by competent person\n- Escape route every 25m of trench\n\n**WaterCare/Council Requirements:**\nMany NZ councils require a Confined Space Permit for any work in trenches over 1.5m. Check locally."
         },
         {
           "title": "Module 3 Quiz",
@@ -170,7 +170,7 @@
         {
           "title": "Emergency Scenarios",
           "type": "lesson",
-          "content": "**Machine Fire:**\n1. Shut down engine immediately\n2. Evacuate operator cab\n3. Use fire extinguisher ONLY if fire is small and you are safe\n4. Move all personnel to muster point\n5. Call 111\n6. Do NOT re-enter burning machine\n\n**Tip-Over:**\n1. Stay in cab — ROPS protects you\n2. Brace with hands/feet — NOT against glass\n3. Do not jump out\n4. Once stopped — shut engine\n5. Exit away from crush zone\n6. Call for help\n\n**Striking Underground Service:**\n1. STOP immediately\n2. Evacuate area (gas: 150m, power: 10m minimum)\n3. Call utility owner and emergency services\n4. Do not re-enter until cleared by utility\n5. Report to WorkSafe NZ if injury or near-miss"
+          "content": "**Machine Fire:**\n1. Shut down engine immediately\n2. Evacuate operator cab\n3. Use fire extinguisher ONLY if fire is small and you are safe\n4. Move all personnel to muster point\n5. Call 111\n6. Do NOT re-enter burning machine\n\n**Tip-Over:**\n1. Stay in cab \u2014 ROPS protects you\n2. Brace with hands/feet \u2014 NOT against glass\n3. Do not jump out\n4. Once stopped \u2014 shut engine\n5. Exit away from crush zone\n6. Call for help\n\n**Striking Underground Service:**\n1. STOP immediately\n2. Evacuate area (gas: 150m, power: 10m minimum)\n3. Call utility owner and emergency services\n4. Do not re-enter until cleared by utility\n5. Report to WorkSafe NZ if injury or near-miss"
         },
         {
           "title": "Module 4 Quiz",
@@ -208,7 +208,7 @@
         {
           "title": "Course Summary",
           "type": "lesson",
-          "content": "**You have completed NZCI Flexi: Excavator Awareness!**\n\n✅ Excavator types and components\n✅ Daily pre-start inspections\n✅ COGS/COC requirements under HSWA 2015\n✅ Exclusion zones and spotter protocols\n✅ Trenching safety standards\n✅ Emergency procedures\n\n**Important Reminder:**\nThis course provides AWARENESS training. A Certificate of Competence (COC) from a WorkSafe-approved provider is required to OPERATE an excavator over 4 tonnes in New Zealand.\n\nContact Civil App for COC training referrals."
+          "content": "**You have completed NZCI Flexi: Excavator Awareness!**\n\n\u2705 Excavator types and components\n\u2705 Daily pre-start inspections\n\u2705 COGS/COC requirements under HSWA 2015\n\u2705 Exclusion zones and spotter protocols\n\u2705 Trenching safety standards\n\u2705 Emergency procedures\n\n**Important Reminder:**\nThis course provides AWARENESS training. A Certificate of Competence (COC) from a WorkSafe-approved provider is required to OPERATE an excavator over 4 tonnes in New Zealand.\n\nContact Civil App for COC training referrals."
         },
         {
           "title": "Final Assessment",
@@ -301,5 +301,6 @@
     }
   ],
   "country": "NZ",
-  "flag": "NZ"
+  "flag": "NZ",
+  "price": 97
 }
