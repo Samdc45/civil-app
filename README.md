@@ -1,6 +1,6 @@
-# South Consultants LMS
+# Civil App
 
-Custom Learning Management System for South Consultants NZ.
+Custom Learning Management System for Civil App.
 
 ## Courses
 - Compaction 101

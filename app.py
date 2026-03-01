@@ -8,7 +8,7 @@ from flask import (
 )
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY', 'samcentral-lms-2026')
+app.secret_key = os.environ.get('SECRET_KEY', 'civilapp-2026')
 DB = os.path.join(os.path.dirname(__file__), 'lms.db')
 COURSES_DIR = os.path.join(os.path.dirname(__file__), 'courses')
 
