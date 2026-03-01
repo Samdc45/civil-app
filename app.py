@@ -699,6 +699,24 @@ def cv_mark_contacted(cv_id):
     db.commit()
     return jsonify({'ok': True})
 
+
+def seed_admin():
+    """Create default admin account on first run if none exists"""
+    with app.app_context():
+        db = get_db()
+        admin = db.execute('SELECT id FROM students WHERE is_admin=1').fetchone()
+        if not admin:
+            from werkzeug.security import generate_password_hash
+            pw = generate_password_hash('CivilApp2026!')
+            db.execute(
+                'INSERT INTO students (name, email, password_hash, is_admin) VALUES (?, ?, ?, 1)',
+                ('Sam Admin', 'civilbesafe@gmail.com', pw)
+            )
+            db.commit()
+            print('[SEED] Admin account created: civilbesafe@gmail.com')
+        else:
+            print('[SEED] Admin account already exists')
+
 if __name__ == '__main__':
     init_db()
     app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5001)))
