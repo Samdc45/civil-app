@@ -1,0 +1,197 @@
+{
+  "id": "ph-civil-safety-intro",
+  "title": "Civil Construction Safety — Para sa OFW Workers",
+  "subtitle": "Libreng Training para sa mga gustong magtrabaho sa NZ, AU at Canada",
+  "description": "Libreng kurso para sa mga Filipino civil construction workers na gustong magtrabaho sa New Zealand, Australia, o Canada. Aralin ang mga safety standards na kailangan mo at i-upload ang iyong CV para sa trabaho abroad.",
+  "flag": "PH",
+  "country": "Philippines",
+  "language": "Taglish",
+  "duration": "2-3 oras",
+  "level": "Entry Level",
+  "price_intro": 0,
+  "price_cert": 97,
+  "thumbnail": "🇵🇭",
+  "color": "#0038a8",
+  "gumroad_intro": "free",
+  "beta": true,
+  "beta_note": "LIBRE — I-upload ang iyong CV at mag-express ng interest sa trabaho abroad",
+  "target_audience": "Filipino civil construction workers, OFW applicants, TESDA graduates",
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Module 1: Bakit Importante ang Safety? (Why Safety Matters)",
+      "lessons": [
+        {
+          "title": "Welcome — Ano ang Civil App Philippines Beta?",
+          "type": "lesson",
+          "content": "<h2>Maligayang pagdating sa Civil App Philippines Beta! 🇵🇭</h2>\n<p>Ikaw ay isa sa mga unang Filipino construction workers na mag-a-access ng libreng international safety training.</p>\n<h3>Bakit libre ito?</h3>\n<p>Simple lang — ikaw ay beta tester namin. Sa pagkumpleto ng kursong ito at pag-upload ng iyong CV, ikaw ay:</p>\n<ul>\n<li>✅ Makakakuha ng international safety certificate</li>\n<li>✅ Makikita ng mga NZ/AU/CA civil companies na naghahanap ng manggagawa</li>\n<li>✅ Matututo ng mga safety standards na kailangan mo para magtrabaho abroad</li>\n</ul>\n<h3>Ano ang Civil App?</h3>\n<p>Civil App ay isang New Zealand-based training platform para sa civil construction workers sa buong mundo. Founded ni Sam Dampier-Crossley, isang civil construction expert na may 30+ taon ng karanasan sa NZ.</p>\n<blockquote>\"Train to replace yourself, then train them to replace themselves.\" — Sam Dampier-Crossley</blockquote>\n<h3>Ano ang matututunan mo?</h3>\n<ul>\n<li>🦺 International safety standards (NZ, AU, Canada)</li>\n<li>🚜 Mga pangalan ng equipment sa NZ/AU (iba sa Pilipinas!)</li>\n<li>📋 Pre-start checks at daily safety meetings</li>\n<li>🌏 Kultura ng trabaho sa construction sites sa ibang bansa</li>\n<li>📄 Mga dokumento at certifications na kailangan mo</li>\n</ul>"
+        },
+        {
+          "title": "Safety sa Trabaho — NZ vs Pilipinas",
+          "type": "lesson",
+          "content": "<h2>Safety sa Trabaho: Ang Pagkakaiba ng NZ/AU at Pilipinas</h2>\n<p>Sa Pilipinas, maraming construction sites na hindi ganoon ka-strict pagdating sa safety. Sa New Zealand at Australia, <strong>iba ang usapan</strong>.</p>\n<h3>Mga Pangunahing Pagkakaiba:</h3>\n<table>\n<tr><th>Pilipinas</th><th>New Zealand / Australia</th></tr>\n<tr><td>Helmet — minsan optional</td><td>Helmet — MANDATORY palagi</td></tr>\n<tr><td>Safety boots — depende</td><td>Safety boots — kailangan sa lahat ng oras</td></tr>\n<tr><td>Foreman nagdedecide</td><td>IKAW mismo may karapatang tumigil kung unsafe</td></tr>\n<tr><td>\"Bahala na\" mentality</td><td>Every hazard ay iuulat at idodokumento</td></tr>\n<tr><td>Verbal instructions lang</td><td>Lahat ay nasusulat at nairerecord</td></tr>\n</table>\n<h3>Importanteng Batas:</h3>\n<p>Sa New Zealand: <strong>Health and Safety at Work Act 2015 (HSWA)</strong></p>\n<p>Sa Australia: <strong>Work Health and Safety Act 2011 (WHS)</strong></p>\n<p>Ang batas na ito ay nagbibigay sa iyo ng karapatang:</p>\n<ul>\n<li>✅ Tumanggi sa unsafe na trabaho — walang maaaring mag-fire sa iyo para dito</li>\n<li>✅ Mag-report ng hazard — protektado ka ng batas</li>\n<li>✅ Lumahok sa safety meetings</li>\n</ul>\n<h3>Tandaan:</h3>\n<blockquote>Sa NZ/AU, ang safety ay hindi lang tungkol sa sarili mo — ito ay tungkol sa iyong mga katrabaho rin. Responsibilidad ng lahat.</blockquote>"
+        },
+        {
+          "title": "Mga Safety Terms sa English at Tagalog",
+          "type": "lesson",
+          "content": "<h2>🇵🇭 Civil Construction Vocabulary — Tagalog to English</h2>\n<p>Sa construction sites sa NZ/AU, English ang ginagamit. Narito ang mga importanteng salita na kailangan mong malaman:</p>\n<h3>Personal Protective Equipment (PPE) / Kagamitan para sa Proteksyon</h3>\n<table>\n<tr><th>English Term</th><th>Tagalog</th><th>NZ/AU Slang</th></tr>\n<tr><td>Safety helmet / Hard hat</td><td>Helmet / Proteksyon sa ulo</td><td>\"Hard hat\" o \"lid\"</td></tr>\n<tr><td>High-visibility vest</td><td>Makintab na vest</td><td>\"Hi-vis\" o \"fluoro\"</td></tr>\n<tr><td>Safety boots</td><td>Boots na may bakal sa dulo</td><td>\"Steel caps\" o \"boots\"</td></tr>\n<tr><td>Safety glasses</td><td>Salamin para sa mata</td><td>\"Safety specs\" o \"glasses\"</td></tr>\n<tr><td>Gloves</td><td>Guwantes</td><td>\"Gloves\"</td></tr>\n<tr><td>Ear protection</td><td>Proteksyon sa tenga</td><td>\"Earmuffs\" o \"plugs\"</td></tr>\n</table>\n<h3>Equipment / Kagamitan</h3>\n<table>\n<tr><th>English Term</th><th>Tagalog</th><th>NZ/AU Slang</th></tr>\n<tr><td>Excavator</td><td>Malaking pala / earthmover</td><td>\"Digger\"</td></tr>\n<tr><td>Dump truck / Tipper</td><td>Trak na nagtatambak</td><td>\"Tip truck\"</td></tr>\n<tr><td>Compactor / Roller</td><td>Makina para sa pag-compact</td><td>\"Roller\" o \"drum\"</td></tr>\n<tr><td>Loader</td><td>Loader</td><td>\"Bobcat\" (maliliit) o \"loader\"</td></tr>\n<tr><td>Grader</td><td>Grader / pangpatag</td><td>\"Blade\" o \"grader\"</td></tr>\n</table>\n<h3>Safety Terms</h3>\n<table>\n<tr><th>English Term</th><th>Tagalog</th></tr>\n<tr><td>Near miss</td><td>Halos may nasaktan / malapit na aksidente</td></tr>\n<tr><td>Hazard</td><td>Panganib / delikadong bagay</td></tr>\n<tr><td>Pre-start check</td><td>Tseke bago magsimula</td></tr>\n<tr><td>Site induction</td><td>Pagtuturo sa bagong trabahador</td></tr>\n<tr><td>Emergency</td><td>Emergency / pang-emergency</td></tr>\n<tr><td>First aid</td><td>First aid / unang lunas</td></tr>\n<tr><td>Incident report</td><td>Ulat ng aksidente</td></tr>\n</table>"
+        },
+        {
+          "title": "Quiz 1: Safety Basics",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Sa NZ/AU, ano ang tawag sa excavator sa construction site slang?",
+              "options": [
+                "Tractor",
+                "Digger",
+                "Bulldozer",
+                "Backhoe"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Kung hindi safe ang trabaho mo sa NZ, ano ang karapatang ibinibigay sa iyo ng HSWA?",
+              "options": [
+                "Wala, dapat magtrabaho ka pa rin",
+                "Magreklamo sa boss pagkatapos",
+                "Tumanggi at tumigil sa trabaho",
+                "Umalis sa trabaho nang walang pasabi"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Ano ang ibig sabihin ng 'hi-vis' sa NZ/AU construction site?",
+              "options": [
+                "High visibility vest / makintab na vest",
+                "Safety helmet",
+                "Safety boots",
+                "Safety glasses"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Ano ang 'near miss'?",
+              "options": [
+                "Aksidente na naganap na",
+                "Halos may nasaktan pero hindi naganap ang aksidente",
+                "Maling direksyon",
+                "Broken equipment"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2: Pre-Start Checks at Daily Safety Meeting",
+      "lessons": [
+        {
+          "title": "Ang Pre-Start Check — Bakit Mahalaga Ito?",
+          "type": "lesson",
+          "content": "<h2>Pre-Start Check — Ang Pinaka-importanteng Gawain sa Umaga</h2>\n<p>Sa NZ/AU, bago mo patakbuhin ang kahit anong makina, <strong>KAILANGAN mong mag-pre-start check</strong>. Hindi ito opsyonal.</p>\n<h3>Bakit?</h3>\n<ul>\n<li>🔧 Para malaman kung may sira ang makina bago pa magsimula ang trabaho</li>\n<li>📋 Legal requirement — kailangan mong madokumento ito</li>\n<li>💰 Nakakatipid ng pera — mas mura ang mahanap ng problema ng maaga kaysa sa kasalukuyan</li>\n<li>🛡️ Proteksyon mo — kung may aksidente at walang pre-start record, ikaw ang mananagot</li>\n</ul>\n<h3>Ang \"Five and Alive\" — 5 Pangunahing Check:</h3>\n<ol>\n<li><strong>Tingnan ang paligid ng makina (walkaround)</strong> — Adik sa pagtitig sa ilalim, likod, sa lahat ng panig</li>\n<li><strong>Fluid levels</strong> — Oil, coolant, hydraulic fluid — tingnan ang dipstick</li>\n<li><strong>Safety devices</strong> — Horn, reverse alarm, camera, seatbelt — lahat ay dapat gumagana</li>\n<li><strong>Tyres / tracks</strong> — May flat? May sira?</li>\n<li><strong>Controls</strong> — Galaw-galawin nang konti bago lumabas sa yard</li>\n</ol>\n<h3>Ang Pre-Start Form</h3>\n<p>Sa karamihang NZ/AU construction sites, may form kang pipirmahan bawat umaga. Huwag pirmahan kung hindi mo talaga ginawa ang check — responsibilidad mo iyon kung may mangyari.</p>\n<blockquote>\"Kung hindi mo isinulat, hindi ito nangyari.\" — Rule #1 sa NZ/AU construction compliance</blockquote>"
+        },
+        {
+          "title": "Ang Daily Safety Meeting (Toolbox Talk)",
+          "type": "lesson",
+          "content": "<h2>Ang Daily Safety Meeting sa NZ/AU</h2>\n<p>Sa bawat umaga sa NZ/AU construction site, may <strong>5-minutong safety meeting</strong> na tinatawag na:</p>\n<ul>\n<li>🇳🇿 NZ: \"Pre-start meeting\" o \"toolbox talk\"</li>\n<li>🇦🇺 AU: \"Toolbox talk\" o \"tailgate meeting\"</li>\n</ul>\n<h3>Ano ang napag-uusapan?</h3>\n<ol>\n<li>📅 Anong trabaho ngayon at saan?</li>\n<li>⚠️ Ano ang mga panganib ngayon? (hindi generic — specific sa araw na iyon)</li>\n<li>🚜 Ano ang estado ng mga makina? May tagged out ba?</li>\n<li>💬 May gustong ibahagi ang sinuman?</li>\n<li>📋 I-record ang lahat — pangalan ng dumalo, petsa, mga napag-usapan</li>\n</ol>\n<h3>Sa Pilipinas vs NZ/AU</h3>\n<p>Sa Pilipinas, baka basta-basta lang ito o hindi ginagawa. Sa NZ/AU, ito ay <strong>legal requirement</strong>. Ang records ay kailangang i-keep at maaaring i-audit ng WorkSafe anumang oras.</p>\n<h3>Ang Ganda ng Sistemang Ito</h3>\n<p>Ang Civil App ay may <strong>Digital Daily Safety Record</strong> tool na tumutulong sa mga company na i-record ang lahat ng ito nang madali. Ito ang pinagtatrabahuhan namin para sa mga Filipino workers din.</p>"
+        },
+        {
+          "title": "Quiz 2: Pre-Start at Daily Meetings",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Ano ang ibang pangalan ng 'daily safety meeting' sa NZ?",
+              "options": [
+                "Morning prayer",
+                "Pre-start meeting o toolbox talk",
+                "Team huddle",
+                "Boss meeting"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Ilang minuto ang karaniwang tumatagal ang pre-start meeting?",
+              "options": [
+                "30 minuto",
+                "1 oras",
+                "5 minuto",
+                "Depende sa mood ng foreman"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Ano ang 'Five and Alive' sa pre-start check?",
+              "options": [
+                "5 na tao kailangan sa site",
+                "5 pangunahing checks sa makina bago patakbuhin",
+                "5 na oras ng trabaho",
+                "5 na panuntunan sa kaligtasan"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3: Trabaho sa NZ/AU — Ano ang Inaasahan sa Iyo",
+      "lessons": [
+        {
+          "title": "Kultura ng Trabaho sa NZ/AU Construction Sites",
+          "type": "lesson",
+          "content": "<h2>Kultura ng Trabaho sa NZ/AU Construction Sites</h2>\n<p>Malaki ang pagkakaiba ng kultura ng trabaho sa NZ/AU kumpara sa Pilipinas. Narito ang mga dapat mong malaman:</p>\n<h3>1. Lahat ay Pantay-Pantay sa Safety</h3>\n<p>Sa NZ/AU, kahit ang pinakabatang laborer ay maaaring tumigil sa trabaho ng isang experienced foreman kung hindi ito safe. <strong>Walang hierarchy pagdating sa safety.</strong></p>\n<h3>2. Direktang Komunikasyon</h3>\n<p>Kausap mo direkta ang foreman o supervisor. Hindi kailangang magraan-raan. Kung may concern ka, sabihin mo agad.</p>\n<h3>3. Smoko — Ang Break Culture</h3>\n<p>Sa NZ/AU, tinatawag na <strong>\"smoko\"</strong> ang break time (kahit hindi ka naninigarilyo!). Karaniwan ay:</p>\n<ul>\n<li>Umaga: 10-15 minuto break (mga 10am)</li>\n<li>Tanghali: 30 minuto lunch</li>\n<li>Hapon: 10 minuto break (mga 3pm)</li>\n</ul>\n<h3>4. Documentation is Everything</h3>\n<p>Sa NZ/AU, lahat ay nasusulat. Pre-start checks, near misses, incidents, daily records — lahat may papel. Huwag matakot dito — ito ay para protektahan ka rin.</p>\n<h3>5. Ang \"Tradie\" Culture</h3>\n<p>Sa NZ/AU, ang mga skilled workers ay tinatawag na <strong>\"tradies\"</strong>. Respected sila at mabuti ang sweldo. Bilang civil construction worker, ikaw ay isang tradie.</p>\n<h3>6. Work-Life Balance</h3>\n<p>Sa NZ/AU, karaniwan ang 40 oras na trabaho sa isang linggo. Ang overtime ay may dagdag na bayad (\"time and a half\" — 1.5x ang normal na rate).</p>"
+        },
+        {
+          "title": "Mga Suweldo at Oportunidad sa NZ/AU",
+          "type": "lesson",
+          "content": "<h2>💰 Suweldo sa Civil Construction: Pilipinas vs NZ/AU</h2>\n<p>Ito ang isa sa mga pinaka-importanteng dahilan kung bakit maraming Filipino workers ang naghahanap ng trabaho sa NZ/AU:</p>\n<h3>Kumpara ng Suweldo:</h3>\n<table>\n<tr><th>Trabaho</th><th>Pilipinas (bawat buwan)</th><th>NZ (bawat buwan)</th><th>AU (bawat buwan)</th></tr>\n<tr><td>General Laborer</td><td>PHP 15,000–25,000</td><td>NZD $4,000–5,500</td><td>AUD $4,500–6,000</td></tr>\n<tr><td>Excavator Operator</td><td>PHP 25,000–40,000</td><td>NZD $5,500–8,000</td><td>AUD $6,000–9,000</td></tr>\n<tr><td>Foreman / Supervisor</td><td>PHP 35,000–60,000</td><td>NZD $7,000–10,000+</td><td>AUD $8,000–12,000+</td></tr>\n</table>\n<p><em>Note: NZD 1 ≈ PHP 34 | AUD 1 ≈ PHP 36 (approximate, check current rates)</em></p>\n<h3>Mga Benepisyo sa NZ/AU</h3>\n<ul>\n<li>✅ ACC (NZ) — libre na insurance kung magkaaksidente sa trabaho</li>\n<li>✅ KiwiSaver (NZ) — retirement savings na may dagdag mula sa employer</li>\n<li>✅ Paid annual leave — 4 linggo bawat taon</li>\n<li>✅ Sick leave — 10 araw bawat taon</li>\n<li>✅ Public holidays — bayad kahit hindi nagtatrabaho</li>\n</ul>\n<h3>Mga Shortage sa NZ/AU Civil Sector (2026)</h3>\n<p>Aktibong naghahanap ang NZ/AU ng:</p>\n<ul>\n<li>🚜 Excavator operators</li>\n<li>🛣️ Road workers / pavement workers</li>\n<li>🏗️ Concreters</li>\n<li>🔧 Civil construction laborers</li>\n<li>📋 Site supervisors with safety training</li>\n</ul>\n<h3>Ang Iyong Susunod na Hakbang</h3>\n<p>Sa susunod na module, matututunan mo kung paano mag-apply at kung anong mga dokumento ang kailangan mo.</p>"
+        },
+        {
+          "title": "Mga Certification na Kailangan Mo",
+          "type": "lesson",
+          "content": "<h2>📄 Mga Dokumento at Certification para sa Trabaho sa NZ/AU</h2>\n<h3>Para sa New Zealand:</h3>\n<ol>\n<li><strong>Work Visa</strong> — Accredited Employer Work Visa (AEWV). Kailangan na may employer na mag-sponsor sa iyo.</li>\n<li><strong>Relevant Skills</strong> — Proof ng karanasan (CV, reference letters)</li>\n<li><strong>English Language</strong> — Basic English communication required</li>\n<li><strong>Health Check</strong> — Medical clearance para sa visa</li>\n<li><strong>Police Clearance</strong> — NBI clearance</li>\n</ol>\n<h3>Para sa Australia:</h3>\n<ol>\n<li><strong>Skilled Worker Visa (subclass 482)</strong> — Employer sponsored</li>\n<li><strong>White Card</strong> — General Construction Induction (kaya mo makuha online sa AU)</li>\n<li><strong>Relevant Trade Certificate</strong> — TESDA o equivalency assessment</li>\n</ol>\n<h3>Makakatulong ang Civil App Certificate Sa:</h3>\n<ul>\n<li>✅ Pagpapakita ng iyong kaalaman sa international safety standards</li>\n<li>✅ Pagiging mas attractive na kandidato sa NZ/AU employers</li>\n<li>✅ Proof ng continuous professional development</li>\n</ul>\n<h3>TESDA Qualifications na Kinikilala</h3>\n<p>Kung mayroon kang TESDA NC II o NC III sa construction, ito ay isang malaking advantage. Ang Civil App certificate ay dagdag na patunay ng iyong commitment sa safety.</p>"
+        },
+        {
+          "title": "Final Quiz + CV Upload",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Ano ang tawag sa NZ work visa para sa mga skilled workers na may employer sponsor?",
+              "options": [
+                "Tourist Visa",
+                "Accredited Employer Work Visa (AEWV)",
+                "Student Visa",
+                "Working Holiday Visa"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Sa NZ/AU, ano ang 'White Card'?",
+              "options": [
+                "Loyalty card",
+                "General Construction Induction certification",
+                "Government ID",
+                "Work permit"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Ayon sa Civil App founder, ano ang pinakamagandang filosofiya sa pagsasanay ng mga manggagawa?",
+              "options": [
+                "Train para hindi mapalitan",
+                "Train to replace yourself, then train them to replace themselves",
+                "Train para sa mas mataas na suweldo",
+                "Train para hindi magkamali"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

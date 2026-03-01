@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Welcome to Civil App Philippines Beta!{% endblock %}
+{% block content %}
+<div style="background:linear-gradient(135deg,#0038a8 0%,#ce1127 100%);padding:60px 20px;text-align:center">
+  <div style="font-size:4rem">🎉</div>
+  <h1 style="color:#fff;font-size:2.2rem;margin:10px 0">Maligayang Pagdating, {{ student_name }}!</h1>
+  <p style="color:#ffd700;font-size:1.2rem">Ikaw ay matagumpay na naka-enroll sa Civil App Philippines Beta</p>
+</div>
+<div style="max-width:700px;margin:40px auto;padding:0 20px">
+  <div style="background:#161b22;border:1px solid #3fb950;border-radius:12px;padding:30px;text-align:center;margin-bottom:30px">
+    <div style="font-size:3rem">✅</div>
+    <h2 style="color:#3fb950">Account Created — Libre ang Access Mo!</h2>
+    <p style="color:#c9d1d9">Ang iyong CV ay natanggap na namin. Ipapasa namin ito sa mga NZ/AU civil construction companies na aktibong naghahanap ng skilled workers tulad mo.</p>
+  </div>
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:12px;padding:30px;margin-bottom:20px">
+    <h3 style="color:#58a6ff;margin-top:0">📚 Ang Iyong Kurso ay Handa Na:</h3>
+    <div style="background:#0d1117;border-radius:8px;padding:20px;display:flex;align-items:center;gap:15px">
+      <div style="font-size:2.5rem">🇵🇭</div>
+      <div>
+        <h4 style="color:#e6edf3;margin:0">Civil Construction Safety — Para sa OFW Workers</h4>
+        <p style="color:#8b949e;margin:5px 0 0 0">3 Modules · 11 Leksyon · Taglish · FREE</p>
+      </div>
+    </div>
+    <a href="/course/ph-civil-safety-intro" style="display:block;background:linear-gradient(135deg,#0038a8,#ce1127);color:#fff;text-align:center;padding:15px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;margin-top:20px">🚀 Simulan ang Kurso Ngayon</a>
+  </div>
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:12px;padding:30px">
+    <h3 style="color:#58a6ff;margin-top:0">📋 Mga Susunod na Hakbang:</h3>
+    <ol style="color:#c9d1d9;line-height:2">
+      <li>✅ I-complete ang libreng kurso</li>
+      <li>🏆 I-download ang iyong Certificate</li>
+      <li>📧 Abangan ang email mula sa amin — makikipag-ugnayan kami tungkol sa mga trabaho sa NZ/AU</li>
+      <li>🌏 Maghanda para sa international civil construction career</li>
+    </ol>
+  </div>
+</div>
+{% endblock %}

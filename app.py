@@ -41,6 +41,23 @@ def init_db():
             gumroad_sale_id TEXT,
             UNIQUE(student_id, course_id)
         );
+        CREATE TABLE IF NOT EXISTS cv_applications (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            full_name TEXT NOT NULL,
+            email TEXT NOT NULL,
+            phone TEXT,
+            location TEXT,
+            years_experience TEXT,
+            current_role TEXT,
+            destination_country TEXT,
+            skills TEXT,
+            cv_filename TEXT,
+            cv_data BLOB,
+            enrolled_course_id TEXT,
+            student_id INTEGER,
+            submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            contacted INTEGER DEFAULT 0
+        );
         CREATE TABLE IF NOT EXISTS meeting_records (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             meeting_date TEXT NOT NULL,
@@ -588,6 +605,99 @@ def daily_record_history():
 @app.route('/pricing')
 def pricing():
     return render_template('pricing.html')
+
+
+
+# ============================================================
+# PHILIPPINES BETA ROUTES
+# ============================================================
+
+@app.route('/philippines')
+@app.route('/ph-beta')
+def ph_landing():
+    return render_template('ph_landing.html')
+
+
+@app.route('/ph-register', methods=['GET', 'POST'])
+def ph_register():
+    if request.method == 'POST':
+        from werkzeug.security import generate_password_hash
+        full_name = request.form.get('full_name', '').strip()
+        email = request.form.get('email', '').lower().strip()
+        password = request.form.get('password', '').strip()
+        phone = request.form.get('phone', '')
+        location = request.form.get('location', '')
+        years_exp = request.form.get('years_experience', '')
+        current_role = request.form.get('current_role', '')
+        destination = request.form.get('destination_country', 'New Zealand')
+        skills = request.form.get('skills', '')
+        cv_file = request.files.get('cv_file')
+        cv_filename = None
+        cv_data = None
+        if cv_file and cv_file.filename:
+            cv_filename = cv_file.filename
+            cv_data = cv_file.read()
+        if not full_name or not email or not password:
+            return render_template('ph_landing.html', error='Please fill in all required fields.')
+        db = get_db()
+        existing = db.execute('SELECT id FROM students WHERE email = ?', (email,)).fetchone()
+        if existing:
+            student_id = existing['id']
+        else:
+            pw_hash = generate_password_hash(password)
+            cur = db.execute('INSERT INTO students (name, email, password_hash) VALUES (?, ?, ?)', (full_name, email, pw_hash))
+            db.commit()
+            student_id = cur.lastrowid
+        db.execute('INSERT INTO cv_applications (full_name, email, phone, location, years_experience, current_role, destination_country, skills, cv_filename, cv_data, student_id, enrolled_course_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+            (full_name, email, phone, location, years_exp, current_role, destination, skills, cv_filename, cv_data, student_id, 'ph-civil-safety-intro'))
+        existing_enroll = db.execute('SELECT id FROM enrollments WHERE student_id = ? AND course_id = ?', (student_id, 'ph-civil-safety-intro')).fetchone()
+        if not existing_enroll:
+            db.execute('INSERT INTO enrollments (student_id, course_id, tier) VALUES (?, ?, ?)', (student_id, 'ph-civil-safety-intro', 'beta_free'))
+        db.commit()
+        session['student_id'] = student_id
+        session['student_name'] = full_name
+        session['student_email'] = email
+        session['is_admin'] = False
+        return redirect(url_for('ph_welcome'))
+    return render_template('ph_landing.html')
+
+
+@app.route('/ph-welcome')
+def ph_welcome():
+    return render_template('ph_welcome.html', student_name=session.get('student_name', 'Ka-trabahador'))
+
+
+@app.route('/admin/cvs')
+def admin_cvs():
+    if not session.get('is_admin'):
+        return redirect(url_for('login'))
+    db = get_db()
+    cvs = db.execute('SELECT id, full_name, email, phone, location, years_experience, current_role, destination_country, skills, cv_filename, submitted_at, contacted FROM cv_applications ORDER BY submitted_at DESC').fetchall()
+    return render_template('cv_admin.html', cvs=cvs)
+
+
+@app.route('/admin/cv-download/<int:cv_id>')
+def cv_download(cv_id):
+    if not session.get('is_admin'):
+        return redirect(url_for('login'))
+    db = get_db()
+    cv = db.execute('SELECT * FROM cv_applications WHERE id = ?', (cv_id,)).fetchone()
+    if not cv or not cv['cv_data']:
+        return 'CV not found', 404
+    from flask import Response
+    fname = cv['cv_filename'] or 'cv.pdf'
+    return Response(cv['cv_data'], mimetype='application/octet-stream',
+                    headers={'Content-Disposition': 'attachment; filename="' + fname + '"'})
+
+
+@app.route('/admin/cv-contact/<int:cv_id>', methods=['POST'])
+def cv_mark_contacted(cv_id):
+    if not session.get('is_admin'):
+        return jsonify({'ok': False}), 403
+    db = get_db()
+    db.execute('UPDATE cv_applications SET contacted = 1 WHERE id = ?', (cv_id,))
+    db.commit()
+    return jsonify({'ok': True})
 
 if __name__ == '__main__':
     init_db()

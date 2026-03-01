@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% block title %}CV Database — Admin{% endblock %}
+{% block content %}
+<div style="max-width:1200px;margin:0 auto;padding:30px 20px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:30px">
+    <div>
+      <h1 style="color:#e6edf3;margin:0">🇵🇭 Philippines Beta — CV Database</h1>
+      <p style="color:#8b949e;margin:5px 0 0">{{ cvs|length }} applications received</p>
+    </div>
+    <div style="display:flex;gap:10px">
+      <a href="/admin" style="background:#21262d;color:#c9d1d9;padding:10px 20px;border-radius:8px;text-decoration:none;border:1px solid #30363d">← Admin Panel</a>
+    </div>
+  </div>
+
+  <!-- Stats bar -->
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-bottom:30px">
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#58a6ff">{{ cvs|length }}</div>
+      <div style="color:#8b949e;font-size:0.85rem">Total Applications</div>
+    </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#3fb950">{{ cvs|selectattr('cv_filename')|list|length }}</div>
+      <div style="color:#8b949e;font-size:0.85rem">CVs Uploaded</div>
+    </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#ffd700">{{ cvs|selectattr('contacted')|list|length }}</div>
+      <div style="color:#8b949e;font-size:0.85rem">Contacted</div>
+    </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#f78166">{{ cvs|rejectattr('contacted')|list|length }}</div>
+      <div style="color:#8b949e;font-size:0.85rem">Pending Contact</div>
+    </div>
+  </div>
+
+  <!-- CV Table -->
+  {% if cvs %}
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:12px;overflow:hidden">
+    <table style="width:100%;border-collapse:collapse">
+      <thead>
+        <tr style="background:#21262d">
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">#</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Name</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Contact</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Location</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Experience</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Role</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Destination</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Skills</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">CV</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Date</th>
+          <th style="padding:12px 15px;text-align:left;color:#8b949e;font-size:0.85rem">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for cv in cvs %}
+        <tr style="border-top:1px solid #21262d;{% if cv.contacted %}opacity:0.6{% endif %}">
+          <td style="padding:12px 15px;color:#8b949e;font-size:0.85rem">{{ cv.id }}</td>
+          <td style="padding:12px 15px;color:#e6edf3;font-weight:600">{{ cv.full_name }}</td>
+          <td style="padding:12px 15px">
+            <div style="color:#58a6ff;font-size:0.85rem">{{ cv.email }}</div>
+            <div style="color:#8b949e;font-size:0.8rem">{{ cv.phone or '—' }}</div>
+          </td>
+          <td style="padding:12px 15px;color:#c9d1d9;font-size:0.85rem">{{ cv.location or '—' }}</td>
+          <td style="padding:12px 15px;color:#c9d1d9;font-size:0.85rem">{{ cv.years_experience or '—' }}</td>
+          <td style="padding:12px 15px;color:#c9d1d9;font-size:0.85rem">{{ cv.current_role or '—' }}</td>
+          <td style="padding:12px 15px">
+            {% if cv.destination_country == 'New Zealand' %}🇳🇿
+            {% elif cv.destination_country == 'Australia' %}🇦🇺
+            {% elif cv.destination_country == 'Canada' %}🇨🇦
+            {% elif cv.destination_country == 'United Kingdom' %}🇬🇧
+            {% else %}🌏{% endif %}
+            <span style="color:#c9d1d9;font-size:0.85rem">{{ cv.destination_country or '—' }}</span>
+          </td>
+          <td style="padding:12px 15px;color:#c9d1d9;font-size:0.8rem;max-width:150px">{{ cv.skills or '—' }}</td>
+          <td style="padding:12px 15px">
+            {% if cv.cv_filename %}
+            <a href="/admin/cv-download/{{ cv.id }}" style="background:#21262d;color:#58a6ff;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:0.8rem;border:1px solid #30363d">⬇️ Download</a>
+            {% else %}
+            <span style="color:#8b949e;font-size:0.8rem">No CV</span>
+            {% endif %}
+          </td>
+          <td style="padding:12px 15px;color:#8b949e;font-size:0.8rem">{{ cv.submitted_at[:10] if cv.submitted_at else '—' }}</td>
+          <td style="padding:12px 15px">
+            {% if cv.contacted %}
+            <span style="background:#1a3a1a;color:#3fb950;padding:4px 10px;border-radius:12px;font-size:0.75rem">✅ Contacted</span>
+            {% else %}
+            <button onclick="markContacted({{ cv.id }}, this)" style="background:#1a2a3a;color:#58a6ff;border:1px solid #30363d;padding:5px 10px;border-radius:6px;font-size:0.75rem;cursor:pointer">Mark Contacted</button>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:12px;padding:60px;text-align:center">
+    <div style="font-size:3rem">🇵🇭</div>
+    <h3 style="color:#c9d1d9">No CV applications yet</h3>
+    <p style="color:#8b949e">Share the Philippines beta link to start receiving applications:</p>
+    <code style="background:#0d1117;padding:10px 20px;border-radius:6px;color:#58a6ff">your-domain.com/philippines</code>
+  </div>
+  {% endif %}
+</div>
+<script>
+function markContacted(id, btn) {
+  fetch('/admin/cv-contact/' + id, {method:'POST'})
+    .then(r => r.json())
+    .then(d => {
+      if(d.ok) {
+        btn.parentElement.innerHTML = '<span style="background:#1a3a1a;color:#3fb950;padding:4px 10px;border-radius:12px;font-size:0.75rem">✅ Contacted</span>';
+      }
+    });
+}
+</script>
+{% endblock %}

@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+{% block title %}Civil App Philippines Beta — Libreng Training para sa OFW Workers{% endblock %}
+{% block content %}
+<div style="background:linear-gradient(135deg,#0038a8 0%,#ce1127 100%);padding:60px 20px;text-align:center">
+  <div style="font-size:4rem">🇵🇭</div>
+  <h1 style="color:#fff;font-size:2.2rem;margin:10px 0">Civil App Philippines Beta</h1>
+  <p style="color:#ffd700;font-size:1.2rem;font-weight:600">LIBRENG Training para sa mga gustong magtrabaho sa NZ, AU at Canada</p>
+  <p style="color:rgba(255,255,255,0.9);max-width:600px;margin:10px auto">I-upload ang iyong CV at makakuha ng libreng access sa international civil construction safety training. Ang iyong CV ay makikita ng mga NZ/AU employers na naghahanap ng skilled workers tulad mo.</p>
+  <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:30px">
+    <div style="background:rgba(255,255,255,0.15);border-radius:12px;padding:20px;min-width:140px">
+      <div style="font-size:1.8rem;font-weight:800;color:#ffd700">FREE</div>
+      <div style="color:#fff;font-size:0.85rem">Libreng Access</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.15);border-radius:12px;padding:20px;min-width:140px">
+      <div style="font-size:1.8rem;font-weight:800;color:#ffd700">11</div>
+      <div style="color:#fff;font-size:0.85rem">Mga Leksyon</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.15);border-radius:12px;padding:20px;min-width:140px">
+      <div style="font-size:1.8rem;font-weight:800;color:#ffd700">🏆</div>
+      <div style="color:#fff;font-size:0.85rem">Certificate</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.15);border-radius:12px;padding:20px;min-width:140px">
+      <div style="font-size:1.8rem;font-weight:800;color:#ffd700">NZ/AU</div>
+      <div style="color:#fff;font-size:0.85rem">Job Opportunities</div>
+    </div>
+  </div>
+</div>
+
+<div style="max-width:900px;margin:40px auto;padding:0 20px;display:grid;grid-template-columns:1fr 1fr;gap:30px">
+  <!-- What you learn -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:12px;padding:30px">
+    <h2 style="color:#58a6ff;margin-top:0">📚 Ano ang Matututunan Mo?</h2>
+    <ul style="color:#c9d1d9;line-height:2">
+      <li>🦺 International PPE standards (NZ/AU/CA)</li>
+      <li>🚜 Mga tamang pangalan ng equipment abroad</li>
+      <li>📋 Pre-start checks at daily safety meetings</li>
+      <li>💰 Mga suweldo at benepisyo sa NZ/AU</li>
+      <li>📄 Mga certification at visa requirements</li>
+      <li>🌏 Kultura ng trabaho sa ibang bansa</li>
+      <li>🏆 Certificate na kinikilala ng NZ/AU employers</li>
+    </ul>
+    <div style="background:#0d1117;border-radius:8px;padding:15px;margin-top:15px">
+      <p style="color:#ffd700;margin:0;font-size:0.9rem">🇳🇿 Taglish ang ginagamit sa kursong ito — Filipino at English para mas madaling maintindihan</p>
+    </div>
+  </div>
+
+  <!-- Registration form -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:12px;padding:30px">
+    <h2 style="color:#3fb950;margin-top:0">✅ Mag-register Ngayon — LIBRE!</h2>
+    {% if error %}
+    <div style="background:#3d1a1a;border:1px solid #f85149;border-radius:8px;padding:12px;margin-bottom:15px;color:#f85149">{{ error }}</div>
+    {% endif %}
+    <form method="POST" action="/ph-register" enctype="multipart/form-data">
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Buong Pangalan *</label>
+        <input name="full_name" required placeholder="Juan dela Cruz" style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Email Address *</label>
+        <input name="email" type="email" required placeholder="juan@email.com" style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Password *</label>
+        <input name="password" type="password" required placeholder="Pumili ng matibay na password" style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Phone Number</label>
+        <input name="phone" placeholder="+63 9XX XXX XXXX" style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Lokasyon sa Pilipinas</label>
+        <input name="location" placeholder="Cebu, Metro Manila, Davao..." style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Taon ng Karanasan sa Construction</label>
+        <select name="years_experience" style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+          <option value="0-2">0–2 taon (Baguhan)</option>
+          <option value="3-5">3–5 taon</option>
+          <option value="6-10">6–10 taon</option>
+          <option value="10+">10+ taon (Experienced)</option>
+        </select>
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Kasalukuyang Trabaho / Role</label>
+        <input name="current_role" placeholder="Excavator Operator, Laborer, Foreman..." style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Gustong Bansang Puntahan</label>
+        <select name="destination_country" style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+          <option value="New Zealand">🇳🇿 New Zealand</option>
+          <option value="Australia">🇦🇺 Australia</option>
+          <option value="Canada">🇨🇦 Canada</option>
+          <option value="United Kingdom">🇬🇧 United Kingdom</option>
+          <option value="Multiple">Marami / Hindi pa sigurado</option>
+        </select>
+      </div>
+      <div style="margin-bottom:12px">
+        <label style="color:#8b949e;font-size:0.85rem">Mga Kasanayan / Skills</label>
+        <input name="skills" placeholder="Excavator, Compaction, Concrete, Traffic Management..." style="width:100%;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+      </div>
+      <div style="margin-bottom:20px">
+        <label style="color:#8b949e;font-size:0.85rem">I-upload ang iyong CV (PDF, Word, o kahit anong format) *</label>
+        <input name="cv_file" type="file" accept=".pdf,.doc,.docx,.txt" style="width:100%;background:#0d1117;border:2px dashed #30363d;border-radius:6px;padding:15px;color:#e6edf3;margin-top:4px;box-sizing:border-box">
+        <p style="color:#8b949e;font-size:0.75rem;margin:4px 0">Ang iyong CV ay makikita lamang ng mga verified NZ/AU employers na naghahanap ng civil construction workers.</p>
+      </div>
+      <div style="margin-bottom:20px;background:#0d1117;border-radius:8px;padding:12px">
+        <label style="color:#c9d1d9;font-size:0.85rem;display:flex;gap:8px;align-items:flex-start;cursor:pointer">
+          <input type="checkbox" name="work_abroad" value="yes" checked style="margin-top:2px">
+          <span>Oo, interesado akong magtrabaho sa civil construction sa ibang bansa at pumapayag ako na makita ng mga NZ/AU employers ang aking CV.</span>
+        </label>
+      </div>
+      <button type="submit" style="width:100%;background:linear-gradient(135deg,#0038a8,#ce1127);color:#fff;border:none;border-radius:8px;padding:15px;font-size:1.1rem;font-weight:700;cursor:pointer">🇵🇭 Mag-register at Magsimula — LIBRE!</button>
+    </form>
+  </div>
+</div>
+
+<!-- Testimonial / Trust section -->
+<div style="background:#161b22;border-top:1px solid #30363d;padding:40px 20px;text-align:center">
+  <h2 style="color:#c9d1d9">Bakit Civil App ang Tamang Pagpipilian?</h2>
+  <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;max-width:900px;margin:0 auto">
+    <div style="background:#0d1117;border-radius:12px;padding:20px;max-width:250px">
+      <div style="font-size:2rem">🇳🇿</div>
+      <h3 style="color:#58a6ff">NZ-Based Platform</h3>
+      <p style="color:#8b949e;font-size:0.9rem">Gawa ng New Zealand civil construction expert na may 30+ taon ng karanasan</p>
+    </div>
+    <div style="background:#0d1117;border-radius:12px;padding:20px;max-width:250px">
+      <div style="font-size:2rem">📋</div>
+      <h3 style="color:#58a6ff">Real Standards</h3>
+      <p style="color:#8b949e;font-size:0.9rem">Batay sa tunay na NZ/AU/CA safety regulations — hindi generic na training</p>
+    </div>
+    <div style="background:#0d1117;border-radius:12px;padding:20px;max-width:250px">
+      <div style="font-size:2rem">🏆</div>
+      <h3 style="color:#58a6ff">Verified Certificate</h3>
+      <p style="color:#8b949e;font-size:0.9rem">PDF certificate na may unique verification code — makikita ng mga employer</p>
+    </div>
+    <div style="background:#0d1117;border-radius:12px;padding:20px;max-width:250px">
+      <div style="font-size:2rem">💼</div>
+      <h3 style="color:#58a6ff">Job Pipeline</h3>
+      <p style="color:#8b949e;font-size:0.9rem">Ang iyong CV ay direktang mapupunta sa mga NZ/AU companies na nag-e-engage sa Civil App</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
