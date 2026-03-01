@@ -1,0 +1,303 @@
+{
+  "id": "nzci-flexi-excavator",
+  "title": "NZCI Flexi: Excavator Awareness",
+  "subtitle": "Industry-Recognised Excavator Safety Training",
+  "description": "Comprehensive excavator awareness and safe operation training aligned with New Zealand construction industry standards. Flexible online delivery for site supervisors, operators, and safety officers.",
+  "duration": "4-5 hours",
+  "level": "All Levels",
+  "price_intro": 97,
+  "price_cert": 497,
+  "price_corporate": 997,
+  "gumroad_intro": "https://southconsultants.gumroad.com/l/nzciflexi",
+  "gumroad_cert": "https://southconsultants.gumroad.com/l/nzciflexicert",
+  "thumbnail": "\ud83d\udea7",
+  "color": "#f97316",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Excavator Types & Applications",
+      "duration": "40 min",
+      "lessons": [
+        {
+          "title": "Types of Excavators",
+          "type": "lesson",
+          "content": "**Standard Hydraulic Excavators:**\nThe most common excavator in NZ civil construction. Available in mini (1-6t), midi (6-15t), and large (15t+) configurations.\n\n**Applications:**\n- Trenching and drainage\n- Foundation excavation\n- Rock breaking (with hydraulic hammer)\n- Loading trucks\n- Demolition\n\n**Long Reach Excavators:**\nExtended boom/arm for deep excavation or working over obstacles. Common in waterway work.\n\n**Amphibious Excavators:**\nFloat-mounted for waterway dredging and coastal work. Specialised training required."
+        },
+        {
+          "title": "Excavator Components",
+          "type": "lesson",
+          "content": "**Main Components:**\n- **Undercarriage**: Tracks, rollers, drive sprocket, idlers\n- **Slew Ring**: 360\u00b0 rotation bearing\n- **Counterweight**: Balances boom weight\n- **Boom**: Main lifting arm\n- **Arm (Dipper)**: Secondary arm\n- **Bucket**: Various teeth/edge configurations\n- **Hydraulic System**: Pumps, valves, cylinders\n\n**Controls:**\n- Left joystick: Slew + arm in/out\n- Right joystick: Boom up/down + bucket curl\n- Travel pedals/levers: Track movement\n- Auxiliary: Attachments"
+        },
+        {
+          "title": "Module 1 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "What controls the 360\u00b0 rotation of an excavator?",
+              "options": [
+                "The boom cylinder",
+                "The slew ring and motor",
+                "The counterweight",
+                "The track motors"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A long reach excavator is commonly used for:",
+              "options": [
+                "Rock breaking",
+                "Loading trucks",
+                "Waterway work",
+                "Demolition only"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pre-Start Inspections & COGS",
+      "duration": "45 min",
+      "lessons": [
+        {
+          "title": "Daily Pre-Start Procedure",
+          "type": "lesson",
+          "content": "**Walk-Around Inspection (Pre-Start):**\n\n\u25a1 Check for ground oil/fluid leaks\n\u25a1 Inspect track tension and condition\n\u25a1 Check bucket teeth and cutting edge wear\n\u25a1 Inspect boom, arm, bucket pins and bushings\n\u25a1 Check hydraulic hoses for damage/leaks\n\u25a1 Verify all guards are in place\n\u25a1 Check ROPS/FOPS certification plate\n\u25a1 Verify fire extinguisher present and in date\n\n**Cabin Checks (Engine Off):**\n\u25a1 Engine oil level\n\u25a1 Coolant level\n\u25a1 Hydraulic oil level\n\u25a1 Fuel level\n\u25a1 All warning lights functional\n\u25a1 Seat belt operational\n\u25a1 All controls return to neutral"
+        },
+        {
+          "title": "COGS \u2014 Certificate of Competence",
+          "type": "lesson",
+          "content": "**What is a COC/COGS?**\nA Certificate of Competence (COC) issued under the Health and Safety at Work Act 2015 is required to operate certain plant in NZ, including excavators over 4 tonnes.\n\n**Requirements:**\n- WorkSafe NZ approved training provider\n- Practical assessment on the machine class\n- Theory examination\n- Medical fitness declaration\n- Renewal every 5 years\n\n**Machine Classes:**\n- Class 1: Crawler excavator\n- Class 2: Wheeled excavator\n- Class 4: Backhoe loader\n\n**IMPORTANT:** Operating without a COC is a serious HSWA offence with fines up to $50,000."
+        },
+        {
+          "title": "Module 2 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "A COC is required for excavators over:",
+              "options": [
+                "1 tonne",
+                "2 tonnes",
+                "4 tonnes",
+                "10 tonnes"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "COC renewal is required every:",
+              "options": [
+                "1 year",
+                "2 years",
+                "5 years",
+                "10 years"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Maximum fine for operating without a COC:",
+              "options": [
+                "$5,000",
+                "$10,000",
+                "$50,000",
+                "$100,000"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Safe Operation & Exclusion Zones",
+      "duration": "50 min",
+      "lessons": [
+        {
+          "title": "Exclusion Zones & Spotters",
+          "type": "lesson",
+          "content": "**Exclusion Zones:**\nNo person shall be within the swing radius of an excavator while it is operating unless:\n- A competent spotter is in place\n- Physical barriers are erected\n- The operator has direct line of sight\n\n**Minimum Exclusion Zone:**\n- Standard: Full swing radius + 1 metre\n- Demolition: Minimum 1.5x machine height\n- Near overhead lines: As per lines authority permit\n\n**Spotter Requirements:**\n- Designated, trained person\n- High-vis vest mandatory\n- Agreed signal system with operator\n- Must never enter exclusion zone\n\n**Underground Services:**\nCall Before You Dig (0800 248 344) minimum 2 working days before excavation."
+        },
+        {
+          "title": "Trenching Safety",
+          "type": "lesson",
+          "content": "**Cave-In Prevention:**\nAll trenches over 1.5m deep require engineered support or battered/benched sides.\n\n**Safe Batter Angles by Soil Type:**\n- Rock: Vertical (90\u00b0) may be acceptable\n- Dense clay: 60-75\u00b0\n- Sandy clay: 45-60\u00b0\n- Sand/gravel: 30-45\u00b0\n- Waterlogged: Shore or sheet pile required\n\n**Working Near Trenches:**\n- Spoil heap minimum 600mm from edge\n- Vehicles minimum 1m from edge (engineered setback for deep trenches)\n- Regular inspection by competent person\n- Escape route every 25m of trench\n\n**WaterCare/Council Requirements:**\nMany NZ councils require a Confined Space Permit for any work in trenches over 1.5m. Check locally."
+        },
+        {
+          "title": "Module 3 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Minimum exclusion zone around operating excavator:",
+              "options": [
+                "0.5m",
+                "Swing radius + 1m",
+                "2m flat",
+                "5m"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Trenches over ___ deep require engineered support:",
+              "options": [
+                "0.5m",
+                "1.0m",
+                "1.5m",
+                "2.0m"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Call Before You Dig requires notice of:",
+              "options": [
+                "Same day",
+                "24 hours",
+                "2 working days",
+                "1 week"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Emergency Procedures",
+      "duration": "30 min",
+      "lessons": [
+        {
+          "title": "Emergency Scenarios",
+          "type": "lesson",
+          "content": "**Machine Fire:**\n1. Shut down engine immediately\n2. Evacuate operator cab\n3. Use fire extinguisher ONLY if fire is small and you are safe\n4. Move all personnel to muster point\n5. Call 111\n6. Do NOT re-enter burning machine\n\n**Tip-Over:**\n1. Stay in cab \u2014 ROPS protects you\n2. Brace with hands/feet \u2014 NOT against glass\n3. Do not jump out\n4. Once stopped \u2014 shut engine\n5. Exit away from crush zone\n6. Call for help\n\n**Striking Underground Service:**\n1. STOP immediately\n2. Evacuate area (gas: 150m, power: 10m minimum)\n3. Call utility owner and emergency services\n4. Do not re-enter until cleared by utility\n5. Report to WorkSafe NZ if injury or near-miss"
+        },
+        {
+          "title": "Module 4 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "If your excavator tips over, you should:",
+              "options": [
+                "Jump out immediately",
+                "Stay in cab and brace",
+                "Open the door",
+                "Call for help first"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Minimum exclusion zone when striking a gas line:",
+              "options": [
+                "10m",
+                "50m",
+                "100m",
+                "150m"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Final Assessment",
+      "duration": "25 min",
+      "lessons": [
+        {
+          "title": "Course Summary",
+          "type": "lesson",
+          "content": "**You have completed NZCI Flexi: Excavator Awareness!**\n\n\u2705 Excavator types and components\n\u2705 Daily pre-start inspections\n\u2705 COGS/COC requirements under HSWA 2015\n\u2705 Exclusion zones and spotter protocols\n\u2705 Trenching safety standards\n\u2705 Emergency procedures\n\n**Important Reminder:**\nThis course provides AWARENESS training. A Certificate of Competence (COC) from a WorkSafe-approved provider is required to OPERATE an excavator over 4 tonnes in New Zealand.\n\nContact South Consultants for COC training referrals."
+        },
+        {
+          "title": "Final Assessment",
+          "type": "quiz",
+          "pass_mark": 80,
+          "questions": [
+            {
+              "q": "A COC is legally required to operate excavators over:",
+              "options": [
+                "2t",
+                "4t",
+                "6t",
+                "10t"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Standard exclusion zone around an excavator is:",
+              "options": [
+                "1m flat",
+                "Swing radius + 1m",
+                "5m",
+                "3m"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Trenches over 1.5m require:",
+              "options": [
+                "Extra lighting",
+                "Engineered support or battered sides",
+                "A crane",
+                "Concrete casing"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "If your machine tips over:",
+              "options": [
+                "Jump out immediately",
+                "Stay in the cab",
+                "Open the door",
+                "Stand on seat"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Call Before You Dig notice period:",
+              "options": [
+                "Same day",
+                "12 hours",
+                "2 working days",
+                "1 week"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "COC renewal frequency:",
+              "options": [
+                "1 year",
+                "2 years",
+                "5 years",
+                "No renewal"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Minimum gas line strike exclusion zone:",
+              "options": [
+                "10m",
+                "50m",
+                "100m",
+                "150m"
+              ],
+              "answer": 3
+            },
+            {
+              "q": "Spoil heap minimum distance from trench edge:",
+              "options": [
+                "200mm",
+                "400mm",
+                "600mm",
+                "1m"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

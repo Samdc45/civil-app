@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Enrol — {{ course.title }}{% endblock %}
+{% block content %}
+<div style="max-width:600px;margin:60px auto;padding:0 24px;text-align:center">
+  <div class="card">
+    <div style="font-size:3rem;margin-bottom:16px">{{ course.thumbnail }}</div>
+    <h2 style="margin-bottom:8px">{{ course.title }}</h2>
+    <p style="color:#8b949e;margin-bottom:32px">Choose your enrolment tier to access this course.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
+      <div style="border:1px solid #30363d;border-radius:12px;padding:20px">
+        <div style="font-size:1.5rem;font-weight:800;color:#f97316;margin-bottom:8px">${{ course.price_intro }}</div>
+        <div style="font-weight:600;margin-bottom:8px">Intro Access</div>
+        <ul style="color:#8b949e;font-size:0.8rem;text-align:left;list-style:none;margin-bottom:16px">
+          <li>✅ All course modules</li>
+          <li>✅ Quizzes & assessments</li>
+          <li>✅ Completion certificate</li>
+        </ul>
+        <a href="{{ course.gumroad_intro }}" target="_blank" class="btn btn-primary" style="display:block;text-align:center">Enrol ${{ course.price_intro }}</a>
+      </div>
+      <div style="border:2px solid #f97316;border-radius:12px;padding:20px;position:relative">
+        <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#f97316;color:#fff;padding:2px 12px;border-radius:20px;font-size:0.75rem;font-weight:700">POPULAR</div>
+        <div style="font-size:1.5rem;font-weight:800;color:#f97316;margin-bottom:8px">${{ course.price_cert }}</div>
+        <div style="font-weight:600;margin-bottom:8px">Certificate</div>
+        <ul style="color:#8b949e;font-size:0.8rem;text-align:left;list-style:none;margin-bottom:16px">
+          <li>✅ Everything in Intro</li>
+          <li>✅ PDF Certificate</li>
+          <li>✅ Industry recognition</li>
+        </ul>
+        <a href="{{ course.gumroad_cert }}" target="_blank" class="btn btn-primary" style="display:block;text-align:center">Enrol ${{ course.price_cert }}</a>
+      </div>
+    </div>
+    <p style="color:#8b949e;font-size:0.8rem">Already purchased? <a href="/login">Login</a> to access your course.</p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+lms.db
+certs/*.pdf
+venv/
+.env

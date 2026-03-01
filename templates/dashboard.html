@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}My Learning — South Consultants LMS{% endblock %}
+{% block content %}
+<div class="container">
+  <h1 style="margin-bottom:8px">👋 Welcome back, {{ session.student_name }}!</h1>
+  <p style="color:#8b949e;margin-bottom:32px">Your learning dashboard</p>
+  {% if enrolled_courses %}
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px">
+    {% for ec in enrolled_courses %}
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="font-size:1.8rem">{{ ec.course.thumbnail }}</span>
+        <span class="badge {{ 'badge-green' if ec.progress == 100 else 'badge-blue' }}">{{ ec.progress }}% complete</span>
+      </div>
+      <h3 style="margin-bottom:6px">{{ ec.course.title }}</h3>
+      <p style="color:#8b949e;font-size:0.8rem;margin-bottom:12px">{{ ec.enrollment.tier|upper }} · Enrolled {{ ec.enrollment.enrolled_at[:10] }}</p>
+      <div class="progress-bar" style="margin-bottom:16px"><div class="progress-fill" style="width:{{ ec.progress }}%"></div></div>
+      <div style="display:flex;gap:8px">
+        <a href="/course/{{ ec.course.id }}" class="btn btn-primary btn-sm" style="flex:1;text-align:center">
+          {{ "Review Course" if ec.progress == 100 else "Continue →" }}
+        </a>
+        {% if ec.cert %}
+        <a href="/certificate/{{ ec.course.id }}" class="btn btn-secondary btn-sm" style="flex:1;text-align:center">🏆 Certificate</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="card" style="text-align:center;padding:48px">
+    <div style="font-size:3rem;margin-bottom:16px">📚</div>
+    <h3 style="margin-bottom:8px">No courses yet</h3>
+    <p style="color:#8b949e;margin-bottom:24px">Browse our catalogue and start learning today.</p>
+    <a href="/" class="btn btn-primary">Browse Courses</a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

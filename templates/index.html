@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Courses — South Consultants LMS{% endblock %}
+{% block content %}
+<div style="background:linear-gradient(135deg,#0a0f17,#1a2535);padding:60px 24px;text-align:center;border-bottom:1px solid #30363d">
+  <h1 style="font-size:2.5rem;font-weight:800;margin-bottom:12px">Civil Construction Training</h1>
+  <p style="color:#8b949e;font-size:1.1rem;max-width:600px;margin:0 auto">Industry-recognised online training for NZ & Australian civil construction professionals. Learn at your own pace, earn certificates, stay compliant.</p>
+</div>
+<div class="container">
+  <h2 style="margin-bottom:24px;font-size:1.3rem">Available Courses</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px">
+    {% for course in courses %}
+    <div class="card" style="border-top:3px solid {{ course.color }};transition:transform 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
+      <div style="font-size:2.5rem;margin-bottom:12px">{{ course.thumbnail }}</div>
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+        <h3 style="font-size:1.1rem">{{ course.title }}</h3>
+        <span class="badge badge-orange">${{ course.price_intro }} NZD</span>
+      </div>
+      <p style="color:#8b949e;font-size:0.875rem;margin-bottom:16px;line-height:1.5">{{ course.description[:120] }}...</p>
+      <div style="display:flex;gap:12px;font-size:0.8rem;color:#8b949e;margin-bottom:16px">
+        <span>⏱ {{ course.duration }}</span>
+        <span>📚 {{ course.modules|length }} modules</span>
+        <span>🎯 {{ course.level }}</span>
+      </div>
+      {% if course.id in enrolled_ids %}
+        <a href="/course/{{ course.id }}" class="btn btn-primary" style="width:100%;text-align:center;display:block">Continue Learning →</a>
+      {% else %}
+        <div style="display:flex;gap:8px">
+          <a href="/course/{{ course.id }}" class="btn btn-secondary" style="flex:1;text-align:center">Preview</a>
+          <a href="{{ course.gumroad_intro }}" target="_blank" class="btn btn-primary" style="flex:1;text-align:center">Enrol ${{ course.price_intro }}</a>
+        </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

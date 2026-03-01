@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+{% block title %}{{ lesson.title }} — {{ course.title }}{% endblock %}
+{% block head %}
+<style>
+.lesson-layout { display:grid; grid-template-columns:280px 1fr; gap:0; min-height:calc(100vh - 60px); }
+.sidebar { background:#161b22; border-right:1px solid #30363d; padding:20px; overflow-y:auto; position:sticky; top:60px; height:calc(100vh - 60px); }
+.sidebar-module { margin-bottom:16px; }
+.sidebar-module-title { font-size:0.8rem; font-weight:700; color:#8b949e; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; }
+.sidebar-lesson { display:flex; align-items:center; gap:8px; padding:8px 10px; border-radius:8px; font-size:0.85rem; color:#8b949e; cursor:pointer; text-decoration:none; margin-bottom:2px; }
+.sidebar-lesson:hover { background:#21262d; color:#e6edf3; text-decoration:none; }
+.sidebar-lesson.active { background:#21262d; color:#f97316; }
+.sidebar-lesson.done { color:#22c55e; }
+.main-content { padding:40px; max-width:800px; }
+.lesson-content { line-height:1.8; font-size:1rem; }
+.lesson-content h1,.lesson-content h2,.lesson-content h3 { margin:24px 0 12px; color:#e6edf3; }
+.lesson-content p { margin-bottom:16px; color:#c9d1d9; }
+.lesson-content ul,.lesson-content ol { margin:0 0 16px 24px; color:#c9d1d9; }
+.lesson-content li { margin-bottom:6px; }
+.lesson-content strong { color:#e6edf3; }
+.lesson-content code { background:#21262d; padding:2px 6px; border-radius:4px; font-size:0.9em; color:#f97316; }
+.quiz-option { display:block; width:100%; text-align:left; padding:14px 16px; margin-bottom:10px; background:#21262d; border:2px solid #30363d; border-radius:8px; color:#e6edf3; cursor:pointer; font-size:0.95rem; transition:all 0.2s; }
+.quiz-option:hover { border-color:#58a6ff; }
+.quiz-option.correct { border-color:#22c55e; background:rgba(34,197,94,0.1); }
+.quiz-option.wrong { border-color:#ef4444; background:rgba(239,68,68,0.1); }
+.quiz-result { padding:20px; border-radius:10px; margin-top:20px; text-align:center; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="lesson-layout">
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <a href="/course/{{ course.id }}" style="color:#8b949e;font-size:0.8rem;display:block;margin-bottom:16px">← {{ course.title }}</a>
+    {% for mod in course.modules %}
+    <div class="sidebar-module">
+      <div class="sidebar-module-title">{{ mod.title }}</div>
+      {% for les in mod.lessons %}
+      {% set key = (mod.id, loop.index0) %}
+      <a href="/course/{{ course.id }}/lesson/{{ mod.id }}/{{ loop.index0 }}"
+         class="sidebar-lesson {% if mod.id == module.id and loop.index0 == lesson_idx %}active{% elif key in completed %}done{% endif %}">
+        {% if key in completed %}✅{% elif les.type == 'quiz' %}📝{% else %}📖{% endif %}
+        {{ les.title }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  <!-- MAIN -->
+  <div class="main-content">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <span style="color:#8b949e;font-size:0.8rem">Module {{ module.id }}: {{ module.title }}</span>
+      <span class="badge {{ 'badge-orange' if lesson.type == 'quiz' else 'badge-blue' }}">{{ 'Quiz' if lesson.type == 'quiz' else 'Lesson' }}</span>
+    </div>
+    <h1 style="font-size:1.8rem;margin-bottom:32px">{{ lesson.title }}</h1>
+    {% if lesson.type == 'lesson' %}
+    <div class="lesson-content" id="lessonContent">
+      {{ lesson.content | replace('\n', '<br>') | safe }}
+    </div>
+    <div style="margin-top:40px;display:flex;justify-content:space-between;align-items:center">
+      <span></span>
+      <button onclick="markComplete()" id="completeBtn" class="btn btn-primary">Mark Complete & Continue →</button>
+    </div>
+    {% elif lesson.type == 'quiz' %}
+    <div id="quizContainer">
+      <p style="color:#8b949e;margin-bottom:24px">Answer all questions to complete this module.</p>
+      {% for q in lesson.questions %}
+      <div style="margin-bottom:28px" data-question="{{ loop.index0 }}" data-answer="{{ q.answer }}">
+        <p style="font-weight:600;margin-bottom:12px">{{ loop.index }}. {{ q.q }}</p>
+        {% for opt in q.options %}
+        <button class="quiz-option" onclick="selectAnswer(this, {{ loop.index0 - 1 }}, {{ q.answer }}, {{ loop.parent.loop.index0 }})">
+          {{ opt }}
+        </button>
+        {% endfor %}
+      </div>
+      {% endfor %}
+      <div id="quizResult" style="display:none"></div>
+      <button onclick="submitQuiz()" id="submitBtn" class="btn btn-primary" style="margin-top:16px" disabled>Submit Quiz</button>
+    </div>
+    {% endif %}
+    {% if next_url %}
+    <div id="nextBtn" style="display:{% if (module.id, lesson_idx) in completed %}block{% else %}none{% endif %};margin-top:20px">
+      <a href="{{ next_url }}" class="btn btn-secondary">Next Lesson →</a>
+    </div>
+    {% endif %}
+  </div>
+</div>
+<script>
+const COURSE_ID = '{{ course.id }}';
+const MODULE_ID = {{ module.id }};
+const LESSON_IDX = {{ lesson_idx }};
+const TOTAL_Q = {{ lesson.questions | length if lesson.type == 'quiz' else 0 }};
+let answers = {};
+let answered = 0;
+
+function markComplete() {
+  fetch('/api/complete', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({course_id: COURSE_ID, module_id: MODULE_ID, lesson_idx: LESSON_IDX})
+  }).then(r => r.json()).then(d => {
+    document.getElementById('completeBtn').textContent = '✅ Completed!';
+    document.getElementById('completeBtn').disabled = true;
+    const nb = document.getElementById('nextBtn');
+    if (nb) nb.style.display = 'block';
+    if (d.cert_issued) {
+      alert('🏆 Congratulations! You have earned your certificate!');
+      window.location = '/certificate/' + COURSE_ID;
+    }
+  });
+}
+
+function selectAnswer(btn, optIdx, correct, qIdx) {
+  const qDiv = document.querySelectorAll('[data-question]')[qIdx];
+  const btns = qDiv.querySelectorAll('.quiz-option');
+  btns.forEach(b => b.disabled = true);
+  if (optIdx === correct) {
+    btn.classList.add('correct');
+    if (!answers[qIdx]) { answers[qIdx] = true; answered++; }
+  } else {
+    btn.classList.add('wrong');
+    btns[correct].classList.add('correct');
+    if (!answers[qIdx]) { answers[qIdx] = false; answered++; }
+  }
+  if (answered === TOTAL_Q) document.getElementById('submitBtn').disabled = false;
+}
+
+function submitQuiz() {
+  const correct = Object.values(answers).filter(Boolean).length;
+  const score = Math.round(correct / TOTAL_Q * 100);
+  const pass = score >= ({{ lesson.pass_mark if lesson.type == 'quiz' and lesson.pass_mark is defined else 70 }});
+  const resultDiv = document.getElementById('quizResult');
+  resultDiv.style.display = 'block';
+  resultDiv.className = 'quiz-result';
+  resultDiv.style.background = pass ? 'rgba(34,197,94,0.1)' : 'rgba(239,68,68,0.1)';
+  resultDiv.style.border = pass ? '1px solid rgba(34,197,94,0.3)' : '1px solid rgba(239,68,68,0.3)';
+  resultDiv.innerHTML = pass
+    ? `<div style="font-size:2rem">🎉</div><h3 style="color:#22c55e">Passed! ${score}%</h3><p style="color:#8b949e">${correct}/${TOTAL_Q} correct</p>`
+    : `<div style="font-size:2rem">📚</div><h3 style="color:#ef4444">Not quite — ${score}%</h3><p style="color:#8b949e">Review the lesson and try again. Need ${{{ lesson.pass_mark if lesson.type == 'quiz' and lesson.pass_mark is defined else 70 }}}% to pass.</p>`;
+  if (pass) {
+    document.getElementById('submitBtn').style.display = 'none';
+    fetch('/api/complete', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({course_id: COURSE_ID, module_id: MODULE_ID, lesson_idx: LESSON_IDX, score: score})
+    }).then(r => r.json()).then(d => {
+      const nb = document.getElementById('nextBtn');
+      if (nb) nb.style.display = 'block';
+      if (d.cert_issued) {
+        setTimeout(() => {
+          resultDiv.innerHTML += '<br><br><a href="/certificate/' + COURSE_ID + '" class="btn btn-primary">🏆 Get Your Certificate</a>';
+        }, 1000);
+      }
+    });
+  }
+}
+</script>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Admin — South Consultants LMS{% endblock %}
+{% block content %}
+<div class="container">
+  <h1 style="margin-bottom:32px">⚙️ Admin Dashboard</h1>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:32px">
+    <div class="card" style="text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#f97316">{{ students|length }}</div>
+      <div style="color:#8b949e">Students</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#58a6ff">{{ enrollments|length }}</div>
+      <div style="color:#8b949e">Enrollments</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:#22c55e">{{ certs|length }}</div>
+      <div style="color:#8b949e">Certificates</div>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:24px">
+    <h2 style="margin-bottom:16px">Manually Enrol Student</h2>
+    <form method="POST" action="/admin/enroll" style="display:flex;gap:12px;flex-wrap:wrap">
+      <input name="email" placeholder="student@email.com" required style="flex:1;min-width:200px;padding:10px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3">
+      <input name="name" placeholder="Full Name" style="flex:1;min-width:150px;padding:10px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3">
+      <select name="course_id" style="padding:10px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3">
+        <option value="compaction-101">Compaction 101</option>
+        <option value="nzci-flexi-excavator">NZCI Flexi Excavator</option>
+      </select>
+      <select name="tier" style="padding:10px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3">
+        <option value="intro">Intro</option>
+        <option value="cert">Certificate</option>
+        <option value="corporate">Corporate</option>
+      </select>
+      <button type="submit" class="btn btn-primary">Enrol</button>
+    </form>
+  </div>
+  <div class="card">
+    <h2 style="margin-bottom:16px">Recent Students</h2>
+    <table style="width:100%;border-collapse:collapse;font-size:0.875rem">
+      <thead><tr style="border-bottom:1px solid #30363d;color:#8b949e">
+        <th style="text-align:left;padding:8px">Name</th><th style="text-align:left;padding:8px">Email</th>
+        <th style="text-align:left;padding:8px">Joined</th><th style="text-align:left;padding:8px">Certs</th>
+      </tr></thead>
+      <tbody>
+      {% for s in students[:20] %}
+      <tr style="border-bottom:1px solid #21262d">
+        <td style="padding:8px">{{ s.name }}</td>
+        <td style="padding:8px;color:#8b949e">{{ s.email }}</td>
+        <td style="padding:8px;color:#8b949e">{{ s.created_at[:10] }}</td>
+        <td style="padding:8px">{{ certs | selectattr('student_id', 'equalto', s.id) | list | length }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

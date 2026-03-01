@@ -1,0 +1,317 @@
+{
+  "id": "compaction-101",
+  "title": "Compaction 101",
+  "subtitle": "Foundation Skills for Civil Construction",
+  "description": "Master the fundamentals of soil and aggregate compaction for civil construction. Covering equipment operation, testing methods, and compliance standards.",
+  "duration": "3-4 hours",
+  "level": "Beginner to Intermediate",
+  "price_intro": 97,
+  "price_cert": 497,
+  "gumroad_intro": "https://southconsultants.gumroad.com/l/compaction101",
+  "gumroad_cert": "https://southconsultants.gumroad.com/l/compaction101cert",
+  "thumbnail": "\ud83c\udfd7\ufe0f",
+  "color": "#f59e0b",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Compaction",
+      "duration": "25 min",
+      "lessons": [
+        {
+          "title": "What is Compaction?",
+          "type": "lesson",
+          "content": "Compaction is the process of mechanically increasing the density of soil by reducing air voids. Proper compaction is critical for pavement longevity, structural integrity, and preventing settlement.\n\n**Key Principles:**\n- Reducing air voids in soil matrix\n- Increasing dry density\n- Improving load-bearing capacity\n- Reducing permeability and settlement\n\n**Why It Matters:**\nPoor compaction is the #1 cause of premature pavement failure in New Zealand civil construction. A 1% difference in compaction can reduce pavement life by up to 30%."
+        },
+        {
+          "title": "Soil Types & Behaviour",
+          "type": "lesson",
+          "content": "Different soils behave differently under compaction. Understanding your material is essential before choosing equipment or methods.\n\n**Cohesive Soils (Clay):**\n- Require kneading/sheepsfoot roller\n- Sensitive to moisture content\n- Optimal moisture is critical\n\n**Granular Soils (Sand/Gravel):**\n- Respond to vibration\n- Less moisture sensitive\n- Vibratory rollers most effective\n\n**Mixed Soils:**\n- Combination approach required\n- Test strips recommended"
+        },
+        {
+          "title": "Module 1 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "What is the primary purpose of compaction?",
+              "options": [
+                "Reduce air voids and increase density",
+                "Add moisture to soil",
+                "Remove large rocks",
+                "Mix aggregate types"
+              ],
+              "answer": 0
+            },
+            {
+              "q": "Which roller type is best for cohesive/clay soils?",
+              "options": [
+                "Smooth drum vibratory",
+                "Pneumatic tyre",
+                "Sheepsfoot/padfoot",
+                "Plate compactor"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Poor compaction can reduce pavement life by up to:",
+              "options": [
+                "5%",
+                "15%",
+                "30%",
+                "50%"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Compaction Equipment",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "Roller Types & Selection",
+          "type": "lesson",
+          "content": "**Smooth Drum Vibratory Rollers:**\nMost common in NZ civil construction. Ideal for granular base course and asphalt. Frequency: 25-35 Hz. Amplitude: low for thin layers, high for thick.\n\n**Padfoot/Sheepsfoot Rollers:**\nFor cohesive soils and subgrade preparation. Kneading action densifies clay from bottom up. Required for embankment construction.\n\n**Pneumatic Tyre Rollers:**\nFor sealing and finishing. Creates kneading action across full width. Good for mixed materials.\n\n**Plate Compactors:**\nSmall areas, trenches, around structures. Forward and reversible types available."
+        },
+        {
+          "title": "Pre-Start Checks & Operation",
+          "type": "lesson",
+          "content": "**Pre-Start Checklist:**\n\u25a1 Fluid levels (oil, water, hydraulic)\n\u25a1 Tyre pressures (pneumatic rollers)\n\u25a1 Drum condition \u2014 no flat spots or damage\n\u25a1 Water spray system operational\n\u25a1 ROPS/FOPS certification current\n\u25a1 Daily pre-start form completed\n\n**Operating Principles:**\n- Overlap passes by 150-300mm\n- Consistent speed \u2014 3-5 km/h\n- Avoid sharp turns on fresh material\n- Work from edges to centre on roads\n- Count and record passes"
+        },
+        {
+          "title": "Module 2 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "What frequency range is typical for vibratory rollers?",
+              "options": [
+                "5-10 Hz",
+                "15-20 Hz",
+                "25-35 Hz",
+                "50-60 Hz"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "When working a road, you should compact from:",
+              "options": [
+                "Centre to edges",
+                "Edges to centre",
+                "Random pattern",
+                "One side only"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Overlap between roller passes should be:",
+              "options": [
+                "50mm",
+                "150-300mm",
+                "500mm",
+                "1 metre"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Testing & Compliance",
+      "duration": "40 min",
+      "lessons": [
+        {
+          "title": "NZ Compaction Standards",
+          "type": "lesson",
+          "content": "**NZTA & Local Authority Requirements:**\nAll compaction must meet NZ Transport Agency specifications. Key documents:\n- TNZ B/2 \u2014 Pavement Layers\n- TNZ F/1 \u2014 Field Density Testing\n- NZS 4402 \u2014 Soil Testing Methods\n\n**Minimum Compaction Requirements:**\n- Subgrade: 95% Standard Proctor (NZTA)\n- Subbase: 98% Modified Proctor\n- Basecourse: 98% Modified Proctor\n- Asphalt: 97% Marshall Density\n\n**Moisture Content Windows:**\nMaterial must be within \u00b12% of Optimum Moisture Content (OMC) for effective compaction."
+        },
+        {
+          "title": "Field Testing Methods",
+          "type": "lesson",
+          "content": "**Nuclear Density Gauge (NDG):**\nMost common NZ field test. Measures density and moisture in situ. Requires calibration and radiation safety training.\n\n**Sand Replacement (Sand Cone):**\nTraditional method. Highly accurate but time-consuming. Required for calibration checks.\n\n**Clegg Impact Hammer:**\nQuick field indicator. Not a substitute for density testing but useful for pattern testing.\n\n**Scala Penetrometer:**\nMeasures subgrade strength (CBR correlation). Required for pavement design verification.\n\n**Testing Frequency:**\n- Minimum 1 test per 500m\u00b2 per layer\n- More frequent in suspect areas\n- All failures require investigation and re-test"
+        },
+        {
+          "title": "Module 3 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Minimum compaction for basecourse (NZTA) is:",
+              "options": [
+                "90% Standard Proctor",
+                "95% Standard Proctor",
+                "98% Modified Proctor",
+                "100% Modified Proctor"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Moisture content must be within ___% of OMC:",
+              "options": [
+                "\u00b11%",
+                "\u00b12%",
+                "\u00b15%",
+                "\u00b110%"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Minimum testing frequency is 1 test per:",
+              "options": [
+                "100m\u00b2",
+                "250m\u00b2",
+                "500m\u00b2",
+                "1000m\u00b2"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Troubleshooting & Quality",
+      "duration": "30 min",
+      "lessons": [
+        {
+          "title": "Common Failures & Causes",
+          "type": "lesson",
+          "content": "**Rutting/Deformation:**\nCauses: Insufficient compaction, wet subgrade, overloading\nSolution: Remove and rework, improve drainage, reduce layer thickness\n\n**Cracking (Transverse):**\nCauses: Over-compaction of asphalt, temperature differential\nSolution: Adjust roller passes, monitor mat temperature\n\n**Shoving/Rippling:**\nCauses: Too many roller passes, unstable base, overloading\nSolution: Stop rolling, allow to cool/set, check base stability\n\n**Tender Mix (Asphalt):**\nCauses: High binder content, high temperature, over-vibration\nSolution: Reduce vibration, wait for mat to cool to 80\u00b0C"
+        },
+        {
+          "title": "Quality Assurance Records",
+          "type": "lesson",
+          "content": "**Required Documentation:**\n\u25a1 Pre-start inspection forms (daily)\n\u25a1 Material delivery dockets\n\u25a1 Layer thickness records\n\u25a1 Roller pass counts and patterns\n\u25a1 Field density test results\n\u25a1 Moisture content records\n\u25a1 Non-conformance reports\n\u25a1 ITP (Inspection & Test Plan) sign-offs\n\n**Digital Records:**\nPhotograph all test locations with GPS coordinates. Many NZ councils now require digital as-built records. Cloud backup all quality records immediately."
+        },
+        {
+          "title": "Module 4 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Shoving/rippling in asphalt is caused by:",
+              "options": [
+                "Too few roller passes",
+                "Cold temperature",
+                "Too many passes on unstable base",
+                "Wrong roller type"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Which document outlines your quality checkpoints?",
+              "options": [
+                "NDG calibration sheet",
+                "ITP (Inspection & Test Plan)",
+                "MSDS sheet",
+                "Pre-start form"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Final Assessment",
+      "duration": "20 min",
+      "lessons": [
+        {
+          "title": "Course Review",
+          "type": "lesson",
+          "content": "**Congratulations on completing Compaction 101!**\n\nYou have covered:\n\u2705 Compaction principles and soil types\n\u2705 Equipment selection and operation\n\u2705 NZ compliance standards (NZTA)\n\u2705 Field testing methods\n\u2705 Quality assurance and documentation\n\n**Next Steps:**\n- Complete the final assessment below\n- Download your certificate\n- Consider upgrading to Certificate level for hands-on assessment\n- Explore NZCI Flexi Excavator Awareness course"
+        },
+        {
+          "title": "Final Assessment",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "The #1 cause of premature pavement failure in NZ is:",
+              "options": [
+                "Wrong aggregate size",
+                "Poor compaction",
+                "Excessive rainfall",
+                "Heavy vehicles"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Subgrade minimum compaction requirement (NZTA) is:",
+              "options": [
+                "90% Standard Proctor",
+                "95% Standard Proctor",
+                "98% Modified Proctor",
+                "100% Modified Proctor"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Vibratory rollers work best on:",
+              "options": [
+                "Clay soils",
+                "Peat",
+                "Granular soils",
+                "Organic material"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Roller pass overlap should be:",
+              "options": [
+                "50mm",
+                "150-300mm",
+                "600mm",
+                "1m"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Temperature for asphalt compaction (stop rolling):",
+              "options": [
+                "120\u00b0C",
+                "100\u00b0C",
+                "80\u00b0C",
+                "60\u00b0C"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "NDG stands for:",
+              "options": [
+                "Normal Density Gauge",
+                "Nuclear Density Gauge",
+                "National Design Guide",
+                "Non-Destructive Grading"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Test frequency minimum is 1 per:",
+              "options": [
+                "100m\u00b2",
+                "500m\u00b2",
+                "1000m\u00b2",
+                "2000m\u00b2"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "OMC stands for:",
+              "options": [
+                "Optimum Material Compaction",
+                "Optimum Moisture Content",
+                "Overall Material Check",
+                "Operator Method Compliance"
+              ],
+              "answer": 1
+            }
+          ],
+          "pass_mark": 75
+        }
+      ]
+    }
+  ]
+}

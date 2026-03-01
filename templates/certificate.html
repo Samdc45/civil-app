@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Certificate — {{ course.title }}{% endblock %}
+{% block head %}
+<style>
+@media print { .no-print { display:none; } body { background:#fff; } }
+.cert-frame { background:linear-gradient(135deg,#0d1f3c,#1a3a5c); border:3px solid #f97316; border-radius:16px; padding:60px; text-align:center; max-width:800px; margin:0 auto; position:relative; overflow:hidden; }
+.cert-frame::before { content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(ellipse,rgba(249,115,22,0.05) 0%,transparent 60%); pointer-events:none; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="no-print" style="margin-bottom:24px;display:flex;gap:12px">
+    <button onclick="window.print()" class="btn btn-primary">🖨️ Print / Save PDF</button>
+    <a href="/dashboard" class="btn btn-secondary">← My Dashboard</a>
+  </div>
+  <div class="cert-frame">
+    <div style="font-size:3rem;margin-bottom:16px">🏆</div>
+    <p style="color:#f97316;font-size:0.9rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px">Certificate of Completion</p>
+    <h1 style="font-size:2rem;margin-bottom:8px;color:#fff">South Consultants NZ</h1>
+    <div style="width:60px;height:2px;background:#f97316;margin:16px auto"></div>
+    <p style="color:#8b949e;margin-bottom:8px">This certifies that</p>
+    <h2 style="font-size:2.5rem;font-weight:800;color:#fff;margin-bottom:8px">{{ student_name }}</h2>
+    <p style="color:#8b949e;margin-bottom:8px">has successfully completed</p>
+    <h3 style="font-size:1.5rem;color:#f97316;margin-bottom:24px">{{ course.title }}</h3>
+    <p style="color:#8b949e;margin-bottom:24px">{{ course.subtitle }}</p>
+    {% if cert.score %}<p style="color:#22c55e;font-size:1.1rem;margin-bottom:24px">Final Score: {{ cert.score }}%</p>{% endif %}
+    <div style="width:60px;height:2px;background:#f97316;margin:16px auto 24px"></div>
+    <div style="display:flex;justify-content:space-around;flex-wrap:wrap;gap:16px">
+      <div>
+        <p style="color:#8b949e;font-size:0.75rem;text-transform:uppercase;letter-spacing:1px">Issue Date</p>
+        <p style="color:#fff;font-weight:600">{{ issued_at }}</p>
+      </div>
+      <div>
+        <p style="color:#8b949e;font-size:0.75rem;text-transform:uppercase;letter-spacing:1px">Certificate Code</p>
+        <p style="color:#f97316;font-weight:700;font-size:1.1rem">{{ cert.cert_code }}</p>
+      </div>
+      <div>
+        <p style="color:#8b949e;font-size:0.75rem;text-transform:uppercase;letter-spacing:1px">Issued By</p>
+        <p style="color:#fff;font-weight:600">South Consultants NZ</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

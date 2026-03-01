@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}{{ course.title }} — South Consultants LMS{% endblock %}
+{% block content %}
+<div class="container">
+  <a href="/" style="color:#8b949e;font-size:0.875rem">← All Courses</a>
+  <div style="display:grid;grid-template-columns:2fr 1fr;gap:32px;margin-top:24px">
+    <div>
+      <div style="font-size:3rem;margin-bottom:12px">{{ course.thumbnail }}</div>
+      <h1 style="font-size:2rem;margin-bottom:8px">{{ course.title }}</h1>
+      <p style="color:#8b949e;margin-bottom:24px">{{ course.subtitle }}</p>
+      <p style="line-height:1.7;margin-bottom:32px">{{ course.description }}</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:32px">
+        <span class="badge badge-orange">⏱ {{ course.duration }}</span>
+        <span class="badge badge-blue">📚 {{ course.modules|length }} modules</span>
+        <span class="badge badge-green">🎯 {{ course.level }}</span>
+      </div>
+      <h2 style="font-size:1.2rem;margin-bottom:16px">Course Content</h2>
+      {% for module in course.modules %}
+      <div class="card" style="margin-bottom:12px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <h3 style="font-size:1rem">Module {{ module.id }}: {{ module.title }}</h3>
+          <span style="color:#8b949e;font-size:0.8rem">{{ module.duration }}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          {% for lesson in module.lessons %}
+          {% set key = (module.id, loop.index0) %}
+          <div style="display:flex;align-items:center;gap:6px;padding:4px 10px;background:#0d1117;border-radius:6px;font-size:0.8rem">
+            {% if key in completed %}
+              <span style="color:#22c55e">✅</span>
+            {% elif lesson.type == 'quiz' %}
+              <span>📝</span>
+            {% else %}
+              <span>📖</span>
+            {% endif %}
+            {% if key in completed or (module.id == course.modules[0].id and loop.index0 == 0) %}
+              <a href="/course/{{ course.id }}/lesson/{{ module.id }}/{{ loop.index0 }}">{{ lesson.title }}</a>
+            {% else %}
+              <span style="color:#8b949e">{{ lesson.title }}</span>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div>
+      <div class="card" style="position:sticky;top:80px">
+        <div style="text-align:center;margin-bottom:20px">
+          <div class="progress-bar" style="margin-bottom:8px"><div class="progress-fill" style="width:{{ progress }}%"></div></div>
+          <span style="font-size:0.875rem;color:#8b949e">{{ progress }}% complete</span>
+        </div>
+        {% if cert %}
+        <div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);border-radius:8px;padding:16px;text-align:center;margin-bottom:16px">
+          <div style="font-size:1.5rem;margin-bottom:6px">🏆</div>
+          <p style="color:#22c55e;font-weight:600;font-size:0.9rem">Certificate Earned!</p>
+          <p style="color:#8b949e;font-size:0.8rem">Code: {{ cert.cert_code }}</p>
+        </div>
+        <a href="/certificate/{{ course.id }}" class="btn btn-primary" style="width:100%;text-align:center;display:block;margin-bottom:8px">View Certificate</a>
+        {% endif %}
+        <a href="/course/{{ course.id }}/lesson/{{ course.modules[0].id }}/0" class="btn {{ 'btn-secondary' if cert else 'btn-primary' }}" style="width:100%;text-align:center;display:block">
+          {{ "Review from Start" if progress == 100 else ("Continue Learning →" if progress > 0 else "Start Course →") }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ "Register" if mode == 'register' else "Login" }} — South Consultants LMS{% endblock %}
+{% block content %}
+<div style="max-width:420px;margin:60px auto;padding:0 24px">
+  <div class="card">
+    <h2 style="margin-bottom:24px;text-align:center">{{ "Create Account" if mode == 'register' else "Welcome Back" }}</h2>
+    {% if error %}<alert class="alert-error">{{ error }}</alert>{% endif %}
+    <form method="POST">
+      {% if mode == 'register' %}
+      <div style="margin-bottom:16px">
+        <label style="display:block;margin-bottom:6px;font-size:0.875rem;color:#8b949e">Full Name</label>
+        <input type="text" name="name" required style="width:100%;padding:10px 12px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3;font-size:0.9rem">
+      </div>
+      {% endif %}
+      <div style="margin-bottom:16px">
+        <label style="display:block;margin-bottom:6px;font-size:0.875rem;color:#8b949e">Email</label>
+        <input type="email" name="email" required style="width:100%;padding:10px 12px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3;font-size:0.9rem">
+      </div>
+      <div style="margin-bottom:24px">
+        <label style="display:block;margin-bottom:6px;font-size:0.875rem;color:#8b949e">Password</label>
+        <input type="password" name="password" required style="width:100%;padding:10px 12px;background:#0d1117;border:1px solid #30363d;border-radius:8px;color:#e6edf3;font-size:0.9rem">
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%">{{ "Create Account" if mode == 'register' else "Login" }}</button>
+    </form>
+    <p style="text-align:center;margin-top:16px;font-size:0.875rem;color:#8b949e">
+      {% if mode == 'register' %}Already have an account? <a href="/login">Login</a>
+      {% else %}New here? <a href="/register">Create account</a>{% endif %}
+    </p>
+  </div>
+</div>
+{% endblock %}
