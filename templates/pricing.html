@@ -1,0 +1,523 @@
+
+{% extends "base.html" %}
+{% block title %}Pricing — Civil App{% endblock %}
+{% block content %}
+
+<style>
+.pricing-hero {
+  background: linear-gradient(135deg, #0f2640 0%, #1a3a5c 100%);
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.pricing-hero h1 { color: #fff; font-size: 2.4rem; margin: 0 0 10px; }
+.pricing-hero p { color: #7eb8f7; font-size: 1.1rem; margin: 0; }
+
+.pricing-toggle {
+  background: #111;
+  padding: 24px 20px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+.toggle-btn {
+  background: #1a1a1a;
+  border: 2px solid #333;
+  color: #aaa;
+  padding: 10px 28px;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.toggle-btn.active {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #000;
+  font-weight: 700;
+}
+
+.pricing-section { padding: 50px 20px; background: #0d0d0d; }
+.section-label {
+  text-align: center;
+  color: #f59e0b;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.section-title {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 0 0 40px;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.plan-card {
+  background: #1a1a1a;
+  border: 2px solid #2a2a2a;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s;
+}
+.plan-card:hover { transform: translateY(-4px); }
+.plan-card.featured {
+  border-color: #f59e0b;
+  box-shadow: 0 0 30px rgba(245,158,11,0.15);
+}
+
+.popular-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #f59e0b;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.plan-header {
+  padding: 28px 24px 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+.plan-icon { font-size: 2rem; margin-bottom: 12px; }
+.plan-name { color: #fff; font-size: 1.2rem; font-weight: 700; margin: 0 0 6px; }
+.plan-desc { color: #888; font-size: 13px; margin: 0; }
+
+.plan-price {
+  padding: 20px 24px;
+  border-bottom: 1px solid #2a2a2a;
+}
+.price-amount { color: #fff; font-size: 2.4rem; font-weight: 800; }
+.price-currency { color: #aaa; font-size: 1rem; vertical-align: top; margin-top: 8px; display: inline-block; }
+.price-period { color: #888; font-size: 13px; margin: 4px 0 0; }
+.price-save { color: #10b981; font-size: 12px; margin: 4px 0 0; }
+
+.plan-features {
+  padding: 20px 24px;
+  list-style: none;
+  margin: 0;
+}
+.plan-features li {
+  color: #ccc;
+  font-size: 14px;
+  padding: 6px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.plan-features li .check { color: #10b981; flex-shrink: 0; }
+.plan-features li .cross { color: #ef4444; flex-shrink: 0; }
+
+.plan-cta {
+  padding: 16px 24px 24px;
+}
+.plan-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+.plan-btn:hover { opacity: 0.85; }
+.btn-primary { background: #f59e0b; color: #000; }
+.btn-secondary { background: #2a2a2a; color: #fff; }
+.btn-outline { background: transparent; color: #f59e0b; border: 2px solid #f59e0b; }
+
+.divider {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 0;
+}
+
+.courses-section {
+  padding: 60px 20px;
+  background: #111;
+}
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.course-price-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #2a2a2a;
+}
+.course-flag {
+  background: #2a2a2a;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.course-flag-emoji { font-size: 1.4rem; }
+.course-flag-name { color: #fff; font-weight: 700; font-size: 15px; }
+.course-flag-country { color: #888; font-size: 12px; }
+.course-options {
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.course-option {
+  background: #0d0d0d;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #2a2a2a;
+}
+.option-label { color: #888; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 6px; }
+.option-price { color: #fff; font-size: 1.4rem; font-weight: 800; margin: 0 0 4px; }
+.option-price span { color: #aaa; font-size: 12px; font-weight: 400; }
+.option-includes { color: #10b981; font-size: 11px; margin: 0; }
+.option-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 8px;
+  background: #f59e0b;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+.option-btn.outline {
+  background: transparent;
+  border: 1px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.faq-section {
+  padding: 60px 20px;
+  background: #0d0d0d;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.faq-item {
+  border-bottom: 1px solid #1a1a1a;
+  padding: 20px 0;
+}
+.faq-q { color: #fff; font-size: 16px; font-weight: 600; margin: 0 0 10px; }
+.faq-a { color: #aaa; font-size: 14px; line-height: 1.7; margin: 0; }
+
+.guarantee {
+  background: #1a2a1a;
+  border: 1px solid #2d5a27;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+.guarantee h3 { color: #4ade80; margin: 0 0 8px; }
+.guarantee p { color: #aaa; font-size: 14px; margin: 0; }
+</style>
+
+<!-- Hero -->
+<div class="pricing-hero">
+  <p style="color:#f59e0b;font-size:12px;text-transform:uppercase;letter-spacing:2px;margin-bottom:12px;">Transparent Pricing</p>
+  <h1>Simple Pricing for Every Site</h1>
+  <p>Individual courses or full company subscriptions — no lock-in, cancel anytime</p>
+</div>
+
+<!-- Toggle -->
+<div class="pricing-toggle">
+  <button class="toggle-btn active" onclick="showSection('individual')" id="btn-individual">Individual / Course</button>
+  &nbsp;
+  <button class="toggle-btn" onclick="showSection('company')" id="btn-company">Company / Team</button>
+</div>
+
+<!-- Individual Courses -->
+<div id="section-individual">
+  <div class="pricing-section">
+    <p class="section-label">Individual Access</p>
+    <h2 class="section-title">Pay Per Course</h2>
+    <div class="plans-grid">
+
+      <!-- Entry -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <div class="plan-icon">📖</div>
+          <div class="plan-name">Entry Level</div>
+          <div class="plan-desc">Core knowledge, quiz, and completion record</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">97</span>
+          <div class="price-period">per course — one-time</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Full course access (lifetime)</li>
+          <li><span class="check">✓</span> Interactive quizzes</li>
+          <li><span class="check">✓</span> Progress tracking</li>
+          <li><span class="check">✓</span> Completion record</li>
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+          <li><span class="cross">✗</span> PDF Certificate</li>
+          <li><span class="cross">✗</span> Verified credential</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="/courses" class="plan-btn btn-secondary">Browse Courses</a>
+        </div>
+      </div>
+
+      <!-- Certificate - FEATURED -->
+      <div class="plan-card featured">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-header">
+          <div class="plan-icon">🏆</div>
+          <div class="plan-name">Certificate</div>
+          <div class="plan-desc">Full course + verified PDF certificate for compliance</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">197</span>
+          <div class="price-period">per course — one-time</div>
+          <div class="price-save">✓ Accepted for HSWA/WHS compliance records</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Full course access (lifetime)</li>
+          <li><span class="check">✓</span> Interactive quizzes</li>
+          <li><span class="check">✓</span> Progress tracking</li>
+          <li><span class="check">✓</span> Completion record</li>
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+          <li><span class="check">✓</span> <strong style="color:#fff;">PDF Certificate with unique code</strong></li>
+          <li><span class="check">✓</span> <strong style="color:#fff;">Verifiable credential link</strong></li>
+        </ul>
+        <div class="plan-cta">
+          <a href="/courses" class="plan-btn btn-primary">Get Certificate</a>
+        </div>
+      </div>
+
+      <!-- NZ Bundle -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <div class="plan-icon">🇳🇿</div>
+          <div class="plan-name">NZ Bundle</div>
+          <div class="plan-desc">All 4 NZ courses including certificates</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">397</span>
+          <div class="price-period">all NZ courses — one-time</div>
+          <div class="price-save">✓ Save $391 vs individual certificate pricing</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> NZ Site Safety Induction</li>
+          <li><span class="check">✓</span> NZCI Flexi Excavator</li>
+          <li><span class="check">✓</span> Compaction 101</li>
+          <li><span class="check">✓</span> Daily Safety Records</li>
+          <li><span class="check">✓</span> Certificate for every course</li>
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="/courses" class="plan-btn btn-outline">Get NZ Bundle</a>
+        </div>
+      </div>
+
+      <!-- Global Bundle -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <div class="plan-icon">🌏</div>
+          <div class="plan-name">Global Bundle</div>
+          <div class="plan-desc">All 8 courses across 5 countries + certificates</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">697</span>
+          <div class="price-period">all 8 courses — one-time</div>
+          <div class="price-save">✓ Save $879 vs individual certificate pricing</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> All 8 courses (104 lessons)</li>
+          <li><span class="check">✓</span> NZ, AU, CA, US + Global</li>
+          <li><span class="check">✓</span> Certificate for every course</li>
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+          <li><span class="check">✓</span> Lifetime access</li>
+          <li><span class="check">✓</span> All future course updates</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="/courses" class="plan-btn btn-secondary">Get Global Bundle</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Company Plans -->
+<div id="section-company" style="display:none;">
+  <div class="pricing-section">
+    <p class="section-label">Company Access</p>
+    <h2 class="section-title">Team & Company Plans</h2>
+    <div class="plans-grid">
+
+      <!-- Solo -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <div class="plan-icon">👤</div>
+          <div class="plan-name">Solo Contractor</div>
+          <div class="plan-desc">You and your tools. Free with any course.</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-amount" style="color:#10b981;">FREE</span>
+          <div class="price-period">included with any course purchase</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+          <li><span class="check">✓</span> PDF record export</li>
+          <li><span class="check">✓</span> 18 discussion cards</li>
+          <li><span class="check">✓</span> Personal record history</li>
+          <li><span class="cross">✗</span> Team management</li>
+          <li><span class="cross">✗</span> Company branding</li>
+          <li><span class="cross">✗</span> Admin dashboard</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="/courses" class="plan-btn btn-secondary">Buy Any Course</a>
+        </div>
+      </div>
+
+      <!-- Small Team - FEATURED -->
+      <div class="plan-card featured">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-header">
+          <div class="plan-icon">👷</div>
+          <div class="plan-name">Small Team</div>
+          <div class="plan-desc">2–10 staff. Everything your crew needs.</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">49</span>
+          <div class="price-period">/month — up to 10 staff</div>
+          <div class="price-save">✓ All courses included for every team member</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> All 8 courses for every staff member</li>
+          <li><span class="check">✓</span> Certificates for all</li>
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+          <li><span class="check">✓</span> Team completion dashboard</li>
+          <li><span class="check">✓</span> Centralised record history</li>
+          <li><span class="check">✓</span> Email compliance reports</li>
+          <li><span class="cross">✗</span> Custom branding</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="mailto:civilbesafe@gmail.com?subject=Small Team Plan — Civil App" class="plan-btn btn-primary">Get Started</a>
+        </div>
+      </div>
+
+      <!-- Site Company -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <div class="plan-icon">🏗️</div>
+          <div class="plan-name">Site / Company</div>
+          <div class="plan-desc">11–50 staff. Add your brand to every certificate.</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">149</span>
+          <div class="price-period">/month — up to 50 staff</div>
+          <div class="price-save">✓ Custom branded certificates with your logo</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Everything in Small Team</li>
+          <li><span class="check">✓</span> Custom logo on certificates</li>
+          <li><span class="check">✓</span> Company name on all records</li>
+          <li><span class="check">✓</span> Bulk enrolment management</li>
+          <li><span class="check">✓</span> Audit-ready export (CSV/PDF)</li>
+          <li><span class="check">✓</span> Priority email support</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="mailto:civilbesafe@gmail.com?subject=Site Company Plan — Civil App" class="plan-btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+
+      <!-- Enterprise -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <div class="plan-icon">🌐</div>
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-desc">50+ staff. Custom courses. Dedicated support.</div>
+        </div>
+        <div class="plan-price">
+          <span class="price-currency">NZD $</span><span class="price-amount">299</span>
+          <div class="price-period">/month — unlimited staff</div>
+          <div class="price-save">✓ Custom courses built for your operation</div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Everything in Site / Company</li>
+          <li><span class="check">✓</span> Unlimited staff accounts</li>
+          <li><span class="check">✓</span> Custom course development</li>
+          <li><span class="check">✓</span> Full white-label branding</li>
+          <li><span class="check">✓</span> Dedicated account manager</li>
+          <li><span class="check">✓</span> SLA support response</li>
+          <li><span class="check">✓</span> API access for your HRIS</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="mailto:civilbesafe@gmail.com?subject=Enterprise Plan — Civil App" class="plan-btn btn-secondary">Talk to Sam</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div style="padding: 60px 20px; background: #111;">
+  <div class="faq-section" style="padding:0;">
+    <p class="section-label" style="text-align:center;">Common Questions</p>
+    <h2 class="section-title">FAQ</h2>
+
+    <div class="faq-item">
+      <p class="faq-q">Are certificates accepted for HSWA compliance in NZ?</p>
+      <p class="faq-a">Yes. Civil App certificates include a unique verification code, completion date, and course details. They are designed to meet evidence requirements under HSWA 2015 and WHS Act 2011 for worker training records.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Can I access courses from my phone on site?</p>
+      <p class="faq-a">Yes. Civil App is fully mobile-responsive. Complete lessons, run your daily safety record, and download your certificate from any device — phone, tablet, or desktop.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">How long do I have access after purchasing?</p>
+      <p class="faq-a">Lifetime access. Once you purchase a course, it's yours forever — including any future content updates to that course.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Can I upgrade from individual to a company plan?</p>
+      <p class="faq-a">Yes. Email civilbesafe@gmail.com with your current account email and we'll transfer your access and apply a credit for any recent course purchases.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Is the Daily Safety Record tool available for free?</p>
+      <p class="faq-a">Yes — it's included free with any individual course purchase. Solo contractors can run unlimited daily pre-start meetings and download PDF records at no extra cost.</p>
+    </div>
+
+    <div class="guarantee">
+      <h3>✅ 14-Day Guarantee</h3>
+      <p>Not what you expected? Email us within 14 days of purchase for a full refund. No questions, no forms, no drama. We build for operators — if it doesn't work for you, we want to know why.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function showSection(section) {
+  document.getElementById('section-individual').style.display = section === 'individual' ? 'block' : 'none';
+  document.getElementById('section-company').style.display = section === 'company' ? 'block' : 'none';
+  document.getElementById('btn-individual').className = 'toggle-btn' + (section === 'individual' ? ' active' : '');
+  document.getElementById('btn-company').className = 'toggle-btn' + (section === 'company' ? ' active' : '');
+}
+</script>
+
+{% endblock %}

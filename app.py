@@ -581,6 +581,11 @@ def daily_record_history():
     db.close()
     cards = load_discussion_cards()
     return render_template('record_history.html', records=records, discussion_cards=cards)
+
+@app.route('/pricing')
+def pricing():
+    return render_template('pricing.html')
+
 if __name__ == '__main__':
     init_db()
     app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5001)))
