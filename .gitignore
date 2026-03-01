@@ -5,3 +5,4 @@ certs/*.pdf
 venv/
 .env
 lms.db
+*.bak

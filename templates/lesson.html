@@ -63,10 +63,11 @@
     <div id="quizContainer">
       <p style="color:#8b949e;margin-bottom:24px">Answer all questions to complete this module.</p>
       {% for q in lesson.questions %}
-      <div style="margin-bottom:28px" data-question="{{ loop.index0 }}" data-answer="{{ q.answer }}">
+      {% set q_idx = loop.index0 %}
+      <div style="margin-bottom:28px" data-question="{{ q_idx }}" data-answer="{{ q.answer }}">
         <p style="font-weight:600;margin-bottom:12px">{{ loop.index }}. {{ q.q }}</p>
         {% for opt in q.options %}
-        <button class="quiz-option" onclick="selectAnswer(this, {{ loop.index0 - 1 }}, {{ q.answer }}, {{ loop.parent.loop.index0 }})">
+        <button class="quiz-option" onclick="selectAnswer(this, {{ loop.index0 }}, {{ q.answer }}, {{ q_idx }})">
           {{ opt }}
         </button>
         {% endfor %}
@@ -134,7 +135,7 @@ function submitQuiz() {
   resultDiv.style.border = pass ? '1px solid rgba(34,197,94,0.3)' : '1px solid rgba(239,68,68,0.3)';
   resultDiv.innerHTML = pass
     ? `<div style="font-size:2rem">🎉</div><h3 style="color:#22c55e">Passed! ${score}%</h3><p style="color:#8b949e">${correct}/${TOTAL_Q} correct</p>`
-    : `<div style="font-size:2rem">📚</div><h3 style="color:#ef4444">Not quite — ${score}%</h3><p style="color:#8b949e">Review the lesson and try again. Need ${{{ lesson.pass_mark if lesson.type == 'quiz' and lesson.pass_mark is defined else 70 }}}% to pass.</p>`;
+    : `<div style="font-size:2rem">📚</div><h3 style="color:#ef4444">Not quite — ${score}%</h3><p style="color:#8b949e">Review the lesson and try again. Need {{ lesson.pass_mark if lesson.type == 'quiz' and lesson.pass_mark is defined else 70 }}% to pass.</p>`;
   if (pass) {
     document.getElementById('submitBtn').style.display = 'none';
     fetch('/api/complete', {

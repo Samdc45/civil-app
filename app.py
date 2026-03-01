@@ -18,6 +18,7 @@ COURSES_DIR = os.path.join(os.path.dirname(__file__), 'courses')
 def get_db():
     db = sqlite3.connect(DB)
     db.row_factory = sqlite3.Row
+    db.execute('PRAGMA journal_mode=WAL')
     return db
 
 def init_db():
@@ -105,6 +106,8 @@ def load_courses():
         if f.endswith('.json'):
             with open(os.path.join(COURSES_DIR, f)) as fh:
                 c = json.load(fh)
+            if not isinstance(c, dict):
+                continue  # skip non-course files (e.g. discussion_cards list)
             c['flag_emoji'] = FLAG_EMOJI.get(c.get('flag',''), '🏳')
             c.setdefault('thumbnail', '🏗')
             c.setdefault('gumroad_intro', '#')
