@@ -24,6 +24,29 @@
       <div style="color:#fff;font-size:0.85rem">Job Opportunities</div>
     </div>
   </div>
+
+  <!-- Beta spots counter -->
+  {% if beta_full %}
+  <div style="background:#3d1a1a;border:2px solid #f85149;border-radius:12px;padding:20px;max-width:500px;margin:20px auto;text-align:center">
+    <div style="font-size:2rem">🔒</div>
+    <h3 style="color:#f85149;margin:5px 0">Beta is Full — 500/500 Spots Taken</h3>
+    <p style="color:#c9d1d9;margin:5px 0">Email <a href="mailto:civilbesafe@gmail.com" style="color:#58a6ff">civilbesafe@gmail.com</a> to join the waitlist.</p>
+  </div>
+  {% else %}
+  <div style="max-width:500px;margin:20px auto">
+    {% set pct = ((cv_limit - spots_left) / cv_limit * 100)|int %}
+    {% if spots_left < 100 %}
+    <div style="background:#3d1a00;border:1px solid #f0883e;border-radius:8px;padding:8px 15px;margin-bottom:8px;font-size:0.9rem;color:#f0883e">⚡ Only {{ spots_left }} free spots remaining!</div>
+    {% endif %}
+    <div style="background:rgba(0,0,0,0.3);border-radius:20px;padding:4px;">
+      <div style="background:linear-gradient(90deg,#ffd700,#f0883e);border-radius:20px;height:12px;width:{{ pct }}%;min-width:4px;transition:width 0.5s"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:6px">
+      <span style="color:rgba(255,255,255,0.8);font-size:0.85rem">🇵🇭 {{ cv_count or 0 }} Filipinos already joined</span>
+      <span style="color:#ffd700;font-size:0.85rem;font-weight:700">{{ spots_left }} of {{ cv_limit }} spots free</span>
+    </div>
+  </div>
+  {% endif %}
 </div>
 
 <div style="max-width:900px;margin:40px auto;padding:0 20px;display:grid;grid-template-columns:1fr 1fr;gap:30px">

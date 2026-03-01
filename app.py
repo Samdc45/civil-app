@@ -8,6 +8,7 @@ from flask import (
 )
 
 app = Flask(__name__)
+CV_BETA_LIMIT = 500  # Free Philippines beta spots
 app.secret_key = os.environ.get('SECRET_KEY', 'civilapp-2026')
 DB = os.path.join(os.path.dirname(__file__), 'lms.db')
 COURSES_DIR = os.path.join(os.path.dirname(__file__), 'courses')
@@ -615,7 +616,15 @@ def pricing():
 @app.route('/philippines')
 @app.route('/ph-beta')
 def ph_landing():
-    return render_template('ph_landing.html')
+    db = get_db()
+    cv_count = db.execute('SELECT COUNT(*) FROM cv_applications').fetchone()[0]
+    spots_left = max(0, CV_BETA_LIMIT - cv_count)
+    beta_full = spots_left == 0
+    return render_template('ph_landing.html',
+                           cv_count=cv_count,
+                           spots_left=spots_left,
+                           beta_full=beta_full,
+                           cv_limit=CV_BETA_LIMIT)
 
 
 @app.route('/ph-register', methods=['GET', 'POST'])
@@ -637,6 +646,11 @@ def ph_register():
         if cv_file and cv_file.filename:
             cv_filename = cv_file.filename
             cv_data = cv_file.read()
+        # Check beta limit
+        cv_count = db.execute('SELECT COUNT(*) FROM cv_applications').fetchone()[0]
+        if cv_count >= CV_BETA_LIMIT:
+            return render_template('ph_landing.html', error='Sorry, the 500 free beta spots are full! Email civilbesafe@gmail.com to join the waitlist.', beta_full=True, spots_left=0, cv_count=CV_BETA_LIMIT, cv_limit=CV_BETA_LIMIT)
+
         if not full_name or not email or not password:
             return render_template('ph_landing.html', error='Please fill in all required fields.')
         db = get_db()
