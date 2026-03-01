@@ -1,0 +1,370 @@
+{
+  "id": "ca-entry-level",
+  "title": "CA: Civil Construction Induction",
+  "subtitle": "Entry-Level Safety and Compliance — Canada",
+  "description": "Essential knowledge for civil construction workers in Canada. Covers provincial OHS legislation, WHMIS 2015, Red Seal program, TAC standards, and key safety requirements for BC, Ontario, and Alberta.",
+  "duration": "3-4 hours",
+  "level": "Entry Level",
+  "country": "CA",
+  "flag": "CA",
+  "color": "#dc2626",
+  "price_intro": 97,
+  "price_cert": 297,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Canadian OHS Legal Framework",
+      "duration": "40 min",
+      "lessons": [
+        {
+          "title": "How OHS Works in Canada",
+          "type": "lesson",
+          "content": "**Canada Has No Single National Construction Safety Law**\nUnlike Australia or New Zealand, Canada's occupational health and safety legislation is primarily provincial. Each province has its own OHS Act.\n\n**Federal vs Provincial Jurisdiction:**\n- Federal Canada Labour Code Part II covers federally regulated workers (airports, rail, banks, telecoms) — less than 10% of workers\n- Provincial/territorial legislation covers the vast majority of civil construction workers\n\n**Key Provincial Acts:**\n- British Columbia: Workers Compensation Act + OHS Regulation (WorkSafeBC)\n- Ontario: Occupational Health and Safety Act (OHSA) + O. Reg. 213/91 (Construction)\n- Alberta: Occupational Health and Safety Act 2017 + OHS Code 2025\n\n**Universal Principle — Internal Responsibility System (IRS):**\nAll Canadian jurisdictions operate under the IRS principle — everyone in the workplace shares responsibility for safety. Workers have the right to:\n1. Know about workplace hazards\n2. Participate in health and safety\n3. Refuse unsafe work"
+        },
+        {
+          "title": "Worker Rights — Refuse Unsafe Work",
+          "type": "lesson",
+          "content": "**The Right to Refuse Unsafe Work — All Provinces**\n\nEvery Canadian worker has the legal right to refuse work they believe poses an unusual danger to themselves or others.\n\n**Refusal Process (Ontario Example — OHSA s.43):**\n1. Worker refuses — reports to supervisor\n2. Supervisor investigates with worker present\n3. If not resolved — Ministry of Labour inspector called\n4. Inspector investigates and makes written decision\n5. Worker may continue to refuse until investigation complete\n\n**Key Rule — No Reprisals:**\nIt is illegal for an employer to discipline, penalise or threaten a worker for refusing unsafe work.\n\n**Joint Health and Safety Committees (JHSC):**\nRequired on most construction projects with 20+ workers. Must have:\n- Equal employer and worker representation\n- At least one certified member each side\n- Monthly meetings on projects over 3 months\n- Written recommendations to management"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "In Canada, construction safety is primarily regulated by:",
+              "options": [
+                "Federal government only",
+                "Provincial/territorial governments",
+                "A single national OHS Act",
+                "The Canada Labour Code for all workers"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The Internal Responsibility System means:",
+              "options": [
+                "Only the employer is responsible for safety",
+                "Only supervisors have safety duties",
+                "Everyone in the workplace shares safety responsibility",
+                "Workers are responsible only for their own area"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Canadian workers have the legal right to:",
+              "options": [
+                "Choose their own PPE",
+                "Refuse unsafe work without reprisal",
+                "Set their own working hours",
+                "Select their own supervisor"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A Joint Health and Safety Committee is generally required when a project has:",
+              "options": [
+                "5 or more workers",
+                "10 or more workers",
+                "20 or more workers",
+                "50 or more workers"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "WHMIS and Hazardous Materials",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "WHMIS 2015 — Workplace Hazardous Materials",
+          "type": "lesson",
+          "content": "**WHMIS 2015 is Mandatory Training for ALL Canadian Workers**\n\nWHMIS (Workplace Hazardous Materials Information System) 2015 is Canada's national hazard communication standard, aligned with the international Globally Harmonized System (GHS).\n\n**Two Types of Hazardous Products:**\n1. Physical hazards (flammable, explosive, oxidising, compressed gas)\n2. Health hazards (toxic, corrosive, carcinogenic, sensitising)\n\n**Three Key Elements of WHMIS:**\n1. Labels — on every hazardous product container\n2. Safety Data Sheets (SDS) — detailed safety information\n3. Worker Education and Training\n\n**The 9 WHMIS 2015 Hazard Pictograms:**\n- Flame (flammable)\n- Flame over circle (oxidising)\n- Exploding bomb (explosive)\n- Corrosion (corrosive to metal/skin)\n- Skull and crossbones (acute toxic)\n- Exclamation mark (irritant/harmful)\n- Gas cylinder (pressurised gas)\n- Health hazard (carcinogen/sensitiser)\n- Environment (aquatic hazard — voluntary in Canada)\n\n**Key Rule:** Never use a product if you cannot find or read its SDS."
+        },
+        {
+          "title": "Hazardous Materials in Civil Construction",
+          "type": "lesson",
+          "content": "**Common Hazardous Materials on Canadian Civil Sites:**\n\n**Silica Dust**\n- Released when cutting concrete, rock, masonry\n- Causes silicosis — irreversible lung scarring\n- Canadian OEL (Occupational Exposure Limit): 0.025 mg/m3 (respirable fraction)\n- Controls: Wet methods, local exhaust ventilation, N95/P100 respirator\n\n**Asbestos**\n- Found in infrastructure built before 1990\n- Must not be disturbed without testing\n- Requires designated substance plan in Ontario\n- Licensed asbestos abatement contractor required for removal\n\n**Diesel Exhaust**\n- Major hazard in tunnels and confined spaces\n- Contains Group 1 carcinogens (IARC)\n- Controls: Tier 4 engines, ventilation, monitoring\n\n**Lead**\n- Found in old painted structures, some soils\n- Provincial designated substance requirements for abatement"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "WHMIS 2015 requires training for:",
+              "options": [
+                "Only workers handling chemicals directly",
+                "All Canadian workers who may be exposed to hazardous products",
+                "Only supervisors and safety officers",
+                "Workers with chemistry qualifications"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A Safety Data Sheet (SDS) must be:",
+              "options": [
+                "Kept in the main office only",
+                "Accessible to workers at the work site",
+                "Only available in English",
+                "Provided only to supervisors"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The skull and crossbones WHMIS pictogram means:",
+              "options": [
+                "Corrosive",
+                "Explosive",
+                "Acute toxic",
+                "Flammable"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Silica dust is a risk when:",
+              "options": [
+                "Working with timber",
+                "Cutting or grinding concrete, rock, or masonry",
+                "Painting surfaces",
+                "Operating a forklift"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Equipment Licensing — Red Seal Program",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "Heavy Equipment Operator — Red Seal",
+          "type": "lesson",
+          "content": "**The Red Seal Program (Interprovincial Standards)**\n\nCanada's Red Seal Program allows certified tradespeople to work across provinces without retesting. It is administered by Employment and Social Development Canada (ESDC).\n\n**Heavy Equipment Operator (HEO) — Red Seal**\nThe HEO trade is a Red Seal designated trade in most provinces. However, it operates differently from NZ or AU:\n\n- Red Seal HEO is voluntary — not legally required to operate equipment\n- Employers may require it for hire or advancement\n- Demonstrates verified competency to national standard\n\n**HEO Equipment Categories:**\n- Excavator\n- Dozer\n- Grader\n- Scraper\n- Loader\n- Backhoe loader\n- Compaction equipment\n\n**Provincial Apprenticeship Pathways:**\n- BC: SkilledTradesBC — 3 year apprenticeship\n- Ontario: Ontario College of Trades — Operating Engineers\n- Alberta: Alberta Apprenticeship and Industry Training\n\n**Operating Engineers (Unionised):**\nIn many Canadian provinces, heavy equipment operators on large projects must be members of the International Union of Operating Engineers (IUOE) — Local 115 (BC), Local 793 (Ontario), Local 955 (Alberta)."
+        },
+        {
+          "title": "Fall Protection and Working at Heights",
+          "type": "lesson",
+          "content": "**Fall Protection — Canadian Requirements**\n\nFalls are the leading cause of death in Canadian construction. Specific requirements vary by province:\n\n**Ontario (O. Reg. 213/91):**\n- Fall protection required at 3 metres (10 feet) on construction sites\n- Working at Heights training mandatory (MOL-approved provider)\n- Training must be renewed every 3 years\n\n**British Columbia (OHS Regulation Part 11):**\n- Fall protection required at 3 metres\n- Written fall protection plan required for unguarded areas\n\n**Alberta (OHS Code Part 9):**\n- Fall protection required at 3 metres for general construction\n- 7.5 metres for some specific work types\n\n**Fall Protection Hierarchy:**\n1. Eliminate the fall hazard (design out)\n2. Passive systems (guardrails, covers)\n3. Fall restraint system\n4. Fall arrest system (harness + lanyard — last resort)\n\n**Key Difference from NZ/AU:** Canada's fall protection trigger is 3 metres (NZ and AU: 2 metres)."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "The Red Seal HEO certification is:",
+              "options": [
+                "Legally required to operate an excavator",
+                "Voluntary but demonstrates national competency standard",
+                "Required only in Ontario",
+                "Only valid in the province it was issued"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "In Ontario, Working at Heights training must be renewed every:",
+              "options": [
+                "1 year",
+                "2 years",
+                "3 years",
+                "5 years"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Fall protection in Ontario is required at:",
+              "options": [
+                "2 metres",
+                "3 metres",
+                "4 metres",
+                "5 metres"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The preferred (highest priority) fall protection method is:",
+              "options": [
+                "Full body harness",
+                "Safety nets",
+                "Guardrails",
+                "Eliminate the fall hazard by design"
+              ],
+              "answer": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Canadian Technical Standards",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "TAC and CSA Standards",
+          "type": "lesson",
+          "content": "**Transportation Association of Canada (TAC)**\nTAC is the national body for road transportation knowledge in Canada, equivalent to Austroads in Australia/NZ.\n\n**Key TAC Publications:**\n- Geometric Design Guide for Canadian Roads\n- Manual of Uniform Traffic Control Devices for Canada (MUTCDC)\n- Pavement Asset Design and Management Guide\n- Guide for Bridge Temporary Works\n\n**Canadian Standards Association (CSA) — Key Standards:**\n- CSA Z1000-14 — Occupational Health and Safety Management Systems\n- CSA Z1001-18 — Occupational Health and Safety Training\n- CSA Z96 — High-Visibility Safety Apparel\n- CSA Z259 series — Fall Protection equipment\n- CSA G40.20/G40.21 — Structural steel\n\n**Provincial Road Authorities:**\n- BC: Ministry of Transportation and Infrastructure (MoTI)\n- Ontario: Ministry of Transportation (MTO)\n- Alberta: Alberta Transportation\n\n**Call Before You Dig:**\nEach province has its own utility locate service:\n- BC: BC 1 Call (1-800-474-6886)\n- Ontario: Ontario One Call (1-800-400-2255)\n- Alberta: Alberta One Call (1-800-242-3447)"
+        },
+        {
+          "title": "Traffic Control — Canadian Requirements",
+          "type": "lesson",
+          "content": "**Traffic Control on Canadian Roads**\n\n**Manual of Uniform Traffic Control Devices for Canada (MUTCDC)**\nPublished by TAC — sets national standard for signs, signals, pavement markings, and temporary traffic control.\n\n**Traffic Control Person (TCP) Certification:**\nAnyone directing traffic on Canadian roadwork sites must hold a Traffic Control Person certificate (province-specific).\n\n**Provincial TCP Requirements:**\n- BC: TCP certification through approved provider, valid 3 years\n- Ontario: TCP training (no formal certification but training required)\n- Alberta: Traffic Control Person certificate required\n\n**Standard Minimum PPE for TCP:**\n- CSA Z96 Class 2 or 3 high-visibility vest\n- Hard hat\n- Safety footwear (CSA Grade 1)\n- Stop/Slow paddle (MUTCDC standard)\n\n**Key Rule:** Traffic Control Plans must be prepared for all work affecting traffic flow."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "The Canadian equivalent of Austroads is:",
+              "options": [
+                "CSA Group",
+                "TAC (Transportation Association of Canada)",
+                "Transport Canada",
+                "Infrastructure Canada"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "CSA Z96 covers:",
+              "options": [
+                "Fall protection equipment",
+                "High-visibility safety apparel",
+                "Structural steel",
+                "Soil testing methods"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Before excavating in British Columbia you call:",
+              "options": [
+                "911",
+                "BC 1 Call — 1-800-474-6886",
+                "811",
+                "WorkSafeBC"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The MUTCDC is published by:",
+              "options": [
+                "Transport Canada",
+                "CSA Group",
+                "TAC",
+                "Infrastructure Canada"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Final Assessment",
+      "duration": "20 min",
+      "lessons": [
+        {
+          "title": "Course Summary",
+          "type": "lesson",
+          "content": "**Congratulations — You have completed CA: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- Canadian OHS is primarily provincial — each province has its own Act\n- Internal Responsibility System — everyone shares safety responsibility\n- Three worker rights: Know, Participate, Refuse unsafe work\n- WHMIS 2015 is mandatory training for all workers\n- Red Seal HEO is voluntary but nationally recognised\n- Fall protection trigger: 3 metres (vs 2 metres in NZ/AU)\n- TAC = Canadian equivalent of Austroads\n- Call Before You Dig varies by province\n\n**Key Differences vs NZ:**\n- No single national construction safety law (provincial system)\n- WHMIS is the equivalent of NZ's HSNO regulations\n- Fall protection at 3m not 2m\n- Red Seal = voluntary HEO qualification (no equivalent in NZ)"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 75,
+          "questions": [
+            {
+              "q": "Canadian construction OHS is primarily regulated by:",
+              "options": [
+                "Federal Canada Labour Code",
+                "Provincial/territorial legislation",
+                "A single national OHS Act",
+                "The Red Seal Program"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "WHMIS 2015 training is required for:",
+              "options": [
+                "Supervisors only",
+                "Chemical handlers only",
+                "All workers who may be exposed to hazardous products",
+                "Management only"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Red Seal HEO certification is:",
+              "options": [
+                "Legally required in all provinces",
+                "Voluntary but nationally recognised",
+                "Only valid in BC",
+                "Required for equipment over 5 tonnes"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Fall protection in Canada is generally required at:",
+              "options": [
+                "2 metres",
+                "3 metres",
+                "4 metres",
+                "6 metres"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The Internal Responsibility System means:",
+              "options": [
+                "Only employers are responsible",
+                "Everyone shares responsibility for safety",
+                "Workers have no safety duties",
+                "Only safety officers manage hazards"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "TAC publishes:",
+              "options": [
+                "OHS enforcement notices",
+                "Road transport and pavement technical guidelines",
+                "Worker compensation rates",
+                "WHMIS regulations"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A worker's right to refuse unsafe work in Canada:",
+              "options": [
+                "Does not legally exist",
+                "Applies only to unionised workers",
+                "Is protected by law — no reprisals allowed",
+                "Requires union approval first"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "WHMIS 2015 aligns with which international system?",
+              "options": [
+                "ISO 45001",
+                "ILO C167",
+                "Globally Harmonized System (GHS)",
+                "OHSAS 18001"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

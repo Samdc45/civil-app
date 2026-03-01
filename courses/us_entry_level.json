@@ -1,0 +1,380 @@
+{
+  "id": "us-entry-level",
+  "title": "US: Civil Construction Induction",
+  "subtitle": "Entry-Level Safety and Compliance — United States",
+  "description": "Essential OSHA knowledge for civil construction workers in the United States. Covers 29 CFR 1926, competent person requirements, excavation safety, crane operations, and MUTCD traffic control standards.",
+  "duration": "3-4 hours",
+  "level": "Entry Level",
+  "country": "US",
+  "flag": "US",
+  "color": "#b91c1c",
+  "price_intro": 97,
+  "price_cert": 297,
+  "modules": [
+    {
+      "id": 1,
+      "title": "OSHA and US Construction Law",
+      "duration": "40 min",
+      "lessons": [
+        {
+          "title": "The OSH Act and OSHA Overview",
+          "type": "lesson",
+          "content": "**The Occupational Safety and Health Act of 1970 (OSH Act)**\nThe OSH Act created OSHA (Occupational Safety and Health Administration) and established the federal right to a safe workplace.\n\n**Key Provision — General Duty Clause (Section 5(a)(1)):**\nEvery employer must provide a workplace free from recognised hazards that are causing or likely to cause death or serious physical harm. This applies even when no specific OSHA standard exists.\n\n**Worker Rights Under OSHA:**\n- Right to a safe and healthful workplace\n- Right to know about workplace hazards (Hazard Communication — HazCom)\n- Right to request an OSHA inspection\n- Right to be protected from retaliation for reporting hazards\n- Right to see OSHA 300 injury log\n\n**Key Construction Standard:**\n29 CFR Part 1926 — Safety and Health Regulations for Construction\nThis is the primary OSHA standard for all civil and building construction work in the USA.\n\n**State Plans:**\n26 states run their own OSHA-approved State Plans (e.g., Cal/OSHA in California). State plans must be at least as effective as federal OSHA. The other 24 states use federal OSHA directly."
+        },
+        {
+          "title": "OSHA 10 and OSHA 30 Training",
+          "type": "lesson",
+          "content": "**OSHA Outreach Training — The US Industry Standard**\n\nWhile not always legally required, OSHA 10 and OSHA 30 training is the widely recognised standard for construction workers in the USA.\n\n**OSHA 10-Hour (Construction):**\n- 10 hours of safety training covering OSHA standards\n- Designed for entry-level workers\n- Covers: Fall protection, electrical, struck-by, caught-in hazards (the Fatal Four)\n- Card issued: OSHA 10 card (sometimes called DOL card)\n- No expiry — but some states/projects require renewal\n\n**OSHA 30-Hour (Construction):**\n- 30 hours — designed for supervisors and safety personnel\n- Deeper coverage of OSHA standards, rights and responsibilities\n\n**The Fatal Four — Leading Causes of Construction Deaths (OSHA):**\n1. Falls (39% of construction deaths)\n2. Struck-by objects (8%)\n3. Electrocution (8%)\n4. Caught-in/between (1%)\n\n**OSHA Recordkeeping — 300 Log:**\nEmployers with 10+ workers must maintain OSHA Form 300 (injury log), 300A (summary), and 301 (incident report)."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "The General Duty Clause requires employers to:",
+              "options": [
+                "Follow only written OSHA standards",
+                "Provide a workplace free from recognised hazards",
+                "Report all injuries to OSHA within 24 hours",
+                "Hire a dedicated safety officer"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The primary OSHA construction standard is:",
+              "options": [
+                "29 CFR Part 1910",
+                "29 CFR Part 1926",
+                "29 CFR Part 1904",
+                "29 CFR Part 1903"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Which is the number one cause of construction deaths in the USA?",
+              "options": [
+                "Electrocution",
+                "Caught-in/between",
+                "Struck-by",
+                "Falls"
+              ],
+              "answer": 3
+            },
+            {
+              "q": "OSHA 10-Hour training is designed for:",
+              "options": [
+                "Safety managers only",
+                "Supervisors only",
+                "Entry-level construction workers",
+                "OSHA inspectors"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Excavation Safety — OSHA Subpart P",
+      "duration": "40 min",
+      "lessons": [
+        {
+          "title": "Excavation and Trenching — 29 CFR 1926 Subpart P",
+          "type": "lesson",
+          "content": "**Excavation Safety — One of the Most Critical Topics in US Civil Construction**\n\nOSHA 29 CFR 1926 Subpart P covers all excavation and trenching work. Trenching is one of the most hazardous construction operations in the USA.\n\n**Key Definitions:**\n- Excavation: Any man-made cut, cavity, trench, or depression in the ground\n- Trench: A narrow excavation (in relation to length) made below the surface — generally less than 15 feet wide\n\n**The Competent Person Requirement:**\nA competent person must:\n- Classify the soil before excavation begins\n- Inspect excavations daily and after any event that could affect safety\n- Have authority to stop work immediately if a hazard exists\n\n**Soil Classification (OSHA):**\n- Type A: Most stable (hard clay, cemented soils) — can use 3/4:1 slope\n- Type B: Intermediate — 1:1 slope required\n- Type C: Least stable (granular soils, wet conditions) — 1.5:1 slope required\n\n**Protective Systems (any excavation 5 feet or deeper):**\n1. Sloping — cut walls back to safe angle\n2. Shoring — supports trench walls (timber, hydraulic, or pneumatic)\n3. Trench box/shield — steel cage that protects workers\n\n**Egress Requirement:**\nA ladder or ramp must be provided in trenches 4 feet deep or more, within 25 feet of every worker."
+        },
+        {
+          "title": "Competent Person — The US Safety Linchpin",
+          "type": "lesson",
+          "content": "**What is a Competent Person?**\nIn US construction, the Competent Person is one of the most important concepts. A Competent Person is someone who:\n\n1. Is capable of identifying existing and predictable hazards\n2. Has authority to take prompt corrective measures to eliminate hazards\n\n**Required By OSHA In:**\n- Excavations (Subpart P)\n- Scaffolding (Subpart L)\n- Fall Protection (Subpart M)\n- Cranes and Derricks (Subpart CC)\n- Concrete and Masonry (Subpart Q)\n- Steel Erection (Subpart R)\n\n**Competent Person vs Qualified Person:**\n- Competent Person: Experience and authority to identify and fix hazards\n- Qualified Person: Has specific training, education, or credentials (e.g., engineer, certified rigger)\n\n**No Federal Excavator Licence:**\nLike Australia, the USA has no federal government licence for excavator operation. The employer must ensure the operator is trained and competent for the specific equipment.\n\n**811 — Call Before You Dig:**\nUS national one-call number. Call 811 at least 2 business days before any excavation. Free service — utility locators mark underground lines."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "A Competent Person must have authority to:",
+              "options": [
+                "Write safety reports only",
+                "Stop work immediately if a hazard exists",
+                "Issue OSHA violations",
+                "Certify equipment operators"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A trench 5 feet or deeper requires:",
+              "options": [
+                "No protection if workers are careful",
+                "A protective system (sloping, shoring, or trench box)",
+                "Only a competent person on site",
+                "OSHA approval before starting"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Type C soil is:",
+              "options": [
+                "Most stable — hard clay",
+                "Intermediate stability",
+                "Least stable — granular or wet",
+                "Only found in rock"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "In the USA before excavating you must call:",
+              "options": [
+                "OSHA",
+                "911",
+                "811",
+                "Your state DOT"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "A ladder must be provided in trenches deeper than:",
+              "options": [
+                "2 feet",
+                "3 feet",
+                "4 feet",
+                "5 feet"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Fall Protection and PPE",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "Fall Protection — OSHA Subpart M",
+          "type": "lesson",
+          "content": "**Fall Protection in US Construction — 29 CFR 1926 Subpart M**\n\n**Fall Protection Required at 6 Feet**\nUS construction: fall protection required at 6 feet above a lower level.\n(Compare: NZ and Australia — 2 metres; Canada — 3 metres)\n\n**Three Primary Fall Protection Systems:**\n1. Guardrail systems — top rail at 42 inches (+/- 3 inches)\n2. Safety net systems — installed within 30 feet below working level\n3. Personal fall arrest systems (PFAS) — harness + lanyard + anchor\n\n**Personal Fall Arrest System Requirements:**\n- Full body harness (body belts no longer allowed for arrest)\n- Shock-absorbing lanyard or self-retracting lifeline\n- Anchor point: 5,000 lbs capacity minimum\n- Free fall limited to 6 feet\n- Total fall arrest distance cannot exceed 18.5 feet\n\n**Hole Covers:**\nAll floor/roof holes must be covered or protected. Cover must:\n- Support twice the load of workers and equipment\n- Be marked HOLE or COVER\n- Be secured against movement"
+        },
+        {
+          "title": "HazCom and PPE Requirements",
+          "type": "lesson",
+          "content": "**Hazard Communication Standard (HazCom) — 29 CFR 1926.59**\n\nThe US Hazard Communication Standard (HazCom) aligns with the Globally Harmonized System (GHS) — similar to Canada's WHMIS 2015.\n\n**HazCom Three Elements:**\n1. Safety Data Sheets (SDS) — required for all hazardous chemicals\n2. Labels — GHS-format on all containers\n3. Training — workers must understand SDS and labels\n\n**Required PPE on US Construction Sites:**\n- Hard hat (ANSI/ISEA Z89.1 — Type I or II, Class E for electrical)\n- High-visibility vest (ANSI 107 — Class 2 minimum for roadwork)\n- Safety footwear (ASTM F2413)\n- Eye and face protection (ANSI Z87.1)\n- Hearing protection where noise exceeds 90 dB (8-hour TWA)\n\n**Silica Rule — 29 CFR 1926.1153:**\nOSHA's Respirable Crystalline Silica Standard for Construction requires:\n- Action Level: 25 micrograms per cubic meter (8-hr TWA)\n- Permissible Exposure Limit (PEL): 50 micrograms per cubic meter\n- Engineering controls first (wet methods, vacuum systems)\n- Respirator: N95 or better when controls insufficient"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "In US construction, fall protection is required at:",
+              "options": [
+                "2 feet",
+                "4 feet",
+                "6 feet",
+                "10 feet"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Full body harnesses replaced body belts for fall arrest because:",
+              "options": [
+                "They are cheaper",
+                "Body belts can cause internal injuries during a fall",
+                "OSHA preference only",
+                "They are easier to put on"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "A Personal Fall Arrest System anchor point must support:",
+              "options": [
+                "1,000 lbs",
+                "2,500 lbs",
+                "5,000 lbs",
+                "10,000 lbs"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "The ANSI 107 Class 2 high-visibility vest is required for:",
+              "options": [
+                "All workers on any site",
+                "Roadwork and traffic-exposed workers",
+                "Only flaggers",
+                "Night work only"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Traffic Control and Technical Standards",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "MUTCD — Manual on Uniform Traffic Control Devices",
+          "type": "lesson",
+          "content": "**MUTCD — The National Traffic Control Standard**\nThe Federal Highway Administration (FHWA) MUTCD sets national standards for all traffic control devices on roads open to public travel.\n\n**Part 6 — Temporary Traffic Control (TTC):**\nCovers all traffic management for roadwork and construction zones.\n\n**Key TTC Components:**\n- Advance warning signs — alert drivers before the work zone\n- Tapers — merge lanes using cones and channelizing devices\n- Activity area — where the actual work occurs\n- Termination area — transition back to normal traffic\n\n**Flagger Requirements (MUTCD Part 6E):**\n- Must be trained and experienced\n- Wear ANSI 107 Class 2 or 3 high-visibility apparel\n- Use STOP/SLOW paddle (preferred over flags)\n- Positioned for maximum visibility\n\n**State DOTs:**\n- Each state has its own Department of Transportation\n- California: Caltrans | Texas: TxDOT | New York: NYSDOT | Florida: FDOT\n- States may adopt the MUTCD with supplements\n\n**Work Zone Speed Fines:**\nMost states double fines for traffic violations in active work zones."
+        },
+        {
+          "title": "AASHTO and Technical Standards",
+          "type": "lesson",
+          "content": "**AASHTO — American Association of State Highway and Transportation Officials**\n\nAASHTO is the US equivalent of Austroads (Australia/NZ) and TAC (Canada). It develops technical standards for road design and materials.\n\n**Key AASHTO Standards:**\n- AASHTO Guide for Design of Pavement Structures\n- AASHTO M and R standards (materials and test methods)\n- AASHTO T99/T180 — Standard Proctor and Modified Proctor compaction tests\n\n**ASTM International — Key Standards:**\n- ASTM D698 — Standard Proctor compaction test\n- ASTM D1557 — Modified Proctor compaction test\n- ASTM D6938 — Nuclear density gauge testing\n- ASTM C136 — Sieve analysis (aggregate gradation)\n\n**Crane Operations — OSHA Subpart CC:**\n- Crane operators must be certified (NCCCO — National Commission for the Certification of Crane Operators)\n- OR qualified by an audited employer program\n- Crane assembly/disassembly requires a Qualified Person\n- Annual crane inspections required by qualified person\n\n**No Federal Excavator Licence:**\nThe USA has no federal licence for excavators. A Competent Person must verify operator training and competency."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "The MUTCD is published by:",
+              "options": [
+                "AASHTO",
+                "OSHA",
+                "Federal Highway Administration (FHWA)",
+                "ASTM International"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "AASHTO is best described as:",
+              "options": [
+                "A federal safety agency",
+                "The US equivalent of Austroads — road design and materials standards",
+                "An OSHA-approved training body",
+                "A state highway authority"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Crane operators in the USA must be:",
+              "options": [
+                "Licensed by OSHA directly",
+                "NCCCO certified or qualified by an audited employer program",
+                "Certified by their state DOT",
+                "No certification required"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "ASTM D698 covers:",
+              "options": [
+                "Aggregate sieve analysis",
+                "Standard Proctor compaction test",
+                "Nuclear density gauge use",
+                "Asphalt binder testing"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Final Assessment",
+      "duration": "20 min",
+      "lessons": [
+        {
+          "title": "Course Summary",
+          "type": "lesson",
+          "content": "**Congratulations — You have completed US: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- OSH Act 1970: General Duty Clause, worker rights, OSHA 10/30\n- The Fatal Four: Falls, Struck-by, Electrocution, Caught-in\n- 29 CFR 1926: The primary US construction safety standard\n- Competent Person: Must identify hazards AND have authority to fix them\n- Excavations: 5ft = protective system required, 4ft = ladder required\n- Soil types: Type A (stable) to Type C (unstable)\n- Fall protection at 6 feet (not 2m like NZ/AU)\n- MUTCD Part 6: Traffic control standard for work zones\n- AASHTO and ASTM: Technical standards for roads and materials\n- 811: Call before you dig (national)\n\n**Key Differences vs NZ:**\n- US fall protection trigger: 6 feet (NZ: 2 metres)\n- 26 states have their own OSHA plans\n- Competent Person concept is central to US compliance\n- No federal excavator licence in USA"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 75,
+          "questions": [
+            {
+              "q": "The General Duty Clause requires:",
+              "options": [
+                "Follow only written OSHA standards",
+                "Provide workplace free from recognised hazards",
+                "Hire a safety officer for every 10 workers",
+                "Report all near-misses to OSHA"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Fall protection in US construction is required at:",
+              "options": [
+                "2 feet",
+                "4 feet",
+                "6 feet",
+                "10 feet"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "A trench 5 feet deep requires:",
+              "options": [
+                "No protection",
+                "Warning tape only",
+                "A protective system",
+                "OSHA pre-approval"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Before excavating in the USA you call:",
+              "options": [
+                "OSHA",
+                "911",
+                "811",
+                "Your state DOT"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Type C soil is:",
+              "options": [
+                "Most stable",
+                "Intermediate stability",
+                "Least stable",
+                "Only found in rock"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "NCCCO certification is required for:",
+              "options": [
+                "Excavator operators",
+                "Crane operators",
+                "All heavy equipment operators",
+                "Traffic flaggers"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "AASHTO is the US equivalent of:",
+              "options": [
+                "OSHA",
+                "FHWA",
+                "Austroads",
+                "ASTM"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "The OSHA Fatal Four does NOT include:",
+              "options": [
+                "Falls",
+                "Struck-by",
+                "Silica exposure",
+                "Electrocution"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

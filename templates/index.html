@@ -1,36 +1,151 @@
 {% extends "base.html" %}
 {% block title %}Courses — Civil App{% endblock %}
 {% block content %}
+
+<!-- Hero -->
 <div style="background:linear-gradient(135deg,#0a0f17,#1a2535);padding:60px 24px;text-align:center;border-bottom:1px solid #30363d">
-  <h1 style="font-size:2.5rem;font-weight:800;margin-bottom:12px">Civil Construction Training</h1>
-  <p style="color:#8b949e;font-size:1.1rem;max-width:600px;margin:0 auto">Industry-recognised online training for NZ & Australian civil construction professionals. Learn at your own pace, earn certificates, stay compliant.</p>
+  <h1 style="font-size:2.5rem;font-weight:800;margin-bottom:12px">🏗️ Civil App Training</h1>
+  <p style="color:#8b949e;font-size:1.1rem;max-width:640px;margin:0 auto 16px">
+    Industry-recognised online training for civil construction professionals across
+    🇳🇿 New Zealand &bull; 🇦🇺 Australia &bull; 🇨🇦 Canada &bull; 🇺🇸 USA &bull; 🌏 Global
+  </p>
+  <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:20px">
+    <div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:12px 20px;text-align:center">
+      <div style="font-size:1.5rem;font-weight:800;color:#58a6ff">7</div>
+      <div style="font-size:0.75rem;color:#8b949e">Courses</div>
+    </div>
+    <div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:12px 20px;text-align:center">
+      <div style="font-size:1.5rem;font-weight:800;color:#3fb950">93</div>
+      <div style="font-size:0.75rem;color:#8b949e">Lessons</div>
+    </div>
+    <div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:12px 20px;text-align:center">
+      <div style="font-size:1.5rem;font-weight:800;color:#f78166">5</div>
+      <div style="font-size:0.75rem;color:#8b949e">Countries</div>
+    </div>
+    <div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:12px 20px;text-align:center">
+      <div style="font-size:1.5rem;font-weight:800;color:#d2a679">PDF</div>
+      <div style="font-size:0.75rem;color:#8b949e">Certificates</div>
+    </div>
+  </div>
 </div>
+
 <div class="container">
-  <h2 style="margin-bottom:24px;font-size:1.3rem">Available Courses</h2>
-  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px">
+
+  <!-- Country Filter Tabs -->
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin:28px 0 24px;border-bottom:1px solid #30363d;padding-bottom:12px">
+    <button class="filter-btn active" onclick="filterCourses('all', this)" data-filter="all"
+      style="background:#1f6feb;color:#fff;border:none;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:0.875rem;font-weight:600">
+      🌐 All Courses (7)
+    </button>
+    <button class="filter-btn" onclick="filterCourses('NZ', this)" data-filter="NZ"
+      style="background:#21262d;color:#c9d1d9;border:1px solid #30363d;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:0.875rem">
+      🇳🇿 New Zealand (3)
+    </button>
+    <button class="filter-btn" onclick="filterCourses('AU', this)" data-filter="AU"
+      style="background:#21262d;color:#c9d1d9;border:1px solid #30363d;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:0.875rem">
+      🇦🇺 Australia (1)
+    </button>
+    <button class="filter-btn" onclick="filterCourses('CA', this)" data-filter="CA"
+      style="background:#21262d;color:#c9d1d9;border:1px solid #30363d;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:0.875rem">
+      🇨🇦 Canada (1)
+    </button>
+    <button class="filter-btn" onclick="filterCourses('US', this)" data-filter="US"
+      style="background:#21262d;color:#c9d1d9;border:1px solid #30363d;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:0.875rem">
+      🇺🇸 USA (1)
+    </button>
+    <button class="filter-btn" onclick="filterCourses('GLOBAL', this)" data-filter="GLOBAL"
+      style="background:#21262d;color:#c9d1d9;border:1px solid #30363d;padding:8px 18px;border-radius:20px;cursor:pointer;font-size:0.875rem">
+      🌏 Global (1)
+    </button>
+  </div>
+
+  <!-- Course Grid -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;margin-bottom:48px" id="course-grid">
     {% for course in courses %}
-    <div class="card" style="border-top:3px solid {{ course.color }};transition:transform 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
-      <div style="font-size:2.5rem;margin-bottom:12px">{{ course.thumbnail }}</div>
-      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-        <h3 style="font-size:1.1rem">{{ course.title }}</h3>
-        <span class="badge badge-orange">${{ course.price_intro }} NZD</span>
+    <div class="card course-card" data-country="{{ course.flag }}"
+      style="border-top:3px solid {{ course.color }};transition:transform 0.2s"
+      onmouseover="this.style.transform='translateY(-4px)'"
+      onmouseout="this.style.transform='none'">
+
+      <!-- Flag + Country Badge -->
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="font-size:2rem">{{ course.flag_emoji }}</span>
+        <span style="background:{{ course.color }}22;color:{{ course.color }};border:1px solid {{ course.color }}44;
+          padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:600">
+          {{ course.flag_emoji }} {{ course.country }}
+        </span>
       </div>
-      <p style="color:#8b949e;font-size:0.875rem;margin-bottom:16px;line-height:1.5">{{ course.description[:120] }}...</p>
-      <div style="display:flex;gap:12px;font-size:0.8rem;color:#8b949e;margin-bottom:16px">
+
+      <!-- Title + Price -->
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
+        <h3 style="font-size:1rem;line-height:1.3;flex:1;margin-right:8px">{{ course.title }}</h3>
+        <span class="badge badge-orange" style="white-space:nowrap">${{ course.price_intro }}</span>
+      </div>
+
+      <!-- Description -->
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:14px;line-height:1.5">
+        {{ course.description[:110] }}...
+      </p>
+
+      <!-- Meta -->
+      <div style="display:flex;gap:12px;font-size:0.78rem;color:#8b949e;margin-bottom:16px;flex-wrap:wrap">
         <span>⏱ {{ course.duration }}</span>
         <span>📚 {{ course.modules|length }} modules</span>
         <span>🎯 {{ course.level }}</span>
       </div>
+
+      <!-- CTA -->
       {% if course.id in enrolled_ids %}
-        <a href="/course/{{ course.id }}" class="btn btn-primary" style="width:100%;text-align:center;display:block">Continue Learning →</a>
+        <a href="/course/{{ course.id }}" class="btn btn-primary"
+          style="width:100%;text-align:center;display:block">Continue Learning →</a>
       {% else %}
         <div style="display:flex;gap:8px">
-          <a href="/course/{{ course.id }}" class="btn btn-secondary" style="flex:1;text-align:center">Preview</a>
-          <a href="{{ course.gumroad_intro }}" target="_blank" class="btn btn-primary" style="flex:1;text-align:center">Enrol ${{ course.price_intro }}</a>
+          <a href="/course/{{ course.id }}" class="btn btn-secondary"
+            style="flex:1;text-align:center">Preview</a>
+          <a href="/enroll/{{ course.id }}" class="btn btn-primary"
+            style="flex:1;text-align:center">Enrol ${{ course.price_intro }}</a>
         </div>
       {% endif %}
     </div>
     {% endfor %}
   </div>
+
+  <!-- Footer note -->
+  <div style="text-align:center;padding:24px;color:#8b949e;font-size:0.875rem;border-top:1px solid #30363d">
+    All courses designed for entry-level civil construction workers.
+    PDF certificates issued upon successful completion. &bull;
+    <a href="mailto:civilbesafe@gmail.com" style="color:#58a6ff">Contact South Consultants</a>
+  </div>
+
 </div>
+
+<!-- Filter Script -->
+<script>
+function filterCourses(country, btn) {
+  // Update button styles
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.style.background = '#21262d';
+    b.style.color = '#c9d1d9';
+    b.style.border = '1px solid #30363d';
+  });
+  btn.style.background = '#1f6feb';
+  btn.style.color = '#fff';
+  btn.style.border = 'none';
+
+  // Show/hide cards
+  document.querySelectorAll('.course-card').forEach(card => {
+    if (country === 'all' || card.dataset.country === country) {
+      card.style.display = 'block';
+      card.style.animation = 'fadeIn 0.3s ease';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+
+<style>
+@keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+</style>
+
 {% endblock %}

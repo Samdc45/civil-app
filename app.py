@@ -69,13 +69,30 @@ def init_db():
 # ─────────────────────────────────────────────────────────────
 def hash_pw(pw): return hashlib.sha256(pw.encode()).hexdigest()
 
+FLAG_EMOJI = {
+    'NZ': '🇳🇿',
+    'AU': '🇦🇺',
+    'CA': '🇨🇦',
+    'US': '🇺🇸',
+    'GLOBAL': '🌏',
+}
+
 def load_courses():
     courses = []
     for f in sorted(os.listdir(COURSES_DIR)):
         if f.endswith('.json'):
             with open(os.path.join(COURSES_DIR, f)) as fh:
-                courses.append(json.load(fh))
+                c = json.load(fh)
+            c['flag_emoji'] = FLAG_EMOJI.get(c.get('flag',''), '🏳')
+            c.setdefault('thumbnail', '🏗')
+            c.setdefault('gumroad_intro', '#')
+            c.setdefault('price_intro', 97)
+            c.setdefault('level', 'Entry Level')
+            c.setdefault('duration', '2-3 hours')
+            c.setdefault('color', '#1f6feb')
+            courses.append(c)
     return courses
+
 
 def load_course(course_id):
     for c in load_courses():

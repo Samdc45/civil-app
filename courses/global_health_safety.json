@@ -1,0 +1,385 @@
+{
+  "id": "global-health-safety",
+  "title": "Global: Health and Safety Fundamentals",
+  "subtitle": "ISO 45001 and ILO Standards for Construction Workers",
+  "description": "International health and safety principles for civil construction. Based on ISO 45001:2018 and ILO C167. Essential for workers moving between countries or working on international projects.",
+  "duration": "3 hours",
+  "level": "Entry Level",
+  "country": "GLOBAL",
+  "flag": "GLOBAL",
+  "color": "#0891b2",
+  "price_intro": 97,
+  "price_cert": 297,
+  "modules": [
+    {
+      "id": 1,
+      "title": "ISO 45001 — The Global OHS Standard",
+      "duration": "45 min",
+      "lessons": [
+        {
+          "title": "What is ISO 45001:2018?",
+          "type": "lesson",
+          "content": "**ISO 45001:2018 — Occupational Health and Safety Management Systems**\n\nISO 45001 is the world's first international standard for occupational health and safety management systems. Published March 2018, it replaced OHSAS 18001. Adopted in over 130 countries.\n\n**The 10-Clause Structure:**\n1. Scope\n2. Normative references\n3. Terms and definitions\n4. Context of the organisation\n5. Leadership and worker participation\n6. Planning\n7. Support\n8. Operation\n9. Performance evaluation\n10. Improvement\n\n**The PDCA Cycle at the Core:**\nPlan-Do-Check-Act underpins the entire system:\n- PLAN: Identify hazards, set OHS objectives\n- DO: Implement controls and processes\n- CHECK: Monitor and measure performance\n- ACT: Review results and continually improve\n\n**Hierarchy of Controls (Clause 8):**\n1. Elimination — remove the hazard entirely (most effective)\n2. Substitution — replace with something less hazardous\n3. Engineering controls — isolate people from the hazard\n4. Administrative controls — change work practices and procedures\n5. PPE — protect the individual (least effective — last resort)"
+        },
+        {
+          "title": "ISO 45001 Worker Rights and Participation",
+          "type": "lesson",
+          "content": "**Clause 5 — Leadership and Worker Participation**\n\nISO 45001 places strong emphasis on worker participation — a key shift from older standards.\n\n**Worker Rights Under ISO 45001:**\n- Right to report hazards and near misses without fear of reprisal\n- Right to participate in OHS consultation and decision-making\n- Right to withdraw from work situations posing imminent and serious danger\n- Right to receive relevant OHS information and training free of charge\n\n**Hazard Identification (Clause 6) — Must Consider:**\n- Routine and non-routine activities\n- Human factors: fatigue, stress, distraction\n- Infrastructure, equipment, and materials\n- Design of work areas and systems\n- Past incidents and near misses\n- Emergency situations\n\n**Continual Improvement (Clause 10):**\nISO 45001 organisations must demonstrate ongoing improvement in OHS performance, not just compliance. Every incident and near miss is an improvement opportunity."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "ISO 45001:2018 replaced which previous standard?",
+              "options": [
+                "ISO 9001",
+                "OHSAS 18001",
+                "ISO 14001",
+                "BS 8800"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The PDCA cycle stands for:",
+              "options": [
+                "Prevent, Detect, Control, Audit",
+                "Plan, Do, Check, Act",
+                "Prepare, Deploy, Confirm, Assess",
+                "Plan, Deploy, Control, Approve"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "In the Hierarchy of Controls, PPE is:",
+              "options": [
+                "The first and most preferred control",
+                "Equal to engineering controls",
+                "The last resort",
+                "Only required at heights"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "ISO 45001 gives workers the right to:",
+              "options": [
+                "Set their own safety standards",
+                "Withdraw from work posing imminent danger",
+                "Approve their own PPE",
+                "Waive requirements if experienced"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ILO C167 — International Construction Safety",
+      "duration": "40 min",
+      "lessons": [
+        {
+          "title": "ILO Convention C167 — Safety in Construction",
+          "type": "lesson",
+          "content": "**ILO Convention C167 — Safety and Health in Construction (1988)**\n\nThe International Labour Organization (ILO) is a United Nations agency setting international labour standards. C167 is the key ILO treaty for construction safety.\n\n**Key ILO C167 Provisions:**\n\n**1. Safe Place of Work**\nAll workplaces must be kept safe. Access and egress must be safe at all times.\n\n**2. Scaffolding**\nMust be erected, used, and dismantled only under supervision of a competent person.\n\n**3. Lifting Appliances and Gear**\nCranes and lifting equipment must be inspected by a competent person. Load limits must never be exceeded.\n\n**4. Excavations**\nAll excavations must be inspected before each shift by a competent person. Adequate shoring required.\n\n**5. Demolition**\nMust be carried out under supervision of a competent person with a plan.\n\n**6. PPE — Free of Charge**\nEmployers must provide appropriate PPE at no cost to workers where risks cannot otherwise be controlled.\n\n**7. Stop Work Authority**\nWorkers have the right to withdraw from work situations posing imminent danger — in every country, under ILO principles."
+        },
+        {
+          "title": "Universal Safety Principles — Every Country",
+          "type": "lesson",
+          "content": "**Principles That Apply in Every Country**\n\n**1. Call Before You Dig — Always**\n- New Zealand: 0800 DIG KNOW\n- Australia: 1100\n- USA: 811\n- Canada: BC 1 Call | Ontario One Call | Alberta One Call\n\n**2. Competent Person for High Risk Work**\nEvery country requires a competent or qualified person to supervise:\n- Excavations and trenching\n- Crane and lifting operations\n- Scaffolding erection\n- Working at heights\n\n**3. Pre-Task Hazard Assessment**\nBefore any task begins: Identify hazards, assess risk, implement controls, brief all workers.\nCalled different names by country:\n- NZ/AU: JSA (Job Safety Analysis) or SWMS\n- USA: JHA (Job Hazard Analysis)\n- Canada: JSA or Safe Work Procedure\n\n**4. Incident Reporting Culture**\nReport ALL near misses, not just injuries. Near misses are free lessons.\n\n**5. Stop Work Authority**\nEvery worker in every country has the right to stop work they believe is unsafe. This is recognised by ILO, ISO 45001, and every national OHS system."
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "ILO C167 specifically covers:",
+              "options": [
+                "General worker rights",
+                "Safety and health in construction",
+                "Environmental protection",
+                "Working hours"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "ILO C167 requires excavations to be inspected:",
+              "options": [
+                "Once a week",
+                "Monthly",
+                "Before each shift",
+                "Only when problems appear"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Under ILO C167 employers must provide PPE:",
+              "options": [
+                "At cost price",
+                "Free of charge",
+                "Only when requested",
+                "Shared between workers"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Stop Work Authority means:",
+              "options": [
+                "Only managers can stop work",
+                "Any worker can stop unsafe work",
+                "Requires written approval",
+                "Only inspectors can stop work"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The utility locate number in Australia is:",
+              "options": [
+                "0800 DIG KNOW",
+                "811",
+                "1100",
+                "111"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "International Comparison — Key Differences",
+      "duration": "35 min",
+      "lessons": [
+        {
+          "title": "Fall Protection Heights by Country",
+          "type": "lesson",
+          "content": "**Fall Protection Trigger Heights — International Comparison**\n\nThis is one of the most important differences when working internationally.\n\n- New Zealand: 2 metres\n- Australia: 2 metres\n- Canada: 3 metres (most provinces)\n- USA: 6 feet (1.8 metres)\n- UK and Europe: 2 metres\n\n**Key Message:** When crossing borders, ALWAYS check the local fall protection height — do not assume your home country rules apply.\n\n**Excavator Licensing — International Comparison:**\n\n- New Zealand: No national licence — employer must verify competency\n- Australia: No HRW licence required — competency must be demonstrated\n- USA: No federal licence — Competent Person standard applies\n- Canada: Red Seal HEO voluntary — competency required\n- UK: CPCS card widely required on most sites\n\n**Universal Rule:** No matter what country you are in, the employer must ensure you are trained and competent for the specific plant you are operating."
+        },
+        {
+          "title": "PPE Standards by Country",
+          "type": "lesson",
+          "content": "**PPE Standards — International Comparison**\n\n**Hard Hats:**\n- NZ and AU: AS/NZS 1801\n- USA: ANSI/ISEA Z89.1\n- Canada: CSA Z94.1\n- Europe: EN 397\n\n**High-Visibility Clothing:**\n- NZ and AU: AS/NZS 4602.1 — Class D (day) and Class N (night)\n- USA: ANSI 107 — Class 1, 2, and 3\n- Canada: CSA Z96 — Class 1, 2, and 3\n- International: EN ISO 20471\n\n**Safety Footwear:**\n- NZ and AU: AS/NZS 2210.3\n- USA: ASTM F2413\n- Canada: CSA Grade 1\n\n**Silica Dust — Respiratory Protection:**\nAll countries require minimum P2/N95 respirator for dry concrete or rock cutting.\n\n**Universal Rule:** When working in a new country, always ask which standard applies locally and ensure your PPE is locally compliant before starting work.\n\n**Qualification Recognition:**\n- NZ and Australia: Trans-Tasman Mutual Recognition Arrangement (TTMRA) — mutual recognition\n- NZ/AU to North America: No automatic recognition — verify local requirements\n- Canada Red Seal: Valid across Canadian provinces only"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "Fall protection in Canada is required at:",
+              "options": [
+                "2 metres",
+                "6 feet",
+                "3 metres",
+                "4 metres"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Fall protection in the USA is required at:",
+              "options": [
+                "2 metres",
+                "6 feet (1.8m)",
+                "3 metres",
+                "10 feet"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Trans-Tasman Mutual Recognition exists between:",
+              "options": [
+                "NZ and USA",
+                "NZ and Canada",
+                "NZ and Australia",
+                "NZ and UK"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "High-visibility apparel in the USA must comply with:",
+              "options": [
+                "AS/NZS 4602.1",
+                "CSA Z96",
+                "ANSI 107",
+                "EN ISO 20471"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "When working in a new country you must always:",
+              "options": [
+                "Use your home country PPE standards",
+                "Check which local standard applies and comply",
+                "Use only ISO standards",
+                "Apply the highest standard from any country"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Risk Assessment and Emergency Response",
+      "duration": "30 min",
+      "lessons": [
+        {
+          "title": "Universal Risk Assessment Process",
+          "type": "lesson",
+          "content": "**Risk Assessment — Universal 5-Step Process**\n\n1. IDENTIFY the hazard — what could cause harm?\n2. IDENTIFY who might be harmed and how\n3. EVALUATE the risk — likelihood multiplied by consequence\n4. IMPLEMENT controls — apply the hierarchy\n5. REVIEW and update regularly\n\n**Risk = Likelihood x Consequence**\n\n- Low risk (1-4): Manage with routine procedures\n- Medium risk (5-9): Specific controls and monitoring required\n- High risk (10-16): Stop work — significant controls required\n- Extreme risk (17-25): Do not proceed without engineering controls and senior approval\n\n**Emergency Numbers by Country:**\n- New Zealand: 111\n- Australia: 000\n- USA: 911\n- Canada: 911\n- UK: 999\n\n**Universal Emergency Steps:**\n1. Ensure safety of everyone — do not create additional casualties\n2. Call emergency services\n3. Administer first aid if trained\n4. Secure the scene — do not disturb evidence\n5. Notify supervisor and company\n6. Complete incident report\n7. Support the investigation"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "Risk is calculated as:",
+              "options": [
+                "Hazard divided by controls",
+                "Likelihood multiplied by consequence",
+                "Severity plus probability",
+                "Consequence minus controls"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "An extreme risk rating means:",
+              "options": [
+                "Proceed with extra care",
+                "Add more PPE and continue",
+                "Do not proceed without engineering controls and senior approval",
+                "Monitor weekly"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "The emergency number in Australia is:",
+              "options": [
+                "999",
+                "911",
+                "000",
+                "111"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "After any incident, the FIRST step is:",
+              "options": [
+                "Complete incident report",
+                "Take photographs",
+                "Ensure safety of everyone — do not create more casualties",
+                "Call your supervisor"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Final Assessment",
+      "duration": "20 min",
+      "lessons": [
+        {
+          "title": "Course Summary",
+          "type": "lesson",
+          "content": "**Congratulations — You have completed Global: Health and Safety Fundamentals!**\n\nKey knowledge covered:\n\n- ISO 45001:2018: The global OHS management system standard — 10 clauses, PDCA cycle\n- Hierarchy of Controls: Elimination is best, PPE is last resort\n- ILO C167: International construction safety convention — PPE free, competent person required\n- Stop Work Authority: Every worker in every country has this right\n- Fall protection heights vary: NZ/AU 2m, Canada 3m, USA 6ft\n- Call Before You Dig varies by country — always call before excavating\n- PPE standards vary by country — verify local compliance\n- TTMRA: NZ and AU mutually recognise qualifications\n- Risk = Likelihood x Consequence\n- Report ALL near misses — they are free lessons"
+        },
+        {
+          "title": "Quiz",
+          "type": "quiz",
+          "pass_mark": 75,
+          "questions": [
+            {
+              "q": "ISO 45001 is based on which cycle?",
+              "options": [
+                "Stop-Think-Act-Review",
+                "Plan-Do-Check-Act",
+                "Identify-Assess-Control-Monitor",
+                "Hazard-Risk-Control-Review"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "PPE in the Hierarchy of Controls is:",
+              "options": [
+                "First — most preferred",
+                "Second after elimination",
+                "Equal to engineering controls",
+                "Last — least preferred"
+              ],
+              "answer": 3
+            },
+            {
+              "q": "Stop Work Authority applies to:",
+              "options": [
+                "Managers only",
+                "Safety officers only",
+                "Every worker",
+                "Only unionised workers"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "ILO C167 requires employers to provide PPE:",
+              "options": [
+                "At cost price",
+                "Free of charge",
+                "Workers supply their own",
+                "Only when requested"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Fall protection trigger in Canada is:",
+              "options": [
+                "2 metres",
+                "6 feet",
+                "3 metres",
+                "4 metres"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Emergency number in Australia:",
+              "options": [
+                "999",
+                "911",
+                "000",
+                "111"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Risk equals:",
+              "options": [
+                "Hazard times workers",
+                "Likelihood multiplied by consequence",
+                "Severity of injury only",
+                "Number of hazards"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "ISO 45001 replaced:",
+              "options": [
+                "ISO 14001",
+                "OHSAS 18001",
+                "ISO 9001",
+                "BS 8800"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
