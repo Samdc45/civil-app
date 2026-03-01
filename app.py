@@ -1,5 +1,6 @@
 
 import os, json, sqlite3, hashlib, secrets, re
+import random, string
 from datetime import datetime
 from functools import wraps
 from flask import (
@@ -423,6 +424,77 @@ def gumroad_webhook():
     db.commit()
     db.close()
     return jsonify({'ok': True, 'enrolled': course_id})
+
+
+
+@app.route('/webhook/shopify', methods=['POST'])
+def shopify_webhook():
+    """Handle Shopify order.paid webhook for auto-enrollment"""
+    data = request.json
+    if not data:
+        return jsonify({'error': 'No data'}), 400
+
+    # Extract customer info
+    customer = data.get('customer', {})
+    email = customer.get('email', '').lower().strip()
+    first_name = customer.get('first_name', 'Student')
+    last_name = customer.get('last_name', '')
+    name = f"{first_name} {last_name}".strip() or email.split('@')[0]
+
+    if not email:
+        return jsonify({'error': 'No email'}), 400
+
+    # Map SKU to course_id (matches courses/ directory filenames)
+    SHOPIFY_PRODUCT_MAP = {
+        'nzci-flexi-intro':  'nzci_flexi',
+        'nz-civil-safety':   'nz_site_safety',
+        'au-civil-safety':   'au_entry_level',
+        'ca-civil-safety':   'ca_entry_level',
+        'us-civil-safety':   'us_entry_level',
+        'global-safety':     'global_health_safety',
+        'compaction-101':    'compaction_101',
+        'civil-app-global':  None,  # All courses
+    }
+    ALL_COURSE_IDS = [v for v in SHOPIFY_PRODUCT_MAP.values() if v]
+
+    enrolled = []
+    line_items = data.get('line_items', [])
+
+    db = get_db()
+    # Create student account if not exists
+    student = db.execute('SELECT * FROM students WHERE email=?', (email,)).fetchone()
+    if not student:
+        tmp_pw = secrets.token_hex(8)
+        db.execute(
+            'INSERT OR IGNORE INTO students (email, name, password_hash) VALUES (?, ?, ?)',
+            (email, name, hash_pw(tmp_pw))
+        )
+        db.commit()
+        student = db.execute('SELECT * FROM students WHERE email=?', (email,)).fetchone()
+
+    if student:
+        student_id = student['id'] if isinstance(student, dict) else student[0]
+        for item in line_items:
+            sku = item.get('sku', '')
+            if sku == 'civil-app-global':
+                for cid in ALL_COURSE_IDS:
+                    db.execute(
+                        'INSERT OR IGNORE INTO enrollments (student_id, course_id, tier) VALUES (?, ?, ?)',
+                        (student_id, cid, 'cert')
+                    )
+                    enrolled.append(cid)
+            else:
+                course_id = SHOPIFY_PRODUCT_MAP.get(sku)
+                if course_id:
+                    db.execute(
+                        'INSERT OR IGNORE INTO enrollments (student_id, course_id, tier) VALUES (?, ?, ?)',
+                        (student_id, course_id, 'cert')
+                    )
+                    enrolled.append(course_id)
+        db.commit()
+    db.close()
+
+    return jsonify({'status': 'enrolled', 'courses': enrolled, 'email': email}), 200
 
 # ─────────────────────────────────────────────────────────────
 # ROUTES — Admin
