@@ -803,6 +803,79 @@ def seed_admin():
         else:
             print('[SEED] Admin account already exists')
 
+
+
+# ===== SHOPIFY OAUTH CALLBACK =====
+@app.route('/auth/shopify/callback')
+def shopify_oauth_callback():
+    import hmac, hashlib, subprocess, json as json_mod
+    code = request.args.get('code', '')
+    state = request.args.get('state', '')
+    shop = 'civilapp.myshopify.com'
+    client_id = '23a290f43a45eb729b343d0301e29abe'
+    client_secret = 'd6fe0ScR2pfu028U9l5qKWxW2okfL2Ja'
+    
+    if not code:
+        return 'Error: No code received', 400
+    
+    # Exchange code for access token
+    import urllib.request
+    token_url = f'https://{shop}/admin/oauth/access_token'
+    payload = json_mod.dumps({
+        'client_id': client_id,
+        'client_secret': client_secret,
+        'code': code
+    }).encode('utf-8')
+    req = urllib.request.Request(token_url, data=payload,
+        headers={'Content-Type': 'application/json'})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json_mod.loads(resp.read())
+            token = data.get('access_token', '')
+            scope = data.get('scope', '')
+    except Exception as e:
+        return f'Token exchange failed: {e}', 500
+    
+    if not token:
+        return 'Error: No token in response', 500
+    
+    # Save token
+    token_path = '/a0/usr/projects/project_south_consultants/shopify_token.txt'
+    with open(token_path, 'w') as tf:
+        tf.write(token)
+    
+    # Run setup script in background
+    import subprocess
+    subprocess.Popen([
+        'python3', '/a0/usr/projects/project_south_consultants/shopify_setup.py'
+    ], env={**__import__('os').environ,
+            'SHOPIFY_STORE': shop,
+            'SHOPIFY_TOKEN': token})
+    
+    return f'''<!DOCTYPE html>
+<html><head><title>Shopify Connected!</title>
+<style>body{{font-family:sans-serif;text-align:center;padding:60px;background:#0a0a0a;color:#fff}}
+.box{{background:#1a1a1a;border-radius:12px;padding:40px;max-width:500px;margin:auto;}}
+h1{{color:#00ff88}}p{{color:#ccc}}</style></head>
+<body><div class="box">
+<h1>&#x2705; Shopify Connected!</h1>
+<p>Access token saved. Building your store now...</p>
+<p>9 products + FLASH50 discount code being created.</p>
+<p>Scope: {scope}</p>
+<p>Token: {token[:8]}...</p>
+<p><a href="https://civilapp.myshopify.com/admin" style="color:#00ff88">View Shopify Admin &rarr;</a></p>
+</div></body></html>''', 200
+
+@app.route('/sitemap.xml')
+def sitemap():
+    from flask import send_from_directory
+    return send_from_directory('static', 'sitemap.xml', mimetype='application/xml')
+
+@app.route('/robots.txt')
+def robots():
+    from flask import send_from_directory
+    return send_from_directory('static', 'robots.txt', mimetype='text/plain')
+
 if __name__ == '__main__':
     init_db()
     app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5001)))

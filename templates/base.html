@@ -1,6 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Civil App — Online safety training for civil construction workers. 9 courses covering NZ, Australia, Philippines, Canada, USA and ISO 45001 global standards. Built by a 30-year industry veteran.">
+    <meta name="keywords" content="civil construction safety training, NZ safety training, excavator training, HSWA 2015, WHS Act, online safety course, construction certificate, New Zealand, Australia, Philippines">
+    <meta name="author" content="Sam Dampier-Crossley, South Consultants NZ">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://civil-app-production.up.railway.app/">
+    <meta property="og:title" content="Civil App — Civil Construction Safety Training">
+    <meta property="og:description" content="9 courses. 104+ lessons. Built by a 30-year NZ civil construction veteran. Train your team without taking them off site.">
+    <meta property="og:image" content="https://civil-app-production.up.railway.app/static/og-image.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Civil App — Civil Construction Safety Training">
+    <meta name="twitter:description" content="9 courses. 104+ lessons. NZ, AU, Philippines, Canada, USA standards.">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "South Consultants NZ",
+      "url": "https://civil-app-production.up.railway.app",
+      "logo": "https://civil-app-production.up.railway.app/static/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "civilbesafe@gmail.com",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/south-consultants-nz"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Civil Construction Safety Courses",
+      "description": "Online safety training for civil construction workers",
+      "numberOfItems": 9,
+      "itemListElement": [
+        {"@type": "Course", "name": "NZ Site Safety (HSWA 2015)", "provider": {"@type": "Organization", "name": "South Consultants NZ"}},
+        {"@type": "Course", "name": "Australian Construction Safety (WHS Act)", "provider": {"@type": "Organization", "name": "South Consultants NZ"}},
+        {"@type": "Course", "name": "Philippines Civil Safety Introduction", "provider": {"@type": "Organization", "name": "South Consultants NZ"}},
+        {"@type": "Course", "name": "Global Health & Safety (ISO 45001)", "provider": {"@type": "Organization", "name": "South Consultants NZ"}},
+        {"@type": "Course", "name": "NZCI Flexi Excavator Awareness", "provider": {"@type": "Organization", "name": "South Consultants NZ"}}
+      ]
+    }
+    </script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{% block title %}Civil App{% endblock %}</title>
