@@ -1,0 +1,256 @@
+{
+  "id": "daily-safety-records",
+  "title": "Daily Safety Records — The 5-Minute Habit",
+  "subtitle": "Your conversations are already compliance. Now write them down.",
+  "description": "You already know safety from experience. This course shows you how your daily conversations map to regulations, and how a simple 5-minute morning meeting — written down — is all the documentation you need.",
+  "duration": "1-2 hours",
+  "level": "All Levels",
+  "country": "NZ",
+  "flag": "NZ",
+  "color": "#f59e0b",
+  "price_intro": 97,
+  "price_cert": 297,
+  "modules": [
+    {
+      "id": 1,
+      "title": "You Already Know This",
+      "duration": "20 min",
+      "lessons": [
+        {
+          "title": "The Big Secret About Safety Compliance",
+          "type": "lesson",
+          "content": "**Here is the truth about safety compliance:**\n\nYou already know how to work safely. You learned it the hard way — from good foremen, near misses, and years on the tools.\n\nWhen you walk around the machine before you start, check the ground before you dig, or tell a new guy to stay back from the swing radius — **that is safety management.** You are already doing it.\n\n**The only difference between a compliant site and a non-compliant one is usually one thing: documentation.**\n\nThe morning conversation you have with your crew — that IS a pre-start meeting.\nThe hazard you pointed out and fixed — that IS a hazard identification and control.\nThe time you told someone the ground was soft — that IS a risk assessment.\n\n**You just never wrote it down.**\n\n---\n\n**What Regulators Actually Want:**\n\nWorkSafe NZ, SafeWork AU, OSHA — they are not looking for perfect paperwork.\nThey are looking for **evidence that you thought about safety before something went wrong.**\n\nA five-minute morning meeting, written down, with names and a date?\nThat is evidence. That protects you and your company.\n\n**This course teaches you one habit: the 5-minute morning meeting — and how to record it.**"
+        },
+        {
+          "title": "How Operator Language Maps to Regulations",
+          "type": "lesson",
+          "content": "**What You Say vs What the Regulation Says**\n\nExperienced operators already use the right language. Here is how your words map to the law:\n\n---\n\n**\"Walk around it before you start\"**\n→ HSWA 2015 Reg 34: *Identify hazards before commencing work*\n\n**\"Call the locator before you dig\"**\n→ WorkSafe NZ ACOP: *Locate all underground services before excavation*\n\n**\"Hand dig within 500mm of a marked service\"**\n→ WorkSafe NZ ACOP: *Do not use mechanical equipment within 500mm of a located service*\n\n**\"No one inside the swing radius\"**\n→ HSWA Reg 34: *Establish exclusion zones around operating plant*\n\n**\"Tag it out if it is not right\"**\n→ HSWA GR Reg 36: *Defective plant must not be operated*\n\n**\"Batter or shore any trench over chest height\"**\n→ WorkSafe NZ Excavation ACOP: *Excavations over 1.5m require support or battered walls*\n\n**\"If it feels sketchy, stop\"**\n→ HSWA 2015 s.83: *Worker right to cease unsafe work*\n\n---\n\n**The Point:** You are not learning new safety rules. You are learning how to document the ones you already follow."
+        },
+        {
+          "title": "Knowledge Check",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "The main difference between a compliant and non-compliant site is usually:",
+              "options": [
+                "Buying more PPE",
+                "Having a dedicated safety officer",
+                "Documenting the safety practices you already do",
+                "Having more training courses"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "When an experienced operator says \"walk around it before you start\" they are complying with:",
+              "options": [
+                "OSHA reversing rules",
+                "HSWA Reg 34 — identify hazards before commencing work",
+                "The load chart requirements",
+                "Traffic management rules"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "WorkSafe inspectors primarily look for:",
+              "options": [
+                "Perfect paperwork with no errors",
+                "Evidence that you thought about safety before something went wrong",
+                "Certification papers for every worker",
+                "New equipment with current warrants"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The 5-Minute Pre-Start Meeting",
+      "duration": "25 min",
+      "lessons": [
+        {
+          "title": "The 5-Step Format",
+          "type": "lesson",
+          "content": "**The 5-Minute Pre-Start Meeting — 5 Steps**\n\nThis takes five minutes. You probably already do most of this informally.\nWrite it down and it becomes legally defensible compliance documentation.\n\n---\n\n**Step 1 — Yesterday's Carryover (60 seconds)**\nWhat got left open or unfinished yesterday?\n- Open excavations or trenches\n- Soft or unstable ground areas\n- Tagged-out plant\n- Exposed services\n- Spills or environmental issues\n\n*Example: \"The trench at the northern end is still open — it's barriered but check it before you start near it.\"*\n\n---\n\n**Step 2 — Today's Plan (60 seconds)**\nWhat are we doing today and where?\n- Work areas for each crew\n- Service locates confirmed for today's dig areas\n- Concrete trucks, deliveries, or other vehicles expected\n- Changes to the plan from yesterday\n\n*Example: \"Digger is working on the eastern trench today — locates are confirmed. Concrete truck at 10am, everyone clear the access road by 9:50.\"*\n\n---\n\n**Step 3 — The Big Three (90 seconds)**\nThree specific hazards for TODAY's work. Not generic — specific.\nThe foreman picks three that are relevant right now.\n\n*Example:*\n*1. Ground is soft after last night's rain — machine to stay off the batter*\n*2. Gas line is 400mm below surface at the northern end — hand dig only from peg 7 to peg 12*\n*3. Public footpath is active — exclusion barrier must stay in place all day*\n\n---\n\n**Step 4 — Plant Status (30 seconds)**\nWhich machines are running and which are tagged out?\n- Any pre-start faults found this morning?\n- Any machines that should NOT be started?\n\n*Example: \"The excavator has a hydraulic smell — do not start it until the mechanic checks it.\"*\n\n---\n\n**Step 5 — Floor Open (30 seconds)**\nPsychological safety — anyone can speak up before machines start.\n\"Anything anyone wants to add before we start?\"\nPause. Wait for it. Create the space.\n\n*This is the most important 30 seconds. It catches the thing the foreman missed.*"
+        },
+        {
+          "title": "How to Record the Meeting",
+          "type": "lesson",
+          "content": "**Recording the Meeting — What You Need**\n\nA complete pre-start meeting record needs these fields:\n\n1. **Date and time** — when did the meeting happen?\n2. **Site name and location** — which site?\n3. **Supervisor name** — who ran the meeting?\n4. **Attendees** — who was there? (names or sign-off)\n5. **Yesterday's carryover items** — what was noted\n6. **Today's work plan** — brief description\n7. **The Big Three hazards** — exactly what was said\n8. **Plant status** — any faults or tag-outs\n9. **Floor open items** — anything raised by the crew\n10. **Actions** — anything that needs to be done and by whom\n\n---\n\n**Three Ways to Record:**\n\n**Option A — Paper form (laminated card, fill and scan)**\nPrint the form. Fill it in. Photograph it and save to a shared drive.\n\n**Option B — Civil App Digital Record**\nUse the Daily Record tool in Civil App — enter details on your phone or tablet, submit, and it creates a timestamped PDF record automatically.\n\n**Option C — Email to yourself**\nIf you have nothing else — email yourself a summary of the 5 steps after the meeting. The timestamp on the email is evidence.\n\n---\n\n**How Long to Keep Records:**\n- NZ: Minimum 3 years (longer for notifiable incidents)\n- AU: Minimum 5 years (varies by state)\n- US: 3-5 years depending on OSHA record type\n- CA: Minimum 3 years\n\n**Recommendation:** Keep forever. Storage is cheap. Defence lawyers are not."
+        },
+        {
+          "title": "Knowledge Check",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "The Big Three in a pre-start meeting refers to:",
+              "options": [
+                "Three rules from the safety manual",
+                "Three specific hazards relevant to today's work on this site",
+                "Three pieces of mandatory PPE",
+                "Three emergency contact numbers"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The Floor Open step exists because:",
+              "options": [
+                "It is a legal requirement",
+                "It creates space for workers to raise something the supervisor missed",
+                "It gives workers a break before starting",
+                "It documents lunch breaks"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "How long should pre-start meeting records be kept in NZ?",
+              "options": [
+                "6 months",
+                "1 year",
+                "Minimum 3 years",
+                "Only until the project ends"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Which of the following is NOT required in a pre-start meeting record?",
+              "options": [
+                "Date and time",
+                "Attendee names",
+                "Supervisor's personal home address",
+                "The specific hazards discussed"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "18 Discussion Topics — Operator to Regulation",
+      "duration": "30 min",
+      "lessons": [
+        {
+          "title": "How to Use Discussion Cards",
+          "type": "lesson",
+          "content": "**The 30-Day Safety Discussion Rotation**\n\nCivil App provides 18 safety discussion cards — each one is a topic experienced operators already talk about.\n\nEach card gives you:\n- **The topic in plain language** — exactly how you would say it on site\n- **What regulation it satisfies** — NZ, AU, US, CA\n- **Talking points** — questions to get the crew discussing\n\n**How to Use Them:**\n\n1. Pick one card per morning for your pre-start meeting\n2. Use the plain language description to kick off the conversation\n3. Use the talking points to get input from the crew\n4. Record what was discussed in the meeting record\n5. Rotate through all 18 cards — then start again\n\nEighteen cards at one per morning = 18 different safety topics covered every month.\nIn a year, your crew will have discussed every major civil site hazard multiple times.\n\n**The Rule: Vary the cards based on what is happening on site.**\nIf you are starting a deep excavation tomorrow, use the Battering and Benching card today.\nIf rain is forecast, use the Wet Weather card.\nThe card is a starting point — your site knowledge drives the conversation."
+        },
+        {
+          "title": "Top 5 Discussion Topics for Civil Construction",
+          "type": "lesson",
+          "content": "**The 5 Most Important Conversations for Every Civil Site**\n\n**1. Underground Services — Know Before You Dig**\nThe talk: Where are the services, are locates confirmed, who has walked the marks, what do we do if we hit something?\nWhy it matters: Underground service strikes kill people and cost millions. This conversation is free.\n\n**2. Exclusion Zones — No One Inside the Swing Radius**\nThe talk: Where is the exclusion zone today, who is the spotter, how do we signal a stop?\nWhy it matters: Being struck by plant is one of the top two causes of fatalities on civil sites globally.\n\n**3. Reversing — The Killer Move**\nThe talk: Who is the spotter, what are our signals, what happens when you lose sight of the spotter?\nWhy it matters: Reversing vehicle incidents are the number one cause of being-struck fatalities on civil sites.\n\n**4. Ground Conditions — What Changed Overnight**\nThe talk: Did rain change the slope, are trench walls still stable, is the ground still capable of holding machine weight?\nWhy it matters: Ground instability after rain causes excavation collapses and machine rollovers.\n\n**5. Stop Work Authority — Anyone Can Call It**\nThe talk: If something feels wrong, you stop. You do not need permission. You call it and we all look at it together.\nWhy it matters: The hierarchy of controls starts with elimination. The fastest way to eliminate a hazard is to stop work."
+        },
+        {
+          "title": "Knowledge Check",
+          "type": "quiz",
+          "pass_mark": 70,
+          "questions": [
+            {
+              "q": "How many discussion cards does Civil App provide?",
+              "options": [
+                "5",
+                "10",
+                "18",
+                "30"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "You should choose discussion cards based on:",
+              "options": [
+                "Alphabetical order always",
+                "What is happening on your specific site that day",
+                "What cards you haven't used recently only",
+                "Random selection every day"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The number one cause of being-struck fatalities on civil sites is:",
+              "options": [
+                "Falling objects",
+                "Reversing vehicles",
+                "Crane collapses",
+                "Falling from height"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Final Assessment",
+      "duration": "15 min",
+      "lessons": [
+        {
+          "title": "Course Summary",
+          "type": "lesson",
+          "content": "**Congratulations — You have completed Daily Safety Records: The 5-Minute Habit!**\n\nKey knowledge covered:\n\n- Your existing safety knowledge IS compliance — it just needs to be documented\n- Operator language maps directly to regulatory requirements\n- The 5-step pre-start meeting: Carryover, Today's Plan, Big Three, Plant Status, Floor Open\n- A written record of the meeting = legally defensible evidence\n- 18 discussion cards = 18 different safety topics per month\n- Records must be kept minimum 3-5 years\n- Stop Work Authority is every worker's right in every country\n- The Floor Open step is the most important 30 seconds of the meeting"
+        },
+        {
+          "title": "Knowledge Check",
+          "type": "quiz",
+          "pass_mark": 80,
+          "questions": [
+            {
+              "q": "The 5 steps of the pre-start meeting are:",
+              "options": [
+                "PPE check, machine check, service check, plan check, sign-off",
+                "Yesterday's carryover, today's plan, big three hazards, plant status, floor open",
+                "Safety rules, work plan, hazards, PPE, start",
+                "Induction, plan, hazards, controls, record"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "The Floor Open step creates:",
+              "options": [
+                "A break before work starts",
+                "Space for workers to raise anything the supervisor missed",
+                "Time to check phones",
+                "Optional attendance"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Your daily safety conversations without documentation are:",
+              "options": [
+                "Fully compliant",
+                "Worthless in a legal investigation",
+                "Better than written records",
+                "Only required for big companies"
+              ],
+              "answer": 1
+            },
+            {
+              "q": "Records should be kept for minimum:",
+              "options": [
+                "6 months",
+                "1 year",
+                "3-5 years depending on jurisdiction",
+                "Until the project ends"
+              ],
+              "answer": 2
+            },
+            {
+              "q": "Stop Work Authority means:",
+              "options": [
+                "Only supervisors can stop unsafe work",
+                "You need written approval to stop work",
+                "Any worker can stop work they believe is unsafe",
+                "Stop work requires a formal review meeting first"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

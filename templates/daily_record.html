@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% block title %}Daily Pre-Start Record — Civil App{% endblock %}
+{% block content %}
+<div style="background:linear-gradient(135deg,#0a0f17,#1a2535);padding:40px 24px;text-align:center;border-bottom:1px solid #30363d">
+  <h1 style="font-size:2rem;font-weight:800;margin-bottom:8px">📋 Daily Pre-Start Meeting Record</h1>
+  <p style="color:#8b949e;font-size:1rem;max-width:560px;margin:0 auto">
+    5 minutes. Written down. Legally defensible. <br>
+    <span style="color:#f59e0b">Your conversations are already compliance — now record them.</span>
+  </p>
+</div>
+
+<div class="container" style="max-width:760px">
+
+{% if submitted %}
+  <!-- SUCCESS STATE -->
+  <div style="text-align:center;padding:48px 24px">
+    <div style="font-size:4rem;margin-bottom:16px">✅</div>
+    <h2 style="color:#3fb950;margin-bottom:8px">Meeting Recorded!</h2>
+    <p style="color:#8b949e;margin-bottom:24px">Record #{{ record_id }} saved at {{ timestamp }}</p>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      <a href="/daily-record/{{ record_id }}/pdf" class="btn btn-primary">⬇ Download PDF Record</a>
+      <a href="/daily-record" class="btn btn-secondary">+ New Meeting</a>
+      {% if session.is_admin %}<a href="/daily-record/history" class="btn btn-secondary">📁 View All Records</a>{% endif %}
+    </div>
+  </div>
+
+{% else %}
+  <!-- FORM -->
+  <form method="POST" action="/daily-record" style="margin:32px 0">
+
+    <!-- SECTION 1: Site Details -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #f59e0b">
+      <h3 style="margin-bottom:16px;color:#f59e0b">📍 Site Details</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div>
+          <label style="display:block;font-size:0.85rem;color:#8b949e;margin-bottom:6px">Date *</label>
+          <input type="date" name="meeting_date" required value="{{ today }}"
+            style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.95rem">
+        </div>
+        <div>
+          <label style="display:block;font-size:0.85rem;color:#8b949e;margin-bottom:6px">Time *</label>
+          <input type="time" name="meeting_time" required value="{{ now_time }}"
+            style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.95rem">
+        </div>
+        <div>
+          <label style="display:block;font-size:0.85rem;color:#8b949e;margin-bottom:6px">Site Name / Location *</label>
+          <input type="text" name="site_name" required placeholder="e.g. Main Street Watermain, K32+400"
+            style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.95rem">
+        </div>
+        <div>
+          <label style="display:block;font-size:0.85rem;color:#8b949e;margin-bottom:6px">Supervisor / Foreman *</label>
+          <input type="text" name="supervisor" required placeholder="Full name"
+            style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.95rem">
+        </div>
+      </div>
+      <div style="margin-top:16px">
+        <label style="display:block;font-size:0.85rem;color:#8b949e;margin-bottom:6px">Weather Conditions</label>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          {% for w in ["Fine","Overcast","Rain","Wind","Fog","Hot","Cold"] %}
+          <label style="display:flex;align-items:center;gap:6px;cursor:pointer;font-size:0.875rem">
+            <input type="checkbox" name="weather" value="{{ w }}"> {{ w }}
+          </label>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 2: Attendees -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #58a6ff">
+      <h3 style="margin-bottom:8px;color:#58a6ff">👷 Attendees</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">Enter names of everyone at this meeting (one per line)</p>
+      <textarea name="attendees" rows="4" required placeholder="John Smith
+Mike Jones
+Sarah Brown"
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+    </div>
+
+    <!-- SECTION 3: Yesterday's Carryover -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #f78166">
+      <h3 style="margin-bottom:4px;color:#f78166">🔄 Step 1 — Yesterday's Carryover</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">Open excavations, tagged-out plant, exposed services, unfinished items from yesterday</p>
+      <textarea name="carryover" rows="3" placeholder="e.g. Trench at chainage 45 still open — barriered. Excavator tagged out awaiting hydraulic repair."
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+    </div>
+
+    <!-- SECTION 4: Today's Plan -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #3fb950">
+      <h3 style="margin-bottom:4px;color:#3fb950">📅 Step 2 — Today's Work Plan</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">What are we doing today and where? Service locates confirmed?</p>
+      <textarea name="work_plan" rows="3" required placeholder="e.g. Excavating stormwater trench from CH60 to CH90. Locates confirmed for this section. Concrete truck arriving 10am."
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+      <div style="margin-top:12px">
+        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:0.875rem">
+          <input type="checkbox" name="locates_confirmed" value="yes">
+          <span>✅ Service locates confirmed for today's dig area (0800 DIG KNOW / 1100 / 811)</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- SECTION 5: The Big Three -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #f59e0b">
+      <h3 style="margin-bottom:4px;color:#f59e0b">⚠️ Step 3 — The Big Three Hazards Today</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:16px">Three specific hazards for TODAY's work on THIS site. Be specific — not generic.</p>
+      {% for i in [1,2,3] %}
+      <div style="margin-bottom:12px">
+        <label style="display:block;font-size:0.85rem;color:#8b949e;margin-bottom:6px">Hazard {{ i }}</label>
+        <input type="text" name="hazard_{{ i }}" required placeholder="e.g. Gas line 400mm below surface at CH65 — hand dig only from peg 6 to peg 9"
+          style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem">
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- SECTION 6: Plant Status -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #a371f7">
+      <h3 style="margin-bottom:4px;color:#a371f7">🚧 Step 4 — Plant Status</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">Any pre-start faults, tagged-out machines, or plant concerns this morning?</p>
+      <textarea name="plant_status" rows="2" placeholder="e.g. All plant pre-started OK. Roller hydraulic leak — tagged out. Do not use until repaired."
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+    </div>
+
+    <!-- SECTION 7: Floor Open -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #3fb950">
+      <h3 style="margin-bottom:4px;color:#3fb950">🙋 Step 5 — Floor Open</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">Anything raised by the crew before starting? (Most important 30 seconds)</p>
+      <textarea name="floor_open" rows="2" placeholder="e.g. Mike noted the access track was slippery this morning — cones placed at the wet section. No other items raised."
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+    </div>
+
+    <!-- SECTION 8: Today's Discussion Topic -->
+    <div class="card" style="margin-bottom:20px;border-top:3px solid #58a6ff">
+      <h3 style="margin-bottom:4px;color:#58a6ff">💬 Today's Safety Discussion Topic</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">Select today's discussion card topic and note key points discussed</p>
+      <select name="discussion_topic"
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;margin-bottom:12px">
+        <option value="">-- Select a discussion topic --</option>
+        {% for card in discussion_cards %}
+        <option value="{{ card.title }}">{{ card.id }}. {{ card.title }} ({{ card.category }})</option>
+        {% endfor %}
+      </select>
+      <textarea name="discussion_notes" rows="2" placeholder="Key points discussed by the crew..."
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="card" style="margin-bottom:28px;border-top:3px solid #f78166">
+      <h3 style="margin-bottom:4px;color:#f78166">✅ Actions Required</h3>
+      <p style="color:#8b949e;font-size:0.85rem;margin-bottom:12px">Any follow-up actions identified in this meeting?</p>
+      <textarea name="actions" rows="2" placeholder="e.g. Sam to arrange hydraulic repair for roller by EOD. Jane to confirm locate certificate is on site."
+        style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:10px;border-radius:6px;font-size:0.875rem;resize:vertical"></textarea>
+    </div>
+
+    <button type="submit" style="width:100%;background:#f59e0b;color:#000;border:none;padding:16px;border-radius:8px;font-size:1.1rem;font-weight:800;cursor:pointer;letter-spacing:0.5px">
+      📋 Save Meeting Record + Generate PDF
+    </button>
+    <p style="text-align:center;color:#8b949e;font-size:0.8rem;margin-top:12px">
+      Record will be timestamped and stored. PDF available for download immediately.
+    </p>
+
+  </form>
+{% endif %}
+</div>
+{% endblock %}

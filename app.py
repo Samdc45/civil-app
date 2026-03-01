@@ -40,6 +40,28 @@ def init_db():
             gumroad_sale_id TEXT,
             UNIQUE(student_id, course_id)
         );
+        CREATE TABLE IF NOT EXISTS meeting_records (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            meeting_date TEXT NOT NULL,
+            meeting_time TEXT NOT NULL,
+            site_name TEXT NOT NULL,
+            supervisor TEXT NOT NULL,
+            weather TEXT,
+            attendees TEXT,
+            carryover TEXT,
+            work_plan TEXT,
+            locates_confirmed INTEGER DEFAULT 0,
+            hazard_1 TEXT,
+            hazard_2 TEXT,
+            hazard_3 TEXT,
+            plant_status TEXT,
+            floor_open TEXT,
+            discussion_topic TEXT,
+            discussion_notes TEXT,
+            actions TEXT,
+            created_at TEXT DEFAULT (datetime('now')),
+            student_id INTEGER
+        );
         CREATE TABLE IF NOT EXISTS progress (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             student_id INTEGER NOT NULL,
@@ -436,6 +458,129 @@ def health():
                     'enrollments': enrols, 'certificates': certs,
                     'courses': len(load_courses())})
 
+
+# ─────────────────────────────────────────────────────────────
+# DAILY MEETING RECORD
+# ─────────────────────────────────────────────────────────────
+DISCUSSION_CARDS_PATH = os.path.join(COURSES_DIR, 'discussion_cards.json')
+
+def load_discussion_cards():
+    if os.path.exists(DISCUSSION_CARDS_PATH):
+        with open(DISCUSSION_CARDS_PATH) as f:
+            return json.load(f)
+    return []
+
+@app.route('/daily-record', methods=['GET', 'POST'])
+def daily_record():
+    cards = load_discussion_cards()
+    today = datetime.now().strftime('%Y-%m-%d')
+    now_time = datetime.now().strftime('%H:%M')
+    if request.method == 'POST':
+        d = request.form
+        weather = ', '.join(request.form.getlist('weather'))
+        locates = 1 if d.get('locates_confirmed') == 'yes' else 0
+        db = get_db()
+        cur = db.execute('''
+            INSERT INTO meeting_records
+            (meeting_date, meeting_time, site_name, supervisor, weather, attendees,
+             carryover, work_plan, locates_confirmed, hazard_1, hazard_2, hazard_3,
+             plant_status, floor_open, discussion_topic, discussion_notes, actions, student_id)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        ''',(
+            d.get('meeting_date'), d.get('meeting_time'), d.get('site_name'),
+            d.get('supervisor'), weather, d.get('attendees'),
+            d.get('carryover'), d.get('work_plan'), locates,
+            d.get('hazard_1'), d.get('hazard_2'), d.get('hazard_3'),
+            d.get('plant_status'), d.get('floor_open'),
+            d.get('discussion_topic'), d.get('discussion_notes'),
+            d.get('actions'), session.get('student_id')
+        ))
+        db.commit()
+        record_id = cur.lastrowid
+        db.close()
+        timestamp = datetime.now().strftime('%d %b %Y %H:%M')
+        return render_template('daily_record.html', submitted=True,
+                               record_id=record_id, timestamp=timestamp,
+                               discussion_cards=cards)
+    return render_template('daily_record.html', submitted=False,
+                           today=today, now_time=now_time,
+                           discussion_cards=cards)
+
+@app.route('/daily-record/<int:record_id>/pdf')
+def daily_record_pdf(record_id):
+    db = get_db()
+    r = db.execute('SELECT * FROM meeting_records WHERE id=?', (record_id,)).fetchone()
+    db.close()
+    if not r:
+        abort(404)
+    # Generate simple HTML PDF
+    locates_str = '✅ CONFIRMED' if r['locates_confirmed'] else '⚠️ NOT RECORDED'
+    html = f'''<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Pre-Start Record #{record_id}</title>
+<style>
+body{{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:20px;color:#1a1a1a}}
+h1{{background:#f59e0b;color:#000;padding:16px;border-radius:8px;margin-bottom:0}}
+.header-sub{{background:#fef3c7;padding:8px 16px;border-radius:0 0 8px 8px;margin-bottom:24px;font-size:0.9rem}}
+.section{{border:1px solid #e5e7eb;border-radius:8px;padding:16px;margin-bottom:16px}}
+.section h3{{margin:0 0 8px;color:#b45309;font-size:1rem}}
+.grid{{display:grid;grid-template-columns:1fr 1fr;gap:12px}}
+.field{{margin-bottom:8px}}
+.label{{font-size:0.75rem;color:#6b7280;font-weight:600;text-transform:uppercase}}
+.value{{font-size:0.9rem;color:#111;padding:4px 0;border-bottom:1px solid #f3f4f6}}
+.hazard{{background:#fef3c7;border-left:4px solid #f59e0b;padding:8px 12px;margin-bottom:8px;border-radius:0 4px 4px 0}}
+.footer{{text-align:center;color:#9ca3af;font-size:0.75rem;margin-top:32px;border-top:1px solid #e5e7eb;padding-top:16px}}
+</style></head><body>
+<h1>📋 Pre-Start Meeting Record</h1>
+<div class="header-sub">Civil App &bull; South Consultants NZ &bull; Record #{record_id}</div>
+<div class="section"><h3>📍 Site Details</h3>
+<div class="grid">
+<div class="field"><div class="label">Date</div><div class="value">{r['meeting_date']}</div></div>
+<div class="field"><div class="label">Time</div><div class="value">{r['meeting_time']}</div></div>
+<div class="field"><div class="label">Site</div><div class="value">{r['site_name']}</div></div>
+<div class="field"><div class="label">Supervisor</div><div class="value">{r['supervisor']}</div></div>
+<div class="field"><div class="label">Weather</div><div class="value">{r['weather'] or 'Not recorded'}</div></div>
+<div class="field"><div class="label">Service Locates</div><div class="value">{locates_str}</div></div>
+</div></div>
+<div class="section"><h3>👷 Attendees</h3>
+<div class="value" style="white-space:pre-line">{r['attendees'] or 'Not recorded'}</div></div>
+<div class="section"><h3>🔄 Step 1 — Yesterday's Carryover</h3>
+<div class="value">{r['carryover'] or 'None noted'}</div></div>
+<div class="section"><h3>📅 Step 2 — Today's Work Plan</h3>
+<div class="value">{r['work_plan'] or 'Not recorded'}</div></div>
+<div class="section"><h3>⚠️ Step 3 — The Big Three Hazards</h3>
+<div class="hazard"><strong>1.</strong> {r['hazard_1'] or 'Not recorded'}</div>
+<div class="hazard"><strong>2.</strong> {r['hazard_2'] or 'Not recorded'}</div>
+<div class="hazard"><strong>3.</strong> {r['hazard_3'] or 'Not recorded'}</div></div>
+<div class="section"><h3>🚧 Step 4 — Plant Status</h3>
+<div class="value">{r['plant_status'] or 'All plant OK'}</div></div>
+<div class="section"><h3>🙋 Step 5 — Floor Open</h3>
+<div class="value">{r['floor_open'] or 'No items raised'}</div></div>
+<div class="section"><h3>💬 Safety Discussion Topic</h3>
+<div class="field"><div class="label">Topic</div><div class="value">{r['discussion_topic'] or 'Not selected'}</div></div>
+<div class="field"><div class="label">Notes</div><div class="value">{r['discussion_notes'] or 'Not recorded'}</div></div></div>
+<div class="section"><h3>✅ Actions Required</h3>
+<div class="value">{r['actions'] or 'No actions'}</div></div>
+<div class="footer">
+Record #{record_id} &bull; Created: {r['created_at']} &bull; Civil App &bull; South Consultants NZ<br>
+This record constitutes evidence of pre-start safety management under HSWA 2015 (NZ), WHS Act 2011 (AU), OSHA (US), OHS Code (CA).
+</div></body></html>'''
+    from flask import Response
+    return Response(html, mimetype='text/html',
+                    headers={'Content-Disposition': f'attachment; filename=prestart-record-{record_id}.html'})
+
+@app.route('/daily-record/history')
+def daily_record_history():
+    if not session.get('is_admin') and not session.get('student_id'):
+        return redirect(url_for('login'))
+    db = get_db()
+    if session.get('is_admin'):
+        records = db.execute('SELECT * FROM meeting_records ORDER BY created_at DESC LIMIT 100').fetchall()
+    else:
+        records = db.execute('SELECT * FROM meeting_records WHERE student_id=? ORDER BY created_at DESC LIMIT 50',
+                             (session['student_id'],)).fetchall()
+    db.close()
+    cards = load_discussion_cards()
+    return render_template('record_history.html', records=records, discussion_cards=cards)
 if __name__ == '__main__':
     init_db()
     app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5001)))

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Meeting Records — Civil App{% endblock %}
+{% block content %}
+<div style="background:linear-gradient(135deg,#0a0f17,#1a2535);padding:32px 24px;border-bottom:1px solid #30363d">
+  <h1 style="font-size:1.8rem;font-weight:800;margin-bottom:6px">📁 Pre-Start Meeting Records</h1>
+  <p style="color:#8b949e">{{ records|length }} records stored &bull; Click any row to view details</p>
+</div>
+<div class="container">
+  <div style="display:flex;gap:12px;margin:24px 0;flex-wrap:wrap">
+    <a href="/daily-record" class="btn btn-primary">+ New Meeting Record</a>
+    {% if session.is_admin %}
+    <a href="/daily-record/export" class="btn btn-secondary">⬇ Export All (CSV)</a>
+    {% endif %}
+  </div>
+  {% if records %}
+  <div style="overflow-x:auto">
+    <table style="width:100%;border-collapse:collapse;font-size:0.875rem">
+      <thead>
+        <tr style="border-bottom:2px solid #30363d;text-align:left">
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">#</th>
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">Date</th>
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">Site</th>
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">Supervisor</th>
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">Hazard 1</th>
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">Locates</th>
+          <th style="padding:10px 12px;color:#8b949e;font-weight:600">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in records %}
+        <tr style="border-bottom:1px solid #21262d;transition:background 0.15s"
+            onmouseover="this.style.background='#161b22'" onmouseout="this.style.background='transparent'">
+          <td style="padding:10px 12px;color:#8b949e">{{ r.id }}</td>
+          <td style="padding:10px 12px"><strong>{{ r.meeting_date }}</strong><br><span style="color:#8b949e;font-size:0.78rem">{{ r.meeting_time }}</span></td>
+          <td style="padding:10px 12px;color:#58a6ff">{{ r.site_name }}</td>
+          <td style="padding:10px 12px">{{ r.supervisor }}</td>
+          <td style="padding:10px 12px;color:#f59e0b;font-size:0.82rem">{{ (r.hazard_1 or '—')[:60] }}{% if r.hazard_1 and r.hazard_1|length > 60 %}...{% endif %}</td>
+          <td style="padding:10px 12px">
+            {% if r.locates_confirmed %}
+            <span style="color:#3fb950">✅ Yes</span>
+            {% else %}
+            <span style="color:#f78166">⚠️ No</span>
+            {% endif %}
+          </td>
+          <td style="padding:10px 12px">
+            <a href="/daily-record/{{ r.id }}/pdf" class="btn btn-secondary" style="padding:4px 10px;font-size:0.78rem">⬇ PDF</a>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div style="text-align:center;padding:48px;color:#8b949e">
+    <div style="font-size:3rem;margin-bottom:16px">📋</div>
+    <h3>No records yet</h3>
+    <p>Run your first pre-start meeting and record it here.</p>
+    <a href="/daily-record" class="btn btn-primary" style="margin-top:16px">Start First Meeting Record</a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

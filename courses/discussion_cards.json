@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "category": "Pre-Start",
+    "title": "Walk Around Before You Start",
+    "plain": "Before you fire up the machine, walk the whole area. Look for anything that moved overnight — slips, water pooling, kids jumping the fence, dumped rubbish. Two minutes now saves two hours later.",
+    "regulation_nz": "HSWA 2015 s.36 + GR Reg 34 — hazard identification before work commences",
+    "regulation_au": "WHS Act 2011 s.19 + WHS Reg 208 — identifying hazards before plant operation",
+    "regulation_us": "OSHA 1926.20(b) — frequent and regular inspections by competent person",
+    "regulation_ca": "OHS Code Part 4 s.10 — hazard assessment before work begins",
+    "talking_points": [
+      "What changed on site since yesterday?",
+      "Any ground movement or water ingress overnight?",
+      "Any new people or contractors on site today?",
+      "Where are the pinch points — tight spaces, blind corners?"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Pre-Start",
+    "title": "Pre-Start Checks Are Not Box-Ticking",
+    "plain": "The pre-start check is not about filling in a form. It is about you noticing something is wrong before it kills you. Check fluid levels, look for leaks under the machine, check tracks or tyres, make sure all the lights work. If you find a fault — tag it out. Do not start it.",
+    "regulation_nz": "HSWA 2015 GR Reg 34 — plant maintenance and inspection",
+    "regulation_au": "WHS Reg 212 — inspection of plant before use",
+    "regulation_us": "OSHA 1926.602(a) — equipment inspection before use",
+    "regulation_ca": "OHS Code Part 6 s.116 — equipment inspection",
+    "talking_points": [
+      "Walk everyone through a real pre-start check on the machine right now",
+      "What do you do if you find a fault?",
+      "Who records the fault and who decides if it runs?",
+      "When did we last check the fire extinguisher on the machine?"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Pre-Start",
+    "title": "Know Your Ground Before You Dig",
+    "plain": "Before any bucket goes in the ground — what is under there? Water, gas, power, telecom, stormwater. Call the locate line. If locates are marked, walk them yourself before you machine dig. Never trust paint on the ground without walking it first.",
+    "regulation_nz": "Dial Before You Dig NZ: 0800 DIG KNOW — mandatory locate before excavation",
+    "regulation_au": "Dial Before You Dig AU: 1100 — mandatory before any excavation",
+    "regulation_us": "Call 811 — required in all 50 states before excavation",
+    "regulation_ca": "Call Before You Dig: BC 1 Call, Ontario One Call, Alberta One Call",
+    "talking_points": [
+      "Are locates confirmed for today's dig area?",
+      "Who walked the locate marks this morning?",
+      "How far do we hand dig near a marked service?",
+      "What do we do if we hit something unexpected?"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Pre-Start",
+    "title": "The Big Three for Today",
+    "plain": "Every morning the foreman picks three hazards specific to today's work. Not general stuff — specific. If you are digging near a gas line today, that is one. If the ground is soft from last night's rain, that is two. If there is a concrete truck coming in at 10am, that is three. Everyone hears it. Everyone is looking for those three things all day.",
+    "regulation_nz": "HSWA 2015 s.38 — worker engagement and participation",
+    "regulation_au": "WHS Act s.47 — consultation with workers on health and safety matters",
+    "regulation_us": "OSHA 1926.21 — safety training and education, task-specific hazards",
+    "regulation_ca": "OHS Code Part 1 s.3 — hazard identification and control",
+    "talking_points": [
+      "What are the top three hazards for today specifically?",
+      "Has everyone heard them? Does everyone understand them?",
+      "What do you do if you see one of these hazards getting worse?",
+      "Who is the contact person if something changes during the day?"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Pre-Start",
+    "title": "Yesterday's Carryover",
+    "plain": "What got left open yesterday? Trenches, excavations, soft patches, tagged-out machines, spills not cleaned up, services exposed but not back-filled. Yesterday's carryover is today's first hazard. Start every morning by sorting out what got left from the day before.",
+    "regulation_nz": "HSWA 2015 GR Reg 29 — securing work areas",
+    "regulation_au": "WHS Reg 37 — management of ongoing risks",
+    "regulation_us": "OSHA 1926.651(j) — protection of open excavations",
+    "regulation_ca": "OHS Code Part 32 s.452 — securing excavations",
+    "talking_points": [
+      "What was left open or unfinished yesterday?",
+      "Are all open excavations barriered and signed?",
+      "Any machines still tagged out from yesterday?",
+      "Any spills or environmental issues not dealt with?"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Underground Services",
+    "title": "500mm Hand Dig Rule",
+    "plain": "When the locator has marked a service, you hand dig or pothole to find the exact depth and line before the machine goes anywhere near it. The rule is 500mm either side of the mark — that is the no-machine zone. Services can be 300mm off where they are marked. Treat every mark as approximate until you have physically found the pipe or cable.",
+    "regulation_nz": "WorkSafe NZ ACOP — hand expose within 500mm of service location",
+    "regulation_au": "SafeWork AU Code of Practice — 300mm exclusion zone (state variations apply)",
+    "regulation_us": "OSHA 1926.651(b) — utility location before excavation, safe clearance",
+    "regulation_ca": "OHS Code Part 32 s.453 — utility clearance before mechanical excavation",
+    "talking_points": [
+      "Has anyone physically found and confirmed the service depth today?",
+      "What is the diameter of the pipe or conduit — how does that change your clearance?",
+      "If ground conditions are unusual, does that change how far we hand dig?",
+      "Who marks up the confirmed depth and line on the locate sheet?"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Underground Services",
+    "title": "What to Do If You Hit a Service",
+    "plain": "If you hit a service — stop everything. Get everyone back. If it is gas, get well back and call the gas company first, then emergency services. If it is live electrical, do not touch the machine — get off and away, call the lines company. Never assume it is dead. Treat every struck service as live until the asset owner confirms otherwise.",
+    "regulation_nz": "HSWA 2015 s.36 — emergency management, immediate cessation of unsafe work",
+    "regulation_au": "WHS Act s.38 — cessation of unsafe work, emergency procedures",
+    "regulation_us": "OSHA 1926.651(b)(2) — emergency response to utility strikes",
+    "regulation_ca": "OHS Code Part 32 s.455 — response to unexpected utility contact",
+    "talking_points": [
+      "What is our exact procedure if we hit a gas line?",
+      "What if we hit a live cable — does everyone know NOT to touch the machine?",
+      "Who do we call first? Do you have the numbers in your phone?",
+      "Where is the site emergency plan and does everyone know the muster point?"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Slopes and Stability",
+    "title": "Battering and Benching — Keep the Trench Walls Safe",
+    "plain": "Trench walls collapse without warning. Especially in loose soil, sand, or after rain. The rule of thumb: if the trench is over 1.5 metres deep, you need either battered sides, benched sides, or shoring. Do not walk into an unprotected trench that is over chest height without asking who assessed it.",
+    "regulation_nz": "WorkSafe NZ ACOP — excavation support for trenches over 1.5m deep",
+    "regulation_au": "WHS Reg 306 — risk assessment for excavations over 1.5m",
+    "regulation_us": "OSHA 1926 Subpart P — excavation sloping, shoring, and shielding standards",
+    "regulation_ca": "OHS Code Part 32 — shoring required for trenches over 1.5m",
+    "talking_points": [
+      "Have we assessed the soil type in today's excavation area?",
+      "Is there anyone who should not enter the trench without shoring in place?",
+      "After last night's rain — has anyone checked the trench walls this morning?",
+      "What is the plan if a wall looks like it is moving?"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Slopes and Stability",
+    "title": "Working on Slopes — Machine Limits",
+    "plain": "Every machine has a rated tipping angle. In practice, if it feels sketchy it probably is. Work across slopes where possible, not straight up or down. Never swing a full bucket uphill on a slope. If the ground is soft after rain, the effective slope angle gets steeper. When in doubt, walk the slope first on foot before taking the machine up.",
+    "regulation_nz": "HSWA 2015 GR Reg 34 — plant operation risk assessment including ground conditions",
+    "regulation_au": "WHS Reg 208 — plant risk assessment including gradient",
+    "regulation_us": "OSHA 1926.602(a) — equipment operation on slopes, stability requirements",
+    "regulation_ca": "OHS Code Part 6 s.119 — equipment stability on grades",
+    "talking_points": [
+      "Has anyone walked the slope this morning to check conditions?",
+      "What is the plan if the machine starts to slide or tip?",
+      "Is there a spotter for the machine working on the slope today?",
+      "After rain — are we confident the ground can take the machine weight?"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Exclusion Zones",
+    "title": "Swing Radius — The Invisible Wall",
+    "plain": "The danger zone on an excavator is not just the bucket. It is the full swing radius of the machine plus the tail swing. Anyone inside that circle while the machine is working can be hit without the operator seeing them. Establish the exclusion zone before work starts. Use cones or tape. No one crosses it without the machine stopped and the operator making eye contact.",
+    "regulation_nz": "HSWA 2015 GR Reg 34 — establishing exclusion zones around plant",
+    "regulation_au": "WHS Reg 208 — exclusion zones for plant operation",
+    "regulation_us": "OSHA 1926.602 — equipment clearances and personnel exclusion",
+    "regulation_ca": "OHS Code Part 6 s.118 — exclusion zones for powered mobile equipment",
+    "talking_points": [
+      "Is the exclusion zone set up and does everyone know where it is?",
+      "Who is the spotter when the machine is working near workers or the public?",
+      "How do workers get the operator's attention to stop the machine safely?",
+      "Is the tail swing area also included in the exclusion zone?"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Exclusion Zones",
+    "title": "Reversing — The Killer Move",
+    "plain": "More people get hit by reversing machines than any other plant movement. If you cannot see behind you, you do not move. Use a spotter. Make eye contact with the spotter before every reverse. If you lose sight of the spotter — stop. The spotter controls the reverse, not the driver. One clear hand signal each time.",
+    "regulation_nz": "HSWA 2015 GR Reg 34 — reversing vehicle management",
+    "regulation_au": "WHS Code of Practice — traffic management, reversing controls",
+    "regulation_us": "OSHA 1926.601(b) — backup alarms and spotter requirements",
+    "regulation_ca": "OHS Code Part 16 s.193 — spotter required for reversing vehicles",
+    "talking_points": [
+      "Does every driver know who their spotter is before they reverse today?",
+      "Are spotter hand signals agreed on and understood by both parties?",
+      "Are reversing alarms working on all machines this morning?",
+      "What are the high-risk reversing areas on this site today?"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Environmental",
+    "title": "Working in the Heat — Recognise the Warning Signs",
+    "plain": "Heat stress creeps up on you. By the time you feel sick, you are already in trouble. Drink water before you are thirsty. Rest in shade. Know the signs in your workmates: confusion, stopping sweating, skin going red and dry — that is heat stroke, call 111 or 000 immediately. Look out for the person next to you, not just yourself.",
+    "regulation_nz": "HSWA 2015 s.36 — managing environmental risks to workers",
+    "regulation_au": "WHS Act s.19 — employer duty to manage heat-related illness risks",
+    "regulation_us": "OSHA General Duty Clause s.5(a)(1) — heat illness prevention standard",
+    "regulation_ca": "OHS Code Part 2 s.7 — managing environmental and physical hazards",
+    "talking_points": [
+      "What is the temperature forecast today and do we have enough water on site?",
+      "Do we have shade for break times?",
+      "Does everyone know the signs of heat stroke vs heat exhaustion?",
+      "What is our procedure if someone collapses from heat?"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Environmental",
+    "title": "Wet Weather — When to Stop",
+    "plain": "Rain changes everything on a civil site. Slopes get more dangerous. Trench walls become unstable. Ground that held the machine yesterday may not hold it today. Electrical hazards increase. Know your company stop-work criteria for rain. Do not wait for the foreman to make the call — if it looks unsafe, say something.",
+    "regulation_nz": "HSWA 2015 s.45 — worker right to cease unsafe work",
+    "regulation_au": "WHS Act s.84 — worker right to cease unsafe work",
+    "regulation_us": "OSHA 1926.651(k) — daily excavation inspections after rainfall",
+    "regulation_ca": "OHS Code s.10(1)(e) — reassess hazards when conditions change",
+    "talking_points": [
+      "What are our stop-work criteria for rain today?",
+      "After yesterday's rain — has anyone re-assessed the trench stability?",
+      "What do we do if the slope becomes impassable during the day?",
+      "Has anyone checked machine pre-starts after the overnight rain?"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Wellbeing",
+    "title": "Fatigue — Tired People Make Mistakes",
+    "plain": "Fatigue is as dangerous as being drunk. A tired operator has slower reaction times, makes poor decisions, and misses things they would normally catch. If you are too tired to drive to work safely, you are too tired to operate a machine. If you see a workmate falling asleep, looking glazed, or making repeated errors — pull them up. It might save their life.",
+    "regulation_nz": "HSWA 2015 s.45 — worker duty of care for own safety including fitness for work",
+    "regulation_au": "WHS Act s.28 — worker duty to take care of own health and safety",
+    "regulation_us": "OSHA General Duty Clause — employer duty to address known safety hazards including fatigue",
+    "regulation_ca": "OHS Code Part 2 — fitness for work requirements",
+    "talking_points": [
+      "How is everyone sleeping? Anyone working second jobs or on-call?",
+      "What is our company position on fatigue and fitness for work?",
+      "If you are too tired to drive safely, what should you do?",
+      "Who can you talk to if you are struggling with fatigue?"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Wellbeing",
+    "title": "Mental Health on Site — The Conversation We Don't Have Enough",
+    "plain": "Civil construction has one of the highest suicide rates of any industry. Blokes on site often don't say anything when they are struggling. If a workmate goes quiet, stops joking, seems flat, or is taking more risks than usual — check in with them. Not a formal meeting, just: \"You right mate?\" That question saves lives.",
+    "regulation_nz": "HSWA 2015 s.36 — psychological wellbeing is part of health and safety",
+    "regulation_au": "WHS Act — mental health is explicitly part of \"health\" definition",
+    "regulation_us": "OSHA General Duty Clause — psychological safety is a workplace hazard",
+    "regulation_ca": "OHS Code — employer duty extends to psychological health",
+    "talking_points": [
+      "Does everyone know the team mental health resources available?",
+      "What does our team culture look like when someone is struggling?",
+      "Can everyone name one person they would talk to if they were not OK?",
+      "How do we look after each other on this site?"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Loads and Lifting",
+    "title": "Never Exceed the Load Chart — Not Even Once",
+    "plain": "Every crane and lifting machine has a load chart. That chart was not written to annoy you — it is the point at which the machine tips over or breaks. Wind, ground conditions, and reach all change the safe working load. If you are unsure, back off to 75% of the rated capacity and you will sleep better at night. A tipped crane takes months to recover from.",
+    "regulation_nz": "HSWA 2015 GR Reg 34 — crane and lifting machine safety",
+    "regulation_au": "WHS Reg 219-230 — plant with risk of falling objects, lifting equipment",
+    "regulation_us": "OSHA 1926 Subpart CC — crane and derrick safety in construction",
+    "regulation_ca": "OHS Code Part 6 — lifting equipment standards and load limits",
+    "talking_points": [
+      "Does the operator have the load chart for today's lift?",
+      "Has anyone checked the ground bearing capacity at the lift point?",
+      "What is the wind speed today and does that affect the rated capacity?",
+      "Is there a lift plan for any critical lifts today?"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Fire",
+    "title": "Fire on Site — The 30-Second Window",
+    "plain": "Fires on civil sites usually start from fuel leaks, cutting and grinding sparks, or electrical faults. If you catch a fire in the first 30 seconds, a small extinguisher can stop it. After 30 seconds, back off and call 111. Never use water on an electrical or fuel fire. Know where the extinguishers are before you need them.",
+    "regulation_nz": "HSWA 2015 GR Reg 29 — emergency procedures including fire",
+    "regulation_au": "WHS Reg 43 — emergency procedures and fire response",
+    "regulation_us": "OSHA 1926.150 — fire protection and prevention on construction sites",
+    "regulation_ca": "OHS Code Part 7 — fire safety on work sites",
+    "talking_points": [
+      "Where are the fire extinguishers on this site right now?",
+      "Does everyone know how to use one? (PASS — Pull, Aim, Squeeze, Sweep)",
+      "What is our muster point if we need to evacuate?",
+      "When was the last extinguisher service check?"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Documentation",
+    "title": "If You Didn't Write It Down, It Didn't Happen",
+    "plain": "You can do everything right on site all day long. But if there is an incident and WorkSafe turns up, the question they ask is: \"Show me your records.\" The pre-start meeting you had this morning — was it written down? The hazard you identified and controlled — was it recorded? Documentation does not protect companies. It protects you. If it is in writing, it happened.",
+    "regulation_nz": "HSWA 2015 s.22 — duty to maintain records, evidence of due diligence",
+    "regulation_au": "WHS Act s.27 — officers due diligence, records as evidence",
+    "regulation_us": "OSHA 1904 — recordkeeping requirements for workplace incidents",
+    "regulation_ca": "OHS Code s.14 — maintain records of hazard identification and controls",
+    "talking_points": [
+      "What records are we keeping on this site every day?",
+      "Does everyone fill in the pre-start form or just the supervisor?",
+      "Where do the records go and how long do we keep them?",
+      "If WorkSafe arrived on site right now, what would we show them?"
+    ]
+  }
+]
