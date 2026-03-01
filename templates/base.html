@@ -31,6 +31,38 @@ alert { display:block; padding:12px 16px; border-radius:8px; margin-bottom:16px;
 {% block head %}{% endblock %}
 </head>
 <body>
+<!-- FLASH SALE BANNER -->
+<div id="flash-banner" style="background: linear-gradient(90deg, #ff6b35, #f7c59f); color: #1a1a1a; text-align: center; padding: 12px 20px; font-weight: 700; font-size: 1rem; position: relative; z-index: 9999;">
+  ⚡ 12-HOUR FLASH SALE — Global Bundle ALL 9 Courses + Certificate: 
+  <span style="font-size: 1.3rem; text-decoration: line-through; opacity: 0.6;">$697</span>
+  <span style="font-size: 1.5rem; color: #1a1a1a; margin: 0 8px;">$499</span>
+  &nbsp;| Ends in: <span id="countdown" style="font-size: 1.2rem; font-family: monospace; background: #1a1a1a; color: #ff6b35; padding: 2px 8px; border-radius: 4px;">00:00:00</span>
+  &nbsp;<a href="/pricing" style="background: #1a1a1a; color: #ff6b35; padding: 6px 16px; border-radius: 4px; text-decoration: none; margin-left: 10px; font-weight: 800;">GET IT NOW →</a>
+  <button onclick="document.getElementById('flash-banner').style.display='none'" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); background: none; border: none; font-size: 1.2rem; cursor: pointer; color: #1a1a1a;">✕</button>
+</div>
+<script>
+(function() {
+  var endTime = new Date('2026-03-02T20:00:00Z').getTime();
+  function updateCountdown() {
+    var now = new Date().getTime();
+    var distance = endTime - now;
+    if (distance <= 0) {
+      document.getElementById('flash-banner').style.display = 'none';
+      return;
+    }
+    var h = Math.floor(distance / (1000 * 60 * 60));
+    var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var s = Math.floor((distance % (1000 * 60)) / 1000);
+    var el = document.getElementById('countdown');
+    if (el) el.textContent = 
+      String(h).padStart(2,'0') + ':' + 
+      String(m).padStart(2,'0') + ':' + 
+      String(s).padStart(2,'0');
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+})();
+</script>
 <nav class="nav">
   <a href="/" class="nav-brand" style="text-decoration:none">🏗️ <span>Civil App</span></a>
   <div class="nav-links">

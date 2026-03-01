@@ -257,6 +257,41 @@
     <h2 class="section-title">Pay Per Course</h2>
     <div class="plans-grid">
 
+      <!-- FLASH SALE CARD - LIMITED TIME -->
+      <div class="plan-card" style="border: 2px solid #ff6b35; box-shadow: 0 0 40px rgba(255,107,53,0.25); position: relative; order: -1;">
+        <!-- FLASH SALE Badge -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; background: linear-gradient(90deg, #ff6b35, #f7c59f); color: #1a1a1a; text-align: center; font-size: 11px; font-weight: 800; padding: 6px; text-transform: uppercase; letter-spacing: 2px;">⚡ FLASH SALE — LIMITED TIME</div>
+        <div class="plan-header" style="padding-top: 44px;">
+          <div class="plan-icon">🌏</div>
+          <div class="plan-name" style="color: #ff6b35;">Global Bundle — All 9 Courses</div>
+          <div class="plan-desc">ALL courses across NZ, AU, CA, US + Global + Certificate for every course</div>
+        </div>
+        <div class="plan-price">
+          <div style="margin-bottom: 6px;">
+            <span style="color: #888; font-size: 1rem; text-decoration: line-through; opacity: 0.7;">NZD $697</span>
+          </div>
+          <span class="price-currency" style="color: #ff6b35;">NZD $</span><span class="price-amount" style="color: #ff6b35;">499</span>
+          <div class="price-period">all 9 courses — one-time payment</div>
+          <div class="price-save" style="color: #ff6b35;">✓ Save $198 — today only</div>
+          <div style="margin-top: 10px; background: #1a1a1a; border: 1px solid #ff6b35; border-radius: 6px; padding: 8px 12px; font-size: 12px; color: #ff6b35; font-weight: 700; text-align: center;">
+            ⏰ ENDS IN: <span id="pricing-countdown" style="font-family: monospace; font-size: 1.1rem;">00:00:00</span>
+          </div>
+        </div>
+        <ul class="plan-features">
+          <li><span class="check">✓</span> <strong style="color:#fff;">All 9 courses (lifetime access)</strong></li>
+          <li><span class="check">✓</span> NZ, AU, CA, US + Global coverage</li>
+          <li><span class="check">✓</span> Certificate for every course</li>
+          <li><span class="check">✓</span> Verified credential links</li>
+          <li><span class="check">✓</span> Daily Safety Record tool</li>
+          <li><span class="check">✓</span> All future course updates</li>
+          <li><span class="check">✓</span> Instant access after purchase</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="https://gumroad.com/l/civil-app-global" target="_blank" class="plan-btn" style="background: linear-gradient(90deg, #ff6b35, #f7c59f); color: #1a1a1a; font-size: 16px;">Buy Now on Gumroad →</a>
+          <p style="text-align: center; color: #888; font-size: 11px; margin-top: 8px;">Secure checkout via Gumroad · Instant delivery</p>
+        </div>
+      </div>
+
       <!-- Entry -->
       <div class="plan-card">
         <div class="plan-header">
@@ -512,6 +547,27 @@
 </div>
 
 <script>
+
+// Pricing page countdown
+(function() {
+  var endTime = new Date('2026-03-02T20:00:00Z').getTime();
+  function updatePricingCountdown() {
+    var now = new Date().getTime();
+    var distance = endTime - now;
+    var el = document.getElementById('pricing-countdown');
+    if (!el) return;
+    if (distance <= 0) {
+      el.textContent = 'EXPIRED';
+      return;
+    }
+    var h = Math.floor(distance / (1000 * 60 * 60));
+    var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var s = Math.floor((distance % (1000 * 60)) / 1000);
+    el.textContent = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  }
+  updatePricingCountdown();
+  setInterval(updatePricingCountdown, 1000);
+})();
 function showSection(section) {
   document.getElementById('section-individual').style.display = section === 'individual' ? 'block' : 'none';
   document.getElementById('section-company').style.display = section === 'company' ? 'block' : 'none';
