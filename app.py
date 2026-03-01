@@ -278,7 +278,7 @@ def complete_lesson():
         '''INSERT INTO progress (student_id,course_id,module_id,lesson_idx,completed,score,completed_at)
         VALUES (?,?,?,?,1,?,datetime('now'))
         ON CONFLICT(student_id,course_id,module_id,lesson_idx)
-        DO UPDATE SET completed=1, score=excluded.score, completed_at=excluded.completed_at'''',
+        DO UPDATE SET completed=1, score=excluded.score, completed_at=excluded.completed_at''',
         (session['student_id'], course_id, module_id, lesson_idx, score)
     )
     db.commit()

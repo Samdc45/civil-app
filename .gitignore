@@ -4,3 +4,4 @@ lms.db
 certs/*.pdf
 venv/
 .env
+lms.db
