@@ -15,42 +15,73 @@
   "modules": [
     {
       "id": 1,
-      "title": "Excavator Types & Applications",
-      "duration": "40 min",
+      "title": "Excavator Basics",
       "lessons": [
         {
-          "title": "Types of Excavators",
+          "id": "1-1",
+          "title": "Excavator Components, Types and Pre-Start Checks",
           "type": "lesson",
-          "content": "**Standard Hydraulic Excavators:**\nThe most common excavator in NZ civil construction. Available in mini (1-6t), midi (6-15t), and large (15t+) configurations.\n\n**Applications:**\n- Trenching and drainage\n- Foundation excavation\n- Rock breaking (with hydraulic hammer)\n- Loading trucks\n- Demolition\n\n**Long Reach Excavators:**\nExtended boom/arm for deep excavation or working over obstacles. Common in waterway work.\n\n**Amphibious Excavators:**\nFloat-mounted for waterway dredging and coastal work. Specialised training required."
+          "content": "## Excavator Basics \u2014 Components, Types and Pre-Start Checks\n\nExcavators are one of the most versatile and widely used pieces of mobile plant in civil construction. Understanding how they work, their operating limits, and the critical importance of pre-start checks is fundamental to safe excavator operation.\n\n## Main Components of an Excavator\n\n| Component | Function |\n|-----------|---------|\n| **Undercarriage** | Tracks or wheels providing mobility and stability. Crawler (tracked) undercarriages for rough terrain; wheeled for road travel |\n| **Slew ring (swing bearing)** | Allows the upper structure to rotate 360\u00b0 on the undercarriage |\n| **Upper structure (house)** | Contains engine, hydraulic system, counterweight, operator cab, and attachment mounting |\n| **Counterweight** | Heavy steel casting at rear \u2014 balances the load on the boom |\n| **Boom** | Primary arm structure attached to upper structure \u2014 typically fixed |\n| **Dipper arm (stick)** | Second arm attached to boom tip \u2014 extends reach and digging depth |\n| **Bucket/Attachment** | End attachment \u2014 bucket, hydraulic thumb, auger, compactor, grapple, hammer |\n| **Hydraulic system** | Powers all movement \u2014 pump, control valves, hydraulic cylinders and motors |\n\n## Types of Excavators\n\n**By undercarriage:**\n- **Crawler (tracked) excavators**: Most stable, best for rough terrain, soft ground, slopes. Cannot travel on sealed roads without low-loader transport\n- **Wheeled excavators**: Road-legal, faster travel between sites, less stability than tracked. Common in urban civil work\n- **Mini excavators (<10 tonnes)**: Compact, low ground pressure, suited to confined sites, trenching in residential areas\n\n**By configuration:**\n- **Standard (backhoe bucket)**: Digs below machine level \u2014 most common configuration\n- **Long reach**: Extended boom and stick for deep or distant excavation (dredging, bank clearing)\n- **Zero-swing / reduced tail-swing**: Upper structure does not protrude beyond track width \u2014 critical in confined urban sites\n\n## Rated Operating Capacity and Stability\n\nEvery excavator has manufacturer-specified operating limits:\n- **Maximum lift capacity**: Changes with boom/stick angle, slew position, and ground conditions\n- **Lift charts**: Provided in operator manual \u2014 lifting over the side is typically less capacity than over the front\n- **Never exceed rated capacity**: Exceeding limits risks tipping, boom failure, hydraulic failure\n- **Slope limits**: Manufacturer's maximum working gradient (typically 20\u201335\u00b0 depending on model)\n\n**Stability factors:**\n- Counterweight placement \u2014 never operate with counterweight bolts missing\n- Ground bearing capacity \u2014 soft or saturated ground reduces effective stability\n- Load position \u2014 extending boom fully reduces safe lift capacity significantly\n- Swing position \u2014 side lifts less stable than front lifts\n\n## Pre-Start Inspection\n\nPre-start inspections are mandatory before every shift. They are a legal requirement under HSWA (NZ) \u2014 the PCBU must ensure plant is fit for purpose before use.\n\n**Operator pre-start checklist:**\n- **Fluid levels**: Engine oil, coolant, hydraulic fluid, fuel, DEF (if Tier 4 engine)\n- **Hydraulic hoses and connections**: Look for leaks, chafing, and damaged fittings\n- **Track tension and condition**: Check for worn or damaged track pads, loose bolts\n- **Undercarriage**: Rollers, idlers, sprockets \u2014 check for wear and damage\n- **Bucket and teeth**: Secure attachment pins, worn or missing teeth, bucket cracks\n- **Cab**: Controls function correctly, seat belt serviceable, ROPS intact, mirrors clean\n- **Warning devices**: Reverse alarm functioning, lights operational\n- **Walk-around**: Check for hazards (objects in work area, bystanders, services markings)\n\n**Documentation:**\nPre-start inspections must be recorded \u2014 paper or digital form. Any defects found must be reported to the supervisor before the machine is operated. A defective excavator must be taken out of service until repaired.\n\n## Operator Responsibilities\n\n- Only operate equipment you are trained and authorised to use\n- Complete pre-start inspection every shift\n- Report defects immediately \u2014 do not operate defective plant\n- Follow site-specific rules for exclusion zones and spotter requirements\n- Never carry passengers \u2014 excavator cabs are single-operator\n- Secure the machine when leaving (lowered attachment, engine off, doors locked)\n\n## Key Takeaways\n\n- Know the key components: undercarriage, slew ring, counterweight, boom, stick, bucket, hydraulics\n- Choose the right excavator type: crawler for stability/rough terrain; wheeled for urban/road mobility\n- Never exceed rated lift capacity \u2014 use lift charts and account for slew position\n- Pre-start inspection is mandatory every shift \u2014 record and report all defects\n- Defective plant must be taken out of service immediately"
         },
         {
-          "title": "Excavator Components",
-          "type": "lesson",
-          "content": "**Main Components:**\n- **Undercarriage**: Tracks, rollers, drive sprocket, idlers\n- **Slew Ring**: 360\u00b0 rotation bearing\n- **Counterweight**: Balances boom weight\n- **Boom**: Main lifting arm\n- **Arm (Dipper)**: Secondary arm\n- **Bucket**: Various teeth/edge configurations\n- **Hydraulic System**: Pumps, valves, cylinders\n\n**Controls:**\n- Left joystick: Slew + arm in/out\n- Right joystick: Boom up/down + bucket curl\n- Travel pedals/levers: Track movement\n- Auxiliary: Attachments"
-        },
-        {
+          "id": "1-q",
           "title": "Module 1 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "What controls the 360\u00b0 rotation of an excavator?",
+              "q": "What is the function of the counterweight on an excavator?",
               "options": [
-                "The boom cylinder",
-                "The slew ring and motor",
-                "The counterweight",
-                "The track motors"
+                "Provides additional hydraulic power for heavy lifts",
+                "Balances the load of the boom and attachment to prevent the machine tipping forward",
+                "Anchors the machine to the ground during trenching",
+                "Controls the swing speed of the upper structure"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The counterweight is a heavy steel casting at the rear of the upper structure that balances the weight of the boom, stick, and bucket/load. Without it, the machine would tip forward under load."
             },
             {
-              "q": "A long reach excavator is commonly used for:",
+              "q": "A pre-start inspection reveals a hydraulic hose leak on the excavator. What must the operator do?",
               "options": [
-                "Rock breaking",
-                "Loading trucks",
-                "Waterway work",
-                "Demolition only"
+                "Continue work and report the leak at end of shift",
+                "Apply tape to the hose and continue light duties",
+                "Report the defect to the supervisor and take the machine out of service until repaired",
+                "Monitor the leak throughout the shift and stop if it gets worse"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Any defect found during pre-start must be reported immediately and the machine must be taken out of service until repaired. Operating defective plant is an HSWA breach \u2014 the PCBU must ensure plant is fit for purpose before use."
+            },
+            {
+              "q": "Which excavator type is most appropriate for an urban confined site where the tail swing must not extend beyond the track width?",
+              "options": [
+                "Long reach excavator",
+                "Standard crawler excavator",
+                "Zero-swing / reduced tail-swing excavator",
+                "Wheeled excavator"
+              ],
+              "answer": 2,
+              "explanation": "Zero-swing (or reduced tail-swing) excavators are specifically designed so the upper structure does not protrude beyond the track width \u2014 critical for confined urban sites where structures, fences, or other hazards are close."
+            },
+            {
+              "q": "An excavator's rated lift capacity at maximum boom reach over the side is 2 tonnes. What load is safe to lift in this position?",
+              "options": [
+                "Up to 3 tonnes \u2014 the rating includes a safety factor",
+                "Up to 2 tonnes \u2014 must not exceed rated capacity for that position",
+                "Up to 4 tonnes if the ground is hard",
+                "Rated capacity only applies to lifting over the front"
+              ],
+              "answer": 1,
+              "explanation": "Rated capacity for each position must never be exceeded. Over-the-side capacity is typically less than over-the-front. Exceeding rated capacity risks tipping, boom failure, or hydraulic failure regardless of ground conditions."
+            },
+            {
+              "q": "Who must complete the pre-start inspection before an excavator is used each shift?",
+              "options": [
+                "The site safety officer",
+                "The plant hire company",
+                "The operator \u2014 before each shift",
+                "The supervisor \u2014 weekly"
+              ],
+              "answer": 2,
+              "explanation": "The operator must complete the pre-start inspection before every shift. It is the operator's responsibility to check the machine is fit for purpose before use \u2014 and to record findings and report defects."
             }
           ]
         }
@@ -58,52 +89,73 @@
     },
     {
       "id": 2,
-      "title": "Pre-Start Inspections & COGS",
-      "duration": "45 min",
+      "title": "Ground Conditions",
       "lessons": [
         {
-          "title": "Daily Pre-Start Procedure",
+          "id": "2-1",
+          "title": "Soil Types, Instability, Slope Work and Groundwater",
           "type": "lesson",
-          "content": "**Walk-Around Inspection (Pre-Start):**\n\n\u25a1 Check for ground oil/fluid leaks\n\u25a1 Inspect track tension and condition\n\u25a1 Check bucket teeth and cutting edge wear\n\u25a1 Inspect boom, arm, bucket pins and bushings\n\u25a1 Check hydraulic hoses for damage/leaks\n\u25a1 Verify all guards are in place\n\u25a1 Check ROPS/FOPS certification plate\n\u25a1 Verify fire extinguisher present and in date\n\n**Cabin Checks (Engine Off):**\n\u25a1 Engine oil level\n\u25a1 Coolant level\n\u25a1 Hydraulic oil level\n\u25a1 Fuel level\n\u25a1 All warning lights functional\n\u25a1 Seat belt operational\n\u25a1 All controls return to neutral"
+          "content": "## Ground Conditions for Excavator Operations\n\nUnderstanding ground conditions is critical for safe excavator operation. Ground conditions determine machine stability, excavation wall stability, bearing capacity for the machine, and the risk of sudden collapse.\n\n## Soil Classification\n\nNew Zealand's varied geology produces diverse soil types on civil construction sites:\n\n| Soil Type | Characteristics | Excavation Risk |\n|-----------|----------------|-----------------|\n| **Rock** | High strength, predictable | Low collapse risk \u2014 may need blasting/hammering |\n| **Gravel/cohesionless** | Free-draining, high friction angle | Stand-up time limited, water increases risk |\n| **Sand** | Low cohesion, liquefaction risk | High \u2014 flows rapidly when disturbed or saturated |\n| **Silt** | Low cohesion, highly erodible | Very high \u2014 unstable when wet |\n| **Clay** | High cohesion when dry, loses strength when wet | Medium to high \u2014 swelling, softening, creep |\n| **Peat/organic** | Very compressible, low bearing capacity | Very high \u2014 machine can sink |\n| **Fill** | Variable \u2014 depends on fill material and compaction** | High \u2014 unknown history |\n\n## Ground Bearing Capacity and Machine Sinking\n\nThe excavator applies significant ground pressure through its tracks:\n- Soft, saturated, or peat soils may not support the machine's weight\n- **Signs of inadequate bearing capacity**: Machine sinking, tracks not gripping, ground cracking around tracks\n- **Mitigation**: Timber mats or Mexmat under tracks to spread load; reduce machine size; avoid saturated areas\n\n**Track width matters**: Wider tracks = lower ground pressure per unit area. Mini excavators typically have lower ground pressure than large crawlers.\n\n## Excavation Wall Stability\n\nExcavation collapse is one of the leading causes of fatalities in civil construction. Wall stability depends on:\n- **Soil type**: Cohesive soils (clay) stand longer; granular soils (sand, gravel) collapse rapidly\n- **Depth**: Deeper excavations have greater lateral earth pressure\n- **Water**: Groundwater and surface water dramatically reduce wall stability\n- **Vibration**: Nearby plant, compactors, and traffic can trigger sudden collapse\n- **Surcharge**: Excavated spoil, plant, and materials placed close to the edge increase load on walls\n\n**Safe slope angles (general guidance \u2014 site-specific assessment required):**\n- Firm rock: near vertical short term\n- Stiff clay: 1:1 (45\u00b0)\n- Cohesionless soil (sand/gravel): 1:1.5 (34\u00b0) or flatter\n- Saturated soil: Much flatter or benching/shoring required\n\nFor excavations > 1.5 m depth in NZ: notifiable work \u2014 SSSP required, shoring or battering mandatory.\n\n## Slope Work\n\nOperating on slopes significantly increases rollover risk:\n- Always check manufacturer's maximum working gradient\n- Work up/down slopes \u2014 NOT across (side-sloping greatly increases rollover risk)\n- Keep bucket low and close to machine when travelling on slopes\n- Avoid swinging full loads across the slope\n- Do not park on slopes without chocking tracks\n\n**High risk slope scenarios:**\n- Wet or frost-covered slopes \u2014 greatly reduced traction\n- Working near slope edges \u2014 risk of edge collapse under machine weight\n- Excavating cut faces on hillsides \u2014 risk of material above falling onto machine\n\n## Groundwater and Dewatering\n\nGroundwater presents multiple hazards:\n- Reduces bearing capacity of surrounding soil\n- Destabilises excavation walls\n- Risk of water inrush \u2014 rapid flooding of excavation\n- Risk of machine becoming stuck or sinking\n\n**Dewatering options:**\n- Sump pumping \u2014 remove water after it enters the excavation\n- Wellpoint dewatering \u2014 lower groundwater table before excavating\n- Sheet piling \u2014 exclude groundwater with interlocking steel sections\n\n**Note**: Dewatered excavations can still collapse if the groundwater table rebounds \u2014 monitor continuously.\n\n## Key Takeaways\n\n- Know your soil type before excavating \u2014 it determines wall stability and machine support\n- Excavations > 1.5 m: notifiable work in NZ \u2014 shoring or battering required\n- Granular soils (sand/gravel) collapse rapidly without warning \u2014 never assume stability\n- Slopes: work up/down, not sideways \u2014 keep bucket low when travelling\n- Groundwater reduces stability dramatically \u2014 dewater and monitor continuously"
         },
         {
-          "title": "COGS \u2014 Certificate of Competence",
-          "type": "lesson",
-          "content": "**What is a COC/COGS?**\nA Certificate of Competence (COC) issued under the Health and Safety at Work Act 2015 is required to operate certain plant in NZ, including excavators over 4 tonnes.\n\n**Requirements:**\n- WorkSafe NZ approved training provider\n- Practical assessment on the machine class\n- Theory examination\n- Medical fitness declaration\n- Renewal every 5 years\n\n**Machine Classes:**\n- Class 1: Crawler excavator\n- Class 2: Wheeled excavator\n- Class 4: Backhoe loader\n\n**IMPORTANT:** Operating without a COC is a serious HSWA offence with fines up to $50,000."
-        },
-        {
+          "id": "2-q",
           "title": "Module 2 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "A COC is required for excavators over:",
+              "q": "At what excavation depth does work become 'notifiable' in New Zealand, requiring an SSSP and shoring or battering?",
               "options": [
-                "1 tonne",
-                "2 tonnes",
-                "4 tonnes",
-                "10 tonnes"
+                "0.5 m",
+                "1.0 m",
+                "1.5 m",
+                "2.0 m"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "In New Zealand, excavations deeper than 1.5 m are notifiable work under HSWA regulations. A Site-Specific Safety Plan (SSSP) is required and the excavation walls must be shored or battered to a safe angle."
             },
             {
-              "q": "COC renewal is required every:",
+              "q": "Which soil type presents the highest risk of sudden collapse without warning in an excavation?",
               "options": [
-                "1 year",
-                "2 years",
-                "5 years",
-                "10 years"
+                "Stiff clay",
+                "Rock",
+                "Saturated sand or silt",
+                "Firm gravel above groundwater"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Saturated sand and silt have almost no cohesion and can liquefy and collapse instantly when disturbed. They offer no warning before collapse \u2014 workers in the excavation can be buried within seconds."
             },
             {
-              "q": "Maximum fine for operating without a COC:",
+              "q": "An excavator needs to work on a 25\u00b0 slope. What is the safest direction of travel?",
               "options": [
-                "$5,000",
-                "$10,000",
-                "$50,000",
-                "$100,000"
+                "Across the slope (side-sloping)",
+                "Diagonally across the slope",
+                "Up or down the slope (not sideways)",
+                "Direction does not affect rollover risk"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Always travel up or down slopes \u2014 never across (side-sloping). Side-sloping dramatically raises the centre of gravity and can cause rollover even within the manufacturer's maximum gradient rating."
+            },
+            {
+              "q": "You notice the tracks of the excavator are sinking into the ground. What is the correct response?",
+              "options": [
+                "Continue \u2014 sinking only matters if the machine tips",
+                "Stop immediately, exit safely, reassess ground bearing capacity, and consider timber mats or a different machine",
+                "Increase engine speed to power through",
+                "Move only the bucket to redistribute weight"
+              ],
+              "answer": 1,
+              "explanation": "Sinking tracks indicate inadequate ground bearing capacity \u2014 a serious rollover and entrapment risk. Stop immediately, exit the machine safely, reassess the ground conditions, and use timber mats, Mexmat, or a lighter machine."
+            },
+            {
+              "q": "Spoil excavated from a trench is stockpiled at the edge. Why is this dangerous?",
+              "options": [
+                "It blocks the operator's view",
+                "It creates surcharge loading on the trench wall, increasing collapse risk",
+                "It prevents the machine from repositioning",
+                "It may contain underground services"
+              ],
+              "answer": 1,
+              "explanation": "Spoil piled at the trench edge creates surcharge \u2014 additional vertical load on the wall. This increases lateral earth pressure and collapse risk. Spoil must be kept a minimum distance from the trench edge (typically >1 m or further for deep trenches)."
             }
           ]
         }
@@ -111,52 +163,73 @@
     },
     {
       "id": 3,
-      "title": "Safe Operation & Exclusion Zones",
-      "duration": "50 min",
+      "title": "Underground Services",
       "lessons": [
         {
-          "title": "Exclusion Zones & Spotters",
+          "id": "3-1",
+          "title": "0800 DIG KNOW, Utility Types, Hand Dig Zones and Scanning",
           "type": "lesson",
-          "content": "**Exclusion Zones:**\nNo person shall be within the swing radius of an excavator while it is operating unless:\n- A competent spotter is in place\n- Physical barriers are erected\n- The operator has direct line of sight\n\n**Minimum Exclusion Zone:**\n- Standard: Full swing radius + 1 metre\n- Demolition: Minimum 1.5x machine height\n- Near overhead lines: As per lines authority permit\n\n**Spotter Requirements:**\n- Designated, trained person\n- High-vis vest mandatory\n- Agreed signal system with operator\n- Must never enter exclusion zone\n\n**Underground Services:**\nCall Before You Dig (0800 248 344) minimum 2 working days before excavation."
+          "content": "## Underground Services \u2014 Awareness and Safe Excavation\n\nStriking an underground service is one of the most serious hazards in civil construction. Consequences range from electrocution and explosion to major infrastructure disruption, significant financial liability, and prosecution under HSWA.\n\n## 0800 DIG KNOW \u2014 The First Step\n\n**Before ANY excavation, call 0800 DIG KNOW (0800 344 566)**\n\nBeforeudig New Zealand (now integrated with Dial Before You Dig AU) provides:\n- A centralised database of underground utility locations\n- Plans and information from network operators (electricity, gas, water, telecom)\n- Response typically within 2 business days\n- Free service for contractors\n\n**The 0800 DIG KNOW process:**\n1. Contact at least 3 working days before excavation\n2. Provide site address, excavation location description, depth estimate\n3. Receive service location information from utility operators\n4. Mark services on-site using colour-coded flags/paint\n5. Brief all operators and workers on service locations\n\n**Important**: 0800 DIG KNOW provides information only \u2014 it is not a physical locate. Always verify on-site.\n\n## Types of Underground Utilities\n\n| Utility | Hazard | Colour Code (NZUUG) |\n|---------|--------|---------------------|\n| **Electricity** | Electrocution, explosion, fire | Red |\n| **Gas** | Explosion, asphyxiation, fire | Yellow |\n| **Water** | High-pressure water burst, flooding | Blue |\n| **Sewer/drainage** | Toxic gas (H2S), flooding, biological hazard | Brown/Orange |\n| **Telecommunications (copper/fibre)** | Service disruption, financial liability | Orange/Black |\n| **Traffic signals/streetlights** | Electrical hazard, service disruption | Purple |\n\n**High-voltage electricity** is the most immediately life-threatening service. Contact with 11 kV or 33 kV distribution cables is typically fatal.\n\n## Service Location \u2014 On-Site Verification\n\nAfter receiving 0800 DIG KNOW information:\n1. **Site survey**: Walk the alignment, identify surface markers (access covers, valve boxes, marker posts)\n2. **As-built drawings**: Request from asset owner \u2014 note these may be inaccurate\n3. **CAT and Genny scanning**: Cable Avoidance Tool (CAT) + Signal Generator (Genny) locate metallic services\n4. **GPR (Ground Penetrating Radar)**: Locates both metallic and non-metallic services (plastic pipes, fibre)\n5. **Potholing**: Expose service by hand excavation before machine excavation \u2014 the definitive method\n\n**Accuracy of service location plans:**\nService plans are indicative only \u2014 typical accuracy is \u00b1500 mm horizontally and \u00b1300 mm vertically. Always treat services as potentially present and verify physical location.\n\n## Hand Dig Zones\n\nOnce a service is located, a **Hand Dig Zone (HDZ)** must be established:\n\n**Standard NZ hand dig zone requirements:**\n- Minimum 300\u2013500 mm each side of marked service location (check asset owner's requirements \u2014 may be 1.0 m for HV electricity)\n- Hand tools only within the HDZ\n- No machine excavation until the service is physically exposed and confirmed\n- After physical exposure: machine can work outside confirmed service location with spotter guidance\n\n**High-voltage electricity \u2014 special rules:**\n- Contact the network operator before work within 1.0 m of HV cables\n- Network operator may require de-energisation, cable relocation, or a network supervisor on site\n- NEVER assume a power line or cable is de-energised until proven\n\n## Overhead Services\n\nNot just underground \u2014 overhead lines are also a major hazard:\n- Maintain minimum 4.0 m horizontal clearance from overhead conductors with any part of the machine or load\n- If clearance cannot be maintained, contact the network operator for line deactivation or rerouting\n- Spotter required when working near overhead lines\n\n## Key Takeaways\n\n- ALWAYS call 0800 DIG KNOW before excavating \u2014 minimum 3 working days before\n- Colour coding: Red=electricity, Yellow=gas, Blue=water, Orange=telecom, Brown=sewer\n- Physical verification required: CAT scan, GPR, potholing \u2014 plans are indicative only (\u00b1500 mm)\n- Hand dig zone: 300 mm\u20131.0 m each side of service \u2014 hand tools ONLY\n- HV electricity: contact network operator before working within 1.0 m"
         },
         {
-          "title": "Trenching Safety",
-          "type": "lesson",
-          "content": "**Cave-In Prevention:**\nAll trenches over 1.5m deep require engineered support or battered/benched sides.\n\n**Safe Batter Angles by Soil Type:**\n- Rock: Vertical (90\u00b0) may be acceptable\n- Dense clay: 60-75\u00b0\n- Sandy clay: 45-60\u00b0\n- Sand/gravel: 30-45\u00b0\n- Waterlogged: Shore or sheet pile required\n\n**Working Near Trenches:**\n- Spoil heap minimum 600mm from edge\n- Vehicles minimum 1m from edge (engineered setback for deep trenches)\n- Regular inspection by competent person\n- Escape route every 25m of trench\n\n**WaterCare/Council Requirements:**\nMany NZ councils require a Confined Space Permit for any work in trenches over 1.5m. Check locally."
-        },
-        {
+          "id": "3-q",
           "title": "Module 3 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "Minimum exclusion zone around operating excavator:",
+              "q": "What is the first action to take before any excavation work in New Zealand?",
               "options": [
-                "0.5m",
-                "Swing radius + 1m",
-                "2m flat",
-                "5m"
+                "Perform a visual inspection of the surface",
+                "Contact 0800 DIG KNOW at least 3 working days before excavation",
+                "Call WorkSafe NZ to register the excavation",
+                "Ask the site manager if services are present"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "0800 DIG KNOW (0800 344 566) must be contacted at least 3 working days before any excavation. This provides utility location information from network operators. It is the first mandatory step \u2014 even when you believe no services are present."
             },
             {
-              "q": "Trenches over ___ deep require engineered support:",
+              "q": "What colour is used to mark underground gas services under the NZ utility colour code?",
               "options": [
-                "0.5m",
-                "1.0m",
-                "1.5m",
-                "2.0m"
+                "Red",
+                "Blue",
+                "Yellow",
+                "Orange"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Yellow marks gas services. Red = electricity, Blue = water, Orange/Black = telecom, Brown = sewer. Knowing these colours allows workers to immediately identify the utility type from surface markings."
             },
             {
-              "q": "Call Before You Dig requires notice of:",
+              "q": "Service location plans from 0800 DIG KNOW show a gas main at 0.9 m depth on the alignment. How should the excavator operator proceed?",
               "options": [
-                "Same day",
-                "24 hours",
-                "2 working days",
-                "1 week"
+                "Excavate carefully with the bucket until the pipe is visible",
+                "Establish a hand dig zone 300\u2013500 mm each side of the marked location and hand excavate to expose the service before machine work",
+                "Excavate to 0.5 m with the machine then stop",
+                "Skip the area and continue elsewhere"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "A hand dig zone must be established around the marked service location. Hand excavation is required to physically expose and confirm the service location before any machine excavation nearby. Plans are accurate only to \u00b1500 mm."
+            },
+            {
+              "q": "What is the minimum horizontal clearance that must be maintained between an excavator and overhead electrical conductors?",
+              "options": [
+                "1.0 m",
+                "2.0 m",
+                "4.0 m",
+                "6.0 m"
+              ],
+              "answer": 2,
+              "explanation": "A minimum 4.0 m horizontal clearance must be maintained between any part of the machine (including the fully extended boom) and overhead electrical conductors. If this clearance cannot be maintained, contact the network operator for deactivation."
+            },
+            {
+              "q": "You are potholing and expose an unmarked plastic pipe. What should you do?",
+              "options": [
+                "Continue excavation carefully \u2014 plastic pipes carry water only",
+                "Treat it as a potentially live service, stop machine work, identify the utility owner, and inform the site supervisor",
+                "Mark it with spray paint and continue",
+                "Remove it from the excavation path"
+              ],
+              "answer": 1,
+              "explanation": "Unmarked services exist \u2014 especially older or private infrastructure. Treat any unexpected underground pipe or cable as live until confirmed otherwise. Stop work, identify the asset owner through 0800 DIG KNOW or the client, and get confirmation before continuing."
             }
           ]
         }
@@ -164,37 +237,62 @@
     },
     {
       "id": 4,
-      "title": "Emergency Procedures",
-      "duration": "30 min",
+      "title": "Safe Working Zones",
       "lessons": [
         {
-          "title": "Emergency Scenarios",
+          "id": "4-1",
+          "title": "Exclusion Zones, Spotters, Swing Radius and Overhead Lines",
           "type": "lesson",
-          "content": "**Machine Fire:**\n1. Shut down engine immediately\n2. Evacuate operator cab\n3. Use fire extinguisher ONLY if fire is small and you are safe\n4. Move all personnel to muster point\n5. Call 111\n6. Do NOT re-enter burning machine\n\n**Tip-Over:**\n1. Stay in cab \u2014 ROPS protects you\n2. Brace with hands/feet \u2014 NOT against glass\n3. Do not jump out\n4. Once stopped \u2014 shut engine\n5. Exit away from crush zone\n6. Call for help\n\n**Striking Underground Service:**\n1. STOP immediately\n2. Evacuate area (gas: 150m, power: 10m minimum)\n3. Call utility owner and emergency services\n4. Do not re-enter until cleared by utility\n5. Report to WorkSafe NZ if injury or near-miss"
+          "content": "## Safe Working Zones for Excavator Operations\n\nThe most common cause of excavator-related fatalities is workers being struck by the machine during slewing, reversing, or loading operations. Establishing and enforcing safe working zones is the most critical control for protecting ground workers.\n\n## Exclusion Zones\n\nAn **exclusion zone** is an area around moving plant where no worker is permitted to be. For excavators, the exclusion zone must account for the full swing radius including the counterweight.\n\n**Exclusion zone size:**\n- Minimum = maximum reach of the machine (boom fully extended) + 1.0 m buffer\n- Must also account for counterweight swing at rear\n- Zone must be clearly marked with barriers, bunting, or physical boundaries\n\n**Establishing exclusion zones:**\n1. Before machine starts work, define and mark the exclusion zone\n2. Communicate zone boundaries to ALL site workers at toolbox talk\n3. No worker enters the exclusion zone while the machine is operating\n4. Machine must stop slewing/moving before a worker can enter the zone with operator's permission\n5. Where workers must enter the zone: use spotters and stop-work protocols\n\n## Spotters\n\nA **spotter** (also called a banksman or safety observer) is a dedicated worker who:\n- Has full view of the working zone and potential hazard areas\n- Communicates with the operator via agreed hand signals or radio\n- Directs the machine clear of hazards (workers, services, structures)\n- Has authority to stop the machine immediately\n\n**Spotter requirements:**\n- Must be fully focused \u2014 no other tasks while spotting\n- Positioned where they can see both the machine and the hazard\n- Must not be within the exclusion zone\n- Agreed communication protocol established BEFORE work starts\n\n**When is a spotter required?**\n- When reversing with restricted operator visibility\n- Working adjacent to workers or the public\n- Near services, structures, or edge hazards\n- Working in confined spaces\n\n## Swing Radius Hazards\n\nThe counterweight swings in the opposite direction to the bucket. Workers focused on the bucket often do not see the counterweight swinging toward them.\n\n**Critical facts about swing radius:**\n- Counterweight extends 1.0\u20132.0 m behind the centre of the upper structure\n- At full slew speed, the counterweight moves rapidly and is at head/chest height\n- **Most struck-by fatalities involve the counterweight \u2014 not the bucket**\n- Zero-swing machines reduce but do not eliminate this hazard\n\n**Controls:**\n- Exclusion zone must encompass the full counterweight swing radius\n- Counterweight proximity detection systems available on modern excavators\n- Worker induction must specifically address counterweight hazards\n\n## Overhead Lines \u2014 Safe Approach Distances\n\n| Voltage | Minimum Safe Distance |\n|---------|----------------------|\n| Low voltage (<1,000 V) | 4.0 m horizontal |\n| High voltage 11 kV | 4.0 m horizontal |\n| High voltage 33 kV | 4.0 m horizontal |\n| High voltage 110 kV+ | Contact network operator |\n\n**If work must occur within 4.0 m of any overhead line:**\n1. Contact the network operator \u2014 Powerco, Vector, Transpower, or local lines company\n2. Request de-energisation, insulation, or line relocation\n3. Network may require their supervisor on site during work\n4. Never assume a line is de-energised \u2014 always verify with network operator\n\n## Traffic Management in Working Zones\n\nWhen excavators work adjacent to live traffic:\n- Traffic Management Plan (TMP) required\n- Exclusion zone must account for machine swing AND vehicle movements\n- STMS on site for high-speed roads\n- Hi-vis on all workers at all times\n- Spotters for reversing and positioning near traffic barriers\n\n## Key Takeaways\n\n- Exclusion zone = full swing radius (including counterweight) + 1.0 m minimum buffer\n- Most struck-by fatalities involve the COUNTERWEIGHT \u2014 not the bucket\n- Spotters: dedicated, full view, authority to stop machine \u2014 communication established before work\n- 4.0 m minimum horizontal clearance from overhead lines \u2014 contact network operator if closer\n- Never enter an exclusion zone while the machine is operating without operator permission and a stop-work protocol"
         },
         {
+          "id": "4-q",
           "title": "Module 4 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "If your excavator tips over, you should:",
+              "q": "What is the most common cause of excavator-related struck-by fatalities on civil construction sites?",
               "options": [
-                "Jump out immediately",
-                "Stay in cab and brace",
-                "Open the door",
-                "Call for help first"
+                "Being hit by the bucket during digging",
+                "Being struck by the counterweight during machine slewing",
+                "Falling materials from the bucket",
+                "Being hit by the tracks during machine travel"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Most excavator struck-by fatalities involve the counterweight \u2014 not the bucket. Workers focus on the bucket and don't see the counterweight swinging toward them at head/chest height. The exclusion zone must encompass the full counterweight swing radius."
             },
             {
-              "q": "Minimum exclusion zone when striking a gas line:",
+              "q": "Who has the authority to stop the excavator immediately when acting as a spotter?",
               "options": [
-                "10m",
-                "50m",
-                "100m",
-                "150m"
+                "Only the site manager",
+                "The spotter \u2014 who has authority to stop the machine at any time",
+                "Only the operator",
+                "The safety officer from the office"
               ],
-              "answer": 3
+              "answer": 1,
+              "explanation": "The spotter has the authority to stop the machine immediately \u2014 this is a core function of the spotter role. The operator must respond to the spotter's stop signal without question or delay."
+            },
+            {
+              "q": "How large must an exclusion zone be for a standard excavator?",
+              "options": [
+                "2.0 m radius from the centre of the machine",
+                "The full counterweight swing radius only",
+                "The maximum reach of the boom fully extended plus 1.0 m buffer, encompassing the counterweight swing",
+                "5.0 m radius regardless of machine size"
+              ],
+              "answer": 2,
+              "explanation": "The exclusion zone must account for the full reach of the boom when extended PLUS the counterweight swing radius at the rear, with a minimum 1.0 m buffer. It varies by machine size and configuration."
+            },
+            {
+              "q": "Work is planned within 2.5 m of a 33 kV overhead power line. What must happen before work begins?",
+              "options": [
+                "Post a spotter and continue",
+                "Contact the network operator to arrange de-energisation, insulation, or line relocation before work begins",
+                "Reduce machine speed when near the line",
+                "Excavate away from the line side only"
+              ],
+              "answer": 1,
+              "explanation": "The 4.0 m minimum clearance cannot be maintained. The network operator must be contacted to arrange de-energisation, insulation, or line relocation BEFORE work begins. Never assume a line is de-energised until confirmed by the network operator."
             }
           ]
         }
@@ -202,98 +300,62 @@
     },
     {
       "id": 5,
-      "title": "Final Assessment",
-      "duration": "25 min",
+      "title": "NZ Certification",
       "lessons": [
         {
-          "title": "Course Summary",
+          "id": "5-1",
+          "title": "NZQA Unit Standards, Medical Requirements and Operator Responsibilities",
           "type": "lesson",
-          "content": "**You have completed NZCI Flexi: Excavator Awareness!**\n\n\u2705 Excavator types and components\n\u2705 Daily pre-start inspections\n\u2705 COGS/COC requirements under HSWA 2015\n\u2705 Exclusion zones and spotter protocols\n\u2705 Trenching safety standards\n\u2705 Emergency procedures\n\n**Important Reminder:**\nThis course provides AWARENESS training. A Certificate of Competence (COC) from a WorkSafe-approved provider is required to OPERATE an excavator over 4 tonnes in New Zealand.\n\nContact Civil App for COC training referrals."
+          "content": "## NZ Excavator Operator Certification\n\nOperating heavy plant in New Zealand requires demonstrated competence. NZQA unit standards provide the national qualification framework for excavator operators, ensuring operators have the knowledge and practical skills to operate safely.\n\n## NZQA Unit Standards for Excavator Operation\n\nKey unit standards for excavator operators through MITO (Motor Industry Training Organisation) and other ITPs:\n\n| Unit Standard | Title |\n|--------------|-------|\n| US 17285 | Operate a tracked excavator |\n| US 17286 | Operate a wheeled excavator |\n| US 17283 | Carry out pre-operational checks on mobile plant |\n| US 3799 | Demonstrate knowledge of safe digging near underground services |\n| US 17277 | Demonstrate knowledge of ground conditions for plant operation |\n\n**Assessment structure:**\n- Written knowledge assessment (theory)\n- Practical assessment on actual equipment\n- Assessor must be registered and approved by MITO or equivalent ITO\n- Achievement recorded on NZQA National Student Number (NSN)\n\n## NZ Certificate in Civil Infrastructure Works\n\nThe NZ Certificate in Civil Infrastructure Works (Level 3 and Level 4) incorporates plant operation:\n- Level 3: Foundation skills in civil construction \u2014 includes plant operation units\n- Level 4: Advanced practice \u2014 supervisory and specialist skills\n\nThe NZCI (NZ Certificate in Infrastructure) Flexi-option allows workers to select relevant units matching their role \u2014 ideal for specialised plant operators.\n\n## Operator Authorisation\n\nHolding a unit standard does NOT automatically authorise operation on a specific site. The PCBU must:\n- Verify the operator's competency and qualifications\n- Provide site-specific induction and orientation\n- Formally authorise the operator to use specific plant on that site\n- Keep records of authorisation\n\n**Graduated authorisation:** Operators may be qualified but restricted to specific tasks, conditions, or machine types (e.g. authorised for mini excavator only, not large track machine).\n\n## Medical Requirements\n\nExcavator operators must be medically fit to operate plant safely:\n- Vision: Adequate visual acuity \u2014 depth perception is critical for precise excavation work\n- Hearing: Adequate hearing to respond to verbal instructions and audible alarms\n- Medical conditions: Epilepsy, diabetes, cardiac conditions, or medications affecting consciousness/reaction time must be declared\n- Fatigue: Operators must not operate plant when fatigued \u2014 PCBU fatigue management policy applies\n\n**Fitness for duty:**\nOperators must not operate plant under the influence of alcohol, drugs, or medications that impair judgment or reaction time. Site drug and alcohol policies apply.\n\n## Ongoing Operator Responsibilities\n\nCertification is the start \u2014 ongoing responsibilities include:\n1. **Daily pre-start**: Complete and record pre-start inspection every shift\n2. **Report defects**: Immediately report any faults or damage\n3. **Update skills**: Attend refresher training when new attachments, machines, or methods are introduced\n4. **Site rules compliance**: Follow site-specific rules, exclusion zones, and safe work procedures\n5. **Near miss reporting**: Report all near misses \u2014 these are early warning signs\n6. **Stay current**: Check for updated unit standards and best practices periodically\n\n## Consequences of Unauthorised Operation\n\nOperating plant without authorisation:\n- Is a breach of HSWA \u2014 worker can be personally prosecuted\n- Voids insurance for any damage or injury caused\n- May result in immediate dismissal\n- Creates serious risk of injury or death to the operator and others\n\n## Key Takeaways\n\n- Unit standards via MITO/ITOs \u2014 US 17285 (tracked), US 17286 (wheeled) are core qualifications\n- Holding a unit standard does not mean you are authorised on every site \u2014 PCBU must verify and authorise\n- Medical fitness: vision, hearing, no impairing conditions \u2014 fitness for duty every shift\n- Pre-start, defect reporting, near miss reporting: ongoing daily responsibilities\n- Unauthorised operation breaches HSWA \u2014 personal prosecution risk, insurance void"
         },
         {
-          "title": "Final Assessment",
+          "id": "5-q",
+          "title": "Module 5 Quiz",
           "type": "quiz",
-          "pass_mark": 80,
           "questions": [
             {
-              "q": "A COC is legally required to operate excavators over:",
+              "q": "What NZQA unit standard covers operating a tracked excavator?",
               "options": [
-                "2t",
-                "4t",
-                "6t",
-                "10t"
+                "US 3799",
+                "US 17285",
+                "US 17283",
+                "US 17277"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "US 17285 covers operating a tracked excavator. US 17286 is for wheeled excavators, US 17283 is for pre-operational checks, and US 3799 is for safe digging near underground services."
             },
             {
-              "q": "Standard exclusion zone around an excavator is:",
+              "q": "An operator has a NZQA unit standard for tracked excavator operation. Can they immediately start operating on a new site without further process?",
               "options": [
-                "1m flat",
-                "Swing radius + 1m",
-                "5m",
-                "3m"
+                "Yes \u2014 the unit standard is sufficient authorisation nationwide",
+                "No \u2014 the PCBU must verify competency, provide site induction, and formally authorise operation on that specific site",
+                "Yes \u2014 as long as the operator informs the supervisor",
+                "Only if the operator has more than 2 years experience"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "A unit standard demonstrates competency but does not automatically authorise operation on every site. The PCBU must verify qualifications, conduct site-specific induction, and formally authorise the operator to use specific plant on that site."
             },
             {
-              "q": "Trenches over 1.5m require:",
+              "q": "An excavator operator has been prescribed medication for a health condition that causes occasional drowsiness. What should they do?",
               "options": [
-                "Extra lighting",
-                "Engineered support or battered sides",
-                "A crane",
-                "Concrete casing"
+                "Operate normally \u2014 it rarely affects them",
+                "Disclose the condition to their employer and seek medical clearance before operating plant",
+                "Operate only during mornings before the medication takes effect",
+                "Self-assess each day and decide whether to operate"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Any medical condition or medication that could affect consciousness, reaction time, or judgment must be disclosed to the employer. The operator must obtain medical clearance before operating plant. Fitness for duty applies every shift."
             },
             {
-              "q": "If your machine tips over:",
+              "q": "What is the primary purpose of the NZCI (NZ Certificate in Infrastructure) Flexi-option?",
               "options": [
-                "Jump out immediately",
-                "Stay in the cab",
-                "Open the door",
-                "Stand on seat"
+                "A qualification only for supervisors",
+                "Allows workers to select relevant unit standards matching their specific role \u2014 flexible specialisation",
+                "An overseas recognition pathway only",
+                "A refresher qualification for experienced operators only"
               ],
-              "answer": 1
-            },
-            {
-              "q": "Call Before You Dig notice period:",
-              "options": [
-                "Same day",
-                "12 hours",
-                "2 working days",
-                "1 week"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "COC renewal frequency:",
-              "options": [
-                "1 year",
-                "2 years",
-                "5 years",
-                "No renewal"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "Minimum gas line strike exclusion zone:",
-              "options": [
-                "10m",
-                "50m",
-                "100m",
-                "150m"
-              ],
-              "answer": 3
-            },
-            {
-              "q": "Spoil heap minimum distance from trench edge:",
-              "options": [
-                "200mm",
-                "400mm",
-                "600mm",
-                "1m"
-              ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "The NZCI Flexi-option allows workers to select relevant units that match their specific role \u2014 enabling specialisation (e.g. plant operator, traffic management, pipe laying) without completing the full certificate. It is ideal for workers building targeted skills."
             }
           ]
         }

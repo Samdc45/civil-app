@@ -14,52 +14,79 @@
   "modules": [
     {
       "id": 1,
-      "title": "Introduction to Compaction",
-      "duration": "25 min",
+      "title": "Introduction to Compaction & Geology",
       "lessons": [
         {
-          "title": "What is Compaction?",
+          "id": "1-1",
+          "title": "What is Compaction",
           "type": "lesson",
-          "content": "Compaction is the process of mechanically increasing the density of soil by reducing air voids. Proper compaction is critical for pavement longevity, structural integrity, and preventing settlement.\n\n**Key Principles:**\n- Reducing air voids in soil matrix\n- Increasing dry density\n- Improving load-bearing capacity\n- Reducing permeability and settlement\n\n**Why It Matters:**\nPoor compaction is the #1 cause of premature pavement failure in New Zealand civil construction. A 1% difference in compaction can reduce pavement life by up to 30%."
+          "content": "## What is Compaction?\n\nCompaction is the mechanical process of increasing the density of soil or aggregate by reducing the air voids between particles. It is one of the most critical operations in civil construction \u2014 directly affecting pavement performance, structural integrity, and long-term durability.\n\n## The Three Phases of Soil\n\nEvery soil or aggregate consists of three phases:\n\n| Phase | Description | Engineering Role |\n|-------|-------------|------------------|\n| **Solid** | Mineral particles (gravel, sand, silt, clay) | Load-bearing skeleton |\n| **Water** | Pore water held in voids | Lubricant during compaction |\n| **Air** | Gas-filled voids | Compressible \u2014 must be expelled |\n\nProper compaction expels air voids while retaining optimal moisture, leaving approximately **85% solid, 5% water, and 10% air** in a well-compacted pavement sub-base layer.\n\n## Optimum Moisture Content (OMC)\n\n**Optimum Moisture Content (OMC)** is the moisture level at which a specific material achieves its Maximum Dry Density (MDD) under a given compaction effort.\n\n- **Too dry**: High interparticle friction resists rearrangement \u2014 poor density achieved\n- **At OMC**: Water lubricates particles, air voids collapse efficiently \u2014 maximum density\n- **Too wet**: Excess water is incompressible, prevents void closure \u2014 density drops, pumping occurs\n\nIn the field, target moisture must be confirmed before compaction begins. Water carts add moisture to dry material; wet material may need to be left to drain and aerate.\n\n## Maximum Dry Density (MDD)\n\nMDD is the highest unit weight (kN/m\u00b3 or t/m\u00b3) achievable for a given material at its OMC. This defines the **100% compaction benchmark** against which field tests are compared.\n\n**New Zealand TNZ B/2 requirements:**\n- Minimum **95% of MDD** for any individual test result\n- Average **98% of MDD** across a lot (typically 1000 m\u00b2 or 500 t)\n\n## The Standard Proctor Test (NZS 4402: Test 4.1.1)\n\nThe Proctor Compaction Test determines OMC and MDD in the laboratory:\n\n1. Prepare 5\u20136 soil samples at different moisture contents spanning the estimated OMC\n2. Compact each in a standard mould (100 mm diameter) using a 2.5 kg hammer dropped from 305 mm height \u2014 3 layers, 25 blows per layer\n3. Calculate dry density for each moisture content\n4. Plot the **compaction curve** \u2014 the peak identifies OMC and MDD\n\n**Modified Proctor** uses a 4.5 kg hammer and higher compaction energy \u2014 used for airport pavements, heavy port facilities, and high-specification roads.\n\n## Why Compaction Matters\n\n| Consequence of Poor Compaction | Impact |\n|-------------------------------|--------|\n| Reduced bearing capacity | Pavement failure under load |\n| Ongoing settlement | Rutting, potholing, cracking |\n| High permeability | Water ingress, frost damage |\n| Weak subgrade | Costly rehabilitation |\n\n## Five Non-Negotiable Field Rules\n\n1. Always confirm OMC and MDD from lab testing before starting work\n2. Maximum loose lift thickness: **150 mm** \u2014 never exceed this\n3. Ensure moisture is uniform \u2014 compacting dry edges produces test failures\n4. Match roller type to material type (vibratory for granular, padfoot for clay)\n5. Keep complete lot records \u2014 minimum one test per 1000 m\u00b2 or 500 t\n\n## Key Takeaways\n\n- Compaction = reducing air voids mechanically to increase density\n- Three phases: solid / water / air \u2014 ideal ratio 85% / 5% / 10%\n- OMC and MDD are determined by Proctor test (NZS 4402)\n- TNZ B/2 standard: 95% min / 98% avg MDD\n- Lift thickness maximum 150 mm for all standard compaction equipment"
         },
         {
-          "title": "Soil Types & Behaviour",
+          "id": "1-2",
+          "title": "Geology & Aggregate Sources",
           "type": "lesson",
-          "content": "Different soils behave differently under compaction. Understanding your material is essential before choosing equipment or methods.\n\n**Cohesive Soils (Clay):**\n- Require kneading/sheepsfoot roller\n- Sensitive to moisture content\n- Optimal moisture is critical\n\n**Granular Soils (Sand/Gravel):**\n- Respond to vibration\n- Less moisture sensitive\n- Vibratory rollers most effective\n\n**Mixed Soils:**\n- Combination approach required\n- Test strips recommended"
+          "content": "## Geology & Aggregate Sources for New Zealand Pavements\n\nUnderstanding the geological origin of aggregates is essential for predicting pavement performance. New Zealand's tectonic position on the Pacific\u2013Australian plate boundary produces a rich and diverse range of rock types.\n\n## Rock Classification\n\n### Igneous Rocks \u2014 Formed by Cooling Magma\n\n| Type | Formation | Examples | Engineering Value |\n|------|-----------|---------|------------------|\n| **Intrusive** | Slow cooling underground | Granite, Diorite, Gabbro | Dense, hard, low absorption |\n| **Extrusive** | Rapid surface cooling | Basalt, Rhyolite, Andesite | Hard, high PSV (basalt) |\n\n**Basalt** is the dominant pavement aggregate in New Zealand's North Island \u2014 particularly from Waikato and Auckland volcanic fields. It is dense (2.9\u20133.0 t/m\u00b3), hard, and provides excellent polished stone value (PSV 55\u201365).\n\n### Sedimentary Rocks \u2014 Formed from Deposited Material\n\n- **Greywacke**: New Zealand's most abundant and widespread rock \u2014 found throughout both island mountain ranges. Hard, angular fracture pattern, excellent for crushed aggregate\n- **Limestone**: Found in specific South Island regions; generally softer, lower PSV\n- **Sandstone**: Variable quality; usually too soft and porous for pavement aggregate use\n\n**Greywacke** dominates South Island road construction. Its angular fracture produces particles with natural broken faces \u2014 critical for M/4 specification compliance.\n\n### Metamorphic Rocks \u2014 Transformed by Heat and Pressure\n\n- **Schist**: Abundant in Central Otago \u2014 variable quality, can be flaky, affecting shape requirements\n- **Quartzite**: Very hard but can have low PSV (smooth surface texture)\n- **Marble**: Limited pavement use due to softness and susceptibility to polishing\n\n## Key Aggregate Engineering Properties\n\n### Polished Stone Value (PSV)\nMeasures resistance to polishing under traffic. Higher PSV = better wet skid resistance:\n- Basalt: PSV 58\u201368 (excellent)\n- Greywacke: PSV 52\u201360 (good)\n- Limestone: PSV 42\u201350 (marginal for high-speed roads)\n\n**NZTA M/6 minimum PSV:** 50\u201355 depending on road speed and traffic.\n\n### Aggregate Crushing Value (ACV)\nMeasures strength under compressive load:\n- Lower ACV = stronger aggregate\n- M/4 Class 1 maximum ACV: **25**\n\n### Particle Shape \u2014 Broken Faces\nAngular crushed particles interlock better than rounded river gravels:\n- Minimum 2 broken faces required per NZTA M/4\n- Rounded particles from river sources: lower stability, more prone to particle movement under traffic\n\n### Absorption\nHigh absorption aggregates take up bitumen in sealing \u2014 requiring adjusted binder rates and creating durability risks:\n- Vesicular basalt (gas-bubble texture): absorption up to 3% \u2014 high\n- Dense greywacke: absorption 0.5\u20131.5% \u2014 low to moderate\n\n## New Zealand Aggregate Source Regions\n\n**North Island:**\n- **Auckland**: Basalt (Bombay, Pukekohe quarries), greywacke (Hunua ranges)\n- **Waikato**: Basalt (Hamilton region), andesite\n- **Wellington**: Greywacke dominant \u2014 Papa formation\n- **Hawke's Bay**: Greywacke from Kaweka and Ruahine ranges\n\n**South Island:**\n- **Canterbury**: Greywacke from Southern Alps river gravels (Waimakariri, Selwyn, Rakaia)\n- **Otago**: Schist (Central Otago), greywacke (coastal areas)\n- **Marlborough**: Greywacke from Inland Kaikoura Range\n- **West Coast**: Granite and various igneous rocks\n\n## The Aggregate Production Process\n\n1. **Quarrying**: Drilling and blasting or ripping with heavy plant\n2. **Primary crushing**: Jaw crusher \u2014 reduces rock to 150\u2013300 mm pieces\n3. **Secondary crushing**: Cone crusher \u2014 reduces to 40\u201375 mm\n4. **Tertiary crushing**: Impact or VSI crusher \u2014 final sizing and shaping\n5. **Screening**: Vibrating screens separate material into size fractions\n6. **Washing**: Removes clay coatings and excess fines\n7. **Stockpiling**: Layered stockpiling prevents size segregation\n\n## Grading and Quality Control at Source\n\nNZTA M/4 and M/6 specify grading envelopes (percentage passing at each sieve size). Supplier quality control includes:\n- Source approval testing (ACV, PSV, grading, PI)\n- Production lot testing (grading, PI minimum frequency)\n- Delivery documentation (quarry source, batch, test results)\n\n## Key Takeaways\n\n- Greywacke and basalt dominate NZ pavement aggregate supply\n- Rock type determines PSV, ACV, absorption, and durability\n- Angular crushed particles (broken faces) are required by M/4\n- Source region affects availability, cost, and specification compliance\n- Geological knowledge underpins aggregate selection and quality prediction"
         },
         {
+          "id": "1-q",
           "title": "Module 1 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "What is the primary purpose of compaction?",
+              "q": "What is OMC and what happens when you compact material wetter than OMC?",
               "options": [
-                "Reduce air voids and increase density",
-                "Add moisture to soil",
-                "Remove large rocks",
-                "Mix aggregate types"
+                "Optimum Moisture Content \u2014 excess water prevents void closure, density drops",
+                "Original Material Composition \u2014 no effect on density",
+                "Optimum Mix Compound \u2014 material becomes stronger",
+                "Over-compaction Measure \u2014 roller damages aggregate"
               ],
-              "answer": 0
+              "answer": 0,
+              "explanation": "OMC is Optimum Moisture Content. Compacting wetter than OMC means excess pore water is incompressible \u2014 it prevents air voids from closing and density drops, often causing pumping."
             },
             {
-              "q": "Which roller type is best for cohesive/clay soils?",
+              "q": "What are the TNZ B/2 compaction requirements for pavement basecourse?",
               "options": [
-                "Smooth drum vibratory",
-                "Pneumatic tyre",
-                "Sheepsfoot/padfoot",
-                "Plate compactor"
+                "90% MDD minimum, 95% average",
+                "95% MDD minimum individual, 98% average across lot",
+                "98% MDD minimum, 100% average",
+                "85% MDD minimum, 90% average"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "TNZ B/2 requires minimum 95% MDD for any individual test and average 98% MDD across a lot (typically 1000 m\u00b2 or 500 t)."
             },
             {
-              "q": "Poor compaction can reduce pavement life by up to:",
+              "q": "What is the maximum loose lift thickness for standard vibratory roller compaction?",
               "options": [
-                "5%",
-                "15%",
-                "30%",
-                "50%"
+                "100 mm",
+                "200 mm",
+                "150 mm",
+                "300 mm"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Maximum loose lift thickness is 150 mm. Thicker lifts appear compacted at the surface while the bottom remains soft \u2014 causing test failures and future pavement settlement."
+            },
+            {
+              "q": "Which rock type is the primary pavement aggregate in New Zealand's North Island due to its high PSV?",
+              "options": [
+                "Limestone",
+                "Schist",
+                "Basalt",
+                "Sandstone"
+              ],
+              "answer": 2,
+              "explanation": "Basalt from Waikato and Auckland volcanic fields dominates North Island pavement aggregate. Its density (2.9\u20133.0 t/m\u00b3) and high PSV (55\u201365) make it ideal for high-traffic pavements and chip sealing."
+            },
+            {
+              "q": "In the three-phase soil model, what is the ideal phase composition of well-compacted sub-base?",
+              "options": [
+                "90% solid, 5% water, 5% air",
+                "85% solid, 5% water, 10% air",
+                "80% solid, 10% water, 10% air",
+                "70% solid, 20% water, 10% air"
+              ],
+              "answer": 1,
+              "explanation": "Ideal compacted sub-base is approximately 85% solid particles, 5% residual water, and 10% air voids \u2014 providing strength and stability while allowing minimal drainage."
             }
           ]
         }
@@ -67,52 +94,79 @@
     },
     {
       "id": 2,
-      "title": "Compaction Equipment",
-      "duration": "35 min",
+      "title": "Pavement Design & Specifications",
       "lessons": [
         {
-          "title": "Roller Types & Selection",
+          "id": "2-1",
+          "title": "Pavement Design",
           "type": "lesson",
-          "content": "**Smooth Drum Vibratory Rollers:**\nMost common in NZ civil construction. Ideal for granular base course and asphalt. Frequency: 25-35 Hz. Amplitude: low for thin layers, high for thick.\n\n**Padfoot/Sheepsfoot Rollers:**\nFor cohesive soils and subgrade preparation. Kneading action densifies clay from bottom up. Required for embankment construction.\n\n**Pneumatic Tyre Rollers:**\nFor sealing and finishing. Creates kneading action across full width. Good for mixed materials.\n\n**Plate Compactors:**\nSmall areas, trenches, around structures. Forward and reversible types available."
+          "content": "## Pavement Design Principles\n\nPavement design is the engineering process of determining layer thicknesses, material types, and specifications required to carry expected traffic loading over a design life of 20\u201340 years without structural failure.\n\n## Equivalent Standard Axles (ESA)\n\n**ESA** quantifies cumulative traffic damage as the equivalent number of standard 80 kN single axle load repetitions over the design life.\n\n**Why ESA?**\nA loaded truck causes vastly more damage than a car. The **4th Power Law** (Miner's Rule) means:\n- Doubling axle load = **16\u00d7 the pavement damage**\n- A 13-tonne dual axle truck = approximately 2.5 ESA per pass\n- A passenger car = approximately 0.0001 ESA per pass\n\n**Design traffic categories:**\n\n| Category | ESA (millions) | Typical Application |\n|----------|---------------|---------------------|\n| Light | < 0.1M | Residential, farm roads |\n| Medium | 0.1\u20133M | Collector and local roads |\n| Heavy | 3\u201310M | State highways |\n| Very Heavy | > 10M | Motorways, ports, airports |\n\n## California Bearing Ratio (CBR)\n\nCBR measures the bearing strength of the subgrade (natural ground) or pavement material:\n\n| CBR Value | Subgrade Classification | Required Action |\n|-----------|------------------------|----------------|\n| > 15 | Strong | Standard pavement design |\n| 5\u201315 | Moderate | Standard to thick pavement |\n| 2\u20135 | Weak | Stabilisation or thick base |\n| < 2 | Very weak | Remove and replace / deep stabilise |\n\n**Field CBR testing:**\n- Dynamic Cone Penetrometer (DCP): CBR = 292 / DCP^1.12\n- Lightweight Deflectometer (LWD): rapid non-destructive\n- Laboratory CBR (soaked): NZS 4402 Test 6.1.1\n\n## NZTA Figure 8.4 \u2014 Pavement Thickness Design Chart\n\nNZTA's Pavement Design Manual **Figure 8.4** provides unbound granular pavement thickness designs based on:\n- Design ESA (traffic loading)\n- Subgrade CBR\n- Material quality class\n\n**Worked example:**\n- Subgrade CBR = 5, Design ESA = 3M \u2192 **350 mm total granular depth**\n- Subgrade CBR = 10, Design ESA = 3M \u2192 **250 mm total granular depth**\n- Higher CBR subgrade = thinner (cheaper) pavement\n\n## Pavement Layer Functions\n\n| Layer | Material | Primary Function |\n|-------|----------|------------------|\n| Wearing course | Chip seal or AC | Ride quality, skid resistance |\n| Basecourse | AP40 (M/4 Class 1) | Primary load distribution |\n| Sub-base | AP65 or GAP65 | Secondary load spreading |\n| Subgrade capping | GAP65 or stabilised | Improve weak subgrade |\n| Subgrade | Natural soil | Foundation |\n\n## Material Quality Significance\n\nMaterial quality directly determines required pavement thickness:\n\n| Material Class | Min. CBR | Sieve | Application |\n|----------------|---------|-------|-------------|\n| Class 1 (AP40) | \u2265 80% | 40 mm | Basecourse, high-traffic |\n| Class 2 (AP65) | \u2265 45% | 65 mm | Sub-base, lower traffic |\n| Class 3 (GAP65) | \u2265 30% | 65 mm | Lower specification sub-base |\n\nUsing Class 1 AP40 allows 30\u201350 mm less total pavement depth \u2014 on large projects, material savings offset the higher per-tonne cost.\n\n## Drainage Design\n\nWater is the primary enemy of flexible pavements:\n- **Subsurface drainage**: Perforated pipe sub-soil drains at toe of basecourse\n- **Surface drainage**: Minimum 3% crossfall on basecourse to prevent ponding\n- **Permeable basecourse**: AP40 allows water to drain laterally to sub-soil drains\n- **Cut-off drains**: Intercept water flowing from cuttings onto pavement\n\nWater in the pavement reduces CBR, promotes pumping, and dramatically accelerates failure.\n\n## Key Takeaways\n\n- ESA = cumulative traffic loading in 80 kN axle equivalents \u2014 4th power law applies\n- CBR measures subgrade/material strength \u2014 lower CBR = thicker pavement needed\n- Figure 8.4 links ESA + CBR to required pavement depth\n- Material quality class directly impacts required thickness\n- Drainage design is as critical as structural thickness design"
         },
         {
-          "title": "Pre-Start Checks & Operation",
+          "id": "2-2",
+          "title": "NZTA M/4 & M/6 Specifications",
           "type": "lesson",
-          "content": "**Pre-Start Checklist:**\n\u25a1 Fluid levels (oil, water, hydraulic)\n\u25a1 Tyre pressures (pneumatic rollers)\n\u25a1 Drum condition \u2014 no flat spots or damage\n\u25a1 Water spray system operational\n\u25a1 ROPS/FOPS certification current\n\u25a1 Daily pre-start form completed\n\n**Operating Principles:**\n- Overlap passes by 150-300mm\n- Consistent speed \u2014 3-5 km/h\n- Avoid sharp turns on fresh material\n- Work from edges to centre on roads\n- Count and record passes"
+          "content": "## NZTA Aggregate Specifications: M/4 and M/6\n\nNZTA (now Waka Kotahi) publishes material specifications defining minimum quality requirements for road construction aggregates. The two primary specifications are:\n\n- **M/4**: Basecourse Aggregate \u2014 unbound granular pavement layers\n- **M/6**: Chipseal Aggregate \u2014 bituminous surface treatments\n\n## NZTA M/4 \u2014 Basecourse Aggregate Specification\n\n### Broken Faces Requirement\n\nM/4 specifies minimum percentages of particles with crushed (broken) faces:\n\n| Requirement | Minimum % |\n|------------|----------|\n| Particles with 1+ broken face | \u2265 90% |\n| Particles with 2+ broken faces | \u2265 70% |\n\n**Why broken faces matter:** Crushed angular particles interlock under compaction, creating a stable aggregate skeleton that resists deformation. Rounded river gravels are easier to displace and roll under traffic.\n\n### Crushing Resistance \u2014 Aggregate Crushing Value (ACV)\n\nTest method: NZS 4407 Test 3.12 \u2014 aggregate is loaded under compression and the fraction crushed to fines is measured.\n\n| Material Class | Maximum ACV |\n|----------------|------------|\n| Class 1 (AP40) | 25 |\n| Class 2 (AP65) | 30 |\n\nLower ACV = stronger aggregate. High ACV materials break down under compaction and traffic, causing grading changes and loss of interlocking structure.\n\n### Plasticity Index (PI)\n\nPI limits prevent plastic fines that soften when wet:\n- **Maximum PI: 6** for material passing the 0.425 mm sieve\n- High-PI materials swell, lose strength, and pump under dynamic loading\n- Tested by Atterberg Limits test (NZS 4402 Test 2.1)\n\n### M/4 AP40 Grading Envelope\n\n| Sieve (mm) | % Passing Min | % Passing Max |\n|-----------|--------------|---------------|\n| 53 | 100 | 100 |\n| 37.5 | 90 | 100 |\n| 26.5 | 70 | 90 |\n| 19 | 55 | 80 |\n| 9.5 | 35 | 60 |\n| 4.75 | 22 | 45 |\n| 2.36 | 14 | 32 |\n| 0.425 | 5 | 18 |\n| 0.075 | 2 | 9 |\n\n## NZTA M/6 \u2014 Chipseal Aggregate Specification\n\n### Polished Stone Value (PSV)\n\nPSV measures the aggregate's resistance to polishing under traffic:\n\n| Road Category | Minimum PSV |\n|--------------|-------------|\n| High speed, high traffic (> 85 km/h, > 2000 vpd) | \u2265 55 |\n| Standard State Highway | \u2265 50 |\n| Low volume roads (< 1500 vpd) | \u2265 45 |\n\nTest method: BS 812 Part 114 \u2014 aggregate polished in laboratory under standard conditions, then British Pendulum Tester measures resistance.\n\n### Shape \u2014 Flakiness Index\n\nM/6 chips must be predominantly cubical:\n- **Maximum Flakiness Index: 35** (BS 812 Part 105)\n- Flat/elongated chips break under traffic and chipping hammers, reducing skid resistance and embedment\n\n### Standard Chip Sizes\n\n| Chip Size | Typical Application |\n|-----------|--------------------|\n| 7 mm | Residential and low-volume roads |\n| 10 mm | Collector roads and state highways |\n| 14 mm | Intersections, roundabouts, high-stress zones |\n\n## Site Compliance Testing\n\nTo verify incoming aggregate meets specification:\n\n1. **Grading analysis**: Sample from delivery truck, sieve test (NZS 4407 Test 3.8)\n2. **Moisture content**: Microwave or oven dry test before compaction begins\n3. **Plasticity index**: Confirm PI \u2264 6 on fines fraction\n4. **ACV test**: Source approval testing (not per delivery, but per quarry approval)\n5. **PSV test**: Source approval for M/6 chipseal aggregate\n\n**Testing frequency**: Minimum 1 grading test per 500 t or 1000 m\u00b2 of placed material.\n\n## Consequences of Non-Compliance\n\n- Failed grading: Rework or remove non-compliant material \u2014 contractor's cost\n- High PI material: Moisture-induced failure, costly pavement rehabilitation\n- Low PSV chip: Skid risk \u2014 public liability exposure, NZTA audit findings\n- ACV failures: Premature aggregate breakdown, loss of structural integrity\n\n## Key Takeaways\n\n- M/4 governs basecourse: broken faces \u2265 70%/90%, max ACV 25, PI \u2264 6, grading envelope\n- M/6 governs chipseal aggregate: PSV, flakiness, chip size bands\n- PSV minimum varies by road speed and traffic volume\n- Non-compliant material must be rejected or removed \u2014 document everything\n- Grading tests are mandatory throughout construction \u2014 not just at source approval"
         },
         {
+          "id": "2-q",
           "title": "Module 2 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "What frequency range is typical for vibratory rollers?",
+              "q": "What does ESA stand for and what is the key physics relationship behind it?",
               "options": [
-                "5-10 Hz",
-                "15-20 Hz",
-                "25-35 Hz",
-                "50-60 Hz"
+                "Equivalent Standard Axles \u2014 4th power law means doubling axle load causes 16\u00d7 damage",
+                "Elastic Strength Assessment \u2014 measures surface deflection",
+                "Engineering Subgrade Analysis \u2014 foundation strength assessment",
+                "Estimated Specification Allowance \u2014 material quality scoring"
               ],
-              "answer": 2
+              "answer": 0,
+              "explanation": "ESA = Equivalent Standard Axles (80 kN single axle equivalents). The 4th Power Law means doubling axle load multiplies pavement damage by 16\u00d7 \u2014 making heavy vehicles disproportionately damaging."
             },
             {
-              "q": "When working a road, you should compact from:",
+              "q": "Subgrade CBR of 5 vs CBR of 15: which requires a thicker pavement and approximately how much more?",
               "options": [
-                "Centre to edges",
-                "Edges to centre",
-                "Random pattern",
-                "One side only"
+                "CBR 15 requires more \u2014 stronger subgrade needs more reinforcement",
+                "CBR 5 requires more \u2014 weaker subgrade needs more load spreading (approx 100 mm more for typical highway)",
+                "Same thickness \u2014 CBR doesn't affect pavement depth",
+                "CBR 5 requires less \u2014 soft ground absorbs energy"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Lower CBR = weaker subgrade = thicker pavement required. Per NZTA Figure 8.4, CBR 5 at 3M ESA requires ~350 mm vs ~250 mm for CBR 10 \u2014 approximately 100 mm more thickness."
             },
             {
-              "q": "Overlap between roller passes should be:",
+              "q": "What is the minimum PSV for chipseal aggregate on a high-speed (>85 km/h), high-traffic state highway per NZTA M/6?",
               "options": [
-                "50mm",
-                "150-300mm",
-                "500mm",
-                "1 metre"
+                "40",
+                "45",
+                "50",
+                "55"
               ],
-              "answer": 1
+              "answer": 3,
+              "explanation": "NZTA M/6 requires minimum PSV 55 for high-speed, high-traffic roads. Insufficient PSV causes aggregate polishing, reducing wet skid resistance and creating crash risk."
+            },
+            {
+              "q": "NZTA M/4 requires what minimum percentage of AP40 basecourse particles to have 2 or more broken faces?",
+              "options": [
+                "50%",
+                "60%",
+                "70%",
+                "90%"
+              ],
+              "answer": 2,
+              "explanation": "M/4 requires \u2265 70% of particles to have 2 or more broken faces. Crushed angular particles provide superior interlock and stability compared to rounded river gravels."
+            },
+            {
+              "q": "What is the maximum Plasticity Index (PI) allowed for M/4 AP40 basecourse fines (< 0.425 mm)?",
+              "options": [
+                "3",
+                "6",
+                "12",
+                "20"
+              ],
+              "answer": 1,
+              "explanation": "PI maximum is 6 per NZTA M/4. High-PI plastic fines swell and lose strength when wet, causing pumping, loss of density, and pavement failure."
             }
           ]
         }
@@ -120,52 +174,62 @@
     },
     {
       "id": 3,
-      "title": "Testing & Compliance",
-      "duration": "40 min",
+      "title": "Compaction Equipment",
       "lessons": [
         {
-          "title": "NZ Compaction Standards",
+          "id": "3-1",
+          "title": "Roller Types and Selection",
           "type": "lesson",
-          "content": "**NZTA & Local Authority Requirements:**\nAll compaction must meet NZ Transport Agency specifications. Key documents:\n- TNZ B/2 \u2014 Pavement Layers\n- TNZ F/1 \u2014 Field Density Testing\n- NZS 4402 \u2014 Soil Testing Methods\n\n**Minimum Compaction Requirements:**\n- Subgrade: 95% Standard Proctor (NZTA)\n- Subbase: 98% Modified Proctor\n- Basecourse: 98% Modified Proctor\n- Asphalt: 97% Marshall Density\n\n**Moisture Content Windows:**\nMaterial must be within \u00b12% of Optimum Moisture Content (OMC) for effective compaction."
+          "content": "## Compaction Equipment: Roller Types and Selection\n\nSelecting the correct compaction equipment for the material type and application is critical. Wrong equipment wastes time and fuel, and risks failing compaction tests.\n\n## Vibratory Smooth Drum Roller \u2014 Primary Granular Compactor\n\nThe vibratory smooth drum roller is the **primary tool for compacting granular pavement materials** (AP40, AP65, GAP65).\n\n**Operating principle:**\n- Internal eccentric weights rotate inside the drum, creating cyclic vibrations\n- Vibration frequency: 25\u201335 Hz (cycles per second)\n- Amplitude (vibration intensity): selectable \u2014 high amplitude for deep/thick lifts, low amplitude for thin layers and asphalt finishing\n- Drum weight + vibration force penetrate through the full lift depth\n\n**Drum roller size guide:**\n\n| Size | Operating Weight | Best Application |\n|------|-----------------|------------------|\n| Walk-behind tandem | 0.5\u20131.0 t | Footpaths, small trenches |\n| Light tandem | 1.5\u20133.0 t | Asphalt finishing, thin layers |\n| Single drum 8\u201312 t | 8\u201312 t | Standard pavement base construction |\n| Large single drum | 14\u201322 t | Highway basecourse, airport aprons |\n\n**Key operating rules:**\n- Overlap each pass by minimum 100\u2013150 mm\n- Travel speed: 3\u20135 km/h during compaction passes\n- Minimum passes: typically 4\u20138 \u2014 always verify with density testing\n- Do **NOT** use vibration within 30 m of structures, utilities, or buried services\n\n## Static Smooth Drum Roller \u2014 Finishing/Secondary\n\nUsed as a **finishing and secondary compactor:**\n- Smooths surface texture after vibratory compaction\n- Final passes on asphalt (avoids aggregate fracture from vibration)\n- Near structures where vibration is prohibited\n- Only static weight \u2014 lower compactive effort than vibratory\n\n## Padfoot (Sheepsfoot) Roller \u2014 Clay and Cohesive Soils\n\nDesigned specifically for **cohesive soils (clay, clay-silt, and heavy subgrade materials)**:\n\n**Features:**\n- Steel drum covered with protruding padfoot-shaped steel pads\n- Pads penetrate into the clay layer and knead material from below upward\n- As density increases through the lift, pads progressively \"walk out\" of the material\n- \"Walking out\" is a visual indicator that the layer has reached target density\n\n**When to use padfoot roller:**\n- Subgrade clay preparation and proof rolling\n- Earthworks embankment construction\n- Any cohesive fill material, stabilised materials\n\n\u26a0\ufe0f **NEVER use a padfoot roller on granular aggregate** \u2014 pads destroy the interlocked aggregate skeleton.\n\n## Plate Compactor \u2014 Confined and Restricted Areas\n\n**Applications:**\n- Trench backfill (around pipes, cables, culverts)\n- Around structures (manholes, headwalls, retaining walls)\n- Small areas inaccessible to rollers\n- Footpath and path sub-base\n\n**Types:**\n- Forward plate (single direction): simple, for open areas\n- Reversible plate compactor: preferred for trenches \u2014 can reverse without repositioning\n- Vibration-isolating handles: reduce operator hand-arm vibration exposure (HAVS)\n\n**Limitation**: Effective compaction depth is 150\u2013200 mm maximum \u2014 use in thin lifts.\n\n## Maximum Lift Thickness: 150 mm \u2014 The Non-Negotiable Rule\n\n**Never exceed 150 mm compacted lift thickness for roller-compacted granular material.**\n\nPhysics of why this matters:\n- Compaction energy propagates downward but diminishes with depth\n- A vibratory roller effectively compacts 250\u2013300 mm loose (\u2248 200\u2013250 mm compacted)\n- But density at the bottom of a 250 mm loose lift is significantly lower than the top\n- **Standard safe practice**: 150 mm maximum loose lift \u2248 125\u2013130 mm compacted\n- Thick lifts APPEAR compacted on surface while the bottom layer remains soft\n- NDG testing penetrates only 200 mm \u2014 thick lifts may pass NDG but fail below probe depth\n\n**For thick construction layers:**\n- Divide into multiple 150 mm lifts (e.g., 450 mm total = three lifts)\n- Test each lift to required density before placing the next\n\n## Compaction Trial \u2014 Determining Pass Count\n\nBefore large-scale production compaction, conduct a **compaction trial** to determine:\n- Required number of roller passes for your specific equipment and material\n- Optimal roller speed and vibration settings\n- Confirmation of OMC target in field conditions\n\n**Compaction trial process:**\n1. Set up a 50\u2013100 m trial strip at required lift thickness\n2. Compact in increments of 2 passes (2, 4, 6, 8 passes)\n3. NDG test after each increment\n4. Plot density vs. pass count curve\n5. Identify the point of diminishing returns (density plateaus or decreases)\n6. Set production pass count = passes at 98% MDD achievement\n\n## Key Takeaways\n\n- Vibratory smooth drum: primary compactor for granular pavement materials\n- Static smooth drum: finishing and secondary, or near structures\n- Padfoot: cohesive soils only \u2014 NEVER on granular aggregate\n- Plate compactor: trenches and confined areas \u2014 maximum 150\u2013200 mm depth\n- Maximum lift thickness: 150 mm \u2014 thick lifts hide poor bottom-layer compaction\n- Conduct a compaction trial to set production pass counts before full-scale work"
         },
         {
-          "title": "Field Testing Methods",
-          "type": "lesson",
-          "content": "**Nuclear Density Gauge (NDG):**\nMost common NZ field test. Measures density and moisture in situ. Requires calibration and radiation safety training.\n\n**Sand Replacement (Sand Cone):**\nTraditional method. Highly accurate but time-consuming. Required for calibration checks.\n\n**Clegg Impact Hammer:**\nQuick field indicator. Not a substitute for density testing but useful for pattern testing.\n\n**Scala Penetrometer:**\nMeasures subgrade strength (CBR correlation). Required for pavement design verification.\n\n**Testing Frequency:**\n- Minimum 1 test per 500m\u00b2 per layer\n- More frequent in suspect areas\n- All failures require investigation and re-test"
-        },
-        {
+          "id": "3-q",
           "title": "Module 3 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "Minimum compaction for basecourse (NZTA) is:",
+              "q": "Which roller type is the primary compactor for AP40 granular basecourse?",
               "options": [
-                "90% Standard Proctor",
-                "95% Standard Proctor",
-                "98% Modified Proctor",
-                "100% Modified Proctor"
+                "Padfoot roller",
+                "Static smooth drum roller",
+                "Vibratory smooth drum roller",
+                "Plate compactor"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "The vibratory smooth drum roller is the primary compactor for granular materials. Internal eccentric weights create vibration that drives the full lift depth to target density."
             },
             {
-              "q": "Moisture content must be within ___% of OMC:",
+              "q": "Why must a padfoot roller NEVER be used on AP40 granular basecourse?",
               "options": [
-                "\u00b11%",
-                "\u00b12%",
-                "\u00b15%",
-                "\u00b110%"
+                "It is too slow for granular material",
+                "The pads destroy the interlocked aggregate skeleton, reducing strength",
+                "It creates too much dust",
+                "Padfoot rollers are only suitable for asphalt"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Padfoot steel pads penetrate and knead cohesive soils \u2014 when used on granular material, they destroy the interlocked particle structure critical to granular stability."
             },
             {
-              "q": "Minimum testing frequency is 1 test per:",
+              "q": "What does it mean when a padfoot roller 'walks out' of a clay layer?",
               "options": [
-                "100m\u00b2",
-                "250m\u00b2",
-                "500m\u00b2",
-                "1000m\u00b2"
+                "The roller is sinking \u2014 the ground is too soft to continue",
+                "The layer has reached sufficient density \u2014 the pads can no longer penetrate",
+                "The roller needs maintenance",
+                "The lift is too thick \u2014 reduce by 50 mm"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "'Walking out' means the clay layer has compacted to sufficient density that the padfoot pads can no longer penetrate \u2014 it is a visual on-site indicator of achieved density."
+            },
+            {
+              "q": "Why is maximum 150 mm lift thickness critical even when using a large vibratory roller?",
+              "options": [
+                "Roller fuel consumption increases beyond 150 mm lifts",
+                "Compaction energy diminishes with depth \u2014 thick lifts hide under-compacted bottom layer",
+                "NDG testing cannot read beyond 150 mm",
+                "NZTA specifications only allow 150 mm lifts regardless of roller size"
+              ],
+              "answer": 1,
+              "explanation": "Compaction energy diminishes with depth. Thick lifts (>150 mm) result in the top layer compacting well while the bottom remains under-compacted \u2014 surface NDG tests may pass while the base layer fails."
             }
           ]
         }
@@ -173,42 +237,73 @@
     },
     {
       "id": 4,
-      "title": "Troubleshooting & Quality",
-      "duration": "30 min",
+      "title": "Testing & Quality Assurance",
       "lessons": [
         {
-          "title": "Common Failures & Causes",
+          "id": "4-1",
+          "title": "Field Testing & QA",
           "type": "lesson",
-          "content": "**Rutting/Deformation:**\nCauses: Insufficient compaction, wet subgrade, overloading\nSolution: Remove and rework, improve drainage, reduce layer thickness\n\n**Cracking (Transverse):**\nCauses: Over-compaction of asphalt, temperature differential\nSolution: Adjust roller passes, monitor mat temperature\n\n**Shoving/Rippling:**\nCauses: Too many roller passes, unstable base, overloading\nSolution: Stop rolling, allow to cool/set, check base stability\n\n**Tender Mix (Asphalt):**\nCauses: High binder content, high temperature, over-vibration\nSolution: Reduce vibration, wait for mat to cool to 80\u00b0C"
+          "content": "## Field Compaction Testing and Quality Assurance\n\nField testing verifies that compaction meets the specification before the next layer is placed. Testing after the fact is too late \u2014 you must test each lift while you can still remedy failures.\n\n## Nuclear Density Gauge (NDG)\n\nThe NDG is the most common field compaction testing device in NZ road construction.\n\n**Operating principle:**\n- A radioactive source (Caesium-137 or Americium-241) emits radiation\n- Detectors measure the attenuation of radiation through the compacted material\n- Attenuation correlates with wet density; moisture measurement converts to dry density\n- Compares result to lab MDD to calculate % compaction\n\n**NDG test procedure (NZS 4407 Test 8.1):**\n1. Prepare a smooth test surface (no voids or bumps)\n2. Insert the probe rod to the required depth (typically 200 mm)\n3. Place gauge on surface, shield operator behind gauge\n4. Record wet density, moisture content, dry density\n5. Calculate % MDD = (dry density \u00f7 MDD) \u00d7 100\n\n**NDG advantages:**\n- Fast (3\u20135 minutes per test)\n- Non-destructive \u2014 no hole in pavement\n- Provides both density and moisture content\n\n**NDG limitations:**\n- Radioactive source \u2014 requires licensed operator and strict storage/transport protocols\n- Only reads the top 150\u2013200 mm\n- Sensitive to surface preparation and probe placement\n- Requires calibration against local materials\n\n## Sand Replacement Test (NZS 4402 Test 5.1)\n\nAlternative to NDG \u2014 used for:\n- Trench backfill and confined areas\n- Verification testing when NDG results are disputed\n- Coarse aggregate where NDG calibration is uncertain\n\n**Procedure:**\n1. Excavate a hole approximately 200 mm diameter \u00d7 150 mm deep\n2. Collect and weigh all excavated material\n3. Fill hole with calibrated sand from a sand cone apparatus\n4. Weigh sand used to determine hole volume\n5. Calculate wet density = mass \u00f7 volume\n6. Oven-dry sample to determine moisture content\n7. Calculate dry density and % MDD\n\n**Sand replacement limitations:**\n- Time-consuming (30\u201360 minutes per test)\n- Destructive \u2014 leaves a hole requiring repair\n- Operator technique sensitive\n\n## Dynamic Cone Penetrometer (DCP)\n\nThe DCP measures in-situ CBR of subgrade and compacted layers:\n\n**Procedure:**\n1. Drive a cone into the material using a standard 8 kg hammer dropped 575 mm\n2. Record penetration in mm per blow\n3. Convert to CBR: **CBR = 292 / DCP^1.12** (mm/blow)\n\n**Applications:**\n- Subgrade CBR assessment before pavement design\n- Layer-by-layer CBR verification during construction\n- Identifying weak zones in compacted layers\n\n| DCP (mm/blow) | Approximate CBR |\n|--------------|----------------|\n| 5 | ~60 |\n| 10 | ~30 |\n| 20 | ~15 |\n| 50 | ~5 |\n\n## TNZ B/2 Testing Requirements\n\n**Acceptance criteria:**\n- **Minimum individual test**: \u2265 95% MDD\n- **Lot average**: \u2265 98% MDD\n\n**Lot definition:**\n- Maximum 1000 m\u00b2 of pavement area per lift, OR\n- Maximum 500 t of compacted material, whichever is smaller\n\n**Minimum tests per lot:**\n- 3 NDG tests for standard lots\n- Additional tests required if results vary significantly\n- Tests must be distributed across the lot (not all in one spot)\n\n**Test location selection:**\n- Random (not cherry-picked) \u2014 project manager or engineer to verify randomness\n- Cover full extent of lot area\n- Include edges (where compaction is typically lower due to drum overhang)\n\n## Quality Records \u2014 What Must Be Kept\n\nPer TNZ B/2 and NZTA contract requirements, the following must be documented for every lot:\n\n- **Lot identifier** (number, location reference)\n- **Material description** (AP40, AP65, etc.) and source quarry\n- **Delivery dockets** or weight tickets\n- **Lab compaction test report** (OMC, MDD, date, test laboratory)\n- **Field test results** (NDG or sand replacement): test location, date, operator, result\n- **Acceptance or rejection decision**\n- **Remedial action** if any lot failed \u2014 retesting results\n\n**Why records matter:**\n- Contractual obligation \u2014 non-compliance = potential payment withholding\n- Defect liability \u2014 documented QA demonstrates due diligence\n- WorkSafe and NZTA audit requirements\n\n## Key Takeaways\n\n- NDG is the primary field testing method: fast, non-destructive, depth 200 mm\n- Sand replacement: slower but independent verification method\n- DCP: measures CBR of subgrade and compacted layers\n- TNZ B/2 requires 95% MDD minimum per test, 98% MDD average per lot\n- Lot = maximum 1000 m\u00b2 or 500 t \u2014 test while you can still fix failures\n- Complete quality records for every lot \u2014 material, lab data, field tests, decisions"
         },
         {
-          "title": "Quality Assurance Records",
-          "type": "lesson",
-          "content": "**Required Documentation:**\n\u25a1 Pre-start inspection forms (daily)\n\u25a1 Material delivery dockets\n\u25a1 Layer thickness records\n\u25a1 Roller pass counts and patterns\n\u25a1 Field density test results\n\u25a1 Moisture content records\n\u25a1 Non-conformance reports\n\u25a1 ITP (Inspection & Test Plan) sign-offs\n\n**Digital Records:**\nPhotograph all test locations with GPS coordinates. Many NZ councils now require digital as-built records. Cloud backup all quality records immediately."
-        },
-        {
+          "id": "4-q",
           "title": "Module 4 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "Shoving/rippling in asphalt is caused by:",
+              "q": "The Nuclear Density Gauge (NDG) measures compaction by:",
               "options": [
-                "Too few roller passes",
-                "Cold temperature",
-                "Too many passes on unstable base",
-                "Wrong roller type"
+                "Measuring surface hardness with a rebound hammer",
+                "Radiation attenuation through the material correlating to density",
+                "Weighing the compacted layer",
+                "Measuring vibration frequency of the roller"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "The NDG uses a radioactive source (Cs-137 or Am-241) \u2014 detectors measure radiation attenuation through compacted material, which correlates to wet density. Moisture measurement then gives dry density for % MDD calculation."
             },
             {
-              "q": "Which document outlines your quality checkpoints?",
+              "q": "A TNZ B/2 lot test shows results: 97%, 96%, 94%, 98%, 97%. Does this lot PASS or FAIL?",
               "options": [
-                "NDG calibration sheet",
-                "ITP (Inspection & Test Plan)",
-                "MSDS sheet",
-                "Pre-start form"
+                "Pass \u2014 all results are close to 95%",
+                "Fail \u2014 one result (94%) is below the 95% minimum",
+                "Pass \u2014 the average (96.4%) exceeds 95%",
+                "Fail \u2014 the average (96.4%) is below 98%"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "TNZ B/2 requires EVERY individual test to meet minimum 95% MDD. The 94% result fails this requirement \u2014 even though the average is above 95%, the lot fails and must be remediated and retested."
+            },
+            {
+              "q": "What is the DCP formula for converting penetration rate to CBR?",
+              "options": [
+                "CBR = DCP \u00d7 2.5",
+                "CBR = 292 / DCP^1.12",
+                "CBR = 100 / DCP",
+                "CBR = DCP \u00d7 10"
+              ],
+              "answer": 1,
+              "explanation": "The DCP to CBR conversion formula is CBR = 292 / DCP^1.12 where DCP is in mm/blow. At 10 mm/blow the CBR is approximately 30; at 50 mm/blow approximately 5."
+            },
+            {
+              "q": "What is the maximum lot size per TNZ B/2 for compaction testing?",
+              "options": [
+                "500 m\u00b2 or 250 t",
+                "1000 m\u00b2 or 500 t",
+                "2000 m\u00b2 or 1000 t",
+                "5000 m\u00b2 or 2500 t"
+              ],
+              "answer": 1,
+              "explanation": "Per TNZ B/2, maximum lot size is 1000 m\u00b2 of pavement area or 500 t of compacted material \u2014 whichever is smaller. Tests must be completed before placing the next lift."
+            },
+            {
+              "q": "Why must NDG test locations be randomly selected across the full lot area?",
+              "options": [
+                "Random selection is required by NZS standards",
+                "To ensure representative coverage and prevent cherry-picking high-density zones",
+                "To reduce the number of tests required",
+                "So the roller operator does not know where tests will be"
+              ],
+              "answer": 1,
+              "explanation": "Random selection across the full lot prevents cherry-picking well-compacted zones. Tests must include edges (typically lower density) and be distributed to give a representative sample of the entire lot."
             }
           ]
         }
@@ -217,99 +312,85 @@
     {
       "id": 5,
       "title": "Final Assessment",
-      "duration": "20 min",
       "lessons": [
         {
-          "title": "Course Review",
+          "id": "5-1",
+          "title": "Course Summary & Field Rules",
           "type": "lesson",
-          "content": "**Congratulations on completing Compaction 101!**\n\nYou have covered:\n\u2705 Compaction principles and soil types\n\u2705 Equipment selection and operation\n\u2705 NZ compliance standards (NZTA)\n\u2705 Field testing methods\n\u2705 Quality assurance and documentation\n\n**Next Steps:**\n- Complete the final assessment below\n- Download your certificate\n- Consider upgrading to Certificate level for hands-on assessment\n- Explore NZCI Flexi Excavator Awareness course"
+          "content": "## Compaction 101 \u2014 Course Summary and Field Reference\n\nThis final lesson consolidates the key principles, standards, and practical rules from all modules into a field-ready reference for the civil construction professional.\n\n## The 5 Non-Negotiable Field Compaction Rules\n\n| # | Rule | Standard/Reference |\n|---|------|-------------------|\n| 1 | **Maximum 150 mm loose lift thickness** \u2014 never exceed this for any roller-compacted granular layer | TNZ B/2 |\n| 2 | **Always verify OMC and MDD from lab testing** before commencing production compaction | NZS 4402 |\n| 3 | **Match roller type to material** \u2014 vibratory for granular, padfoot for clay | Best practice |\n| 4 | **Test each lift before placing the next** \u2014 failures found early can be fixed cheaply | TNZ B/2 |\n| 5 | **Complete quality records for every lot** \u2014 material, lab data, field tests, remedial actions | NZTA contract |\n\n## Three-Phase Model Summary\n\nThe target composition of well-compacted pavement sub-base:\n\n| Phase | Target % | Role |\n|-------|---------|------|\n| **Solid** (mineral particles) | 85% | Load-bearing skeleton |\n| **Water** (pore moisture) | 5% | Residual from OMC |\n| **Air** (voids) | 10% | Minimal \u2014 well compacted |\n\nTotal voids (water + air) = 15% in well-compacted material.\nPoorly compacted material may have 25\u201335% voids \u2014 dramatically weaker.\n\n## Standards Reference Table\n\n| Standard | Scope | Key Requirement |\n|---------|-------|----------------|\n| **NZS 4402 Test 4.1.1** | Standard Proctor Test | Determine OMC and MDD |\n| **TNZ B/2** | Compaction specification | 95% min MDD / 98% avg MDD per lot |\n| **NZTA M/4** | Basecourse aggregate | Broken faces, ACV \u2264 25, PI \u2264 6, grading |\n| **NZTA M/6** | Chipseal aggregate | PSV \u2265 50\u201355, flakiness \u2264 35, size grading |\n| **NZS 4407 Test 8.1** | NDG field testing | Density and moisture measurement |\n| **NZS 4402 Test 5.1** | Sand replacement test | Independent density verification |\n| **NZTA Figure 8.4** | Pavement thickness design | CBR + ESA \u2192 pavement depth |\n\n## Compaction Equipment Decision Chart\n\n```\nMaterial Type?\n\u251c\u2500\u2500 Granular (AP40, AP65, GAP65)\n\u2502   \u251c\u2500\u2500 Open area \u2192 Vibratory smooth drum roller\n\u2502   \u251c\u2500\u2500 Near structures \u2192 Static smooth drum roller (no vibration)\n\u2502   \u2514\u2500\u2500 Confined/trench \u2192 Plate compactor\n\u2514\u2500\u2500 Cohesive (clay, clay-silt)\n    \u251c\u2500\u2500 Open area \u2192 Padfoot/sheepsfoot roller\n    \u2514\u2500\u2500 Confined \u2192 Jumping jack rammer\n```\n\n## Aggregate Specification Quick Reference\n\n**For basecourse (M/4 AP40):**\n- Broken faces: \u2265 70% with 2+ faces, \u2265 90% with 1+ face\n- ACV: \u2264 25 (Class 1)\n- PI: \u2264 6 (fines fraction)\n- Grading: within specified envelope\n\n**For chipseal (M/6):**\n- PSV: \u2265 55 (high speed/traffic), \u2265 50 (standard SH), \u2265 45 (low volume)\n- Flakiness Index: \u2264 35\n- Size: 7 mm / 10 mm / 14 mm depending on application\n\n## Geology Summary \u2014 NZ Aggregate Sources\n\n| Rock Type | Classification | NZ Source Regions | Best Use |\n|-----------|---------------|------------------|----------|\n| Basalt | Igneous extrusive | Waikato, Auckland | High PSV chip seal, basecourse |\n| Greywacke | Sedimentary | Both islands' ranges | Basecourse, sub-base |\n| Granite | Igneous intrusive | West Coast, Fiordland | Basecourse |\n| Schist | Metamorphic | Central Otago | Variable \u2014 shape quality check |\n\n## From Theory to Practice \u2014 Key Career Messages\n\n1. **Compaction is invisible quality** \u2014 a poorly compacted layer looks the same as a good one. Only testing reveals the truth.\n2. **Test early, test often** \u2014 a failed test found during construction costs hours to fix. Found after sealing, it costs thousands.\n3. **Document everything** \u2014 your quality records are your legal protection in disputes and defect claims.\n4. **Understand the chain** \u2014 geology \u2192 quarry \u2192 delivery \u2192 placement \u2192 compaction \u2192 testing \u2192 records. Each link affects the next.\n5. **Moisture is everything** \u2014 the single biggest cause of compaction failures is incorrect moisture. Test before compacting.\n\n## Key Takeaways\n\n- OMC + MDD from Proctor test define the compaction target\n- 150 mm maximum lift, 95%/98% MDD per TNZ B/2\n- Roller selection depends on material type\n- NDG is primary field test; sand replacement and DCP for supplementary\n- M/4 governs basecourse quality; M/6 governs chipseal aggregate\n- Complete records for every lot \u2014 they are your professional protection"
         },
         {
+          "id": "5-q",
           "title": "Final Assessment",
           "type": "quiz",
           "questions": [
             {
-              "q": "The #1 cause of premature pavement failure in NZ is:",
+              "q": "A project engineer instructs you to compact AP40 in 200 mm lifts using a 12-tonne vibratory roller. What is the correct response?",
               "options": [
-                "Wrong aggregate size",
-                "Poor compaction",
-                "Excessive rainfall",
-                "Heavy vehicles"
+                "Proceed \u2014 the large roller can handle 200 mm lifts",
+                "Refuse \u2014 maximum lift thickness is 150 mm; request engineer to confirm in writing if insisting",
+                "Proceed but increase pass count to compensate",
+                "Reduce to 200 mm because the spec only covers small rollers"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Maximum lift thickness is 150 mm regardless of roller size. A 200 mm lift risks under-compaction at the base even with a large vibratory roller. If instructed to deviate, request written engineer instruction and document your objection."
             },
             {
-              "q": "Subgrade minimum compaction requirement (NZTA) is:",
+              "q": "Your NDG test results for a lot are: 96%, 97%, 95%, 99%, 94%. What action is required?",
               "options": [
-                "90% Standard Proctor",
-                "95% Standard Proctor",
-                "98% Modified Proctor",
-                "100% Modified Proctor"
+                "Accept \u2014 the average (96.2%) exceeds 95%",
+                "Reject the lot \u2014 94% fails the 95% minimum; rework and retest",
+                "Accept with a note \u2014 one failure is within tolerance",
+                "Retest only the 94% location and accept if it passes"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "TNZ B/2 requires EVERY individual result \u2265 95% MDD. The 94% result fails the minimum requirement. The lot must be reworked (additional rolling, moisture adjustment) and retested \u2014 all tests must pass before the lot is accepted."
             },
             {
-              "q": "Vibratory rollers work best on:",
+              "q": "An aggregate delivery arrives with a quarry certificate showing PI = 9 for the fines fraction. What should you do?",
               "options": [
-                "Clay soils",
-                "Peat",
-                "Granular soils",
-                "Organic material"
+                "Accept \u2014 PI 9 is close enough to the M/4 limit of 10",
+                "Reject or hold \u2014 PI 9 exceeds M/4 maximum PI of 6; notify engineer and quarry",
+                "Accept \u2014 PI limits only apply in wet weather",
+                "Mix with lower-PI material on site to average out"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "M/4 maximum PI is 6. PI 9 exceeds this limit \u2014 the material is non-compliant. Reject the delivery and notify the engineer and quarry. Mixing non-compliant material is not an acceptable solution."
             },
             {
-              "q": "Roller pass overlap should be:",
+              "q": "Why is conducting a compaction trial before full production recommended?",
               "options": [
-                "50mm",
-                "150-300mm",
-                "600mm",
-                "1m"
+                "It is a TNZ B/2 mandatory requirement",
+                "To determine the actual pass count needed to achieve target density with your specific equipment and material",
+                "To satisfy WorkSafe equipment inspection requirements",
+                "To check the roller is not leaking oil"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "A compaction trial determines the optimum pass count for your specific roller, material, and OMC conditions \u2014 preventing production failures from under-compaction or wasted effort from over-rolling."
             },
             {
-              "q": "Temperature for asphalt compaction (stop rolling):",
+              "q": "What are the three rock types by geological formation?",
               "options": [
-                "120\u00b0C",
-                "100\u00b0C",
-                "80\u00b0C",
-                "60\u00b0C"
+                "Hard, medium, soft",
+                "Igneous, sedimentary, metamorphic",
+                "Volcanic, river, quarried",
+                "Granite, basalt, limestone"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "The three geological rock classifications are: Igneous (formed by cooling magma), Sedimentary (deposited and cemented), and Metamorphic (transformed by heat and pressure). Understanding classification helps predict aggregate engineering properties."
             },
             {
-              "q": "NDG stands for:",
+              "q": "What is the purpose of the Polished Stone Value (PSV) test for chipseal aggregate?",
               "options": [
-                "Normal Density Gauge",
-                "Nuclear Density Gauge",
-                "National Design Guide",
-                "Non-Destructive Grading"
+                "Measures the aggregate's resistance to crushing under compaction",
+                "Measures resistance to surface polishing under traffic \u2014 predicts long-term wet skid resistance",
+                "Measures the aggregate's water absorption",
+                "Determines the optimal chip size for the road"
               ],
-              "answer": 1
-            },
-            {
-              "q": "Test frequency minimum is 1 per:",
-              "options": [
-                "100m\u00b2",
-                "500m\u00b2",
-                "1000m\u00b2",
-                "2000m\u00b2"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "OMC stands for:",
-              "options": [
-                "Optimum Material Compaction",
-                "Optimum Moisture Content",
-                "Overall Material Check",
-                "Operator Method Compliance"
-              ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "PSV (Polished Stone Value) measures how well aggregate resists polishing under repeated traffic loading. High PSV = chip maintains texture and skid resistance over its service life. NZTA M/6 requires PSV \u2265 50\u201355 depending on road category."
             }
-          ],
-          "pass_mark": 75
+          ]
         }
       ]
     }

@@ -13,53 +13,62 @@
   "modules": [
     {
       "id": 1,
-      "title": "You Already Know This",
-      "duration": "20 min",
+      "title": "Why Daily Records Matter",
       "lessons": [
         {
-          "title": "The Big Secret About Safety Compliance",
+          "id": "1-1",
+          "title": "Legal Protection, Incident Prevention and HSWA Compliance",
           "type": "lesson",
-          "content": "**Here is the truth about safety compliance:**\n\nYou already know how to work safely. You learned it the hard way \u2014 from good foremen, near misses, and years on the tools.\n\nWhen you walk around the machine before you start, check the ground before you dig, or tell a new guy to stay back from the swing radius \u2014 **that is safety management.** You are already doing it.\n\n**The only difference between a compliant site and a non-compliant one is usually one thing: documentation.**\n\nThe morning conversation you have with your crew \u2014 that IS a pre-start meeting.\nThe hazard you pointed out and fixed \u2014 that IS a hazard identification and control.\nThe time you told someone the ground was soft \u2014 that IS a risk assessment.\n\n**You just never wrote it down.**\n\n---\n\n**What Regulators Actually Want:**\n\nWorkSafe NZ, SafeWork AU, OSHA \u2014 they are not looking for perfect paperwork.\nThey are looking for **evidence that you thought about safety before something went wrong.**\n\nA five-minute morning meeting, written down, with names and a date?\nThat is evidence. That protects you and your company.\n\n**This course teaches you one habit: the 5-minute morning meeting \u2014 and how to record it.**"
+          "content": "## Why Daily Safety Records Are Non-Negotiable in Civil Construction\n\nDaily safety records are not just administrative paperwork \u2014 they are a legal shield, a safety tool, and a quality assurance mechanism rolled into one. In civil construction, where hazards change hour by hour as excavations deepen, plant moves, and weather shifts, a disciplined daily recording habit is one of the most powerful risk management tools available.\n\n## The Legal Dimension \u2014 HSWA 2015 and Equivalent Laws\n\n**Under the Health and Safety at Work Act 2015 (NZ) \u2014 HSWA:**\n- PCBUs have a duty to ensure, so far as is reasonably practicable, the health and safety of workers\n- 'Reasonably practicable' includes maintaining adequate records demonstrating hazard identification, risk assessment, and control implementation\n- WorkSafe NZ inspectors can demand production of safety records at any time \u2014 without prior notice\n- In the event of a serious incident investigation or prosecution, safety records are primary evidence\n\n**Under the Work Health and Safety Act 2011 (AU \u2014 WHS Act):**\n- Equivalent duty of care requirements for PCBUs\n- SafeWork inspectors have similar powers to demand records\n- Records that cannot be produced are treated as evidence that required activities were NOT performed\n\n**The fundamental legal principle:**\n*If it isn't recorded, it didn't happen.* In a prosecution or civil claim, an organisation that cannot produce pre-start records, hazard reports, or toolbox talk sign-in sheets faces the presumption that safety activities were not conducted. This can mean the difference between a successful defence and a conviction.\n\n## Records as Evidence of Due Diligence\n\n'Due diligence' is the legal standard for officers (directors, senior managers) under HSWA and the WHS Act. Officers must ensure their PCBU has appropriate resources, processes, and systems for health and safety.\n\n**Daily records demonstrate due diligence by showing:**\n- Hazards were systematically identified each day before work commenced\n- Workers were informed of daily hazards and controls at toolbox talks\n- Plant and equipment were inspected and fit for use before operation\n- Corrective actions were identified, assigned, and completed\n- Management was informed of safety performance and issues\n\n## Incident Prevention Through Records\n\nDaily records are not only legal documents \u2014 they are a powerful tool for preventing incidents:\n\n**Pattern detection:**\nWhen daily hazard reports and near-miss records are reviewed systematically over time, patterns emerge that predict incidents before they occur:\n- Repeated reports of the same hazard signal a systemic control failure\n- Clusters of near-misses in a specific work area indicate elevated risk requiring attention\n- Equipment defects noted in pre-start records that recur signal maintenance program failures\n\n**The Swiss Cheese Model:**\nMajor incidents rarely have a single cause \u2014 they result from multiple failures aligning simultaneously (holes in the 'cheese' layers lining up). Daily records identify single-layer failures before they combine with other failures to produce a major event.\n\n**Near-miss value:**\nHeinrich's Triangle (updated as the Safety Pyramid) suggests that for every serious injury, there are many near-misses and hazardous conditions that preceded it. Recording and acting on near-misses \u2014 the bottom of the pyramid \u2014 prevents the serious injuries at the top.\n\n## What Records Must Be Kept?\n\n| Record Type | Minimum Retention | Reason |\n|-------------|-----------------|--------|\n| Pre-start inspection forms | Duration of project + 7 years | Evidence of due diligence |\n| Toolbox talk sign-in sheets | Duration of project + 7 years | Proof of worker information |\n| Hazard identification registers | Duration of project + 7 years | Risk management evidence |\n| Incident and near-miss reports | Minimum 7 years (NZ/AU) | Regulatory and legal requirement |\n| Corrective action registers | Until closeout + 7 years | Evidence of follow-through |\n| Training and competency records | Employment duration + 7 years | Competency due diligence |\n\n## The Business Case for Records\n\nBeyond legal compliance, good safety records deliver business value:\n- **Insurance**: Insurers may reduce premiums for organisations with documented safety systems\n- **Tendering**: Many clients require evidence of safety management systems including records\n- **Worker trust**: Workers who see records acted upon trust the system and report more hazards\n- **Continuous improvement**: Records provide the data needed to improve safety performance year on year\n\n## Key Takeaways\n\n- Legal principle: if it isn't recorded, it didn't happen \u2014 records are primary legal evidence\n- HSWA 2015 / WHS Act: WorkSafe/SafeWork inspectors can demand records at any time without notice\n- Due diligence: officers personally liable \u2014 records show the system was functioning\n- Pattern detection: reviewing records over time reveals systemic failures before major incidents\n- Retention: minimum 7 years for most safety records \u2014 longer for serious incident records"
         },
         {
-          "title": "How Operator Language Maps to Regulations",
-          "type": "lesson",
-          "content": "**What You Say vs What the Regulation Says**\n\nExperienced operators already use the right language. Here is how your words map to the law:\n\n---\n\n**\"Walk around it before you start\"**\n\u2192 HSWA 2015 Reg 34: *Identify hazards before commencing work*\n\n**\"Call the locator before you dig\"**\n\u2192 WorkSafe NZ ACOP: *Locate all underground services before excavation*\n\n**\"Hand dig within 500mm of a marked service\"**\n\u2192 WorkSafe NZ ACOP: *Do not use mechanical equipment within 500mm of a located service*\n\n**\"No one inside the swing radius\"**\n\u2192 HSWA Reg 34: *Establish exclusion zones around operating plant*\n\n**\"Tag it out if it is not right\"**\n\u2192 HSWA GR Reg 36: *Defective plant must not be operated*\n\n**\"Batter or shore any trench over chest height\"**\n\u2192 WorkSafe NZ Excavation ACOP: *Excavations over 1.5m require support or battered walls*\n\n**\"If it feels sketchy, stop\"**\n\u2192 HSWA 2015 s.83: *Worker right to cease unsafe work*\n\n---\n\n**The Point:** You are not learning new safety rules. You are learning how to document the ones you already follow."
-        },
-        {
-          "title": "Knowledge Check",
+          "id": "1-q",
+          "title": "Module 1 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "The main difference between a compliant and non-compliant site is usually:",
+              "q": "A WorkSafe NZ inspector arrives on site and asks for pre-start inspection records from last month. The supervisor says they conducted pre-starts verbally but has no written records. How will this be treated?",
               "options": [
-                "Buying more PPE",
-                "Having a dedicated safety officer",
-                "Documenting the safety practices you already do",
-                "Having more training courses"
+                "Acceptable \u2014 verbal pre-starts meet the legal requirement",
+                "As evidence that pre-start activities were NOT performed \u2014 the 'if it isn't recorded, it didn't happen' principle applies",
+                "Acceptable if at least 3 workers can confirm the verbal briefings took place",
+                "Only a problem if there was an incident during that period"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "'If it isn't recorded, it didn't happen' is a fundamental legal principle. WorkSafe inspectors and courts treat missing records as evidence that required activities were not performed. Verbal-only pre-starts cannot be verified after the fact."
             },
             {
-              "q": "When an experienced operator says \"walk around it before you start\" they are complying with:",
+              "q": "How long must pre-start inspection records typically be retained in New Zealand and Australia?",
               "options": [
-                "OSHA reversing rules",
-                "HSWA Reg 34 \u2014 identify hazards before commencing work",
-                "The load chart requirements",
-                "Traffic management rules"
+                "1 year",
+                "3 years",
+                "7 years minimum",
+                "Until the project ends"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Safety records including pre-start inspections, toolbox talk sign-ins, and hazard registers must be retained for a minimum of 7 years in NZ and AU. This ensures they are available for regulatory investigations, legal proceedings, and compensation claims that can arise years after an event."
             },
             {
-              "q": "WorkSafe inspectors primarily look for:",
+              "q": "What does the 'Safety Pyramid' (Heinrich's Triangle) tell us about near-miss reporting?",
               "options": [
-                "Perfect paperwork with no errors",
-                "Evidence that you thought about safety before something went wrong",
-                "Certification papers for every worker",
-                "New equipment with current warrants"
+                "Near-misses are less important than recordable injuries",
+                "For every serious injury there are many near-misses below it \u2014 recording and acting on near-misses prevents the serious injuries above",
+                "Near-misses only matter if two or more workers were involved",
+                "Near-misses should be reported only to the insurance company"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The Safety Pyramid shows that serious injuries sit at the top of a much larger base of near-misses and hazardous conditions. Daily recording and acting on near-misses addresses the base of the pyramid, preventing serious injuries from occurring at the top."
+            },
+            {
+              "q": "Which of the following is a BUSINESS benefit of maintaining comprehensive daily safety records?",
+              "options": [
+                "Increased administrative overhead reducing site productivity",
+                "Evidence for tender submissions, potential insurance premium reductions, and worker trust in the safety system",
+                "Reduced need for site supervision",
+                "Elimination of the need for SWMS and permit-to-work systems"
+              ],
+              "answer": 1,
+              "explanation": "Good safety records deliver business value: many clients require safety management evidence for tenders, insurers may reduce premiums, and workers who see records acted on trust the system and report more hazards \u2014 improving safety performance continuously."
             }
           ]
         }
@@ -67,63 +76,62 @@
     },
     {
       "id": 2,
-      "title": "The 5-Minute Pre-Start Meeting",
-      "duration": "25 min",
+      "title": "Pre-Start Meetings",
       "lessons": [
         {
-          "title": "The 5-Step Format",
+          "id": "2-1",
+          "title": "Conducting Effective Toolbox Talks, Documentation and Attendance",
           "type": "lesson",
-          "content": "**The 5-Minute Pre-Start Meeting \u2014 5 Steps**\n\nThis takes five minutes. You probably already do most of this informally.\nWrite it down and it becomes legally defensible compliance documentation.\n\n---\n\n**Step 1 \u2014 Yesterday's Carryover (60 seconds)**\nWhat got left open or unfinished yesterday?\n- Open excavations or trenches\n- Soft or unstable ground areas\n- Tagged-out plant\n- Exposed services\n- Spills or environmental issues\n\n*Example: \"The trench at the northern end is still open \u2014 it's barriered but check it before you start near it.\"*\n\n---\n\n**Step 2 \u2014 Today's Plan (60 seconds)**\nWhat are we doing today and where?\n- Work areas for each crew\n- Service locates confirmed for today's dig areas\n- Concrete trucks, deliveries, or other vehicles expected\n- Changes to the plan from yesterday\n\n*Example: \"Digger is working on the eastern trench today \u2014 locates are confirmed. Concrete truck at 10am, everyone clear the access road by 9:50.\"*\n\n---\n\n**Step 3 \u2014 The Big Three (90 seconds)**\nThree specific hazards for TODAY's work. Not generic \u2014 specific.\nThe foreman picks three that are relevant right now.\n\n*Example:*\n*1. Ground is soft after last night's rain \u2014 machine to stay off the batter*\n*2. Gas line is 400mm below surface at the northern end \u2014 hand dig only from peg 7 to peg 12*\n*3. Public footpath is active \u2014 exclusion barrier must stay in place all day*\n\n---\n\n**Step 4 \u2014 Plant Status (30 seconds)**\nWhich machines are running and which are tagged out?\n- Any pre-start faults found this morning?\n- Any machines that should NOT be started?\n\n*Example: \"The excavator has a hydraulic smell \u2014 do not start it until the mechanic checks it.\"*\n\n---\n\n**Step 5 \u2014 Floor Open (30 seconds)**\nPsychological safety \u2014 anyone can speak up before machines start.\n\"Anything anyone wants to add before we start?\"\nPause. Wait for it. Create the space.\n\n*This is the most important 30 seconds. It catches the thing the foreman missed.*"
+          "content": "## Pre-Start Meetings and Toolbox Talks in Civil Construction\n\nThe pre-start meeting (toolbox talk) is the single most important daily safety ritual in civil construction. Held at the beginning of each shift, it is the moment when the day's work is reviewed against the day's hazards \u2014 and when every worker has the opportunity to raise concerns before anyone is put at risk.\n\n## What Is a Pre-Start Meeting?\n\nA pre-start meeting (also called toolbox talk, safety huddle, or pre-task briefing) is a structured, brief safety briefing conducted before work commences each day. It is:\n- **Daily**: Conducted every working day \u2014 not just on Mondays or when inspectors are present\n- **Brief**: Typically 5\u201315 minutes \u2014 focused and efficient, not a lengthy lecture\n- **Specific**: Addresses the actual work planned for that day \u2014 not generic safety platitudes\n- **Interactive**: Workers contribute \u2014 hazard observations, questions, concerns welcomed\n- **Documented**: Sign-in sheet completed \u2014 records who attended, date, topics covered, issues raised\n\n## Structure of an Effective Pre-Start Meeting\n\n**1. Review yesterday's work and any unresolved hazards**\n- Were all corrective actions from yesterday completed?\n- Any outstanding hazards that need follow-up?\n\n**2. Describe today's planned tasks**\n- What work is planned? What equipment will be used?\n- Any changes from the original programme?\n\n**3. Identify today's specific hazards**\n- Weather conditions: rain-softened ground, wind for crane operations, UV/heat exposure\n- Ground conditions: has overnight rain affected excavation stability?\n- Traffic: new traffic management requirements? Different site access?\n- Plant movements: what equipment is operating today and where?\n- Utility/service risks: excavation near buried services planned today?\n\n**4. Confirm controls in place**\n- SWMS reviewed and signed for any high-risk construction work (HRCW) commencing today\n- PPE requirements confirmed for today's specific tasks\n- Permits in place (confined space, hot works, excavation near services)\n\n**5. Emergency reminders**\n- Assembly point location\n- Emergency contact numbers\n- First aider on site today\n\n**6. Open floor \u2014 worker contributions**\n- Any hazard observations from workers?\n- Questions or concerns?\n- New workers introduced to the team today?\n\n## Documenting the Pre-Start Meeting\n\nDocumentation must be completed at every pre-start meeting:\n\n**Pre-start record must capture:**\n- Date and time\n- Location/project name\n- Supervisor/foreman conducting the meeting\n- Work planned for the day\n- Hazards identified and controls discussed\n- Any issues raised by workers \u2014 and actions assigned\n- Weather conditions\n- SWMS reference numbers reviewed\n- **Attendance list**: Every worker signs \u2014 printed name + signature\n\n**Attendance significance:**\nThe sign-in sheet proves which workers were present and received the safety briefing. In the event of an incident, the attendance record:\n- Confirms the worker was informed of relevant hazards\n- Demonstrates the PCBU met its duty to inform workers\n- Provides evidence the safety system was functioning\n\n## Common Pre-Start Meeting Failures\n\n| Failure | Impact |\n|---------|--------|\n| Generic/repetitive content | Workers disengage \u2014 poor retention |\n| No worker input sought | Hazards workers know about go unidentified |\n| Not conducted daily | Shifts start without hazard review |\n| Supervisor talks \u2014 no questions | Compliance theatre, not genuine safety |\n| Sign-in sheet missing or incomplete | Legal protection lost |\n| Issues raised but not followed up | Workers lose trust \u2014 stop reporting |\n\n## Toolbox Talks vs Pre-Start Meetings\n\nIn New Zealand and Australian construction:\n- **Pre-start meeting**: Daily \u2014 focused on that day's specific work and hazards\n- **Toolbox talk**: Often weekly or triggered by a specific topic \u2014 deeper dive on a safety theme (e.g. excavation safety, heat stress, manual handling) \u2014 also documented with attendance\n- Both require documentation and attendance records\n\n## Key Takeaways\n\n- Pre-start meetings: daily, brief (5\u201315 min), specific to day's work, interactive, documented\n- Six elements: review yesterday, plan today, identify hazards, confirm controls, emergency reminders, open floor\n- Attendance record: every worker signs \u2014 legal proof of information provision\n- Failures: generic content, no worker input, missing records \u2014 undermine both safety and legal protection\n- Toolbox talks: topic-deep-dives \u2014 weekly or triggered \u2014 also documented with attendance"
         },
         {
-          "title": "How to Record the Meeting",
-          "type": "lesson",
-          "content": "**Recording the Meeting \u2014 What You Need**\n\nA complete pre-start meeting record needs these fields:\n\n1. **Date and time** \u2014 when did the meeting happen?\n2. **Site name and location** \u2014 which site?\n3. **Supervisor name** \u2014 who ran the meeting?\n4. **Attendees** \u2014 who was there? (names or sign-off)\n5. **Yesterday's carryover items** \u2014 what was noted\n6. **Today's work plan** \u2014 brief description\n7. **The Big Three hazards** \u2014 exactly what was said\n8. **Plant status** \u2014 any faults or tag-outs\n9. **Floor open items** \u2014 anything raised by the crew\n10. **Actions** \u2014 anything that needs to be done and by whom\n\n---\n\n**Three Ways to Record:**\n\n**Option A \u2014 Paper form (laminated card, fill and scan)**\nPrint the form. Fill it in. Photograph it and save to a shared drive.\n\n**Option B \u2014 Civil App Digital Record**\nUse the Daily Record tool in Civil App \u2014 enter details on your phone or tablet, submit, and it creates a timestamped PDF record automatically.\n\n**Option C \u2014 Email to yourself**\nIf you have nothing else \u2014 email yourself a summary of the 5 steps after the meeting. The timestamp on the email is evidence.\n\n---\n\n**How Long to Keep Records:**\n- NZ: Minimum 3 years (longer for notifiable incidents)\n- AU: Minimum 5 years (varies by state)\n- US: 3-5 years depending on OSHA record type\n- CA: Minimum 3 years\n\n**Recommendation:** Keep forever. Storage is cheap. Defence lawyers are not."
-        },
-        {
-          "title": "Knowledge Check",
+          "id": "2-q",
+          "title": "Module 2 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "The Big Three in a pre-start meeting refers to:",
+              "q": "How often should pre-start meetings be conducted on an active civil construction site?",
               "options": [
-                "Three rules from the safety manual",
-                "Three specific hazards relevant to today's work on this site",
-                "Three pieces of mandatory PPE",
-                "Three emergency contact numbers"
+                "Weekly \u2014 Monday morning only",
+                "When a new SWMS is introduced",
+                "Every working day before work commences",
+                "Only when new workers join the site"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Pre-start meetings must be conducted every working day before work commences. Hazards on construction sites change daily \u2014 ground conditions, weather, plant positions, task sequences \u2014 making daily briefings essential. Monday-only briefings leave the rest of the week unprotected."
             },
             {
-              "q": "The Floor Open step exists because:",
+              "q": "A worker raises a concern about ground stability at the pre-start meeting. What must happen for the meeting to be genuinely effective?",
               "options": [
-                "It is a legal requirement",
-                "It creates space for workers to raise something the supervisor missed",
-                "It gives workers a break before starting",
-                "It documents lunch breaks"
+                "The concern is noted verbally but no documentation is needed for verbal items",
+                "The concern is documented in the pre-start record with an assigned corrective action and responsible person \u2014 and followed up",
+                "The concern is escalated to the JHSC at the next monthly meeting",
+                "The concern is noted only if the supervisor agrees it is a genuine hazard"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Worker-raised concerns must be documented in the pre-start record, assigned to a responsible person for follow-up, and actually resolved. Documenting without follow-up destroys worker trust. Workers who see their concerns acted on report more \u2014 improving safety continuously."
             },
             {
-              "q": "How long should pre-start meeting records be kept in NZ?",
+              "q": "Why is the pre-start meeting attendance sign-in sheet legally significant?",
               "options": [
-                "6 months",
-                "1 year",
-                "Minimum 3 years",
-                "Only until the project ends"
+                "It determines wage payment for the day",
+                "It proves which workers received the safety briefing \u2014 demonstrating the PCBU met its duty to inform workers of daily hazards",
+                "It is required only for HRCW activities",
+                "It is needed only for insurance purposes, not legal compliance"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "The sign-in sheet is primary legal evidence that specific workers received the hazard briefing for that day. In an incident investigation, it proves: the PCBU's safety system was operating, workers were informed, and hazards were communicated \u2014 all elements of the due diligence defence."
             },
             {
-              "q": "Which of the following is NOT required in a pre-start meeting record?",
+              "q": "What is a key difference between a daily pre-start meeting and a toolbox talk?",
               "options": [
-                "Date and time",
-                "Attendee names",
-                "Supervisor's personal home address",
-                "The specific hazards discussed"
+                "Pre-starts require attendance records; toolbox talks do not",
+                "Pre-starts focus on that day's specific tasks and hazards; toolbox talks are deeper dives on specific safety topics, often weekly or triggered by events",
+                "Toolbox talks are conducted by the Safety Officer; pre-starts by the site manager",
+                "Toolbox talks replace pre-start meetings on low-risk days"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Pre-starts are daily and task/hazard-specific for that day. Toolbox talks are usually weekly or triggered by a safety topic need \u2014 they go deeper on a theme (excavation safety, manual handling, heat stress). Both require documentation and attendance records."
             }
           ]
         }
@@ -131,53 +139,62 @@
     },
     {
       "id": 3,
-      "title": "18 Discussion Topics \u2014 Operator to Regulation",
-      "duration": "30 min",
+      "title": "Hazard Recording",
       "lessons": [
         {
-          "title": "How to Use Discussion Cards",
+          "id": "3-1",
+          "title": "Identifying, Documenting, Corrective Actions and Closeout",
           "type": "lesson",
-          "content": "**The 30-Day Safety Discussion Rotation**\n\nCivil App provides 18 safety discussion cards \u2014 each one is a topic experienced operators already talk about.\n\nEach card gives you:\n- **The topic in plain language** \u2014 exactly how you would say it on site\n- **What regulation it satisfies** \u2014 NZ, AU, US, CA\n- **Talking points** \u2014 questions to get the crew discussing\n\n**How to Use Them:**\n\n1. Pick one card per morning for your pre-start meeting\n2. Use the plain language description to kick off the conversation\n3. Use the talking points to get input from the crew\n4. Record what was discussed in the meeting record\n5. Rotate through all 18 cards \u2014 then start again\n\nEighteen cards at one per morning = 18 different safety topics covered every month.\nIn a year, your crew will have discussed every major civil site hazard multiple times.\n\n**The Rule: Vary the cards based on what is happening on site.**\nIf you are starting a deep excavation tomorrow, use the Battering and Benching card today.\nIf rain is forecast, use the Wet Weather card.\nThe card is a starting point \u2014 your site knowledge drives the conversation."
+          "content": "## Hazard Recording in Civil Construction\n\nIdentifying a hazard is only the first step \u2014 if it is not recorded and acted upon, the hazard persists until someone is hurt. The hazard recording system is the bridge between hazard identification and hazard control.\n\n## What Is a Hazard?\n\nUnder HSWA 2015 and the WHS Act, a hazard is a situation or thing that has the potential to harm a person. In civil construction, hazards fall into multiple categories:\n\n| Hazard Category | Civil Construction Examples |\n|----------------|----------------------------|\n| **Physical** | Unstable excavation walls, unguarded edges, moving plant, overhead lines |\n| **Mechanical** | Unguarded rotating equipment, worn tyres on plant, failed rigging |\n| **Chemical** | Diesel, concrete alkali, bitumen fumes, asbestos in old structures |\n| **Electrical** | Buried services, overhead power lines, portable tool damage |\n| **Ergonomic** | Repetitive manual handling, prolonged vibration (whole-body, hand-arm) |\n| **Environmental** | Extreme heat, rain-weakened ground, high winds for crane ops |\n| **Psychosocial** | Fatigue from excessive hours, workplace bullying, stress |\n\n## The Hazard Recording Process\n\n**Step 1 \u2014 Identify**\nHazards can be identified through:\n- Daily pre-start site walkthrough \u2014 supervisor + worker representative\n- Worker reports (hazard cards, verbal reports, digital apps)\n- Near-miss investigation\n- Regular workplace inspections (weekly/monthly)\n- Incident investigation identifying underlying hazards\n- SWMS preparation \u2014 systematically identifying task hazards\n\n**Step 2 \u2014 Document**\nEvery identified hazard must be entered in the hazard register:\n- Date and time identified\n- Location (specific \u2014 not just 'site')\n- Description of hazard (what it is, why it's hazardous)\n- Who identified it\n- Risk rating: Extreme / High / Medium / Low (Likelihood \u00d7 Severity)\n\n**Step 3 \u2014 Assess**\nAssess the risk level to prioritise response:\n| Risk Level | Response Time |\n|-----------|--------------|\n| Extreme | Stop work immediately \u2014 control before resuming |\n| High | Control within hours \u2014 senior management notified |\n| Medium | Control within days \u2014 documented in register |\n| Low | Control within the week \u2014 standard procedures |\n\n**Step 4 \u2014 Determine Controls (Hierarchy)**\nApply the hierarchy of controls:\n1. Eliminate: Can the hazard be removed entirely?\n2. Substitute: Replace with something less hazardous?\n3. Engineer: Isolation, guarding, physical barriers\n4. Administrative: Procedures, permits, supervision, training\n5. PPE: Last resort \u2014 supplement, not replace, higher controls\n\n**Step 5 \u2014 Assign and Record Corrective Actions**\nFor each identified control:\n- **Who**: Named responsible person (not 'site team')\n- **What**: Specific action required (not 'fix the hazard')\n- **When**: Specific due date \u2014 commensurate with risk level\n- **Status**: Open / In Progress / Closed\n\n**Step 6 \u2014 Verify and Close Out**\nThe corrective action is not complete until:\n- The responsible person confirms the control is implemented\n- A supervisor or safety officer verifies the control is effective\n- The hazard register is updated to 'Closed' with date and verifier name\n- If the control is not effective: reassess and apply a higher-level control\n\n## Hazard Card Systems\n\nMany NZ and AU construction sites use **hazard cards** (also called 'safety observations' or 'hazard slips'):\n- Workers carry physical cards or use a mobile app to log hazard observations immediately\n- Submitted to the supervisor or safety officer\n- Transferred to the hazard register for formal tracking\n- Worker who reported receives feedback on action taken\n\n**Hazard card culture:**\nA high volume of hazard cards is a POSITIVE safety indicator \u2014 it shows workers are engaged and trust the system. Low hazard card submission often indicates under-reporting, not a safer site.\n\n## Near-Miss Recording\n\nNear-misses must be recorded with the same rigour as actual incidents:\n- Describe what happened \u2014 and what COULD have happened\n- Identify root causes (why did this near-miss occur?)\n- Implement corrective actions as for any hazard\n- Share learnings with other work areas and other projects (safety bulletins)\n\n## Key Takeaways\n\n- Hazard categories: physical, mechanical, chemical, electrical, ergonomic, environmental, psychosocial\n- Six-step process: identify \u2192 document \u2192 assess \u2192 control (hierarchy) \u2192 assign actions \u2192 verify closeout\n- Extreme risk: stop work immediately \u2014 control before any worker re-enters\n- Corrective actions: named person + specific action + due date + status tracking\n- High hazard card volume = positive indicator of safety culture \u2014 not a problem to be suppressed"
         },
         {
-          "title": "Top 5 Discussion Topics for Civil Construction",
-          "type": "lesson",
-          "content": "**The 5 Most Important Conversations for Every Civil Site**\n\n**1. Underground Services \u2014 Know Before You Dig**\nThe talk: Where are the services, are locates confirmed, who has walked the marks, what do we do if we hit something?\nWhy it matters: Underground service strikes kill people and cost millions. This conversation is free.\n\n**2. Exclusion Zones \u2014 No One Inside the Swing Radius**\nThe talk: Where is the exclusion zone today, who is the spotter, how do we signal a stop?\nWhy it matters: Being struck by plant is one of the top two causes of fatalities on civil sites globally.\n\n**3. Reversing \u2014 The Killer Move**\nThe talk: Who is the spotter, what are our signals, what happens when you lose sight of the spotter?\nWhy it matters: Reversing vehicle incidents are the number one cause of being-struck fatalities on civil sites.\n\n**4. Ground Conditions \u2014 What Changed Overnight**\nThe talk: Did rain change the slope, are trench walls still stable, is the ground still capable of holding machine weight?\nWhy it matters: Ground instability after rain causes excavation collapses and machine rollovers.\n\n**5. Stop Work Authority \u2014 Anyone Can Call It**\nThe talk: If something feels wrong, you stop. You do not need permission. You call it and we all look at it together.\nWhy it matters: The hierarchy of controls starts with elimination. The fastest way to eliminate a hazard is to stop work."
-        },
-        {
-          "title": "Knowledge Check",
+          "id": "3-q",
+          "title": "Module 3 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "How many discussion cards does Civil App provide?",
+              "q": "A supervisor finds an unstable trench wall during the morning site walk. It is rated Extreme risk. What is the correct immediate response?",
               "options": [
-                "5",
-                "10",
-                "18",
-                "30"
+                "Document it in the hazard register and plan controls for tomorrow",
+                "Stop all work in the trench immediately \u2014 implement controls before any worker re-enters",
+                "Inform workers verbally and let them decide whether to continue",
+                "Rate it as High and schedule shoring installation for the end of the day"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Extreme risk requires immediate work stoppage \u2014 no worker enters until the hazard is controlled. An unstable trench wall can collapse without warning, creating a potentially fatal confined-space entrapment. The hierarchy of controls (shoring, benching, or sloping) must be implemented before any re-entry."
             },
             {
-              "q": "You should choose discussion cards based on:",
+              "q": "A corrective action is assigned to install handrails on an elevated work platform. When can the hazard be recorded as 'Closed' in the hazard register?",
               "options": [
-                "Alphabetical order always",
-                "What is happening on your specific site that day",
-                "What cards you haven't used recently only",
-                "Random selection every day"
+                "When the responsible person confirms they have ordered the materials",
+                "When a supervisor or safety officer verifies the handrails are installed and effective \u2014 not just that the action was completed",
+                "When the due date passes, regardless of completion status",
+                "When the worker who identified the hazard says they are satisfied"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Hazard closeout requires independent verification that the control is implemented AND effective. The responsible person completing the task is not sufficient \u2014 a supervisor or safety officer must verify effectiveness before the register is updated to 'Closed'."
             },
             {
-              "q": "The number one cause of being-struck fatalities on civil sites is:",
+              "q": "A site has very few hazard cards submitted each month. What does this most likely indicate?",
               "options": [
-                "Falling objects",
-                "Reversing vehicles",
-                "Crane collapses",
-                "Falling from height"
+                "The site is exceptionally safe with very few hazards present",
+                "Workers are under-reporting \u2014 possibly because previous reports were not acted upon or workers fear reprisal",
+                "The site is using an effective engineering control eliminating most hazards",
+                "The supervisor is conducting thorough daily inspections making worker reports unnecessary"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Low hazard card submissions typically indicate under-reporting \u2014 not an absence of hazards. Civil construction sites inherently have numerous daily hazards. Under-reporting often reflects a culture where workers don't trust reports will be acted on, or fear reprisal for raising issues."
+            },
+            {
+              "q": "Which element makes a corrective action assignment effective and legally defensible?",
+              "options": [
+                "Assigned to 'the site team' with an open-ended timeline",
+                "Assigned to a named responsible person with a specific action description and a due date commensurate with the risk level",
+                "Assigned verbally to the supervisor without documentation",
+                "Assigned to the Safety Officer who will decide the timeline"
+              ],
+              "answer": 1,
+              "explanation": "Effective corrective actions require: a named responsible person (not a generic team), a specific action (not 'fix the hazard'), and a due date based on risk level. Vague assignments fail both operationally (unclear ownership) and legally (no evidence of follow-through)."
             }
           ]
         }
@@ -185,68 +202,62 @@
     },
     {
       "id": 4,
-      "title": "Final Assessment",
-      "duration": "15 min",
+      "title": "Digital Records and Audit Trails",
       "lessons": [
         {
-          "title": "Course Summary",
+          "id": "4-1",
+          "title": "Electronic Systems, Photo Evidence and Record Retention",
           "type": "lesson",
-          "content": "**Congratulations \u2014 You have completed Daily Safety Records: The 5-Minute Habit!**\n\nKey knowledge covered:\n\n- Your existing safety knowledge IS compliance \u2014 it just needs to be documented\n- Operator language maps directly to regulatory requirements\n- The 5-step pre-start meeting: Carryover, Today's Plan, Big Three, Plant Status, Floor Open\n- A written record of the meeting = legally defensible evidence\n- 18 discussion cards = 18 different safety topics per month\n- Records must be kept minimum 3-5 years\n- Stop Work Authority is every worker's right in every country\n- The Floor Open step is the most important 30 seconds of the meeting"
+          "content": "## Digital Safety Records in Modern Civil Construction\n\nThe construction industry is rapidly transitioning from paper-based safety records to digital systems. Electronic safety management platforms, mobile apps, and cloud storage are transforming how pre-starts, hazard reports, and corrective actions are recorded, tracked, and audited. Understanding both the opportunities and the obligations of digital record-keeping is essential for modern construction professionals.\n\n## Benefits of Digital Safety Records\n\n| Benefit | Impact |\n|---------|--------|\n| **Immediate capture** | Pre-starts, hazards, and near-misses recorded at the point of observation \u2014 not reconstructed later |\n| **Automatic timestamping** | Every entry date-and-time stamped \u2014 tamper-evident audit trail |\n| **Photo integration** | Hazards photographed in context \u2014 far more informative than text descriptions |\n| **GPS location tagging** | Records linked to precise location on site map |\n| **Real-time visibility** | Managers see records as they are created \u2014 no paper chase |\n| **Automated reminders** | Overdue corrective actions flagged automatically |\n| **Trend analysis** | Dashboard reporting reveals patterns across time, location, and hazard type |\n| **Secure cloud storage** | Backups prevent loss \u2014 remote access for audits and investigations |\n\n## Common Digital Safety Platforms Used in NZ/AU Construction\n\n- **SaferMe / Incident IQ**: New Zealand-developed \u2014 hazard reporting, incident management, dashboards\n- **Donesafe**: Cloud-based \u2014 widely used in AU/NZ \u2014 pre-starts, SWMS, hazard management\n- **Safety Champion**: Australian platform \u2014 comprehensive HSEQ management\n- **Hammertech**: Construction-specific \u2014 pre-starts, inductions, plant management\n- **Procore Safety**: Integrated with project management \u2014 widely used on large infrastructure projects\n- **Custom forms on tablets**: Many sites use offline-capable forms synced when connectivity restored\n\n## Photo Evidence \u2014 Best Practices\n\nPhotographs integrated into safety records significantly enhance their value:\n\n**When to photograph:**\n- All hazard reports \u2014 photo of the hazard in context\n- Pre-start site condition \u2014 before work commences\n- After corrective action \u2014 evidence of completion\n- Incident scenes \u2014 before any disturbance (if safe to do so)\n- Plant condition \u2014 significant defects found in pre-start inspections\n\n**Photo documentation requirements:**\n- Automatic timestamp and GPS from smartphone camera settings\n- Person in photo for scale where relevant\n- Multiple angles for complex hazards\n- Stored in the safety management system \u2014 not just on a personal phone\n- Never post incident scene photos on social media \u2014 privacy, legal, and operational risks\n\n## Audit Trails \u2014 What They Are and Why They Matter\n\nAn **audit trail** is a chronological record of all actions taken in a system \u2014 who did what, when, and what changed. In digital safety systems:\n- Every record creation, edit, and deletion is logged\n- Sign-offs and approvals are timestamped with the user identity\n- Changes to risk ratings or corrective action status are recorded with the original and new values\n- Deletion is typically not possible \u2014 records are archived, not destroyed\n\n**Why audit trails matter:**\n- In a prosecution or investigation, the entire history of a safety record is available\n- Attempted backdating or record manipulation is visible in the audit trail\n- Demonstrates the system was not only in place but actively used and maintained\n\n## Record Retention Requirements \u2014 Digital and Paper\n\nDigital records must meet the same retention requirements as paper records:\n| Record Type | Minimum Retention | Notes |\n|-------------|-----------------|-------|\n| Pre-start inspection records | 7 years | Also during project |\n| Incident/near-miss reports | 7 years minimum | Serious injury: longer |\n| SWMS completed and signed | 7 years | High-risk construction work |\n| Training and competency records | Employment + 7 years | Certificate expiry tracking |\n| Plant pre-start records | 7 years | Equipment maintenance linkage |\n\n**Cloud storage obligations:**\n- Data must be stored in a jurisdiction with adequate data protection laws\n- Backups must be verifiable \u2014 test restoration regularly\n- Access controls: only authorised persons can view sensitive records (incident details)\n- Data must be exportable in a readable format \u2014 vendor lock-in risk must be managed\n\n## Transitioning from Paper to Digital\n\n**Practical implementation steps:**\n1. Choose a platform appropriate to project size and budget\n2. Train all supervisors and workers on the system before go-live\n3. Run paper and digital in parallel for 2\u20134 weeks to verify completeness\n4. Establish offline capability for areas with no signal coverage\n5. Designate a data administrator responsible for system integrity\n6. Set up automated reporting to management \u2014 daily/weekly dashboards\n7. Archive paper records for their required retention period \u2014 do not destroy prematurely\n\n## Key Takeaways\n\n- Digital systems: immediate capture, automatic timestamps, photo integration, GPS, trend analysis\n- Audit trail: complete chronological history \u2014 backdating and manipulation are visible\n- Photo evidence: timestamp + GPS + in-system storage \u2014 never on personal phones only\n- Retention: digital records same obligations as paper \u2014 minimum 7 years for most safety records\n- Transition: train first, run parallel briefly, establish offline capability, set up admin and dashboards"
         },
         {
-          "title": "Knowledge Check",
+          "id": "4-q",
+          "title": "Module 4 Quiz",
           "type": "quiz",
-          "pass_mark": 80,
           "questions": [
             {
-              "q": "The 5 steps of the pre-start meeting are:",
+              "q": "What is an audit trail in a digital safety management system?",
               "options": [
-                "PPE check, machine check, service check, plan check, sign-off",
-                "Yesterday's carryover, today's plan, big three hazards, plant status, floor open",
-                "Safety rules, work plan, hazards, PPE, start",
-                "Induction, plan, hazards, controls, record"
+                "A summary report generated at the end of each month",
+                "A chronological, tamper-evident log of every action taken \u2014 who did what, when, and what changed \u2014 in the system",
+                "A list of external audit findings from the certification body",
+                "A backup copy of safety records stored offsite"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "An audit trail is a chronological record of every action in the system \u2014 record creation, edits, status changes, sign-offs \u2014 all timestamped with user identity. It is tamper-evident: attempts to backdate or alter records are visible in the audit trail history."
             },
             {
-              "q": "The Floor Open step creates:",
+              "q": "A hazard is photographed on a worker's personal smartphone and the photo is sent to the supervisor via WhatsApp. What is the main safety record-keeping problem with this approach?",
               "options": [
-                "A break before work starts",
-                "Space for workers to raise anything the supervisor missed",
-                "Time to check phones",
-                "Optional attendance"
+                "WhatsApp photos are not GPS-tagged",
+                "The photo is not stored in the safety management system \u2014 it may be lost, deleted, or unavailable for audits and investigations",
+                "Personal smartphone photos have insufficient resolution",
+                "WhatsApp is not approved for use on construction sites"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Photos stored only on personal phones or informal messaging apps are not part of the formal safety record. They can be deleted, phones lost, or inaccessible when needed for an investigation. Photos must be stored within the safety management system alongside the hazard report they document."
             },
             {
-              "q": "Your daily safety conversations without documentation are:",
+              "q": "A digital safety system vendor announces it is closing down. What is the primary record-keeping risk for a construction company using their platform?",
               "options": [
-                "Fully compliant",
-                "Worthless in a legal investigation",
-                "Better than written records",
-                "Only required for big companies"
+                "Loss of the mobile app interface",
+                "Vendor lock-in \u2014 inability to export records in a readable format, potentially losing years of safety records",
+                "Increased manual data entry requirements",
+                "Loss of automated reminder functionality"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Vendor lock-in is a critical risk \u2014 if safety records cannot be exported in a standard readable format before the vendor closes, years of safety history may be lost. Organisations must ensure data is exportable, and should regularly export and backup records independently of the vendor platform."
             },
             {
-              "q": "Records should be kept for minimum:",
+              "q": "When transitioning from paper to digital safety records, what should happen to the existing paper records?",
               "options": [
-                "6 months",
-                "1 year",
-                "3-5 years depending on jurisdiction",
-                "Until the project ends"
+                "Dispose of them immediately to reduce clutter",
+                "Archive and retain them for their required retention period (typically 7 years) \u2014 do not destroy prematurely",
+                "Scan one copy for the office and then shred all originals",
+                "Transfer them to the client for their records"
               ],
-              "answer": 2
-            },
-            {
-              "q": "Stop Work Authority means:",
-              "options": [
-                "Only supervisors can stop unsafe work",
-                "You need written approval to stop work",
-                "Any worker can stop work they believe is unsafe",
-                "Stop work requires a formal review meeting first"
-              ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Paper records must be archived and retained for their required retention period (minimum 7 years for most safety records) even after switching to a digital system. Prematurely destroying paper records violates retention obligations and could eliminate evidence needed for future investigations or legal proceedings."
             }
           ]
         }

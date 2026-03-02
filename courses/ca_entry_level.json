@@ -13,63 +13,73 @@
   "modules": [
     {
       "id": 1,
-      "title": "Canadian OHS Legal Framework",
-      "duration": "40 min",
+      "title": "Federal vs Provincial OHS",
       "lessons": [
         {
-          "title": "How OHS Works in Canada",
+          "id": "1-1",
+          "title": "Canada Labour Code, Provincial Acts and MOL Inspectors",
           "type": "lesson",
-          "content": "**Canada Has No Single National Construction Safety Law**\nUnlike Australia or New Zealand, Canada's occupational health and safety legislation is primarily provincial. Each province has its own OHS Act.\n\n**Federal vs Provincial Jurisdiction:**\n- Federal Canada Labour Code Part II covers federally regulated workers (airports, rail, banks, telecoms) \u2014 less than 10% of workers\n- Provincial/territorial legislation covers the vast majority of civil construction workers\n\n**Key Provincial Acts:**\n- British Columbia: Workers Compensation Act + OHS Regulation (WorkSafeBC)\n- Ontario: Occupational Health and Safety Act (OHSA) + O. Reg. 213/91 (Construction)\n- Alberta: Occupational Health and Safety Act 2017 + OHS Code 2025\n\n**Universal Principle \u2014 Internal Responsibility System (IRS):**\nAll Canadian jurisdictions operate under the IRS principle \u2014 everyone in the workplace shares responsibility for safety. Workers have the right to:\n1. Know about workplace hazards\n2. Participate in health and safety\n3. Refuse unsafe work"
+          "content": "## Occupational Health and Safety in Canada \u2014 Jurisdictional Framework\n\nCanada's OHS system is unique globally: it is primarily **provincially regulated** rather than nationally harmonised. Each province and territory has its own OHS legislation, enforcement body, and inspection regime. Understanding which law applies is the first step in OHS compliance.\n\n## Federal vs Provincial Jurisdiction\n\n**Federal jurisdiction (Canada Labour Code, Part II):**\nApplies to federally regulated workplaces:\n- Banks and financial institutions\n- Interprovincial and international transportation (railways, airlines, trucking crossing provincial borders)\n- Telecommunications and broadcasting\n- Federal government departments\n- Approximately 6% of Canadian workers\n\n**Provincial/territorial jurisdiction:**\nCovers all other workplaces \u2014 approximately 94% of Canadian workers:\n- Construction\n- Manufacturing\n- Mining\n- Retail, hospitality, healthcare\n- Provincial government\n\n## Canada Labour Code \u2014 Part II (Federal)\n\nPart II of the Canada Labour Code establishes OHS requirements for federally regulated workplaces:\n- **Duties of employers**: Ensure health and safety, provide training, investigate incidents\n- **Duties of employees**: Take reasonable care, comply with directions, report hazards\n- **Health and Safety Committees**: Required for workplaces with 20+ employees\n- **Right to refuse**: Workers may refuse dangerous work \u2014 process defined in the Code\n- **Enforcement**: Labour Program (Employment and Social Development Canada \u2014 ESDC)\n\n## Provincial OHS Legislation\n\n| Province | Legislation | Regulator |\n|---------|------------|-----------|\n| Ontario | Occupational Health and Safety Act (OHSA) | Ministry of Labour, Immigration, Training and Skills Development (MLITSD) |\n| British Columbia | Workers Compensation Act + OHS Regulation | WorkSafeBC |\n| Alberta | Occupational Health and Safety Act 2018 | Alberta OHS |\n| Quebec | Act Respecting Occupational Health and Safety (LSST) | CNESST |\n| Manitoba | Workplace Safety and Health Act | Safe Work Manitoba |\n| Saskatchewan | OHS Act 2020 | OHS Division |\n\n## Ministry of Labour (MOL) Inspectors\n\nProvincial OHS inspectors (commonly called 'MOL inspectors' in Ontario) have broad powers:\n\n**Inspection powers:**\n- Enter any workplace at any time without prior notice\n- Examine equipment, materials, and processes\n- Take samples or photographs\n- Require production of documents and records\n- Interview workers and supervisors\n\n**Enforcement tools:**\n| Tool | Effect |\n|------|--------|\n| **Order** | Requires specific corrective action within a timeframe |\n| **Stop Work Order** | Stops specified work immediately \u2014 serious hazard |\n| **Order to Comply** | Remedy a contravention of the Act |\n| **Prosecution** | Charges under the provincial OHS Act \u2014 fines and imprisonment |\n\n## Penalties \u2014 Ontario OHSA Example\n\n| Offence | Maximum Penalty |\n|---------|----------------|\n| Individual | $100,000 fine + 12 months imprisonment |\n| Corporation | $1,500,000 fine |\n\nAlberta OHS (2018) introduced some of Canada's highest penalties: up to $500,000 per contravention for individuals and $1.5M for corporations.\n\n## Internal Responsibility System (IRS)\n\nThe **Internal Responsibility System (IRS)** is the foundational philosophy of Canadian OHS:\n- Everyone in the workplace \u2014 employers, supervisors, and workers \u2014 shares responsibility for OHS\n- Health and safety is not just a management function \u2014 it belongs to everyone\n- The IRS operates BEFORE government enforcement \u2014 internal resolution is the first step\n- External enforcement (government inspectors) is the last resort when IRS fails\n\n## Key Takeaways\n\n- Canada: primarily provincially regulated OHS \u2014 94% of workers under provincial laws\n- Federal: Canada Labour Code Part II \u2014 banks, airlines, railways, telecom (~6% of workers)\n- MOL/OHS inspectors: enter without notice, issue orders, stop work, prosecute\n- Ontario OHSA: up to $1.5M corporation / $100k + 12 months individual\n- IRS: everyone shares OHS responsibility \u2014 government enforcement is the last resort"
         },
         {
-          "title": "Worker Rights \u2014 Refuse Unsafe Work",
-          "type": "lesson",
-          "content": "**The Right to Refuse Unsafe Work \u2014 All Provinces**\n\nEvery Canadian worker has the legal right to refuse work they believe poses an unusual danger to themselves or others.\n\n**Refusal Process (Ontario Example \u2014 OHSA s.43):**\n1. Worker refuses \u2014 reports to supervisor\n2. Supervisor investigates with worker present\n3. If not resolved \u2014 Ministry of Labour inspector called\n4. Inspector investigates and makes written decision\n5. Worker may continue to refuse until investigation complete\n\n**Key Rule \u2014 No Reprisals:**\nIt is illegal for an employer to discipline, penalise or threaten a worker for refusing unsafe work.\n\n**Joint Health and Safety Committees (JHSC):**\nRequired on most construction projects with 20+ workers. Must have:\n- Equal employer and worker representation\n- At least one certified member each side\n- Monthly meetings on projects over 3 months\n- Written recommendations to management"
-        },
-        {
-          "title": "Quiz",
+          "id": "1-q",
+          "title": "Module 1 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "In Canada, construction safety is primarily regulated by:",
+              "q": "Which Canadian legislation governs OHS for workers in federally regulated industries such as banks and interprovincial airlines?",
               "options": [
-                "Federal government only",
-                "Provincial/territorial governments",
-                "A single national OHS Act",
-                "The Canada Labour Code for all workers"
+                "Ontario Occupational Health and Safety Act",
+                "Canada Labour Code Part II",
+                "Canada OHS Regulations (provincial)",
+                "Federal Work Health Act"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Canada Labour Code Part II covers OHS for federally regulated workplaces \u2014 banks, airlines, railways, and telecommunications. Approximately 6% of Canadian workers fall under federal jurisdiction. All other workers fall under provincial/territorial OHS legislation."
             },
             {
-              "q": "The Internal Responsibility System means:",
+              "q": "What percentage of Canadian workers are covered by provincial/territorial OHS legislation rather than federal?",
               "options": [
-                "Only the employer is responsible for safety",
-                "Only supervisors have safety duties",
-                "Everyone in the workplace shares safety responsibility",
-                "Workers are responsible only for their own area"
+                "50%",
+                "75%",
+                "94%",
+                "100%"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Approximately 94% of Canadian workers fall under provincial/territorial OHS jurisdiction. Only workers in federally regulated industries (banks, airlines, railways, telecom, federal government \u2014 about 6%) are covered by the Canada Labour Code."
             },
             {
-              "q": "Canadian workers have the legal right to:",
+              "q": "What is the Internal Responsibility System (IRS) in Canadian OHS?",
               "options": [
-                "Choose their own PPE",
-                "Refuse unsafe work without reprisal",
-                "Set their own working hours",
-                "Select their own supervisor"
+                "A government inspection program targeting high-risk workplaces",
+                "The philosophy that everyone in the workplace shares responsibility for health and safety \u2014 employers, supervisors, and workers",
+                "An internal audit system required by the Canada Labour Code",
+                "A workers' compensation claims management system"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The IRS is the foundational Canadian OHS philosophy \u2014 every workplace party (employers, supervisors, workers) shares responsibility for health and safety. Government enforcement is the backup when the internal system fails, not the primary mechanism."
             },
             {
-              "q": "A Joint Health and Safety Committee is generally required when a project has:",
+              "q": "A Ministry of Labour inspector arrives at a civil construction site. Can they enter without prior notice?",
               "options": [
-                "5 or more workers",
-                "10 or more workers",
-                "20 or more workers",
-                "50 or more workers"
+                "No \u2014 24 hours notice required",
+                "Yes \u2014 inspectors can enter any workplace at any time without prior notice",
+                "Only with a court order",
+                "Only during regular business hours"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Provincial OHS inspectors (MOL inspectors) can enter any workplace at any time without prior notice. This is a fundamental enforcement power that enables effective OHS regulation \u2014 advance notice would allow hazards to be concealed."
+            },
+            {
+              "q": "Under the Ontario OHSA, what is the maximum fine for a corporation convicted of an OHS offence?",
+              "options": [
+                "$500,000",
+                "$1,000,000",
+                "$1,500,000",
+                "$3,000,000"
+              ],
+              "answer": 2,
+              "explanation": "The maximum fine for a corporation under the Ontario OHSA is $1,500,000. Individual maximum penalties are $100,000 and/or 12 months imprisonment. These penalties were significantly increased from earlier levels to improve deterrence."
             }
           ]
         }
@@ -77,63 +87,62 @@
     },
     {
       "id": 2,
-      "title": "WHMIS and Hazardous Materials",
-      "duration": "35 min",
+      "title": "Worker Rights",
       "lessons": [
         {
-          "title": "WHMIS 2015 \u2014 Workplace Hazardous Materials",
+          "id": "2-1",
+          "title": "Right to Know, Right to Participate and Right to Refuse",
           "type": "lesson",
-          "content": "**WHMIS 2015 is Mandatory Training for ALL Canadian Workers**\n\nWHMIS (Workplace Hazardous Materials Information System) 2015 is Canada's national hazard communication standard, aligned with the international Globally Harmonized System (GHS).\n\n**Two Types of Hazardous Products:**\n1. Physical hazards (flammable, explosive, oxidising, compressed gas)\n2. Health hazards (toxic, corrosive, carcinogenic, sensitising)\n\n**Three Key Elements of WHMIS:**\n1. Labels \u2014 on every hazardous product container\n2. Safety Data Sheets (SDS) \u2014 detailed safety information\n3. Worker Education and Training\n\n**The 9 WHMIS 2015 Hazard Pictograms:**\n- Flame (flammable)\n- Flame over circle (oxidising)\n- Exploding bomb (explosive)\n- Corrosion (corrosive to metal/skin)\n- Skull and crossbones (acute toxic)\n- Exclamation mark (irritant/harmful)\n- Gas cylinder (pressurised gas)\n- Health hazard (carcinogen/sensitiser)\n- Environment (aquatic hazard \u2014 voluntary in Canada)\n\n**Key Rule:** Never use a product if you cannot find or read its SDS."
+          "content": "## The Three Fundamental Worker Rights in Canadian OHS\n\nCanadian OHS legislation \u2014 both federal (Canada Labour Code) and provincial acts \u2014 enshrines three fundamental worker rights. These rights are the cornerstone of worker protection and are central to the Internal Responsibility System.\n\n## Right 1 \u2014 The Right to Know\n\nWorkers have the right to know about hazards in their workplace:\n\n**What workers have a right to know:**\n- Hazardous materials they work with (WHMIS 2015 \u2014 SDSs and labels)\n- Physical, biological, and chemical hazards in their work environment\n- Results of health and safety inspections\n- Accident and incident statistics for their workplace\n- Their rights under OHS legislation\n\n**Employer obligations to support the right to know:**\n- Provide WHMIS training on all hazardous products workers may encounter\n- Post required notices (OHS Act, first aid, emergency contacts) in the workplace\n- Make SDSs accessible in the work area during each shift\n- Conduct site inductions covering specific workplace hazards\n- Provide training in a language the worker understands\n\n## Right 2 \u2014 The Right to Participate\n\nWorkers have the right to participate in identifying and resolving health and safety issues:\n\n**Forms of participation:**\n- **Joint Health and Safety Committees (JHSCs)**: Formal committees with equal employer/worker representation\n- **Health and Safety Representatives**: In smaller workplaces below JHSC threshold\n- **Workplace inspections**: Worker members of JHSCs conduct inspections\n- **Incident investigations**: Workers participate in post-incident reviews\n- **Consultation**: Workers consulted before major changes to work processes\n\n**Anti-reprisal protections:**\nWorkers who exercise their participation rights cannot be penalised:\n- Cannot be dismissed, disciplined, or threatened for participating in OHS activities\n- Cannot be disadvantaged for being a JHSC member or HSR\n- Reprisal complaints can be filed with the provincial labour relations board or OHS authority\n\n## Right 3 \u2014 The Right to Refuse Dangerous Work\n\nWorkers have the right to refuse work they believe is dangerous \u2014 this is one of the most powerful worker protections in Canadian OHS law.\n\n**Grounds for refusal:**\nA worker may refuse work if they have reason to believe that:\n- The equipment, machine, or thing they are to use is likely to endanger them or another worker\n- The physical condition of the workplace is likely to endanger them\n- Any workplace equipment, process, or thing has violated the OHS Act in a way that may endanger them\n\n**The refusal process (Ontario OHSA example):**\n1. Worker reports refusal to supervisor \u2014 explains reason\n2. Supervisor investigates in presence of the worker and worker representative (JHSC member)\n3. If resolved: worker returns to work\n4. If not resolved: worker continues to refuse \u2014 notifies Ministry of Labour (MOL)\n5. MOL inspector investigates \u2014 makes binding decision\n6. During refusal: employer may assign other work; may assign another worker (who must be told of the refusal)\n\n**Limits on the right to refuse:**\nThe right to refuse does NOT apply when:\n- The danger is a normal part of the worker's regular employment (e.g. police, firefighters, healthcare workers in specific circumstances)\n- The refusal would put another person's life, health, or safety in immediate danger\n\n## Protection from Reprisal\n\nWorkers who exercise any of the three rights are protected from reprisal:\n- Dismissal, discipline, demotion, or threats for exercising OHS rights are illegal\n- Reverse onus: employer must prove action was NOT reprisal\n- Remedy: reinstatement, back pay, and compensation available\n\n## Key Takeaways\n\n- Right to Know: hazardous materials (WHMIS), workplace hazards, inspection results, rights\n- Right to Participate: JHSCs, HSRs, inspections, incident investigation, consultation\n- Right to Refuse: worker believes work is dangerous \u2014 structured process \u2014 MOL intervenes if unresolved\n- Anti-reprisal: reverse onus on employer \u2014 cannot dismiss/discipline workers for exercising OHS rights\n- These three rights are the foundation of the Internal Responsibility System"
         },
         {
-          "title": "Hazardous Materials in Civil Construction",
-          "type": "lesson",
-          "content": "**Common Hazardous Materials on Canadian Civil Sites:**\n\n**Silica Dust**\n- Released when cutting concrete, rock, masonry\n- Causes silicosis \u2014 irreversible lung scarring\n- Canadian OEL (Occupational Exposure Limit): 0.025 mg/m3 (respirable fraction)\n- Controls: Wet methods, local exhaust ventilation, N95/P100 respirator\n\n**Asbestos**\n- Found in infrastructure built before 1990\n- Must not be disturbed without testing\n- Requires designated substance plan in Ontario\n- Licensed asbestos abatement contractor required for removal\n\n**Diesel Exhaust**\n- Major hazard in tunnels and confined spaces\n- Contains Group 1 carcinogens (IARC)\n- Controls: Tier 4 engines, ventilation, monitoring\n\n**Lead**\n- Found in old painted structures, some soils\n- Provincial designated substance requirements for abatement"
-        },
-        {
-          "title": "Quiz",
+          "id": "2-q",
+          "title": "Module 2 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "WHMIS 2015 requires training for:",
+              "q": "A construction worker believes a trench they are asked to enter is dangerously unstable. They refuse the work. What must the employer do first?",
               "options": [
-                "Only workers handling chemicals directly",
-                "All Canadian workers who may be exposed to hazardous products",
-                "Only supervisors and safety officers",
-                "Workers with chemistry qualifications"
+                "Dismiss the worker for insubordination",
+                "Assign another worker to the trench without informing them of the refusal",
+                "Investigate the situation in the presence of the worker and a worker representative (JHSC member)",
+                "Contact the Ministry of Labour immediately"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "The first step is for the supervisor to investigate in the presence of the worker and their worker representative (JHSC member or co-worker). If resolved, the worker returns. If not resolved, the Ministry of Labour is then notified. MOL involvement comes only after internal investigation fails."
             },
             {
-              "q": "A Safety Data Sheet (SDS) must be:",
+              "q": "Under Canadian OHS law, what is the 'reverse onus' in reprisal cases?",
               "options": [
-                "Kept in the main office only",
-                "Accessible to workers at the work site",
-                "Only available in English",
-                "Provided only to supervisors"
+                "The worker must prove the employer committed reprisal",
+                "The employer must prove that any action against the worker was NOT reprisal for exercising OHS rights",
+                "The MOL inspector bears the burden of proof",
+                "Both parties share equal burden of proof"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "In Canadian OHS reprisal cases, the reverse onus applies \u2014 the employer must prove that any adverse action (dismissal, demotion, discipline) was NOT related to the worker exercising their OHS rights. This is stronger protection than standard employment law."
             },
             {
-              "q": "The skull and crossbones WHMIS pictogram means:",
+              "q": "Which of the following is NOT a form of worker participation in Canadian OHS?",
               "options": [
-                "Corrosive",
-                "Explosive",
-                "Acute toxic",
-                "Flammable"
+                "Being a member of the Joint Health and Safety Committee",
+                "Participating in workplace inspections as a worker representative",
+                "Filing a WHMIS complaint with Health Canada",
+                "Participating in post-incident investigations"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Filing a WHMIS complaint with Health Canada is not a form of workplace OHS participation under provincial OHS Acts. The right to participate involves JHSCs, HSRs, workplace inspections, incident investigations, and consultation on work changes."
             },
             {
-              "q": "Silica dust is a risk when:",
+              "q": "The Right to Know in Canadian OHS includes workers' right to access:",
               "options": [
-                "Working with timber",
-                "Cutting or grinding concrete, rock, or masonry",
-                "Painting surfaces",
-                "Operating a forklift"
+                "Only WHMIS Safety Data Sheets",
+                "WHMIS SDSs, workplace hazard information, inspection results, incident statistics, and their OHS rights",
+                "Only information about incidents they personally witnessed",
+                "Only information approved by the employer"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The Right to Know is broad \u2014 it includes WHMIS hazardous material information (SDSs), physical/chemical/biological workplace hazards, results of safety inspections, accident statistics for the workplace, and workers' rights under OHS legislation."
             }
           ]
         }
@@ -141,63 +150,62 @@
     },
     {
       "id": 3,
-      "title": "Equipment Licensing \u2014 Red Seal Program",
-      "duration": "35 min",
+      "title": "Joint Health and Safety Committees",
       "lessons": [
         {
-          "title": "Heavy Equipment Operator \u2014 Red Seal",
+          "id": "3-1",
+          "title": "JHSC Composition, Meetings and Recommendations",
           "type": "lesson",
-          "content": "**The Red Seal Program (Interprovincial Standards)**\n\nCanada's Red Seal Program allows certified tradespeople to work across provinces without retesting. It is administered by Employment and Social Development Canada (ESDC).\n\n**Heavy Equipment Operator (HEO) \u2014 Red Seal**\nThe HEO trade is a Red Seal designated trade in most provinces. However, it operates differently from NZ or AU:\n\n- Red Seal HEO is voluntary \u2014 not legally required to operate equipment\n- Employers may require it for hire or advancement\n- Demonstrates verified competency to national standard\n\n**HEO Equipment Categories:**\n- Excavator\n- Dozer\n- Grader\n- Scraper\n- Loader\n- Backhoe loader\n- Compaction equipment\n\n**Provincial Apprenticeship Pathways:**\n- BC: SkilledTradesBC \u2014 3 year apprenticeship\n- Ontario: Ontario College of Trades \u2014 Operating Engineers\n- Alberta: Alberta Apprenticeship and Industry Training\n\n**Operating Engineers (Unionised):**\nIn many Canadian provinces, heavy equipment operators on large projects must be members of the International Union of Operating Engineers (IUOE) \u2014 Local 115 (BC), Local 793 (Ontario), Local 955 (Alberta)."
+          "content": "## Joint Health and Safety Committees (JHSCs)\n\nJoint Health and Safety Committees are a cornerstone of the Internal Responsibility System in Canadian workplaces. They bring together employer and worker representatives to collaboratively identify and resolve health and safety issues before they cause injury or illness.\n\n## When is a JHSC Required?\n\nRequirements vary by province \u2014 Ontario OHSA example:\n- Workplaces regularly employing **20 or more workers**: JHSC required\n- Workplaces with 6\u201319 workers: Health and Safety Representative (HSR) required\n- Construction projects with **20+ workers at any one time** OR project lasting more than 3 months with 20+ workers: JHSC required\n\n**Other provinces (general guidance):**\n- British Columbia: JHSC required at workplaces with 20+ workers\n- Alberta: OHS Committee or OHS Representative depending on workforce size\n- Federal: JHSC required for workplaces with 20+ employees (Canada Labour Code)\n\n## JHSC Composition\n\nJHSCs must have **equal representation** from employers and workers:\n- Minimum 2 members (1 employer + 1 worker) for smaller workplaces\n- Larger workplaces: typically 4\u201312 members \u2014 always equal employer/worker split\n- **Worker members must be selected by workers** (not appointed by management)\n- At least one worker member must be a **certified member** (in Ontario for workplaces with industrial/construction hazards)\n\n**Certified Member:**\nA certified JHSC member has completed approved training (Part 1 and Part 2 certification training). Certified members have additional powers \u2014 including the right to investigate critical injuries and the right to recommend work stoppages.\n\n## JHSC Functions\n\n| Function | Description |\n|----------|-------------|\n| **Workplace inspections** | Regular inspections of the workplace \u2014 monthly in most provinces |\n| **Incident investigation** | Investigate critical injuries, fatalities, and occupational illnesses |\n| **Recommendations** | Make written recommendations to employer for OHS improvements |\n| **Review programs** | Review employer OHS programs, policies, and training |\n| **Meetings** | Regular meetings to discuss OHS issues \u2014 minutes recorded and posted |\n\n## JHSC Meeting Requirements\n\n- Meetings held at least **monthly** (Ontario: at least every 3 months for lower-risk workplaces; monthly for higher-risk)\n- Meeting time is paid work time \u2014 members cannot be penalised for attending\n- Minutes must be kept and posted in a prominent workplace location\n- Quorum: equal representation must be present\n- Co-chairs: one employer co-chair + one worker co-chair (rotate chair duties)\n\n## JHSC Recommendations\n\nJHSCs can make written recommendations to the constructor or employer:\n- **Employer must respond in writing within 21 days** (Ontario) \u2014 either agreeing to implement, disagreeing with reasons, or proposing an alternative\n- If the employer rejects a recommendation, the JHSC can refer the matter to the Ministry of Labour\n- JHSC recommendations are advisory \u2014 they do not have legal force by themselves\n- However, ignoring JHSC recommendations is an OHS risk indicator and may attract regulator attention\n\n## Work Stoppage Power (Certified Members \u2014 Ontario)\n\nIn Ontario, a certified worker member and certified employer member of the JHSC can jointly recommend a work stoppage when:\n- A situation exists that is likely to endanger a worker\n- The situation is extremely dangerous and the employer has not or cannot remedy it promptly\n\nThe employer is legally required to act on a joint work stoppage recommendation.\n\n## Key Takeaways\n\n- JHSC required at 20+ workers (most provinces) \u2014 equal employer/worker representation\n- Worker members must be selected by workers \u2014 not appointed by management\n- Core functions: inspections, incident investigation, recommendations, reviewing OHS programs\n- Monthly meetings \u2014 minutes kept and posted \u2014 paid time\n- Employer must respond in writing to recommendations within 21 days (Ontario)\n- Certified members: additional powers including joint work stoppage recommendation"
         },
         {
-          "title": "Fall Protection and Working at Heights",
-          "type": "lesson",
-          "content": "**Fall Protection \u2014 Canadian Requirements**\n\nFalls are the leading cause of death in Canadian construction. Specific requirements vary by province:\n\n**Ontario (O. Reg. 213/91):**\n- Fall protection required at 3 metres (10 feet) on construction sites\n- Working at Heights training mandatory (MOL-approved provider)\n- Training must be renewed every 3 years\n\n**British Columbia (OHS Regulation Part 11):**\n- Fall protection required at 3 metres\n- Written fall protection plan required for unguarded areas\n\n**Alberta (OHS Code Part 9):**\n- Fall protection required at 3 metres for general construction\n- 7.5 metres for some specific work types\n\n**Fall Protection Hierarchy:**\n1. Eliminate the fall hazard (design out)\n2. Passive systems (guardrails, covers)\n3. Fall restraint system\n4. Fall arrest system (harness + lanyard \u2014 last resort)\n\n**Key Difference from NZ/AU:** Canada's fall protection trigger is 3 metres (NZ and AU: 2 metres)."
-        },
-        {
-          "title": "Quiz",
+          "id": "3-q",
+          "title": "Module 3 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "The Red Seal HEO certification is:",
+              "q": "Under the Ontario OHSA, at what workforce size is a Joint Health and Safety Committee (JHSC) required?",
               "options": [
-                "Legally required to operate an excavator",
-                "Voluntary but demonstrates national competency standard",
-                "Required only in Ontario",
-                "Only valid in the province it was issued"
+                "5 or more workers",
+                "10 or more workers",
+                "20 or more workers",
+                "50 or more workers"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "The Ontario OHSA requires a JHSC at workplaces that regularly employ 20 or more workers. Workplaces with 6\u201319 workers require a Health and Safety Representative instead of a full committee."
             },
             {
-              "q": "In Ontario, Working at Heights training must be renewed every:",
+              "q": "How must worker members of a JHSC be selected?",
               "options": [
-                "1 year",
-                "2 years",
-                "3 years",
-                "5 years"
+                "Appointed by the site manager",
+                "Selected by the workers they represent \u2014 not appointed by management",
+                "Chosen by the Ministry of Labour",
+                "Rotated among all workers alphabetically"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Worker members of a JHSC must be selected by the workers they represent \u2014 this ensures genuine worker representation. Management-appointed 'worker representatives' would undermine the independence and effectiveness of the committee."
             },
             {
-              "q": "Fall protection in Ontario is required at:",
+              "q": "An employer receives a written JHSC recommendation to install guarding on a piece of equipment. Under the Ontario OHSA, what must the employer do?",
               "options": [
-                "2 metres",
-                "3 metres",
-                "4 metres",
-                "5 metres"
+                "Implement the recommendation immediately",
+                "Respond in writing within 21 days \u2014 agreeing, disagreeing with reasons, or proposing an alternative",
+                "File the recommendation for the next annual safety review",
+                "No formal response is required"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Under the Ontario OHSA, employers must respond in writing to JHSC recommendations within 21 days \u2014 either agreeing to implement, disagreeing with reasons, or proposing an alternative. Failure to respond is itself an OHS violation."
             },
             {
-              "q": "The preferred (highest priority) fall protection method is:",
+              "q": "What additional power do certified JHSC members have that regular members do not?",
               "options": [
-                "Full body harness",
-                "Safety nets",
-                "Guardrails",
-                "Eliminate the fall hazard by design"
+                "The right to issue stop work orders unilaterally",
+                "The right to jointly recommend a work stoppage when a dangerous situation cannot be promptly remedied",
+                "The right to prosecute the employer directly",
+                "The right to issue improvement notices"
               ],
-              "answer": 3
+              "answer": 1,
+              "explanation": "In Ontario, a certified worker member and certified employer member can JOINTLY recommend a work stoppage when a dangerous situation exists and the employer has not or cannot remedy it promptly. The employer is legally required to act on this joint recommendation."
             }
           ]
         }
@@ -205,63 +213,62 @@
     },
     {
       "id": 4,
-      "title": "Canadian Technical Standards",
-      "duration": "35 min",
+      "title": "Construction Safety",
       "lessons": [
         {
-          "title": "TAC and CSA Standards",
+          "id": "4-1",
+          "title": "Fall Protection, Trenching, Mobile Equipment and Overhead Hazards",
           "type": "lesson",
-          "content": "**Transportation Association of Canada (TAC)**\nTAC is the national body for road transportation knowledge in Canada, equivalent to Austroads in Australia/NZ.\n\n**Key TAC Publications:**\n- Geometric Design Guide for Canadian Roads\n- Manual of Uniform Traffic Control Devices for Canada (MUTCDC)\n- Pavement Asset Design and Management Guide\n- Guide for Bridge Temporary Works\n\n**Canadian Standards Association (CSA) \u2014 Key Standards:**\n- CSA Z1000-14 \u2014 Occupational Health and Safety Management Systems\n- CSA Z1001-18 \u2014 Occupational Health and Safety Training\n- CSA Z96 \u2014 High-Visibility Safety Apparel\n- CSA Z259 series \u2014 Fall Protection equipment\n- CSA G40.20/G40.21 \u2014 Structural steel\n\n**Provincial Road Authorities:**\n- BC: Ministry of Transportation and Infrastructure (MoTI)\n- Ontario: Ministry of Transportation (MTO)\n- Alberta: Alberta Transportation\n\n**Call Before You Dig:**\nEach province has its own utility locate service:\n- BC: BC 1 Call (1-800-474-6886)\n- Ontario: Ontario One Call (1-800-400-2255)\n- Alberta: Alberta One Call (1-800-242-3447)"
+          "content": "## Construction Safety in Canada\n\nConstruction consistently has one of the highest fatality and serious injury rates of any Canadian industry. Provincial OHS regulations and construction-specific regulations establish detailed requirements for the most hazardous construction activities.\n\n## Fall Protection\n\nFalls are the leading cause of construction fatalities across all Canadian provinces.\n\n**Ontario Construction Regulation (O. Reg. 213/91) \u2014 fall protection triggers:**\n- Workers must be protected from falls of **3 metres or more** on construction projects\n- OR where a fall of less than 3 metres could cause injury (e.g. onto machinery, into water, or hazardous substances)\n\n**Accepted fall protection methods (Ontario):**\n1. Guardrail system\n2. Travel restraint system\n3. Fall restricting system\n4. Fall arrest system (full-body harness + lanyard/SRL + 5,400 lb anchorage)\n5. Safety net\n\n**Working at Heights Training (Ontario \u2014 since 2015):**\n- All workers using fall protection on construction sites must complete approved Working at Heights training\n- Minimum 4 hours \u2014 must be from a Ministry of Labour-approved provider\n- Must be renewed every 3 years\n\n**BC OHS Regulation (Part 11):**\n- Fall protection required at **3 metres** or where a lesser fall could cause serious injury\n\n## Trenching and Excavation\n\nOntario Construction Regulation O. Reg. 213/91, s.226-239 governs excavation:\n- Excavations **1.2 metres or deeper** require a protective system (shoring, sloping, benching) \u2014 lower trigger than US OSHA's 5-foot rule\n- A **competent worker** (equivalent to OSHA's 'competent person') must supervise excavation work\n- Soil must be classified before determining protective system\n- Spoil must be placed at least **1.0 metre** from the edge of the excavation\n\n**BC OHS Regulation \u2014 excavation trigger: 1.5 metres**\n\n## Mobile Equipment Safety\n\nMobile equipment on construction sites creates significant struck-by and run-over risks:\n- All workers must wear hi-vis clothing within 30 metres of mobile equipment operation (Ontario)\n- Reverse alarms mandatory on all mobile equipment\n- Spotters required for blind-spot reversing situations\n- Traffic management plan required for sites with both plant and pedestrian movement\n- Pre-start inspections: mandatory daily \u2014 defects reported and equipment taken out of service\n- Operators must be competent \u2014 documented training or apprenticeship\n\n**Exclusion zones:**\n- No worker within the swing radius of an excavator or crane without operator communication and specific authorisation\n- Zones must be marked and communicated at pre-start meetings\n\n## Overhead Hazard \u2014 Electrical Lines\n\nOntario Regulation 213/91 \u2014 electrical line clearances:\n| Voltage | Minimum Clearance (Ontario) |\n|---------|----------------------------|\n| Up to 750 V | 3 metres |\n| 750 V to 150,000 V | 3 metres |\n| 150,000 V to 250,000 V | 4.5 metres |\n| Over 250,000 V | 6 metres |\n\n**Before work near overhead lines:**\n- Contact the electrical utility to determine voltage and request de-energisation or guarding\n- Obtain written confirmation of de-energisation before work begins\n- Never assume a line is de-energised \u2014 verify with the utility\n\n## Constructor Obligations\n\nIn Ontario, the **constructor** (the entity that contracts directly with the project owner) has special obligations:\n- Ensure all employers and workers on the project comply with the OHSA and regulations\n- Register projects > $50,000 with the Ministry of Labour\n- Post a Notice of Project at the site\n- Designate a supervisor for the project\n\n## Key Takeaways\n\n- Fall protection required at 3 metres in most Canadian provinces (vs 6 feet/1.8m in US OSHA)\n- Ontario Working at Heights training: approved provider, minimum 4 hours, renew every 3 years\n- Excavation trigger: 1.2 m Ontario, 1.5 m BC \u2014 lower than US OSHA's 5-foot trigger\n- Mobile equipment: hi-vis within 30m, reverse alarms, spotters, exclusion zones\n- Contact the utility before any work near overhead electrical lines \u2014 get written confirmation of de-energisation"
         },
         {
-          "title": "Traffic Control \u2014 Canadian Requirements",
-          "type": "lesson",
-          "content": "**Traffic Control on Canadian Roads**\n\n**Manual of Uniform Traffic Control Devices for Canada (MUTCDC)**\nPublished by TAC \u2014 sets national standard for signs, signals, pavement markings, and temporary traffic control.\n\n**Traffic Control Person (TCP) Certification:**\nAnyone directing traffic on Canadian roadwork sites must hold a Traffic Control Person certificate (province-specific).\n\n**Provincial TCP Requirements:**\n- BC: TCP certification through approved provider, valid 3 years\n- Ontario: TCP training (no formal certification but training required)\n- Alberta: Traffic Control Person certificate required\n\n**Standard Minimum PPE for TCP:**\n- CSA Z96 Class 2 or 3 high-visibility vest\n- Hard hat\n- Safety footwear (CSA Grade 1)\n- Stop/Slow paddle (MUTCDC standard)\n\n**Key Rule:** Traffic Control Plans must be prepared for all work affecting traffic flow."
-        },
-        {
-          "title": "Quiz",
+          "id": "4-q",
+          "title": "Module 4 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "The Canadian equivalent of Austroads is:",
+              "q": "At what fall height does Ontario's Construction Regulation require fall protection for workers?",
               "options": [
-                "CSA Group",
-                "TAC (Transportation Association of Canada)",
-                "Transport Canada",
-                "Infrastructure Canada"
+                "1.0 metre",
+                "1.5 metres",
+                "3 metres",
+                "6 metres"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Ontario's Construction Regulation (O. Reg. 213/91) requires fall protection at 3 metres or more \u2014 and at any height where falling could cause injury (onto machinery, into water, etc.). This is a stricter trigger than US OSHA's 6-foot (1.8m) requirement."
             },
             {
-              "q": "CSA Z96 covers:",
+              "q": "Under the Ontario Construction Regulation, at what excavation depth is a protective system (shoring, sloping, benching) required?",
               "options": [
-                "Fall protection equipment",
-                "High-visibility safety apparel",
-                "Structural steel",
-                "Soil testing methods"
+                "0.6 metres",
+                "1.2 metres",
+                "1.5 metres",
+                "2.0 metres"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Ontario requires a protective system for excavations 1.2 metres or deeper \u2014 a stricter trigger than US OSHA's 5-foot (1.5m) threshold. BC's trigger is 1.5 metres."
             },
             {
-              "q": "Before excavating in British Columbia you call:",
+              "q": "Ontario's Working at Heights training must be renewed how frequently?",
               "options": [
-                "911",
-                "BC 1 Call \u2014 1-800-474-6886",
-                "811",
-                "WorkSafeBC"
+                "Annually",
+                "Every 2 years",
+                "Every 3 years",
+                "Every 5 years"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Ontario Working at Heights training must be renewed every 3 years. It must be completed with a Ministry of Labour-approved training provider and has a minimum duration of 4 hours."
             },
             {
-              "q": "The MUTCDC is published by:",
+              "q": "Before any equipment operates near overhead electrical lines in Ontario, what must be obtained from the electrical utility?",
               "options": [
-                "Transport Canada",
-                "CSA Group",
-                "TAC",
-                "Infrastructure Canada"
+                "A verbal confirmation that lines are de-energised",
+                "Written confirmation of de-energisation and line voltage information before work begins",
+                "Only the voltage of the lines",
+                "An exemption form from the Ministry of Labour"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Written confirmation of de-energisation must be obtained from the utility before any work begins near overhead electrical lines. Never assume de-energisation \u2014 verbal confirmation is insufficient. Always verify in writing."
             }
           ]
         }
@@ -269,98 +276,73 @@
     },
     {
       "id": 5,
-      "title": "Final Assessment",
-      "duration": "20 min",
+      "title": "WHMIS 2015",
       "lessons": [
         {
-          "title": "Course Summary",
+          "id": "5-1",
+          "title": "WHMIS 2015 \u2014 GHS, SDSs, Labels and Training Requirements",
           "type": "lesson",
-          "content": "**Congratulations \u2014 You have completed CA: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- Canadian OHS is primarily provincial \u2014 each province has its own Act\n- Internal Responsibility System \u2014 everyone shares safety responsibility\n- Three worker rights: Know, Participate, Refuse unsafe work\n- WHMIS 2015 is mandatory training for all workers\n- Red Seal HEO is voluntary but nationally recognised\n- Fall protection trigger: 3 metres (vs 2 metres in NZ/AU)\n- TAC = Canadian equivalent of Austroads\n- Call Before You Dig varies by province\n\n**Key Differences vs NZ:**\n- No single national construction safety law (provincial system)\n- WHMIS is the equivalent of NZ's HSNO regulations\n- Fall protection at 3m not 2m\n- Red Seal = voluntary HEO qualification (no equivalent in NZ)"
+          "content": "## WHMIS 2015 \u2014 Canada's Hazard Communication System\n\nWHMIS (Workplace Hazardous Materials Information System) 2015 is Canada's national standard for communicating chemical hazard information in workplaces. Updated in 2015 to align with the **Globally Harmonized System of Classification and Labelling of Chemicals (GHS)**, it replaced WHMIS 1988.\n\n## Key Changes \u2014 WHMIS 1988 vs WHMIS 2015\n\n| Feature | WHMIS 1988 | WHMIS 2015 |\n|---------|-----------|-----------|\n| Pictograms | Canadian-specific hatched border symbols | GHS red diamond pictograms |\n| Documents | Material Safety Data Sheet (MSDS) | Safety Data Sheet (SDS) \u2014 16 sections |\n| Classification | Canadian-specific classes | GHS-aligned international classes |\n| Signal words | Not used | DANGER / WARNING |\n\n## WHMIS 2015 Hazard Classes\n\n**Physical hazards:**\n- Flammable gases, liquids, solids, aerosols\n- Oxidising gases and liquids\n- Gases under pressure\n- Explosives and self-reactive substances\n- Pyrophoric and self-heating substances\n\n**Health hazards:**\n- Acute toxicity (Category 1\u20135)\n- Skin and eye corrosion/irritation\n- Respiratory and skin sensitisation\n- Germ cell mutagenicity\n- Carcinogenicity\n- Reproductive toxicity\n- Specific target organ toxicity (single and repeated exposure)\n- Aspiration hazard\n\n**WHMIS-specific hazard class (not in GHS):**\n- **Biohazardous Infectious Materials**: Microorganisms, nucleic acids, proteins causing disease\n\n## WHMIS 2015 Labels\n\n**Supplier labels must include:**\n1. Product identifier\n2. GHS pictogram(s) \u2014 in red diamond border\n3. Signal word (DANGER or WARNING)\n4. Hazard statements (H-statements)\n5. Precautionary statements (P-statements)\n6. Supplier name, address, and emergency telephone number\n7. Supplemental label information as required\n\n**Workplace labels (secondary containers):**\nWhen transferred to a secondary container in the workplace:\n- Product identifier\n- Safe handling precautions\n- Reference to the SDS\n\n## Safety Data Sheets (SDSs)\n\nStandardised 16-section format \u2014 identical across GHS-aligned countries (US HazCom 2012, WHMIS 2015, Australia):\n\n| Section | Content |\n|---------|---------|\n| 1 | Identification |\n| 2 | Hazard identification \u2014 most important for workers |\n| 4 | First-aid measures |\n| 8 | Exposure controls/PPE \u2014 critical for selecting protection |\n| 9 | Physical and chemical properties |\n\n**SDS access:**\n- Must be readily accessible to workers during their shift in their work area\n- Electronic access acceptable if always available without barriers\n- Locked offices or supervisor-controlled access does NOT comply\n\n## Dual Administration\n\nWHMIS 2015 has a dual administration structure:\n- **Federal government** (Health Canada): Regulates supplier labelling requirements under the Hazardous Products Act and Hazardous Products Regulations\n- **Provinces/territories**: Regulate employer workplace requirements \u2014 worker education, training, workplace labels, SDS access\n\n## Employer Training Requirements\n\nEmployers must train workers on:\n1. How to read and interpret WHMIS labels (all 6 elements)\n2. How to read and use SDSs (especially Sections 2, 4, and 8)\n3. The specific hazards of chemicals they work with\n4. Safe use, storage, handling, and disposal procedures\n5. Emergency procedures for spills, inhalation, or skin/eye exposure\n\n**When training is required:**\n- Before initial exposure to a hazardous product\n- When new hazardous products are introduced\n- When new hazard information becomes available (updated SDS)\n- After a workplace incident involving a hazardous product\n\n## Common Civil Construction Hazardous Products\n\n| Product | WHMIS 2015 Hazard | Key Precautions |\n|---------|------------------|-----------------|\n| Diesel fuel | Flammable liquid, health hazard | No ignition sources, gloves, eye protection |\n| Wet concrete | Skin/eye corrosion (alkaline) | Waterproof gloves, rubber boots, eye protection |\n| Bitumen/hot mix asphalt | Combustible, potential H2S, skin burn | Heat-resistant PPE, ventilation, no confined space work without testing |\n| Hydraulic fluid | Skin/eye irritant | Gloves, safety glasses |\n\n## Key Takeaways\n\n- WHMIS 2015: GHS-aligned \u2014 replaced WHMIS 1988 Canadian-specific symbols with red diamond pictograms\n- Biohazardous Infectious Materials: unique WHMIS class not in international GHS\n- SDS: 16 sections \u2014 Section 2 (hazards) and Section 8 (PPE/controls) most critical\n- Workplace labels on secondary containers: product ID + safe handling + reference to SDS\n- Dual administration: Health Canada regulates suppliers; provinces regulate employers"
         },
         {
-          "title": "Quiz",
+          "id": "5-q",
+          "title": "Module 5 Quiz",
           "type": "quiz",
-          "pass_mark": 75,
           "questions": [
             {
-              "q": "Canadian construction OHS is primarily regulated by:",
+              "q": "What hazard class exists in WHMIS 2015 that does NOT exist in the international GHS?",
               "options": [
-                "Federal Canada Labour Code",
-                "Provincial/territorial legislation",
-                "A single national OHS Act",
-                "The Red Seal Program"
+                "Flammable gases",
+                "Biohazardous Infectious Materials",
+                "Compressed gases",
+                "Acute toxicity"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Biohazardous Infectious Materials is a unique WHMIS 2015 hazard class covering microorganisms, nucleic acids, and proteins that cause disease in humans. This class does not exist in the international GHS framework."
             },
             {
-              "q": "WHMIS 2015 training is required for:",
+              "q": "Under WHMIS 2015 dual administration, who regulates employer workplace requirements such as worker training and SDS access?",
               "options": [
-                "Supervisors only",
-                "Chemical handlers only",
-                "All workers who may be exposed to hazardous products",
-                "Management only"
+                "Health Canada (federal)",
+                "Provinces and territories",
+                "Safe Work Canada",
+                "The Canadian Standards Association"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Under WHMIS 2015's dual administration, provinces and territories regulate employer workplace requirements \u2014 including worker training, workplace labels, and SDS access. Health Canada (federal) regulates supplier labelling requirements."
             },
             {
-              "q": "Red Seal HEO certification is:",
+              "q": "A workplace label on a secondary container must include which three elements under WHMIS 2015?",
               "options": [
-                "Legally required in all provinces",
-                "Voluntary but nationally recognised",
-                "Only valid in BC",
-                "Required for equipment over 5 tonnes"
+                "Product identifier, GHS pictograms, and signal word",
+                "Product identifier, safe handling precautions, and reference to the SDS",
+                "All six supplier label elements",
+                "Product identifier and SDS Section 2 text only"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "WHMIS 2015 workplace labels for secondary containers must include: (1) product identifier, (2) safe handling precautions, and (3) reference to the SDS. They do not require all supplier label elements."
             },
             {
-              "q": "Fall protection in Canada is generally required at:",
+              "q": "Wet concrete is a WHMIS 2015 regulated product. What is its primary health hazard?",
               "options": [
-                "2 metres",
-                "3 metres",
-                "4 metres",
-                "6 metres"
+                "Flammable vapours",
+                "Acute oral toxicity",
+                "Skin and eye corrosion from its highly alkaline (high pH) chemistry",
+                "Carcinogenicity"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Wet concrete is highly alkaline (pH ~12\u201313). Prolonged skin contact causes progressive alkaline burns \u2014 often initially painless, leading to serious injury before workers notice. Waterproof gloves, rubber boots, and eye/face protection are required."
             },
             {
-              "q": "The Internal Responsibility System means:",
+              "q": "When must an employer provide WHMIS 2015 training to workers?",
               "options": [
-                "Only employers are responsible",
-                "Everyone shares responsibility for safety",
-                "Workers have no safety duties",
-                "Only safety officers manage hazards"
+                "Annually at a scheduled safety training day",
+                "Only at initial employment",
+                "Before initial exposure, when new products are introduced, when new hazard information is available, and after incidents involving hazardous products",
+                "Every 3 years"
               ],
-              "answer": 1
-            },
-            {
-              "q": "TAC publishes:",
-              "options": [
-                "OHS enforcement notices",
-                "Road transport and pavement technical guidelines",
-                "Worker compensation rates",
-                "WHMIS regulations"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A worker's right to refuse unsafe work in Canada:",
-              "options": [
-                "Does not legally exist",
-                "Applies only to unionised workers",
-                "Is protected by law \u2014 no reprisals allowed",
-                "Requires union approval first"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "WHMIS 2015 aligns with which international system?",
-              "options": [
-                "ISO 45001",
-                "ILO C167",
-                "Globally Harmonized System (GHS)",
-                "OHSAS 18001"
-              ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "WHMIS 2015 training must be provided: before initial exposure to a hazardous product, when new products are introduced, when new hazard information becomes available, and after any incident involving a hazardous product. It is ongoing, not just initial."
             }
           ]
         }

@@ -18,176 +18,252 @@
   "target_audience": "Filipino civil construction workers, OFW applicants, TESDA graduates",
   "modules": [
     {
-      "id": "module-1",
-      "title": "Module 1: Bakit Importante ang Safety? (Why Safety Matters)",
+      "id": 1,
+      "title": "DOLE and OSHC Framework",
       "lessons": [
         {
-          "title": "Welcome \u2014 Ano ang Civil App Philippines Beta?",
+          "id": "1-1",
+          "title": "RA 11058, DO 198-18, DOLE Inspection and Penalties",
           "type": "lesson",
-          "content": "<h2>Maligayang pagdating sa Civil App Philippines Beta! \ud83c\uddf5\ud83c\udded</h2>\n<p>Ikaw ay isa sa mga unang Filipino construction workers na mag-a-access ng libreng international safety training.</p>\n<h3>Bakit libre ito?</h3>\n<p>Simple lang \u2014 ikaw ay beta tester namin. Sa pagkumpleto ng kursong ito at pag-upload ng iyong CV, ikaw ay:</p>\n<ul>\n<li>\u2705 Makakakuha ng international safety certificate</li>\n<li>\u2705 Makikita ng mga NZ/AU/CA civil companies na naghahanap ng manggagawa</li>\n<li>\u2705 Matututo ng mga safety standards na kailangan mo para magtrabaho abroad</li>\n</ul>\n<h3>Ano ang Civil App?</h3>\n<p>Civil App ay isang New Zealand-based training platform para sa civil construction workers sa buong mundo. Founded ni Sam Dampier-Crossley, isang civil construction expert na may 30+ taon ng karanasan sa NZ.</p>\n<blockquote>\"Train to replace yourself, then train them to replace themselves.\" \u2014 Sam Dampier-Crossley</blockquote>\n<h3>Ano ang matututunan mo?</h3>\n<ul>\n<li>\ud83e\uddba International safety standards (NZ, AU, Canada)</li>\n<li>\ud83d\ude9c Mga pangalan ng equipment sa NZ/AU (iba sa Pilipinas!)</li>\n<li>\ud83d\udccb Pre-start checks at daily safety meetings</li>\n<li>\ud83c\udf0f Kultura ng trabaho sa construction sites sa ibang bansa</li>\n<li>\ud83d\udcc4 Mga dokumento at certifications na kailangan mo</li>\n</ul>"
+          "content": "## The Philippine Occupational Safety and Health Framework\n\nThe Philippines has significantly strengthened its Occupational Safety and Health (OSH) legal framework through Republic Act 11058 and its implementing rules DO 198-18. These laws protect Filipino workers \u2014 including the large number employed in civil construction both domestically and overseas.\n\n## Republic Act 11058 \u2014 Key Provisions\n\nSigned into law in 2018, RA 11058 is the principal Philippine OSH statute:\n\n**Employer duties under RA 11058:**\n1. Provide a workplace free from hazards likely to cause physical harm or occupational illness\n2. Comply with OSH standards set by DOLE\n3. Provide PPE at **no cost** to workers \u2014 deductions from wages for PPE are illegal\n4. Implement OSH programs and designate competent Safety Officers\n5. Conduct regular workplace hazard assessments\n6. Report work-related accidents and illnesses to DOLE within prescribed timeframes\n\n**Worker rights under RA 11058:**\n- Right to refuse unsafe work without loss of pay or employment\n- Anti-retaliation: dismissal for asserting OSH rights is illegal\n- Right to be informed of OSH hazards in the workplace\n- Right to participate in OSH programs\n\n## Department Order 198-18 \u2014 Implementing Rules\n\nDO 198-18 provides the detailed implementing rules for RA 11058:\n\n**OSH Program requirements:**\n| Establishment Size | OSH Program Type |\n|-------------------|-----------------|\n| <10 workers | Simplified OSH program |\n| 10\u201349 workers | Standard OSH program |\n| 50+ workers | Comprehensive OSH program incl. emergency preparedness, medical facilities |\n\n**Safety Officer requirements (DO 198-18):**\n| Workers | Safety Officer Requirement |\n|---------|---------------------------|\n| 1\u201350 | Part-time Safety Officer 1 |\n| 51\u2013200 | At least 1 full-time Safety Officer 2 |\n| 201\u2013500 | At least 1 full-time Safety Officer 3 |\n| 500+ | At least 1 full-time Safety Officer 4 (OSH Practitioner) |\n\n## DOLE \u2014 Department of Labor and Employment\n\nDOLE is the primary OSH regulatory body:\n- Sets OSH standards through Department Orders\n- Conducts workplace inspections via Labor Inspectors\n- Issues compliance orders, work stoppage orders, and prosecutes violations\n- Processes accident reports and maintains OSH statistics\n\n**OSHC \u2014 Occupational Safety and Health Center:**\nAttached to DOLE \u2014 provides OSH training, certification for Safety Officers, technical assistance, and national OSH research.\n\n## DOLE Inspection Process\n\nDOLE Labor Inspectors can:\n- Enter any workplace without prior notice for routine or complaint-based inspections\n- Examine equipment, documents, and work processes\n- Interview workers and management\n\n**Inspection outcomes:**\n- Notice of Results \u2014 violations listed with required corrective actions\n- Compliance Order \u2014 mandatory correction with deadline\n- Work Stoppage Order \u2014 immediate halt for imminent danger\n- Criminal referral \u2014 for gross/wilful violations\n\n## Penalties Under RA 11058\n\n| Violation | Penalty |\n|-----------|---------|\n| Non-compliance with OSH standards | PHP 100,000 per day per violation |\n| Failure to comply with compliance order | PHP 100,000 per day |\n| Work stoppage order violation | PHP 100,000/day + possible imprisonment |\n| Wilful violation causing death | Criminal prosecution |\n\nThe PHP 100,000 per day per violation rate represents a major increase from previous law, reflecting genuine governmental commitment to OSH enforcement.\n\n## Key Takeaways\n\n- RA 11058 (2018): mandatory OSH programs, Safety Officers, PPE at employer cost, right to refuse\n- DO 198-18: Safety Officer levels scale from SO1 (part-time, 1\u201350) to SO4 (500+)\n- DOLE: inspections without prior notice \u2014 compliance orders, work stoppages, prosecution\n- OSHC: attached to DOLE \u2014 training, certification, technical assistance\n- Penalty: PHP 100,000 per day per violation \u2014 cumulative for continued non-compliance"
         },
         {
-          "title": "Safety sa Trabaho \u2014 NZ vs Pilipinas",
-          "type": "lesson",
-          "content": "<h2>Safety sa Trabaho: Ang Pagkakaiba ng NZ/AU at Pilipinas</h2>\n<p>Sa Pilipinas, maraming construction sites na hindi ganoon ka-strict pagdating sa safety. Sa New Zealand at Australia, <strong>iba ang usapan</strong>.</p>\n<h3>Mga Pangunahing Pagkakaiba:</h3>\n<table>\n<tr><th>Pilipinas</th><th>New Zealand / Australia</th></tr>\n<tr><td>Helmet \u2014 minsan optional</td><td>Helmet \u2014 MANDATORY palagi</td></tr>\n<tr><td>Safety boots \u2014 depende</td><td>Safety boots \u2014 kailangan sa lahat ng oras</td></tr>\n<tr><td>Foreman nagdedecide</td><td>IKAW mismo may karapatang tumigil kung unsafe</td></tr>\n<tr><td>\"Bahala na\" mentality</td><td>Every hazard ay iuulat at idodokumento</td></tr>\n<tr><td>Verbal instructions lang</td><td>Lahat ay nasusulat at nairerecord</td></tr>\n</table>\n<h3>Importanteng Batas:</h3>\n<p>Sa New Zealand: <strong>Health and Safety at Work Act 2015 (HSWA)</strong></p>\n<p>Sa Australia: <strong>Work Health and Safety Act 2011 (WHS)</strong></p>\n<p>Ang batas na ito ay nagbibigay sa iyo ng karapatang:</p>\n<ul>\n<li>\u2705 Tumanggi sa unsafe na trabaho \u2014 walang maaaring mag-fire sa iyo para dito</li>\n<li>\u2705 Mag-report ng hazard \u2014 protektado ka ng batas</li>\n<li>\u2705 Lumahok sa safety meetings</li>\n</ul>\n<h3>Tandaan:</h3>\n<blockquote>Sa NZ/AU, ang safety ay hindi lang tungkol sa sarili mo \u2014 ito ay tungkol sa iyong mga katrabaho rin. Responsibilidad ng lahat.</blockquote>"
-        },
-        {
-          "title": "Mga Safety Terms sa English at Tagalog",
-          "type": "lesson",
-          "content": "<h2>\ud83c\uddf5\ud83c\udded Civil Construction Vocabulary \u2014 Tagalog to English</h2>\n<p>Sa construction sites sa NZ/AU, English ang ginagamit. Narito ang mga importanteng salita na kailangan mong malaman:</p>\n<h3>Personal Protective Equipment (PPE) / Kagamitan para sa Proteksyon</h3>\n<table>\n<tr><th>English Term</th><th>Tagalog</th><th>NZ/AU Slang</th></tr>\n<tr><td>Safety helmet / Hard hat</td><td>Helmet / Proteksyon sa ulo</td><td>\"Hard hat\" o \"lid\"</td></tr>\n<tr><td>High-visibility vest</td><td>Makintab na vest</td><td>\"Hi-vis\" o \"fluoro\"</td></tr>\n<tr><td>Safety boots</td><td>Boots na may bakal sa dulo</td><td>\"Steel caps\" o \"boots\"</td></tr>\n<tr><td>Safety glasses</td><td>Salamin para sa mata</td><td>\"Safety specs\" o \"glasses\"</td></tr>\n<tr><td>Gloves</td><td>Guwantes</td><td>\"Gloves\"</td></tr>\n<tr><td>Ear protection</td><td>Proteksyon sa tenga</td><td>\"Earmuffs\" o \"plugs\"</td></tr>\n</table>\n<h3>Equipment / Kagamitan</h3>\n<table>\n<tr><th>English Term</th><th>Tagalog</th><th>NZ/AU Slang</th></tr>\n<tr><td>Excavator</td><td>Malaking pala / earthmover</td><td>\"Digger\"</td></tr>\n<tr><td>Dump truck / Tipper</td><td>Trak na nagtatambak</td><td>\"Tip truck\"</td></tr>\n<tr><td>Compactor / Roller</td><td>Makina para sa pag-compact</td><td>\"Roller\" o \"drum\"</td></tr>\n<tr><td>Loader</td><td>Loader</td><td>\"Bobcat\" (maliliit) o \"loader\"</td></tr>\n<tr><td>Grader</td><td>Grader / pangpatag</td><td>\"Blade\" o \"grader\"</td></tr>\n</table>\n<h3>Safety Terms</h3>\n<table>\n<tr><th>English Term</th><th>Tagalog</th></tr>\n<tr><td>Near miss</td><td>Halos may nasaktan / malapit na aksidente</td></tr>\n<tr><td>Hazard</td><td>Panganib / delikadong bagay</td></tr>\n<tr><td>Pre-start check</td><td>Tseke bago magsimula</td></tr>\n<tr><td>Site induction</td><td>Pagtuturo sa bagong trabahador</td></tr>\n<tr><td>Emergency</td><td>Emergency / pang-emergency</td></tr>\n<tr><td>First aid</td><td>First aid / unang lunas</td></tr>\n<tr><td>Incident report</td><td>Ulat ng aksidente</td></tr>\n</table>"
-        },
-        {
-          "title": "Quiz 1: Safety Basics",
+          "id": "1-q",
+          "title": "Module 1 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "Sa NZ/AU, ano ang tawag sa excavator sa construction site slang?",
+              "q": "What is the penalty for non-compliance with Philippine OSH standards under RA 11058?",
               "options": [
-                "Tractor",
-                "Digger",
-                "Bulldozer",
-                "Backhoe"
+                "PHP 10,000 per day per violation",
+                "PHP 50,000 per violation (flat)",
+                "PHP 100,000 per day per violation",
+                "PHP 500,000 per year"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "RA 11058 imposes PHP 100,000 per day per violation \u2014 a per-day structure that accumulates rapidly for prolonged non-compliance. This is a major deterrent significantly higher than the previous law."
             },
             {
-              "q": "Kung hindi safe ang trabaho mo sa NZ, ano ang karapatang ibinibigay sa iyo ng HSWA?",
+              "q": "Under DO 198-18, how many workers triggers the requirement for a full-time Safety Officer 2 in the Philippines?",
               "options": [
-                "Wala, dapat magtrabaho ka pa rin",
-                "Magreklamo sa boss pagkatapos",
-                "Tumanggi at tumigil sa trabaho",
-                "Umalis sa trabaho nang walang pasabi"
+                "20+ workers",
+                "51+ workers",
+                "100+ workers",
+                "200+ workers"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "51 to 200 workers requires at least one full-time Safety Officer 2 under DO 198-18. Below 51 workers, a part-time Safety Officer 1 is sufficient. Above 500 workers, a full Safety Officer 4 (OSH Practitioner) is required."
             },
             {
-              "q": "Ano ang ibig sabihin ng 'hi-vis' sa NZ/AU construction site?",
+              "q": "Under RA 11058, what does an employer MUST do regarding PPE?",
               "options": [
-                "High visibility vest / makintab na vest",
-                "Safety helmet",
-                "Safety boots",
-                "Safety glasses"
+                "Provide PPE at a subsidised cost deducted from wages",
+                "Provide correct PPE to workers at absolutely no cost",
+                "Provide PPE only for workers in high-risk roles",
+                "Require workers to bring their own PPE from home"
               ],
-              "answer": 0
+              "answer": 1,
+              "explanation": "RA 11058 requires PPE to be provided at NO cost to workers. Wage deductions for PPE are illegal. Employers must also train workers in correct PPE use and ensure it is maintained and replaced when worn or damaged."
             },
             {
-              "q": "Ano ang 'near miss'?",
+              "q": "What type of DOLE inspection is triggered when a worker files a safety complaint?",
               "options": [
-                "Aksidente na naganap na",
-                "Halos may nasaktan pero hindi naganap ang aksidente",
-                "Maling direksyon",
-                "Broken equipment"
+                "Routine inspection \u2014 scheduled within 30 days",
+                "Complaint inspection \u2014 within 24 hours for imminent danger",
+                "Annual audit \u2014 added to next year's program",
+                "Advisory visit only \u2014 no enforcement powers"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Complaint-based DOLE inspections can be triggered by worker complaints and for imminent danger situations must be conducted within 24 hours. Routine inspections are programmed; complaint inspections are reactive and urgent."
             }
           ]
         }
       ]
     },
     {
-      "id": "module-2",
-      "title": "Module 2: Pre-Start Checks at Daily Safety Meeting",
+      "id": 2,
+      "title": "Construction Safety Requirements",
       "lessons": [
         {
-          "title": "Ang Pre-Start Check \u2014 Bakit Mahalaga Ito?",
+          "id": "2-1",
+          "title": "OSH Program, Safety Officers, PPE and Site Induction",
           "type": "lesson",
-          "content": "<h2>Pre-Start Check \u2014 Ang Pinaka-importanteng Gawain sa Umaga</h2>\n<p>Sa NZ/AU, bago mo patakbuhin ang kahit anong makina, <strong>KAILANGAN mong mag-pre-start check</strong>. Hindi ito opsyonal.</p>\n<h3>Bakit?</h3>\n<ul>\n<li>\ud83d\udd27 Para malaman kung may sira ang makina bago pa magsimula ang trabaho</li>\n<li>\ud83d\udccb Legal requirement \u2014 kailangan mong madokumento ito</li>\n<li>\ud83d\udcb0 Nakakatipid ng pera \u2014 mas mura ang mahanap ng problema ng maaga kaysa sa kasalukuyan</li>\n<li>\ud83d\udee1\ufe0f Proteksyon mo \u2014 kung may aksidente at walang pre-start record, ikaw ang mananagot</li>\n</ul>\n<h3>Ang \"Five and Alive\" \u2014 5 Pangunahing Check:</h3>\n<ol>\n<li><strong>Tingnan ang paligid ng makina (walkaround)</strong> \u2014 Adik sa pagtitig sa ilalim, likod, sa lahat ng panig</li>\n<li><strong>Fluid levels</strong> \u2014 Oil, coolant, hydraulic fluid \u2014 tingnan ang dipstick</li>\n<li><strong>Safety devices</strong> \u2014 Horn, reverse alarm, camera, seatbelt \u2014 lahat ay dapat gumagana</li>\n<li><strong>Tyres / tracks</strong> \u2014 May flat? May sira?</li>\n<li><strong>Controls</strong> \u2014 Galaw-galawin nang konti bago lumabas sa yard</li>\n</ol>\n<h3>Ang Pre-Start Form</h3>\n<p>Sa karamihang NZ/AU construction sites, may form kang pipirmahan bawat umaga. Huwag pirmahan kung hindi mo talaga ginawa ang check \u2014 responsibilidad mo iyon kung may mangyari.</p>\n<blockquote>\"Kung hindi mo isinulat, hindi ito nangyari.\" \u2014 Rule #1 sa NZ/AU construction compliance</blockquote>"
+          "content": "## Construction-Specific OSH Requirements in the Philippines\n\nConstruction is one of the Philippines' most hazardous industries. DOLE and RA 11058 / DO 198-18 impose specific requirements on construction projects to protect workers from elevated construction risks.\n\n## Mandatory OSH Program for Construction Projects\n\nEvery construction project must maintain a written OSH Program:\n\n**Required contents of a construction OSH program:**\n1. **Management commitment statement** \u2014 signed by highest on-site officer\n2. **General safety rules** \u2014 applicable to all workers and visitors\n3. **Hazard identification and risk assessment** \u2014 systematic survey of all construction hazards\n4. **Emergency response procedures** \u2014 fire, medical emergency, structural collapse, typhoon\n5. **Accident and incident reporting procedures** \u2014 who, to whom, within what timeframe\n6. **Safety induction program** \u2014 mandatory before any worker commences on site\n7. **PPE program** \u2014 task-specific requirements, provision, maintenance, and enforcement\n8. **Health monitoring** \u2014 for exposure to dust, noise, chemicals, heat\n\n## Construction-Specific Safety Officer Requirements\n\n- **Projects > PHP 5 million**: Dedicated Safety Officer required on site at all times during construction\n- **Projects < PHP 5 million**: Can be covered by contractor's Safety Officer (not exclusively on-site)\n- Safety Officers must hold current OSHC-recognised certification at the appropriate level\n- Safety Officer is responsible for implementing the OSH program, conducting hazard inspections, investigating incidents, and maintaining OSH records\n\n**TESDA Safety Officer Certification Levels:**\n| Level | Training Hours | Application |\n|-------|---------------|-------------|\n| SO1 | 8 hours Basic OSH | Non-high-risk, small establishments |\n| SO2 | 40 hours OSH | Medium establishments \u2014 incident investigation required |\n| SO3 | OSH Practitioner degree+experience+advanced training | Complex projects |\n| SO4 | OSH Professional | Large projects 500+ workers |\n\n## Site Induction Requirements\n\nAll workers and visitors must complete site induction BEFORE commencing work or entering the site:\n\n**Induction content must include:**\n- Site layout: site office, welfare facilities, assembly points, first aid\n- Site-specific hazards: overhead lines, buried services, unstable ground, traffic\n- Emergency procedures: evacuation routes, assembly points, fire extinguisher locations\n- Site rules: PPE requirements, no-go zones, mobile phone policy, speed limits\n- Accident and near-miss reporting: who to tell and how\n- Right to refuse unsafe work\n\n**Induction records:**\n- Attendance sign-in sheet retained as documentary evidence for the project duration\n- Every new site requires a new site-specific induction \u2014 previous site experience does not substitute\n- Must be conducted in a language the worker understands\n\n## PPE for Philippine Civil Construction\n\n| Hazard | Required PPE |\n|--------|-------------|\n| Falling objects | Safety helmet (hard hat) \u2014 Class A or B |\n| Foot injury | Steel-toed safety boots with puncture-resistant midsole |\n| Eye hazards | Safety glasses or face shield |\n| Hand hazards | Task-appropriate gloves (leather, rubber, cut-resistant) |\n| Noise >85 dB(A) | Ear plugs or ear muffs |\n| Falls >2 metres | Full-body harness + lanyard + 5kN anchorage |\n| Respiratory hazards | N95 dust mask minimum or supplied-air respirator |\n| Hi-vis requirements | Reflective vest or hi-vis vest near mobile plant |\n\n## Accident Reporting Requirements (Philippines)\n\n**Reportable accidents and illnesses:**\n- Work-related fatalities\n- Permanent disability injuries\n- Temporary total disability (lost time injuries \u2014 LTI)\n- Diagnosed occupational illnesses\n\n**Reporting timelines:**\n| Event | Notification | Full Report |\n|-------|-------------|-------------|\n| Fatal accident | DOLE regional office within 24 hours | Within 5 working days |\n| Other reportable injury | DOLE prescribed form | Within 30 calendar days |\n| Annual summary | Submitted to DOLE by January 31 of following year | |\n\n## Common Construction Hazards in the Philippines\n\nCivil construction in the Philippines faces standard hazards plus context-specific risks:\n- **Typhoon/weather risk**: Construction must stop when wind speeds endanger workers; structural integrity of temporary works must be verified after severe weather\n- **Heat stress**: Philippine tropical climate creates high heat stress risk \u2014 shade, water, rest breaks, and acclimatisation required\n- **Flood risk**: Excavations and trenches must be pumped and inspected after heavy rain\n- **Electrical hazards**: Underground services and overhead lines \u2014 0800 DIG equivalents in the Philippines include contacting MERALCO or utility companies before excavation\n\n## Key Takeaways\n\n- OSH program: mandatory for all construction projects \u2014 comprehensive at 50+ workers\n- Projects > PHP 5M: dedicated on-site Safety Officer required at all times\n- Site induction: before work or site entry \u2014 documented, in worker's language, site-specific\n- PPE: employer provides at no cost \u2014 task-specific types \u2014 supervised enforcement\n- Fatal accidents: notify DOLE within 24 hours \u2014 full report within 5 working days"
         },
         {
-          "title": "Ang Daily Safety Meeting (Toolbox Talk)",
-          "type": "lesson",
-          "content": "<h2>Ang Daily Safety Meeting sa NZ/AU</h2>\n<p>Sa bawat umaga sa NZ/AU construction site, may <strong>5-minutong safety meeting</strong> na tinatawag na:</p>\n<ul>\n<li>\ud83c\uddf3\ud83c\uddff NZ: \"Pre-start meeting\" o \"toolbox talk\"</li>\n<li>\ud83c\udde6\ud83c\uddfa AU: \"Toolbox talk\" o \"tailgate meeting\"</li>\n</ul>\n<h3>Ano ang napag-uusapan?</h3>\n<ol>\n<li>\ud83d\udcc5 Anong trabaho ngayon at saan?</li>\n<li>\u26a0\ufe0f Ano ang mga panganib ngayon? (hindi generic \u2014 specific sa araw na iyon)</li>\n<li>\ud83d\ude9c Ano ang estado ng mga makina? May tagged out ba?</li>\n<li>\ud83d\udcac May gustong ibahagi ang sinuman?</li>\n<li>\ud83d\udccb I-record ang lahat \u2014 pangalan ng dumalo, petsa, mga napag-usapan</li>\n</ol>\n<h3>Sa Pilipinas vs NZ/AU</h3>\n<p>Sa Pilipinas, baka basta-basta lang ito o hindi ginagawa. Sa NZ/AU, ito ay <strong>legal requirement</strong>. Ang records ay kailangang i-keep at maaaring i-audit ng WorkSafe anumang oras.</p>\n<h3>Ang Ganda ng Sistemang Ito</h3>\n<p>Ang Civil App ay may <strong>Digital Daily Safety Record</strong> tool na tumutulong sa mga company na i-record ang lahat ng ito nang madali. Ito ang pinagtatrabahuhan namin para sa mga Filipino workers din.</p>"
-        },
-        {
-          "title": "Quiz 2: Pre-Start at Daily Meetings",
+          "id": "2-q",
+          "title": "Module 2 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "Ano ang ibang pangalan ng 'daily safety meeting' sa NZ?",
+              "q": "A new construction worker arrives at a large site in Manila. Before they can start work, what must happen?",
               "options": [
-                "Morning prayer",
-                "Pre-start meeting o toolbox talk",
-                "Team huddle",
-                "Boss meeting"
+                "They can start immediately if they hold a TESDA NC",
+                "They must complete a site-specific safety induction documented with a sign-in record",
+                "They must wait 3 days for an OSH program review",
+                "The Safety Officer must accompany them for one full week"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "All workers must complete site-specific induction BEFORE commencing work \u2014 even if they hold TESDA NCs or have experience on other sites. The induction must be documented with an attendance sign-in sheet retained for the project duration."
             },
             {
-              "q": "Ilang minuto ang karaniwang tumatagal ang pre-start meeting?",
+              "q": "A Philippine construction project is valued at PHP 8 million. What Safety Officer arrangement is required?",
               "options": [
-                "30 minuto",
-                "1 oras",
-                "5 minuto",
-                "Depende sa mood ng foreman"
+                "A part-time SO1 is sufficient",
+                "A dedicated on-site Safety Officer is required at all times during construction",
+                "No Safety Officer needed if the project manager holds a basic OSH certificate",
+                "Safety Officer only needed during high-risk activities"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Projects valued above PHP 5 million require a dedicated Safety Officer on site at all times during construction. The PHP 8 million project clearly exceeds this threshold and requires full-time on-site coverage."
             },
             {
-              "q": "Ano ang 'Five and Alive' sa pre-start check?",
+              "q": "A construction worker in the Philippines sustains a serious eye injury requiring hospital treatment but is not permanently disabled. When must this be reported to DOLE?",
               "options": [
-                "5 na tao kailangan sa site",
-                "5 pangunahing checks sa makina bago patakbuhin",
-                "5 na oras ng trabaho",
-                "5 na panuntunan sa kaligtasan"
+                "Within 24 hours \u2014 same as fatal accidents",
+                "Within 5 working days",
+                "Within 30 calendar days using the DOLE prescribed form",
+                "Only in the annual summary report"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Non-fatal lost-time injuries (temporary total disability) must be reported to DOLE using the prescribed form within 30 calendar days. Only fatal accidents trigger the 24-hour initial notification requirement."
+            },
+            {
+              "q": "It is 35\u00b0C and humid on a Philippine construction site. Workers are showing signs of fatigue. What does Philippine OSH require the employer to address?",
+              "options": [
+                "Increase work pace to finish faster",
+                "Provide shade, drinking water, rest breaks, and acclimatisation management \u2014 heat stress is a recognised OSH hazard",
+                "Issue ice vests only to supervisors",
+                "This is a normal working condition and requires no action"
+              ],
+              "answer": 1,
+              "explanation": "Heat stress is a recognised OSH hazard under Philippine law. Employers must assess and control heat stress risks \u2014 providing shade, cool drinking water, rest breaks, and acclimatisation periods for new workers especially."
             }
           ]
         }
       ]
     },
     {
-      "id": "module-3",
-      "title": "Module 3: Trabaho sa NZ/AU \u2014 Ano ang Inaasahan sa Iyo",
+      "id": 3,
+      "title": "OFW Opportunities",
       "lessons": [
         {
-          "title": "Kultura ng Trabaho sa NZ/AU Construction Sites",
+          "id": "3-1",
+          "title": "POEA Process, OWWA and Skills Recognition for NZ/AU Pathways",
           "type": "lesson",
-          "content": "<h2>Kultura ng Trabaho sa NZ/AU Construction Sites</h2>\n<p>Malaki ang pagkakaiba ng kultura ng trabaho sa NZ/AU kumpara sa Pilipinas. Narito ang mga dapat mong malaman:</p>\n<h3>1. Lahat ay Pantay-Pantay sa Safety</h3>\n<p>Sa NZ/AU, kahit ang pinakabatang laborer ay maaaring tumigil sa trabaho ng isang experienced foreman kung hindi ito safe. <strong>Walang hierarchy pagdating sa safety.</strong></p>\n<h3>2. Direktang Komunikasyon</h3>\n<p>Kausap mo direkta ang foreman o supervisor. Hindi kailangang magraan-raan. Kung may concern ka, sabihin mo agad.</p>\n<h3>3. Smoko \u2014 Ang Break Culture</h3>\n<p>Sa NZ/AU, tinatawag na <strong>\"smoko\"</strong> ang break time (kahit hindi ka naninigarilyo!). Karaniwan ay:</p>\n<ul>\n<li>Umaga: 10-15 minuto break (mga 10am)</li>\n<li>Tanghali: 30 minuto lunch</li>\n<li>Hapon: 10 minuto break (mga 3pm)</li>\n</ul>\n<h3>4. Documentation is Everything</h3>\n<p>Sa NZ/AU, lahat ay nasusulat. Pre-start checks, near misses, incidents, daily records \u2014 lahat may papel. Huwag matakot dito \u2014 ito ay para protektahan ka rin.</p>\n<h3>5. Ang \"Tradie\" Culture</h3>\n<p>Sa NZ/AU, ang mga skilled workers ay tinatawag na <strong>\"tradies\"</strong>. Respected sila at mabuti ang sweldo. Bilang civil construction worker, ikaw ay isang tradie.</p>\n<h3>6. Work-Life Balance</h3>\n<p>Sa NZ/AU, karaniwan ang 40 oras na trabaho sa isang linggo. Ang overtime ay may dagdag na bayad (\"time and a half\" \u2014 1.5x ang normal na rate).</p>"
+          "content": "## OFW \u2014 The Filipino Overseas Construction Worker\n\nApproximately 1.8 million Overseas Filipino Workers (OFWs) are deployed annually, with construction among the top sectors. Countries including New Zealand, Australia, Canada, Qatar, and Singapore regularly hire Filipino civil construction workers. Understanding the OFW deployment system \u2014 POEA/DMW, OWWA, and skills recognition \u2014 is essential for Filipino workers seeking overseas employment.\n\n## POEA/DMW \u2014 Regulating Overseas Employment\n\nThe Philippine Overseas Employment Administration (POEA) functions have been partially absorbed into the Department of Migrant Workers (DMW) from 2022:\n\n**Key functions:**\n- Accredits foreign employers and overseas recruitment agencies (ORAs)\n- Registers employment contracts and enforces minimum standards\n- Maintains lists of banned/suspended foreign employers and illegal recruiters\n- Issues the Overseas Employment Certificate (OEC) \u2014 the critical exit clearance\n- Provides Pre-Departure Orientation Seminars (PDOS) \u2014 mandatory before departure\n\n**OFW Deployment Process \u2014 Step by Step:**\n1. Foreign employer posts job order \u2192 Accredited recruitment agency (ORA) in the Philippines\n2. Worker applies \u2192 skills interview and testing\n3. Medical examination at POEA-accredited clinic\n4. TESDA skills assessment (NC II or higher required for most trade positions)\n5. Employment contract review and registration with POEA/DMW\n6. PDOS \u2014 Pre-Departure Orientation Seminar (mandatory)\n7. OEC (Overseas Employment Certificate) issued\n8. Departure\n\n## OWWA \u2014 Overseas Workers Welfare Administration\n\nOWWA provides welfare services and social protection for OFWs:\n\n| OWWA Benefit | Description |\n|-------------|-------------|\n| Death and disability compensation | Work-related death or disability overseas |\n| Repatriation assistance | Emergency repatriation when employer fails to provide |\n| Educational assistance | Scholarship programs for OFW dependents |\n| Livelihood/reintegration loans | Financial assistance on return to the Philippines |\n| Legal assistance | For OFWs in legal distress overseas |\n| Skills upgrading | Training programs through TESDA partnerships |\n\n**OWWA membership:**\n- USD 25 per contract period (typically 2 years)\n- Paid by employer (land-based) or at POEA/DMW processing\n- Must be ACTIVE to access benefits \u2014 lapsed membership = no coverage\n- Renew for each new contract deployment\n\n## TESDA Skills Certification for OFWs\n\nTechnical Education and Skills Development Authority (TESDA) National Certificates:\n- NC I to NC IV for construction trades\n- Key construction NCs: masonry, plumbing, electrical installation, scaffolding, welding, heavy equipment operation\n- **NC II minimum** typically required for overseas deployment in trade positions\n- NCs may receive partial recognition by receiving countries\n\n## New Zealand \u2014 Accredited Employer Work Visa (AEWV)\n\nThe primary pathway for Filipino construction workers to New Zealand:\n- **Employer must be Immigration NZ accredited** \u2014 verify accreditation before engaging a recruiter\n- Job check required \u2014 role must be genuine and meet NZ median wage or sector minimum\n- Visa duration: up to 5 years depending on role\n- **Skills recognition**: NZQA assesses overseas qualifications \u2014 TESDA NCs may get partial credit but practical competency assessments by NZ employers are typically also required\n- Key NZ unit standards for civil construction: US 17285 (excavator), compaction, CoPTTM traffic management\n\n## Australia \u2014 Construction Visa Pathways\n\n| Visa | Type | Notes |\n|------|------|-------|\n| Subclass 482 (TSS) | Employer-sponsored temporary | Skills assessment required \u2014 up to 4 years |\n| Subclass 186 (ENS) | Employer-sponsored permanent | Permanent residency pathway \u2014 TRA assessment |\n| PALM scheme | Temporary \u2014 Pacific focus | Limited application for Filipino workers |\n\n**TRA (Trades Recognition Australia)** assesses construction trade qualifications for AU visas:\n- TESDA NCs assessed against Australian Qualifications Framework (AQF)\n- Typically 3\u20135 years relevant work experience required\n- Skills gap training may be required before full recognition\n\n## Key Takeaways\n\n- OFW process: accredited agency \u2192 medical \u2192 TESDA NC \u2192 contract registration \u2192 PDOS \u2192 OEC \u2192 depart\n- OEC: exit clearance proving legal deployment \u2014 required for each new contract\n- OWWA: USD 25/contract \u2014 death, disability, repatriation, education, legal \u2014 must be active\n- NZ AEWV: employer must be Immigration NZ accredited \u2014 practical competency assessment likely\n- AU: TRA skills assessment \u2014 Subclass 482 (temp) or 186 (permanent) \u2014 3\u20135 years experience"
         },
         {
-          "title": "Mga Suweldo at Oportunidad sa NZ/AU",
-          "type": "lesson",
-          "content": "<h2>\ud83d\udcb0 Suweldo sa Civil Construction: Pilipinas vs NZ/AU</h2>\n<p>Ito ang isa sa mga pinaka-importanteng dahilan kung bakit maraming Filipino workers ang naghahanap ng trabaho sa NZ/AU:</p>\n<h3>Kumpara ng Suweldo:</h3>\n<table>\n<tr><th>Trabaho</th><th>Pilipinas (bawat buwan)</th><th>NZ (bawat buwan)</th><th>AU (bawat buwan)</th></tr>\n<tr><td>General Laborer</td><td>PHP 15,000\u201325,000</td><td>NZD $4,000\u20135,500</td><td>AUD $4,500\u20136,000</td></tr>\n<tr><td>Excavator Operator</td><td>PHP 25,000\u201340,000</td><td>NZD $5,500\u20138,000</td><td>AUD $6,000\u20139,000</td></tr>\n<tr><td>Foreman / Supervisor</td><td>PHP 35,000\u201360,000</td><td>NZD $7,000\u201310,000+</td><td>AUD $8,000\u201312,000+</td></tr>\n</table>\n<p><em>Note: NZD 1 \u2248 PHP 34 | AUD 1 \u2248 PHP 36 (approximate, check current rates)</em></p>\n<h3>Mga Benepisyo sa NZ/AU</h3>\n<ul>\n<li>\u2705 ACC (NZ) \u2014 libre na insurance kung magkaaksidente sa trabaho</li>\n<li>\u2705 KiwiSaver (NZ) \u2014 retirement savings na may dagdag mula sa employer</li>\n<li>\u2705 Paid annual leave \u2014 4 linggo bawat taon</li>\n<li>\u2705 Sick leave \u2014 10 araw bawat taon</li>\n<li>\u2705 Public holidays \u2014 bayad kahit hindi nagtatrabaho</li>\n</ul>\n<h3>Mga Shortage sa NZ/AU Civil Sector (2026)</h3>\n<p>Aktibong naghahanap ang NZ/AU ng:</p>\n<ul>\n<li>\ud83d\ude9c Excavator operators</li>\n<li>\ud83d\udee3\ufe0f Road workers / pavement workers</li>\n<li>\ud83c\udfd7\ufe0f Concreters</li>\n<li>\ud83d\udd27 Civil construction laborers</li>\n<li>\ud83d\udccb Site supervisors with safety training</li>\n</ul>\n<h3>Ang Iyong Susunod na Hakbang</h3>\n<p>Sa susunod na module, matututunan mo kung paano mag-apply at kung anong mga dokumento ang kailangan mo.</p>"
-        },
-        {
-          "title": "Mga Certification na Kailangan Mo",
-          "type": "lesson",
-          "content": "<h2>\ud83d\udcc4 Mga Dokumento at Certification para sa Trabaho sa NZ/AU</h2>\n<h3>Para sa New Zealand:</h3>\n<ol>\n<li><strong>Work Visa</strong> \u2014 Accredited Employer Work Visa (AEWV). Kailangan na may employer na mag-sponsor sa iyo.</li>\n<li><strong>Relevant Skills</strong> \u2014 Proof ng karanasan (CV, reference letters)</li>\n<li><strong>English Language</strong> \u2014 Basic English communication required</li>\n<li><strong>Health Check</strong> \u2014 Medical clearance para sa visa</li>\n<li><strong>Police Clearance</strong> \u2014 NBI clearance</li>\n</ol>\n<h3>Para sa Australia:</h3>\n<ol>\n<li><strong>Skilled Worker Visa (subclass 482)</strong> \u2014 Employer sponsored</li>\n<li><strong>White Card</strong> \u2014 General Construction Induction (kaya mo makuha online sa AU)</li>\n<li><strong>Relevant Trade Certificate</strong> \u2014 TESDA o equivalency assessment</li>\n</ol>\n<h3>Makakatulong ang Civil App Certificate Sa:</h3>\n<ul>\n<li>\u2705 Pagpapakita ng iyong kaalaman sa international safety standards</li>\n<li>\u2705 Pagiging mas attractive na kandidato sa NZ/AU employers</li>\n<li>\u2705 Proof ng continuous professional development</li>\n</ul>\n<h3>TESDA Qualifications na Kinikilala</h3>\n<p>Kung mayroon kang TESDA NC II o NC III sa construction, ito ay isang malaking advantage. Ang Civil App certificate ay dagdag na patunay ng iyong commitment sa safety.</p>"
-        },
-        {
-          "title": "Final Quiz + CV Upload",
+          "id": "3-q",
+          "title": "Module 3 Quiz",
           "type": "quiz",
           "questions": [
             {
-              "q": "Ano ang tawag sa NZ work visa para sa mga skilled workers na may employer sponsor?",
+              "q": "What is the OEC and when is a new one required?",
               "options": [
-                "Tourist Visa",
-                "Accredited Employer Work Visa (AEWV)",
-                "Student Visa",
-                "Working Holiday Visa"
+                "OWWA membership card \u2014 renewed annually",
+                "Exit clearance proving legal OFW deployment \u2014 a new OEC is required for each new employment contract",
+                "TESDA certification for overseas trade positions \u2014 valid for 5 years",
+                "Immigration NZ accreditation document"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The OEC (Overseas Employment Certificate) is the exit clearance proving legal deployment through POEA/DMW. A new OEC is required for each new employment contract \u2014 it is not transferable between contracts or employers."
             },
             {
-              "q": "Sa NZ/AU, ano ang 'White Card'?",
+              "q": "An OFW's OWWA membership lapsed 3 months ago while working in New Zealand. They suffer a serious work injury. Are they covered?",
               "options": [
-                "Loyalty card",
-                "General Construction Induction certification",
-                "Government ID",
-                "Work permit"
+                "Yes \u2014 OWWA covers all Filipino workers overseas regardless of membership status",
+                "No \u2014 lapsed membership means no OWWA benefit coverage for the injury",
+                "Yes \u2014 there is a 6-month grace period after lapse",
+                "Partial \u2014 only repatriation is covered during the grace period"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Lapsed OWWA membership means NO benefit coverage. OWWA benefits require active membership \u2014 USD 25 per contract period must be paid. Workers must ensure membership is renewed for each new contract."
             },
             {
-              "q": "Ayon sa Civil App founder, ano ang pinakamagandang filosofiya sa pagsasanay ng mga manggagawa?",
+              "q": "For the New Zealand Accredited Employer Work Visa, what must the NZ employer demonstrate?",
               "options": [
-                "Train para hindi mapalitan",
-                "Train to replace yourself, then train them to replace themselves",
-                "Train para sa mas mataas na suweldo",
-                "Train para hindi magkamali"
+                "Only that they have been operating for more than 5 years",
+                "That they are accredited by Immigration NZ and that the job is genuine and meets minimum pay requirements",
+                "Only that they sponsor a Filipino worker from a POEA-registered agency",
+                "That the role cannot be filled by any worker worldwide"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "For the AEWV, the employer must be accredited by Immigration NZ AND pass a 'job check' confirming the role is genuine and meets NZ wage requirements (median wage or sector minimum). Filipino workers should verify employer accreditation status before engaging."
+            },
+            {
+              "q": "Which Australian body assesses construction trade qualifications for Australian immigration?",
+              "options": [
+                "NZQA",
+                "TESDA",
+                "TRA \u2014 Trades Recognition Australia",
+                "Safe Work Australia"
+              ],
+              "answer": 2,
+              "explanation": "TRA (Trades Recognition Australia) is the skills assessment authority for construction trade qualifications for Australian visa purposes. TESDA NCs are assessed against the Australian Qualifications Framework (AQF), typically requiring 3\u20135 years of relevant work experience."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Work Abroad Preparation",
+      "lessons": [
+        {
+          "id": "4-1",
+          "title": "Documentation, Safety Culture Differences and Communication",
+          "type": "lesson",
+          "content": "## Preparing to Work in Civil Construction Abroad\n\nThe transition from Philippine construction sites to worksites in New Zealand, Australia, Canada, or the Middle East requires more than technical skills. Filipino OFWs must prepare correct documentation, adapt to different safety cultures, and communicate effectively in English-speaking and multicultural workplaces.\n\n## Essential Documents Checklist\n\n| Document | Purpose | Where Obtained |\n|----------|---------|----------------|\n| Philippine Passport | Travel \u2014 valid 6+ months beyond visa expiry | DFA |\n| Work Visa | Right to work in destination country | Employer/Embassy |\n| OEC | Exit clearance \u2014 proves legal deployment | POEA/DMW |\n| TESDA National Certificate | Proof of trade qualification | TESDA |\n| Medical Certificate | Fitness for overseas work | POEA-accredited clinic |\n| OWWA Membership | Welfare benefit coverage | OWWA office |\n| Trade/Operator Licence | Country-specific certifications (NZ: unit standards; AU: HRW licence) | Employer/regulator |\n\n**Critical**: Bring ORIGINAL documents \u2014 photocopies are insufficient for immigration, employer verification, and skills recognition processes.\n\n## Safety Culture Differences \u2014 NZ and Australia vs Philippines\n\nFilipino workers joining NZ and Australian construction sites frequently encounter a significantly different safety culture. Understanding these differences prevents misunderstandings and helps workers integrate quickly and safely.\n\n| Safety Aspect | Philippine Construction (typical) | NZ/AU Construction |\n|--------------|----------------------------------|---------------------|\n| Right to refuse | Legally present but culturally rare | Strongly expected \u2014 workers routinely exercise it |\n| Near-miss reporting | Often under-reported | Actively encouraged \u2014 no-blame culture |\n| PPE compliance | Variable \u2014 enforcement inconsistent | Strict \u2014 non-compliance = site exclusion |\n| Safety documentation | Less emphasis | SWMS, pre-start records, permits \u2014 mandatory |\n| Supervisor relationship | Strong deference \u2014 rarely question | Questions and safety observations welcomed |\n| Blame after incidents | Often focuses on individual fault | Root cause / system failure focus |\n\n## Speaking Up for Safety \u2014 A Critical Workplace Skill\n\nIn NZ and AU construction, all workers are expected to identify and report hazards. This can be challenging for workers from high-deference cultures.\n\n**How to speak up effectively:**\n- Use the site's hazard reporting system \u2014 hazard cards, digital apps, or direct verbal report\n- Frame as an observation: *'I noticed the trench wall looks unstable \u2014 should we check it?'*\n- Use your right to refuse: *'I'm not comfortable entering without shoring \u2014 can we shore it first?'*\n- Remember: supervisors WANT hazards reported \u2014 it protects them and the company too\n- Near-miss reporting is rewarded \u2014 it provides free lessons before someone is hurt\n\n## Essential English Communication for Civil Construction\n\n**Key situations requiring clear communication:**\n- **Pre-start/toolbox talks**: Understand briefings \u2014 ask questions if anything is unclear\n- **SWMS reading**: Read and sign the Safe Work Method Statement \u2014 confirm you understand it\n- **Hazard reports**: Describe location precisely \u2014 directions (north/south), distances, landmarks\n- **Emergency communication**: Know the site emergency number, '111' (NZ), '000' (AU)\n- **Radio protocol**: Confirm you understand the site's radio communication conventions\n\n**Key terms every Filipino OFW must know on NZ/AU sites:**\n| Term | Meaning |\n|------|---------|\n| SWMS | Safe Work Method Statement \u2014 required for high-risk construction work |\n| Pre-start | Daily safety briefing before work begins |\n| Exclusion zone | Area workers must stay clear of \u2014 plant, overhead hazards |\n| STMS | Suitably Trained and Mobile Supervisor (NZ traffic management) |\n| LTI | Lost Time Injury \u2014 reported injury causing missed work days |\n| LTIFR | Lost Time Injury Frequency Rate \u2014 safety performance metric |\n\n## First Steps on Arrival\n\n**Administrative actions within the first 2 weeks:**\n1. Register with the Philippine Embassy or Consulate in the destination country\n2. Obtain an IRD number (NZ) or Tax File Number (AU) \u2014 required for payroll\n3. Open a local bank account \u2014 required for wage payment\n4. Confirm written accommodation arrangements \u2014 verbal promises are not sufficient\n5. Verify employer accreditation and contract terms match what was agreed in Manila\n\nIf any terms have changed from the signed contract in the Philippines, contact OWWA, the Philippine Embassy, or the DMW immediately \u2014 contract substitution is illegal.\n\n## Key Takeaways\n\n- Documents: originals required \u2014 passport, OEC, TESDA NC, visa, medical cert, OWWA membership\n- Safety culture: NZ/AU workplaces expect speaking up, near-miss reporting, PPE compliance, and documentation\n- Emergency numbers: 111 (NZ), 000 (AU) \u2014 know before arriving on site\n- First 2 weeks: register with Embassy, get IRD/TFN, open bank account, verify contract terms\n- Contract substitution is illegal \u2014 report changes to DMW or Philippine Embassy immediately"
+        },
+        {
+          "id": "4-q",
+          "title": "Module 4 Quiz",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "A Filipino OFW arrives in New Zealand to start civil construction work. What is the emergency telephone number they must know?",
+              "options": [
+                "000",
+                "911",
+                "117",
+                "111"
+              ],
+              "answer": 3,
+              "explanation": "The New Zealand emergency number is 111 (fire, police, ambulance). Australia uses 000. Filipino OFWs must know the correct emergency number for their destination country BEFORE their first day on site \u2014 it cannot be looked up during a real emergency."
+            },
+            {
+              "q": "A Filipino worker on a NZ site sees a hazard but hesitates to report it to avoid bothering the supervisor. How does NZ safety culture view this situation?",
+              "options": [
+                "Correct \u2014 minor hazards should be handled independently without disturbing supervisors",
+                "Incorrect \u2014 NZ/AU workplaces actively expect and welcome hazard reports from all workers, including new and migrant workers",
+                "Correct \u2014 only Safety Officers should report hazards",
+                "Incorrect \u2014 hazards should be reported to the Philippine Embassy, not the supervisor"
+              ],
+              "answer": 1,
+              "explanation": "NZ and AU safety culture strongly expects ALL workers to report hazards \u2014 including new and migrant workers. Supervisors want hazard reports because they protect the entire team and the company. Hesitating to report a hazard is a safety risk in these environments."
+            },
+            {
+              "q": "An OFW arrives in Australia and discovers the employment contract has different terms from the one signed in Manila. What should they do?",
+              "options": [
+                "Accept the new terms \u2014 contracts are often adjusted during deployment",
+                "Sign the new contract under protest and request a transfer",
+                "Contact OWWA, the Philippine Embassy, or the DMW immediately \u2014 contract substitution is illegal",
+                "Only raise it after the first pay period"
+              ],
+              "answer": 2,
+              "explanation": "Contract substitution \u2014 changing the terms of the employment contract after the worker has arrived \u2014 is illegal under Philippine OFW law. Workers must immediately contact OWWA, the Philippine Embassy, or the DMW. Do not sign the substituted contract."
+            },
+            {
+              "q": "Why must Filipino OFWs register with the Philippine Embassy or Consulate upon arrival in the destination country?",
+              "options": [
+                "Registration is optional \u2014 only required if seeking permanent residency",
+                "To access embassy welfare services, legal assistance, and emergency repatriation if needed while working abroad",
+                "To obtain a local bank account",
+                "Registration is only required for workers in the Middle East"
+              ],
+              "answer": 1,
+              "explanation": "Embassy registration enables OFWs to access embassy welfare services, legal assistance, and emergency repatriation assistance. In a crisis, registered OFWs are easier to locate and assist. It is strongly recommended for all OFWs regardless of destination country."
             }
           ]
         }

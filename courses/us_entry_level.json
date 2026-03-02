@@ -13,63 +13,73 @@
   "modules": [
     {
       "id": 1,
-      "title": "OSHA and US Construction Law",
-      "duration": "40 min",
+      "title": "OSHA Overview",
       "lessons": [
         {
-          "title": "The OSH Act and OSHA Overview",
+          "id": "1-1",
+          "title": "OSHA 29 CFR 1926 \u2014 Inspections, Violations and Worker Rights",
           "type": "lesson",
-          "content": "**The Occupational Safety and Health Act of 1970 (OSH Act)**\nThe OSH Act created OSHA (Occupational Safety and Health Administration) and established the federal right to a safe workplace.\n\n**Key Provision \u2014 General Duty Clause (Section 5(a)(1)):**\nEvery employer must provide a workplace free from recognised hazards that are causing or likely to cause death or serious physical harm. This applies even when no specific OSHA standard exists.\n\n**Worker Rights Under OSHA:**\n- Right to a safe and healthful workplace\n- Right to know about workplace hazards (Hazard Communication \u2014 HazCom)\n- Right to request an OSHA inspection\n- Right to be protected from retaliation for reporting hazards\n- Right to see OSHA 300 injury log\n\n**Key Construction Standard:**\n29 CFR Part 1926 \u2014 Safety and Health Regulations for Construction\nThis is the primary OSHA standard for all civil and building construction work in the USA.\n\n**State Plans:**\n26 states run their own OSHA-approved State Plans (e.g., Cal/OSHA in California). State plans must be at least as effective as federal OSHA. The other 24 states use federal OSHA directly."
+          "content": "## OSHA and the Construction Industry\n\nThe Occupational Safety and Health Administration (OSHA) is the primary federal agency responsible for ensuring safe and healthful working conditions in the United States. For construction, the governing standard is **29 CFR Part 1926** \u2014 Safety and Health Regulations for Construction.\n\n## OSHA's Authority and Purpose\n\nOSHA was established by the **Occupational Safety and Health Act of 1970** (OSH Act). Its mandate:\n- Set and enforce workplace safety and health standards\n- Provide training, outreach, education, and compliance assistance\n- Work with states to develop their own OSHA plans\n\n**Coverage:** The OSH Act covers most private sector employers and workers in all 50 states. Federal, state, and local government workers are covered under separate programs.\n\n## 29 CFR 1926 \u2014 Construction Standards Structure\n\n| Subpart | Topic |\n|---------|-------|\n| Subpart C | General Safety and Health Provisions |\n| Subpart E | Personal Protective and Life Saving Equipment |\n| Subpart K | Electrical |\n| Subpart L | Scaffolds |\n| Subpart M | Fall Protection |\n| Subpart P | Excavations |\n| Subpart Q | Concrete and Masonry |\n| Subpart W | Rollover Protective Structures (ROPS) |\n| Subpart CC | Cranes and Derricks |\n\n## OSHA Inspections\n\nOSHA compliance officers (inspectors) conduct workplace inspections:\n\n**Types of inspections:**\n- **Imminent danger**: Highest priority \u2014 conditions that could cause death or serious harm immediately\n- **Fatality/catastrophe**: Following a work-related death or hospitalization of 3+ workers\n- **Complaint**: Worker or third-party complaint filed with OSHA\n- **Referral**: From another agency or media report\n- **Follow-up**: Verify previous violation was corrected\n- **Planned/programmed**: Based on injury/illness rate targeting high-hazard industries\n\n**Inspection process:**\n1. OSHA inspector arrives \u2014 presents credentials\n2. Opening conference \u2014 explains scope of inspection\n3. Walkthrough inspection \u2014 photographs, measurements, interviews\n4. Closing conference \u2014 preliminary findings discussed\n5. Citations issued (if violations found) within 6 months\n\n## OSHA Violations and Penalties\n\n| Violation Type | Description | Penalty (2024) |\n|---------------|-------------|----------------|\n| **Other-than-serious** | Violation with no direct death/serious injury risk | Up to $16,131 per violation |\n| **Serious** | Substantial probability of death or serious injury | Up to $16,131 per violation |\n| **Willful** | Employer knew about hazard and did not fix it | $11,524\u2013$161,323 per violation |\n| **Repeat** | Same violation found within 5 years | Up to $161,323 per violation |\n| **Failure to abate** | Not fixing a cited violation | Up to $16,131 per day beyond deadline |\n\n## Worker Rights Under OSHA\n\nWorkers have the following rights:\n- **Right to a safe workplace**: OSHA protection from known hazards\n- **Right to information**: Access to OSHA standards, injury/illness records (OSHA 300 logs), SDS\n- **Right to training**: In a language and vocabulary workers understand\n- **Right to file a complaint**: Confidential complaint to OSHA without employer retaliation\n- **Right to participate in inspections**: Accompany the OSHA inspector\n- **Anti-retaliation protection**: Section 11(c) of OSH Act prohibits employer retaliation for exercising safety rights\n\n## State OSHA Plans\n\n25 states and territories operate their own OSHA-approved state plans:\n- Must be at least as effective as federal OSHA\n- Cover both private and public sector workers (federal OSHA does not cover public sector)\n- Examples: Cal/OSHA (California), WISHA (Washington State), Michigan OSHA\n\n## Key Takeaways\n\n- OSHA: established 1970 OSH Act \u2014 29 CFR 1926 governs construction\n- Inspections: imminent danger highest priority; planned inspections target high-hazard industries\n- Willful violations: up to $161,323 per violation \u2014 employer knew about hazard and failed to act\n- Workers: right to information, complaint, inspection participation \u2014 anti-retaliation protected\n- 25 states have their own OSHA plans \u2014 must be at least as effective as federal OSHA"
         },
         {
-          "title": "OSHA 10 and OSHA 30 Training",
-          "type": "lesson",
-          "content": "**OSHA Outreach Training \u2014 The US Industry Standard**\n\nWhile not always legally required, OSHA 10 and OSHA 30 training is the widely recognised standard for construction workers in the USA.\n\n**OSHA 10-Hour (Construction):**\n- 10 hours of safety training covering OSHA standards\n- Designed for entry-level workers\n- Covers: Fall protection, electrical, struck-by, caught-in hazards (the Fatal Four)\n- Card issued: OSHA 10 card (sometimes called DOL card)\n- No expiry \u2014 but some states/projects require renewal\n\n**OSHA 30-Hour (Construction):**\n- 30 hours \u2014 designed for supervisors and safety personnel\n- Deeper coverage of OSHA standards, rights and responsibilities\n\n**The Fatal Four \u2014 Leading Causes of Construction Deaths (OSHA):**\n1. Falls (39% of construction deaths)\n2. Struck-by objects (8%)\n3. Electrocution (8%)\n4. Caught-in/between (1%)\n\n**OSHA Recordkeeping \u2014 300 Log:**\nEmployers with 10+ workers must maintain OSHA Form 300 (injury log), 300A (summary), and 301 (incident report)."
-        },
-        {
-          "title": "Quiz",
+          "id": "1-q",
+          "title": "Module 1 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "The General Duty Clause requires employers to:",
+              "q": "What is the primary OSHA standard governing construction safety in the United States?",
               "options": [
-                "Follow only written OSHA standards",
-                "Provide a workplace free from recognised hazards",
-                "Report all injuries to OSHA within 24 hours",
-                "Hire a dedicated safety officer"
+                "29 CFR 1910 (General Industry)",
+                "29 CFR 1926 (Construction)",
+                "29 CFR 1904 (Recordkeeping)",
+                "29 CFR 1915 (Shipyards)"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "29 CFR Part 1926 is the Safety and Health Regulations for Construction \u2014 the primary OSHA standard for all construction work. 29 CFR 1910 applies to general industry workplaces."
             },
             {
-              "q": "The primary OSHA construction standard is:",
+              "q": "A worker files a confidential safety complaint with OSHA. What protections does the worker have?",
               "options": [
-                "29 CFR Part 1910",
-                "29 CFR Part 1926",
-                "29 CFR Part 1904",
-                "29 CFR Part 1903"
+                "No specific protections \u2014 the employer may take disciplinary action",
+                "Section 11(c) of the OSH Act prohibits employer retaliation for exercising OSHA rights",
+                "Protection only if the complaint results in a citation",
+                "Protection only for union members"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Section 11(c) of the OSH Act prohibits employer retaliation against workers for filing safety complaints, participating in inspections, or exercising any OSHA rights. Retaliation complaints can be filed with OSHA."
             },
             {
-              "q": "Which is the number one cause of construction deaths in the USA?",
+              "q": "An employer is cited for a willful OSHA violation \u2014 the employer knew about the hazard and failed to correct it. What is the maximum penalty per violation?",
               "options": [
-                "Electrocution",
-                "Caught-in/between",
-                "Struck-by",
-                "Falls"
+                "$16,131",
+                "$50,000",
+                "$161,323",
+                "$500,000"
               ],
-              "answer": 3
+              "answer": 2,
+              "explanation": "Willful violations carry penalties of $11,524\u2013$161,323 per violation (2024 figures). Willful = employer knew about the hazard and intentionally failed to correct it. These are the highest OSHA civil penalties."
             },
             {
-              "q": "OSHA 10-Hour training is designed for:",
+              "q": "What is the highest priority type of OSHA inspection?",
               "options": [
-                "Safety managers only",
-                "Supervisors only",
-                "Entry-level construction workers",
-                "OSHA inspectors"
+                "Planned/programmed inspections",
+                "Follow-up inspections",
+                "Imminent danger inspections",
+                "Complaint inspections"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Imminent danger inspections are OSHA's highest priority \u2014 these are conditions that could cause death or serious physical harm immediately. OSHA attempts to inspect these within 24 hours of notification."
+            },
+            {
+              "q": "State OSHA plans must be:",
+              "options": [
+                "Identical to federal OSHA standards",
+                "At least as effective as federal OSHA, and they cover public sector workers that federal OSHA does not",
+                "Less strict than federal OSHA to allow local flexibility",
+                "Administered by federal OSHA inspectors"
+              ],
+              "answer": 1,
+              "explanation": "State OSHA plans must be at least as effective as federal OSHA. A key advantage is they cover both private AND public sector workers \u2014 federal OSHA does not cover state/local government workers directly."
             }
           ]
         }
@@ -77,73 +87,73 @@
     },
     {
       "id": 2,
-      "title": "Excavation Safety \u2014 OSHA Subpart P",
-      "duration": "40 min",
+      "title": "Fall Protection",
       "lessons": [
         {
-          "title": "Excavation and Trenching \u2014 29 CFR 1926 Subpart P",
+          "id": "2-1",
+          "title": "29 CFR 1926.502 \u2014 Guardrails, Safety Nets and Personal Fall Arrest",
           "type": "lesson",
-          "content": "**Excavation Safety \u2014 One of the Most Critical Topics in US Civil Construction**\n\nOSHA 29 CFR 1926 Subpart P covers all excavation and trenching work. Trenching is one of the most hazardous construction operations in the USA.\n\n**Key Definitions:**\n- Excavation: Any man-made cut, cavity, trench, or depression in the ground\n- Trench: A narrow excavation (in relation to length) made below the surface \u2014 generally less than 15 feet wide\n\n**The Competent Person Requirement:**\nA competent person must:\n- Classify the soil before excavation begins\n- Inspect excavations daily and after any event that could affect safety\n- Have authority to stop work immediately if a hazard exists\n\n**Soil Classification (OSHA):**\n- Type A: Most stable (hard clay, cemented soils) \u2014 can use 3/4:1 slope\n- Type B: Intermediate \u2014 1:1 slope required\n- Type C: Least stable (granular soils, wet conditions) \u2014 1.5:1 slope required\n\n**Protective Systems (any excavation 5 feet or deeper):**\n1. Sloping \u2014 cut walls back to safe angle\n2. Shoring \u2014 supports trench walls (timber, hydraulic, or pneumatic)\n3. Trench box/shield \u2014 steel cage that protects workers\n\n**Egress Requirement:**\nA ladder or ramp must be provided in trenches 4 feet deep or more, within 25 feet of every worker."
+          "content": "## OSHA Fall Protection \u2014 29 CFR 1926 Subpart M\n\nFalls are the leading cause of fatalities in construction \u2014 consistently accounting for 30\u201340% of construction deaths annually. OSHA 29 CFR 1926 Subpart M establishes comprehensive fall protection requirements for construction.\n\n## When is Fall Protection Required?\n\nFall protection is required for any worker at risk of falling **6 feet or more** to a lower level (1926.501):\n- Unprotected sides and edges\n- Floor and roof openings\n- Holes (floor openings, manholes, skylights)\n- Formwork and reinforcing steel\n- Excavation edges\n\n**Note:** Scaffolds have a lower trigger \u2014 10 feet under Subpart L. Ladders: different requirements under Subpart X.\n\n## The Three Accepted Methods of Fall Protection\n\nOSHA accepts three main systems (1926.502):\n\n### 1. Guardrail Systems\n- **Top rail**: 42 inches (\u00b13 inches) above walking/working surface\n- **Mid rail**: 21 inches above the surface (halfway between top rail and surface)\n- **Toe board**: 3.5 inches minimum height \u2014 prevents tools/material from falling\n- **Strength**: Top rail must withstand 200 lb force outward or downward\n- **Openings**: Mid rail openings must not pass a 19-inch sphere\n\n### 2. Safety Net Systems\n- Installed as close as practicable below the walking/working surface \u2014 no more than 30 feet below\n- Must extend outward from outermost projection of work surface (8\u201313 feet depending on height)\n- Drop-tested within 6 months before use\n- Debris and tools must be removed promptly\n\n### 3. Personal Fall Arrest Systems (PFAS)\n- **Components**: Full-body harness + shock-absorbing lanyard/SRL + anchorage point\n- **Anchorage**: Must support minimum 5,000 lb per attached worker\n- **Free fall limit**: Maximum 6 feet of free fall\n- **Deceleration distance**: Maximum 3.5 feet after activating the shock absorber\n- **Total fall arrest distance**: Must ensure worker does not contact lower level\n\n**Harness requirements:**\n- Full-body harness only (body belts no longer permitted for fall arrest \u2014 only for positioning)\n- Inspect before each use \u2014 discard any harness that has arrested a fall\n- Proper fit \u2014 snug at shoulders, chest, and legs\n\n## Fall Protection Plan\n\nWhen conventional fall protection (guardrails/nets/PFAS) is infeasible or creates a greater hazard, a written Fall Protection Plan (FPP) may be used \u2014 but only in limited circumstances:\n- Residential construction (specific provisions)\n- Certain leading-edge work\n- Must be prepared by a qualified person\n- Must be site-specific\n\n## Controlled Decking Zone (CDZ) and Leading Edges\n\nFor structural steel erection work, OSHA allows a Controlled Decking Zone \u2014 a designated area where up to 90 sq ft of unsupported decking can be placed without immediate fall protection, with strict access controls.\n\n## Hole Covers\n\nFloor/roof holes must be covered or guarded:\n- Covers must support twice the maximum intended load\n- Must be secured to prevent accidental displacement\n- Must be marked 'HOLE' or 'COVER' to alert workers\n\n## Key Takeaways\n\n- 6-foot trigger for most construction fall protection \u2014 falls are #1 construction killer\n- Three accepted methods: guardrails (42-inch top rail), safety nets (within 30 ft below), PFAS\n- PFAS: full-body harness, 5,000 lb anchorage, max 6 ft free fall, discard after arresting a fall\n- Body belts are NOT permitted for fall arrest \u2014 full-body harness required\n- Hole covers: secured, marked, rated for twice the maximum load"
         },
         {
-          "title": "Competent Person \u2014 The US Safety Linchpin",
-          "type": "lesson",
-          "content": "**What is a Competent Person?**\nIn US construction, the Competent Person is one of the most important concepts. A Competent Person is someone who:\n\n1. Is capable of identifying existing and predictable hazards\n2. Has authority to take prompt corrective measures to eliminate hazards\n\n**Required By OSHA In:**\n- Excavations (Subpart P)\n- Scaffolding (Subpart L)\n- Fall Protection (Subpart M)\n- Cranes and Derricks (Subpart CC)\n- Concrete and Masonry (Subpart Q)\n- Steel Erection (Subpart R)\n\n**Competent Person vs Qualified Person:**\n- Competent Person: Experience and authority to identify and fix hazards\n- Qualified Person: Has specific training, education, or credentials (e.g., engineer, certified rigger)\n\n**No Federal Excavator Licence:**\nLike Australia, the USA has no federal government licence for excavator operation. The employer must ensure the operator is trained and competent for the specific equipment.\n\n**811 \u2014 Call Before You Dig:**\nUS national one-call number. Call 811 at least 2 business days before any excavation. Free service \u2014 utility locators mark underground lines."
-        },
-        {
-          "title": "Quiz",
+          "id": "2-q",
+          "title": "Module 2 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "A Competent Person must have authority to:",
+              "q": "At what height must OSHA fall protection be provided for most construction activities?",
               "options": [
-                "Write safety reports only",
-                "Stop work immediately if a hazard exists",
-                "Issue OSHA violations",
-                "Certify equipment operators"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A trench 5 feet or deeper requires:",
-              "options": [
-                "No protection if workers are careful",
-                "A protective system (sloping, shoring, or trench box)",
-                "Only a competent person on site",
-                "OSHA approval before starting"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "Type C soil is:",
-              "options": [
-                "Most stable \u2014 hard clay",
-                "Intermediate stability",
-                "Least stable \u2014 granular or wet",
-                "Only found in rock"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "In the USA before excavating you must call:",
-              "options": [
-                "OSHA",
-                "911",
-                "811",
-                "Your state DOT"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "A ladder must be provided in trenches deeper than:",
-              "options": [
-                "2 feet",
-                "3 feet",
                 "4 feet",
-                "5 feet"
+                "6 feet",
+                "10 feet",
+                "15 feet"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "OSHA requires fall protection when workers are at risk of falling 6 feet or more to a lower level for most construction activities under 29 CFR 1926.501. Scaffolds have a 10-foot trigger under Subpart L."
+            },
+            {
+              "q": "What is the required height of the top rail in an OSHA-compliant guardrail system?",
+              "options": [
+                "36 inches",
+                "42 inches (\u00b13 inches)",
+                "48 inches",
+                "54 inches"
+              ],
+              "answer": 1,
+              "explanation": "OSHA requires the top rail to be 42 inches (plus or minus 3 inches) above the walking/working surface. The mid rail must be approximately 21 inches \u2014 halfway between the top rail and the floor."
+            },
+            {
+              "q": "An anchorage point for a personal fall arrest system must be able to support:",
+              "options": [
+                "1,000 lb per attached worker",
+                "2,500 lb per attached worker",
+                "5,000 lb per attached worker",
+                "10,000 lb per attached worker"
+              ],
+              "answer": 2,
+              "explanation": "OSHA requires anchorage points for PFAS to support a minimum of 5,000 pounds per attached worker. This must be verified by a qualified person \u2014 not assumed based on the attachment structure."
+            },
+            {
+              "q": "A worker's personal fall arrest system has just arrested a fall. What must happen to the harness?",
+              "options": [
+                "Inspect it and return to service if no visible damage",
+                "Return to service after a 30-day rest period",
+                "Remove from service immediately and discard or return to manufacturer",
+                "Use for positioning work only"
+              ],
+              "answer": 2,
+              "explanation": "Any harness or PFAS component that has arrested a fall must be immediately removed from service and discarded or returned to the manufacturer for inspection. The arrest forces can damage the harness internally without visible signs."
+            },
+            {
+              "q": "Body belts (safety belts) are permitted under OSHA 1926.502 for:",
+              "options": [
+                "Fall arrest \u2014 they are equivalent to full-body harnesses",
+                "Positioning work only \u2014 NOT for fall arrest",
+                "Workers under 150 lb only",
+                "Work below 10 feet only"
+              ],
+              "answer": 1,
+              "explanation": "Body belts are no longer permitted for fall arrest \u2014 they can cause internal injuries if they arrest a fall. They are allowed only for positioning systems (keeping workers in place while working). Full-body harnesses are required for fall arrest."
             }
           ]
         }
@@ -151,63 +161,73 @@
     },
     {
       "id": 3,
-      "title": "Fall Protection and PPE",
-      "duration": "35 min",
+      "title": "Excavation Safety",
       "lessons": [
         {
-          "title": "Fall Protection \u2014 OSHA Subpart M",
+          "id": "3-1",
+          "title": "29 CFR 1926.650-652 \u2014 Soil Classification, Shoring and Benching",
           "type": "lesson",
-          "content": "**Fall Protection in US Construction \u2014 29 CFR 1926 Subpart M**\n\n**Fall Protection Required at 6 Feet**\nUS construction: fall protection required at 6 feet above a lower level.\n(Compare: NZ and Australia \u2014 2 metres; Canada \u2014 3 metres)\n\n**Three Primary Fall Protection Systems:**\n1. Guardrail systems \u2014 top rail at 42 inches (+/- 3 inches)\n2. Safety net systems \u2014 installed within 30 feet below working level\n3. Personal fall arrest systems (PFAS) \u2014 harness + lanyard + anchor\n\n**Personal Fall Arrest System Requirements:**\n- Full body harness (body belts no longer allowed for arrest)\n- Shock-absorbing lanyard or self-retracting lifeline\n- Anchor point: 5,000 lbs capacity minimum\n- Free fall limited to 6 feet\n- Total fall arrest distance cannot exceed 18.5 feet\n\n**Hole Covers:**\nAll floor/roof holes must be covered or protected. Cover must:\n- Support twice the load of workers and equipment\n- Be marked HOLE or COVER\n- Be secured against movement"
+          "content": "## OSHA Excavation Standards \u2014 29 CFR 1926 Subpart P\n\nExcavation collapse is the second leading cause of construction fatalities. OSHA's Subpart P (29 CFR 1926.650\u2013652) establishes requirements for excavation safety on all US construction sites.\n\n## Definitions\n\n- **Excavation**: Any man-made cut, cavity, trench, or depression in an earth surface formed by earth removal\n- **Trench**: A narrow excavation (width \u2264 15 feet) made below the surface of the ground (depth > width)\n- **Competent person**: One who identifies existing and predictable hazards, AND has authority to take prompt corrective measures\n\n**A competent person must be present on site during ALL excavation work.** This is non-negotiable.\n\n## When is Protection Required?\n\nProtective systems are required for ALL excavations 5 feet or deeper. Excavations less than 5 feet may also require protection if the competent person determines unstable soil is present.\n\n## Soil Classification \u2014 Appendix B to Subpart P\n\n| Class | Description | Maximum Allowable Slope |\n|-------|-------------|------------------------|\n| **Stable Rock** | Natural solid mineral matter \u2014 can be excavated with vertical sides | Vertical (90\u00b0) |\n| **Type A** | Cohesive soil \u2014 unconfined compressive strength \u2265 1.5 tsf. Clay, silty clay | 3/4:1 (53\u00b0) |\n| **Type B** | Cohesive soil \u2014 unconfined strength 0.5\u20131.5 tsf. Silt, sandy loam | 1:1 (45\u00b0) |\n| **Type C** | Cohesive soil \u2014 unconfined strength < 0.5 tsf. Granular soils, sand, gravel, submerged soil | 1.5:1 (34\u00b0) |\n\n**Important:** Soil cannot be classified as Type A if:\n- Previously disturbed or fissured\n- Subject to seeping water or vibration\n- Material is part of a sloped, layered system\n- Subject to other factors that would affect stability\n\n**Soil classification tests (Appendix B):**\n- Visual test: fissures, tension cracks, water seepage, layering\n- Thumb test: penetration resistance of the soil\n- Pocket penetrometer: measures unconfined compressive strength\n- Torvane shear device\n\n## Three Protective System Options\n\n### 1. Sloping\nCut the excavation walls at or shallower than the maximum allowable slope for the soil type. Most economical for wide, shallow excavations with space to slope.\n\n### 2. Shoring\nInstall a support system preventing soil movement:\n- Timber shoring (Appendix C tables)\n- Aluminum hydraulic shoring (Appendix D tables)\n- Pneumatic/hydraulic trench shields\n- Must be designed by a registered professional engineer for complex excavations\n\n### 3. Trench Shield/Box (Trench Box)\nA portable shield system providing worker protection if collapse occurs:\n- Does NOT prevent collapse \u2014 protects the worker inside\n- Workers must work within the protected zone of the shield\n- Shield must be sized for the depth and soil conditions\n- Must not be overloaded by placing equipment on top\n\n## Other Key Requirements\n\n- **Spoil placement**: Minimum 2 feet from excavation edge\n- **Access/egress**: Ladder or ramp within 25 feet of workers in excavations > 4 feet deep\n- **Underground utilities**: Contact 811 (Call Before You Dig) before excavating\n- **Atmospheric hazards**: Test for hazardous atmospheres in excavations > 4 feet deep where atmosphere could be hazardous (confined space precautions)\n- **Water accumulation**: Remove water before workers enter; monitor continuously\n- **Daily inspection**: Competent person inspects excavation, adjacent areas, and protective systems every shift\n\n## Key Takeaways\n\n- Competent person required on site for ALL excavation work \u2014 identifies hazards and has authority to act\n- Protection required at 5 feet \u2014 but unstable soil may require protection at any depth\n- Soil classification: Type A (strongest) \u2192 Type C (weakest) \u2014 determines maximum allowable slope\n- Three options: sloping, shoring, trench shield \u2014 each has specific requirements\n- Call 811 before excavating \u2014 spoil minimum 2 feet from edge \u2014 access every 25 feet"
         },
         {
-          "title": "HazCom and PPE Requirements",
-          "type": "lesson",
-          "content": "**Hazard Communication Standard (HazCom) \u2014 29 CFR 1926.59**\n\nThe US Hazard Communication Standard (HazCom) aligns with the Globally Harmonized System (GHS) \u2014 similar to Canada's WHMIS 2015.\n\n**HazCom Three Elements:**\n1. Safety Data Sheets (SDS) \u2014 required for all hazardous chemicals\n2. Labels \u2014 GHS-format on all containers\n3. Training \u2014 workers must understand SDS and labels\n\n**Required PPE on US Construction Sites:**\n- Hard hat (ANSI/ISEA Z89.1 \u2014 Type I or II, Class E for electrical)\n- High-visibility vest (ANSI 107 \u2014 Class 2 minimum for roadwork)\n- Safety footwear (ASTM F2413)\n- Eye and face protection (ANSI Z87.1)\n- Hearing protection where noise exceeds 90 dB (8-hour TWA)\n\n**Silica Rule \u2014 29 CFR 1926.1153:**\nOSHA's Respirable Crystalline Silica Standard for Construction requires:\n- Action Level: 25 micrograms per cubic meter (8-hr TWA)\n- Permissible Exposure Limit (PEL): 50 micrograms per cubic meter\n- Engineering controls first (wet methods, vacuum systems)\n- Respirator: N95 or better when controls insufficient"
-        },
-        {
-          "title": "Quiz",
+          "id": "3-q",
+          "title": "Module 3 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "In US construction, fall protection is required at:",
+              "q": "Under OSHA 29 CFR 1926 Subpart P, at what depth must protective systems be provided for most excavations?",
               "options": [
-                "2 feet",
+                "3 feet",
                 "4 feet",
-                "6 feet",
-                "10 feet"
+                "5 feet",
+                "6 feet"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Protective systems are required for excavations 5 feet or deeper. However, even at shallower depths, a competent person who determines unstable soil is present must require protective systems."
             },
             {
-              "q": "Full body harnesses replaced body belts for fall arrest because:",
+              "q": "What is the maximum allowable slope for a Type C soil excavation?",
               "options": [
-                "They are cheaper",
-                "Body belts can cause internal injuries during a fall",
-                "OSHA preference only",
-                "They are easier to put on"
+                "Vertical (90\u00b0)",
+                "3/4:1 (53\u00b0)",
+                "1:1 (45\u00b0)",
+                "1.5:1 (34\u00b0)"
               ],
-              "answer": 1
+              "answer": 3,
+              "explanation": "Type C soils (granular, sandy, submerged, or weakest cohesive) require the flattest slope \u2014 1.5:1 (34\u00b0). This represents the highest risk soil and requires the most generous cut-back for sloped excavations."
             },
             {
-              "q": "A Personal Fall Arrest System anchor point must support:",
+              "q": "A trench box (trench shield) is installed in an excavation. What does it protect against?",
               "options": [
-                "1,000 lbs",
-                "2,500 lbs",
-                "5,000 lbs",
-                "10,000 lbs"
+                "It prevents the trench walls from collapsing",
+                "It protects workers inside the shield if a collapse occurs \u2014 it does NOT prevent collapse",
+                "It prevents groundwater from entering the trench",
+                "It acts as shoring and supports the full soil load"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "A trench box (shield) does NOT prevent soil collapse \u2014 it protects workers inside the shield zone if a collapse occurs. Workers must remain within the protected area. It is a protective system, not a shoring system."
             },
             {
-              "q": "The ANSI 107 Class 2 high-visibility vest is required for:",
+              "q": "How close to the excavation edge may excavated spoil be placed under OSHA Subpart P?",
               "options": [
-                "All workers on any site",
-                "Roadwork and traffic-exposed workers",
-                "Only flaggers",
-                "Night work only"
+                "Right at the edge \u2014 no restriction",
+                "Minimum 2 feet from the edge",
+                "Minimum 5 feet from the edge",
+                "Minimum 10 feet from the edge"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "OSHA requires excavated spoil to be placed a minimum of 2 feet from the excavation edge. Spoil placed closer creates surcharge loading on the wall and increases collapse risk."
+            },
+            {
+              "q": "What is the maximum distance from any worker in an excavation deeper than 4 feet to an access/egress point (ladder or ramp)?",
+              "options": [
+                "10 feet",
+                "15 feet",
+                "25 feet",
+                "50 feet"
+              ],
+              "answer": 2,
+              "explanation": "OSHA requires a ladder, stairway, or ramp within 25 feet of workers in excavations deeper than 4 feet. In an emergency, workers must be able to evacuate quickly \u2014 25 feet is the maximum lateral travel distance to an access point."
             }
           ]
         }
@@ -215,63 +235,62 @@
     },
     {
       "id": 4,
-      "title": "Traffic Control and Technical Standards",
-      "duration": "35 min",
+      "title": "Hazard Communication",
       "lessons": [
         {
-          "title": "MUTCD \u2014 Manual on Uniform Traffic Control Devices",
+          "id": "4-1",
+          "title": "GHS, Safety Data Sheets, Labelling and Right-to-Know",
           "type": "lesson",
-          "content": "**MUTCD \u2014 The National Traffic Control Standard**\nThe Federal Highway Administration (FHWA) MUTCD sets national standards for all traffic control devices on roads open to public travel.\n\n**Part 6 \u2014 Temporary Traffic Control (TTC):**\nCovers all traffic management for roadwork and construction zones.\n\n**Key TTC Components:**\n- Advance warning signs \u2014 alert drivers before the work zone\n- Tapers \u2014 merge lanes using cones and channelizing devices\n- Activity area \u2014 where the actual work occurs\n- Termination area \u2014 transition back to normal traffic\n\n**Flagger Requirements (MUTCD Part 6E):**\n- Must be trained and experienced\n- Wear ANSI 107 Class 2 or 3 high-visibility apparel\n- Use STOP/SLOW paddle (preferred over flags)\n- Positioned for maximum visibility\n\n**State DOTs:**\n- Each state has its own Department of Transportation\n- California: Caltrans | Texas: TxDOT | New York: NYSDOT | Florida: FDOT\n- States may adopt the MUTCD with supplements\n\n**Work Zone Speed Fines:**\nMost states double fines for traffic violations in active work zones."
+          "content": "## OSHA Hazard Communication Standard \u2014 29 CFR 1910.1200 (HazCom 2012)\n\nThe OSHA Hazard Communication Standard (HCS), updated in 2012 to align with the Globally Harmonized System (GHS), ensures workers have the information needed to protect themselves from chemical hazards. It applies to both general industry AND construction.\n\n## The Right-to-Know\n\nHazCom 2012 is built on the worker's **right to know** about chemical hazards:\n- Every worker who may be exposed to hazardous chemicals has the right to information\n- Employers must provide information through labels, SDSs, and training\n- This right cannot be waived or restricted\n\n## GHS \u2014 Globally Harmonized System\n\nGHS is an international framework for classifying and communicating chemical hazards. OSHA's HazCom 2012 adopted GHS to create consistency with global trading partners (Canada, EU, Australia).\n\n**GHS Hazard Classes:**\n- Physical hazards: Flammable, explosive, oxidising, compressed gas\n- Health hazards: Acute toxicity, carcinogenicity, reproductive toxicity, STOT\n- Environmental hazards: Aquatic toxicity (informational in US \u2014 not enforced by OSHA)\n\n**GHS Pictograms (9 symbols):**\n| Pictogram | Hazard |\n|-----------|-------|\n| Flame | Flammable, self-reactive, pyrophoric |\n| Flame over circle | Oxidizer |\n| Exploding bomb | Explosive |\n| Skull and crossbones | Acute toxicity (fatal/toxic) |\n| Exclamation mark | Irritant, harmful, narcotic, sensitizer |\n| Health hazard | Carcinogen, mutagen, reproductive toxin, STOT, aspiration |\n| Corrosion | Skin/eye corrosion, metal corrosion |\n| Gas cylinder | Compressed gases |\n| Environment | Aquatic toxicity |\n\n## Safety Data Sheets (SDS) \u2014 16 Sections\n\nThe SDS provides comprehensive hazard and safe handling information:\n\n| Section | Content |\n|---------|---------|\n| 1 | Identification |\n| 2 | Hazard(s) identification |\n| 3 | Composition/ingredients |\n| 4 | First-aid measures |\n| 5 | Fire-fighting measures |\n| 6 | Accidental release measures |\n| 7 | Handling and storage |\n| 8 | Exposure controls/PPE |\n| 9 | Physical and chemical properties |\n| 10\u201316 | Stability, toxicology, ecological, disposal, transport, regulatory, other |\n\n**SDS access requirements:**\n- Must be readily accessible to workers during each work shift\n- In the work area where chemicals are used\n- Electronic access acceptable if always available and no barriers\n\n## Label Requirements\n\nHazCom 2012 labels must include:\n1. Product identifier\n2. Signal word (DANGER or WARNING)\n3. Hazard statements (describe nature and degree of hazard)\n4. Precautionary statements (prevention, response, storage, disposal)\n5. GHS pictogram(s)\n6. Supplier information (name, address, phone)\n\n**Workplace labels (secondary containers):**\nWhen chemicals are transferred to secondary containers, a workplace label must be applied. Minimum: product name and words, pictures, or symbols for hazards.\n\n## Chemical Inventory and Written Program\n\nEmployers must maintain:\n- A **written HazCom program** describing how labels, SDSs, and training are managed\n- A **chemical inventory list** of all hazardous chemicals used in the workplace\n- SDSs for every chemical on the inventory\n\n## Worker Training Requirements\n\nTraining must be provided:\n- Before initial assignment to work with hazardous chemicals\n- Whenever a new hazard is introduced\n- Training content: how to read labels and SDSs, specific chemical hazards in their work area, protective measures, and emergency procedures\n\n## Key Takeaways\n\n- HazCom 2012: GHS-aligned \u2014 standardised pictograms, signal words, 16-section SDSs\n- 9 GHS pictograms \u2014 skull/crossbones = acute fatal/toxic; exclamation = irritant/harmful\n- SDS: 16 sections \u2014 Section 2 (hazards) and Section 8 (exposure controls/PPE) most critical for workers\n- Labels: 6 required elements \u2014 signal word (DANGER/WARNING), pictograms, hazard and precautionary statements\n- Written HazCom program + chemical inventory required for every construction employer"
         },
         {
-          "title": "AASHTO and Technical Standards",
-          "type": "lesson",
-          "content": "**AASHTO \u2014 American Association of State Highway and Transportation Officials**\n\nAASHTO is the US equivalent of Austroads (Australia/NZ) and TAC (Canada). It develops technical standards for road design and materials.\n\n**Key AASHTO Standards:**\n- AASHTO Guide for Design of Pavement Structures\n- AASHTO M and R standards (materials and test methods)\n- AASHTO T99/T180 \u2014 Standard Proctor and Modified Proctor compaction tests\n\n**ASTM International \u2014 Key Standards:**\n- ASTM D698 \u2014 Standard Proctor compaction test\n- ASTM D1557 \u2014 Modified Proctor compaction test\n- ASTM D6938 \u2014 Nuclear density gauge testing\n- ASTM C136 \u2014 Sieve analysis (aggregate gradation)\n\n**Crane Operations \u2014 OSHA Subpart CC:**\n- Crane operators must be certified (NCCCO \u2014 National Commission for the Certification of Crane Operators)\n- OR qualified by an audited employer program\n- Crane assembly/disassembly requires a Qualified Person\n- Annual crane inspections required by qualified person\n\n**No Federal Excavator Licence:**\nThe USA has no federal licence for excavators. A Competent Person must verify operator training and competency."
-        },
-        {
-          "title": "Quiz",
+          "id": "4-q",
+          "title": "Module 4 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "The MUTCD is published by:",
+              "q": "What signal word is used on GHS labels for the more severe hazard category?",
               "options": [
-                "AASHTO",
-                "OSHA",
-                "Federal Highway Administration (FHWA)",
-                "ASTM International"
+                "CAUTION",
+                "WARNING",
+                "DANGER",
+                "TOXIC"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "GHS uses two signal words: DANGER for more severe hazards and WARNING for less severe hazards. These words appear prominently on labels and alert workers to the general level of hazard before reading full details."
             },
             {
-              "q": "AASHTO is best described as:",
+              "q": "Which GHS pictogram represents an acute toxicity hazard (fatal or toxic if swallowed, inhaled, or absorbed)?",
               "options": [
-                "A federal safety agency",
-                "The US equivalent of Austroads \u2014 road design and materials standards",
-                "An OSHA-approved training body",
-                "A state highway authority"
+                "Exclamation mark",
+                "Skull and crossbones",
+                "Health hazard (silhouette)",
+                "Corrosion"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The skull and crossbones pictogram indicates acute toxicity \u2014 substances that are fatal or toxic in small amounts. The exclamation mark indicates less severe acute toxicity (harmful), irritants, or sensitisers."
             },
             {
-              "q": "Crane operators in the USA must be:",
+              "q": "Under HazCom 2012, when must worker training on hazardous chemicals be provided?",
               "options": [
-                "Licensed by OSHA directly",
-                "NCCCO certified or qualified by an audited employer program",
-                "Certified by their state DOT",
-                "No certification required"
+                "Annually at a scheduled safety day",
+                "Before initial assignment and whenever a new hazard is introduced to the work area",
+                "Only at initial employment",
+                "Every 3 years"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Training must be provided before initial assignment to work with hazardous chemicals AND whenever a new hazardous chemical or new hazard is introduced. This ensures workers always have current, relevant information."
             },
             {
-              "q": "ASTM D698 covers:",
+              "q": "What does Section 8 of a Safety Data Sheet (SDS) contain?",
               "options": [
-                "Aggregate sieve analysis",
-                "Standard Proctor compaction test",
-                "Nuclear density gauge use",
-                "Asphalt binder testing"
+                "First aid measures",
+                "Fire-fighting information",
+                "Exposure controls and PPE requirements",
+                "Physical and chemical properties"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "SDS Section 8 contains Exposure Controls and PPE \u2014 permissible exposure limits (PELs), threshold limit values (TLVs), engineering controls, and specific PPE requirements for safe handling. This section is critical for workers selecting protective measures."
             }
           ]
         }
@@ -279,98 +298,73 @@
     },
     {
       "id": 5,
-      "title": "Final Assessment",
-      "duration": "20 min",
+      "title": "PPE Requirements",
       "lessons": [
         {
-          "title": "Course Summary",
+          "id": "5-1",
+          "title": "29 CFR 1926.95 \u2014 Hard Hats, Eye Protection and Foot Protection",
           "type": "lesson",
-          "content": "**Congratulations \u2014 You have completed US: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- OSH Act 1970: General Duty Clause, worker rights, OSHA 10/30\n- The Fatal Four: Falls, Struck-by, Electrocution, Caught-in\n- 29 CFR 1926: The primary US construction safety standard\n- Competent Person: Must identify hazards AND have authority to fix them\n- Excavations: 5ft = protective system required, 4ft = ladder required\n- Soil types: Type A (stable) to Type C (unstable)\n- Fall protection at 6 feet (not 2m like NZ/AU)\n- MUTCD Part 6: Traffic control standard for work zones\n- AASHTO and ASTM: Technical standards for roads and materials\n- 811: Call before you dig (national)\n\n**Key Differences vs NZ:**\n- US fall protection trigger: 6 feet (NZ: 2 metres)\n- 26 states have their own OSHA plans\n- Competent Person concept is central to US compliance\n- No federal excavator licence in USA"
+          "content": "## OSHA PPE Requirements for Construction \u2014 29 CFR 1926.95\n\nPersonal Protective Equipment (PPE) requirements for construction are established under 29 CFR 1926.95 (criteria for PPE) and specific subparts for head, eye, face, foot, and hand protection. PPE is the last line of defence in the hierarchy of controls.\n\n## Employer Responsibilities for PPE\n\nUnder 29 CFR 1926.95(a), the employer must provide PPE **at no cost to the employee** when:\n- Engineering and administrative controls are not feasible or sufficient\n- While engineering controls are being installed\n- For certain PPE that is not personal use (safety glasses, hard hats, etc.)\n\n**Employer must also:**\n- Assess the workplace to determine PPE needs (PPE Hazard Assessment \u2014 certify in writing)\n- Select PPE that fits properly\n- Train employees on when/how to use PPE, maintenance, and limitations\n- Replace worn or damaged PPE\n\n## Head Protection \u2014 29 CFR 1926.100\n\nHard hats (safety helmets) are required when workers are exposed to:\n- Falling objects\n- Electrical shock and burns\n- Bumping into fixed objects\n\n**ANSI/ISEA Z89.1 Classes:**\n| Class | Protection |\n|-------|-----------|\n| **Class E (Electrical)** | Protects against electrical hazards up to 20,000 volts |\n| **Class G (General)** | General impact \u2014 2,200 volts electrical protection |\n| **Class C (Conductive)** | Impact only \u2014 no electrical protection |\n\n**Types:**\n- Type I: Top impact protection only\n- Type II: Top and lateral (side) impact protection \u2014 required in some high-risk applications\n\n**Maintenance:**\n- Inspect before each use \u2014 cracks, dents, penetrations, fading\n- Replace after significant impact \u2014 even if no visible damage\n- Replace every 5 years (shell) / 1\u20132 years (suspension) or per manufacturer\n- Do not paint, drill, or apply adhesive labels \u2014 compromises integrity\n\n## Eye and Face Protection \u2014 29 CFR 1926.102\n\nEye protection required when workers are exposed to:\n- Flying particles (grinding, chipping, nailing)\n- Molten metal (welding)\n- Chemical splashes\n- Harmful light radiation\n- High-pressure liquid or gas\n\n**ANSI/ISEA Z87.1 standard \u2014 types:**\n- Safety glasses: side shields required when flying object hazard exists\n- Chemical goggles: sealed against liquid splashes\n- Face shield: protects face from splashes and large debris \u2014 worn over safety glasses\n- Welding helmets/goggles: shade lenses selected by process (shade 3\u201314)\n\n**Prescription glasses:** Regular prescription glasses do NOT meet OSHA requirements. Workers must use prescription safety glasses or safety glasses worn over contacts/prescription.\n\n## Foot Protection \u2014 29 CFR 1926.96\n\nSafety footwear required when workers are exposed to:\n- Falling or rolling objects\n- Sharp objects that could puncture the sole\n- Electrical hazards\n- Hot surfaces, molten metal splatter\n\n**ASTM F2413 standard:**\n- Impact resistance (75 or 50 ft-lb toe cap rating)\n- Compression resistance\n- Metatarsal protection (for high-risk drop hazards)\n- Puncture-resistant sole plate\n- Electrical hazard (EH) rating where needed\n\n## Hand Protection\n\nOSHA requires hand protection where workers' hands are exposed to hazards such as:\n- Skin absorption of harmful substances\n- Cuts, lacerations from sharp materials\n- Extreme temperatures\n- Chemical burns\n\nGlove selection must match the specific hazard \u2014 chemical resistance ratings vary by glove material.\n\n## PPE Hazard Assessment\n\nOSHA requires employers to:\n1. Survey the workplace for hazards\n2. Determine PPE needed for each hazard\n3. **Certify the assessment in writing** (written certification document)\n4. Select appropriate ANSI-rated PPE\n5. Train workers\n\n## Key Takeaways\n\n- Employer provides PPE at no cost \u2014 except for personal-use items in limited cases\n- Written PPE hazard assessment required \u2014 must be certified in writing\n- Hard hats: Class E for electrical, Class G for general, Class C for impact only \u2014 replace after any significant impact\n- Eye protection: ANSI Z87.1 \u2014 safety glasses with side shields, goggles for chemical splash, face shield over glasses\n- Safety footwear: ASTM F2413 \u2014 impact, compression, puncture resistance, EH rating where required"
         },
         {
-          "title": "Quiz",
+          "id": "5-q",
+          "title": "Module 5 Quiz",
           "type": "quiz",
-          "pass_mark": 75,
           "questions": [
             {
-              "q": "The General Duty Clause requires:",
+              "q": "Under OSHA 29 CFR 1926.95, who is responsible for providing PPE to construction workers?",
               "options": [
-                "Follow only written OSHA standards",
-                "Provide workplace free from recognised hazards",
-                "Hire a safety officer for every 10 workers",
-                "Report all near-misses to OSHA"
+                "Workers must provide their own PPE",
+                "The employer must provide PPE at no cost to the employee in most situations",
+                "The general contractor provides PPE to employees of subcontractors",
+                "PPE is provided by OSHA through compliance assistance programs"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Employers must provide required PPE at no cost to employees under 29 CFR 1926.95. The only exceptions involve certain personal-use PPE (like some footwear and non-specialty safety glasses) where cost-sharing may apply under specific conditions."
             },
             {
-              "q": "Fall protection in US construction is required at:",
+              "q": "What ANSI Class of hard hat provides protection against electrical hazards up to 20,000 volts?",
               "options": [
-                "2 feet",
-                "4 feet",
-                "6 feet",
-                "10 feet"
+                "Class C",
+                "Class G",
+                "Class E",
+                "Class A"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Class E (Electrical) hard hats protect against electrical hazards up to 20,000 volts. Class G (General) provides 2,200 volt protection. Class C (Conductive) provides no electrical protection \u2014 impact only."
             },
             {
-              "q": "A trench 5 feet deep requires:",
+              "q": "A worker needs eye protection while using a grinder. Which combination provides the best protection?",
               "options": [
-                "No protection",
-                "Warning tape only",
-                "A protective system",
-                "OSHA pre-approval"
+                "Regular prescription glasses",
+                "ANSI Z87.1 safety glasses with side shields",
+                "ANSI Z87.1 safety glasses with side shields plus a face shield over them",
+                "Sunglasses with impact-resistant lenses"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "For grinding, both safety glasses AND a face shield provide the best protection \u2014 the face shield protects against larger debris and sparks while the safety glasses protect if the face shield is lifted. Regular or prescription glasses do not meet OSHA requirements."
             },
             {
-              "q": "Before excavating in the USA you call:",
+              "q": "OSHA requires employers to certify a PPE hazard assessment. What form does this certification take?",
               "options": [
-                "OSHA",
-                "911",
-                "811",
-                "Your state DOT"
+                "A verbal confirmation at the toolbox talk",
+                "A written certification document identifying the workplace evaluated, date, the person certifying, and that the assessment was performed",
+                "An OSHA Form 300 entry",
+                "An annual licence renewal with the state regulator"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "OSHA requires a written certification of the PPE hazard assessment \u2014 a document identifying the workplace evaluated, the date of the assessment, the person who performed it, and certification that a hazard assessment was conducted. This is a documentation requirement."
             },
             {
-              "q": "Type C soil is:",
+              "q": "Which ASTM standard governs safety footwear for construction workers in the United States?",
               "options": [
-                "Most stable",
-                "Intermediate stability",
-                "Least stable",
-                "Only found in rock"
+                "ANSI Z87.1",
+                "ASTM F2413",
+                "ANSI Z89.1",
+                "ASTM E119"
               ],
-              "answer": 2
-            },
-            {
-              "q": "NCCCO certification is required for:",
-              "options": [
-                "Excavator operators",
-                "Crane operators",
-                "All heavy equipment operators",
-                "Traffic flaggers"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "AASHTO is the US equivalent of:",
-              "options": [
-                "OSHA",
-                "FHWA",
-                "Austroads",
-                "ASTM"
-              ],
-              "answer": 2
-            },
-            {
-              "q": "The OSHA Fatal Four does NOT include:",
-              "options": [
-                "Falls",
-                "Struck-by",
-                "Silica exposure",
-                "Electrocution"
-              ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "ASTM F2413 is the standard for performance requirements for protective (safety) footwear \u2014 covering impact resistance, compression, puncture resistance, metatarsal protection, and electrical hazard ratings. ANSI Z87.1 covers eye protection, ANSI Z89.1 covers head protection."
             }
           ]
         }

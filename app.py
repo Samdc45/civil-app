@@ -876,6 +876,134 @@ def robots():
     from flask import send_from_directory
     return send_from_directory('static', 'robots.txt', mimetype='text/plain')
 
+
+
+# ─────────────────────────────────────────────────────────────
+# COURSE CREATOR API ROUTES
+# ─────────────────────────────────────────────────────────────
+import sys as _sys
+_sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+def _get_course_creator():
+    import course_creator as cc
+    return cc
+
+@app.route("/admin/courses/check/<course_name>")
+@admin_required
+def admin_course_check(course_name):
+    try:
+        cc = _get_course_creator()
+        report = cc.check_course(course_name)
+        return jsonify(report)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/admin/courses/develop", methods=["POST"])
+@admin_required
+def admin_course_develop():
+    data = request.get_json() or {}
+    topic = data.get("topic", "").strip()
+    country_code = data.get("country_code", "GLOBAL").upper()
+    num_modules = int(data.get("num_modules", 5))
+    if not topic:
+        return jsonify({"error": "topic is required"}), 400
+    try:
+        cc = _get_course_creator()
+        course = cc.develop_course(topic, country_code, num_modules)
+        return jsonify({"status": "created", "course_id": course.get("id"),
+            "title": course.get("title"), "modules": len(course.get("modules", [])),
+            "trainer_pathway": bool(course.get("trainer_pathway"))})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/admin/courses/quiz/<course_name>", methods=["POST"])
+@admin_required
+def admin_course_quiz(course_name):
+    data = request.get_json() or {}
+    qpl = int(data.get("questions_per_lesson", 3))
+    try:
+        cc = _get_course_creator()
+        count = cc.generate_quizzes(course_name, qpl)
+        return jsonify({"status": "updated", "questions_added": count})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/admin/courses/linkedin/<course_name>")
+@admin_required
+def admin_course_linkedin(course_name):
+    num_posts = int(request.args.get("num_posts", 5))
+    try:
+        cc = _get_course_creator()
+        posts = cc.generate_linkedin_questions(course_name, num_posts)
+        return jsonify({"posts": posts, "count": len(posts), "course": course_name})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/admin/courses/linkedin/post", methods=["POST"])
+@admin_required
+def admin_linkedin_post():
+    data = request.get_json() or {}
+    post_text = data.get("post_text", "").strip()
+    if not post_text:
+        return jsonify({"error": "post_text is required"}), 400
+    try:
+        cc = _get_course_creator()
+        result = cc.post_to_linkedin(post_text)
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/admin/courses/survey", methods=["POST"])
+@admin_required
+def admin_course_survey():
+    import re, json as _j
+    data = request.get_json() or {}
+    topic = data.get("topic", "").strip()
+    country_code = data.get("country_code", "NZ").upper()
+    if not topic:
+        return jsonify({"error": "topic is required"}), 400
+    try:
+        cc = _get_course_creator()
+        meta = cc.COUNTRY_META.get(country_code, cc.COUNTRY_META["GLOBAL"])
+        slug = cc.slugify(topic)
+        prompt = ("Create a 15-question pre-course survey for civil construction.\n"
+                  "TOPIC: " + topic + "\nCOUNTRY: " + meta["name"] + "\nLEGISLATION: " + meta["legislation"] + "\n"
+                  "Return ONLY valid JSON with fields: survey_id, title, benchmark_categories, "
+                  "questions (mix scale/multiple_choice/open_text), scoring guide, "
+                  "trainer_pathway_trigger set to 85.")
+        raw = cc.call_llm(prompt, temperature=0.6, max_tokens=3000)
+        raw = re.sub(r"^```json\s*", "", raw.strip())
+        raw = re.sub(r"^```\s*", "", raw.strip())
+        raw = re.sub(r"\s*```$", "", raw.strip())
+        survey = _j.loads(raw)
+        out = cc.COURSES_DIR / f"survey_{slug}.json"
+        out.write_text(_j.dumps(survey, indent=2, ensure_ascii=False))
+        return jsonify({"status": "created", "survey_id": survey.get("survey_id"),
+            "questions": len(survey.get("questions", [])), "file": str(out)})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/admin/courses/list")
+@admin_required
+def admin_courses_list():
+    import glob, json as _j
+    courses_dir = os.path.join(os.path.dirname(__file__), "courses")
+    result = []
+    for f in sorted(glob.glob(os.path.join(courses_dir, "*.json"))):
+        try:
+            data = _j.loads(open(f).read())
+            if not isinstance(data, dict) or "modules" not in data:
+                continue
+            mods = data.get("modules", [])
+            lessons = sum(len([l for l in m.get("lessons",[]) if l.get("type")=="lesson"]) for m in mods)
+            quizzes = sum(len([l for l in m.get("lessons",[]) if l.get("type")=="quiz"]) for m in mods)
+            result.append({"id": data.get("id"), "title": data.get("title"),
+                "country": data.get("country"), "modules": len(mods),
+                "lessons": lessons, "quizzes": quizzes})
+        except Exception:
+            pass
+    return jsonify({"courses": result, "total": len(result)})
+
 if __name__ == '__main__':
     init_db()
     app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5001)))

@@ -13,63 +13,79 @@
   "modules": [
     {
       "id": 1,
-      "title": "Health and Safety at Work Act 2015",
-      "duration": "40 min",
+      "title": "NZ Legal Framework",
       "lessons": [
         {
-          "title": "HSWA 2015 \u2014 New Zealand Primary Safety Law",
+          "id": "1-1",
+          "title": "Health and Safety at Work Act 2015",
           "type": "lesson",
-          "content": "**Health and Safety at Work Act 2015 (HSWA)**\nNew Zealand primary workplace health and safety legislation. Modelled on the Australian WHS Act 2011 with a similar PCBU framework.\n\n**PCBU \u2014 Person Conducting a Business or Undertaking**\nThe primary duty holder. Civil construction companies, subcontractors, and sole traders are all PCBUs.\n\n**Primary Duty of Care (Section 36):**\nA PCBU must ensure, so far as is reasonably practicable:\n- Health and safety of workers\n- Health and safety of others at risk from the work\n\n**Worker Duties (Section 45):**\n- Take reasonable care for own health and safety\n- Take reasonable care not to adversely affect others\n- Comply with reasonable PCBU instructions\n\n**WorkSafe New Zealand:**\nThe national regulator. WorkSafe NZ can:\n- Enter and inspect any workplace\n- Issue improvement and prohibition notices\n- Prosecute PCBUs for serious failures\n- Investigate notifiable events\n\n**Maximum Penalties (HSWA 2015):**\n- Individual officer: Up to $300,000 or 5 years imprisonment\n- PCBU (company): Up to $3,000,000"
+          "content": "## Health and Safety at Work Act 2015 (HSWA)\n\nThe Health and Safety at Work Act 2015 (HSWA) is New Zealand's primary workplace health and safety legislation. It came into force on 4 April 2016, replacing the Health and Safety in Employment Act 1992 following recommendations from the Royal Commission on the Pike River Coal Mine Tragedy.\n\n## Why HSWA Was Introduced\n\nNew Zealand had one of the worst workplace fatality rates in the developed world prior to 2016. The Pike River disaster (29 deaths, November 2010) catalysed comprehensive reform. HSWA introduced a new duty structure, stronger penalties, and a focus on worker engagement.\n\n## PCBUs \u2014 Persons Conducting a Business or Undertaking\n\n**PCBU** is the central duty holder under HSWA. Almost every business is a PCBU, including:\n- Companies, partnerships, sole traders\n- Contractors and subcontractors\n- Labour hire companies\n- Franchisors\n\n**Primary duty of a PCBU (Section 36):**\nA PCBU must ensure, so far as is reasonably practicable, the health and safety of:\n- Workers it employs or engages\n- Workers whose activities it influences or directs\n- Other persons at risk from its work (visitors, public, neighbouring properties)\n\n## Reasonably Practicable\n\n**Reasonably practicable** is the key qualifier throughout HSWA. It means doing what is reasonably able to be done, weighing:\n- The likelihood of the hazard or risk occurring\n- The degree of harm that could result\n- What the duty holder knows (or ought to know) about the hazard\n- Availability and suitability of ways to eliminate or minimise the risk\n- After weighing all above: the cost of eliminating or minimising the risk\n\nCost alone is not a reason to avoid safety measures \u2014 it is the last factor considered, not the first.\n\n## Duties of Care Under HSWA\n\n| Duty Holder | Key Obligations |\n|-------------|----------------|\n| **PCBU** | Primary duty \u2014 safe work environment, equipment, systems, information, training, supervision |\n| **Officers** (directors, senior managers) | Due diligence \u2014 verify PCBU is meeting duties |\n| **Workers** | Take reasonable care for own H&S and others affected by their acts/omissions |\n| **Other persons** (visitors, contractors) | Take reasonable care for own H&S |\n\n## Officers' Due Diligence\n\n**Officers** (company directors, partners, senior managers with significant influence) have a personal duty to exercise due diligence:\n- Acquire and keep up-to-date knowledge of H&S matters\n- Understand the nature of the PCBU's operations and associated H&S risks\n- Ensure appropriate resources and processes are used\n- Verify the PCBU is complying with HSWA\n\nOfficers can be prosecuted personally even if the company is also prosecuted.\n\n## Health and Safety Representatives (HSRs)\n\nWorkers can request the election of a Health and Safety Representative (HSR):\n- HSRs represent the workers in a work group\n- Can issue Provisional Improvement Notices (PINs) where they believe a breach of HSWA is occurring\n- Can direct work to cease if serious risk to health and safety exists and the situation is urgent\n- Protected from disadvantage for exercising HSR functions\n\n## Notifiable Events\n\nPCBUs must notify WorkSafe NZ immediately of notifiable events:\n\n| Event Type | Definition |\n|-----------|------------|\n| **Notifiable death** | Death of a person due to work-related incident |\n| **Notifiable injury/illness** | Serious physical injury requiring immediate hospital treatment; amputation; serious head/eye injury; serious burn; loss of bodily function |\n| **Notifiable incident** | Near miss where person could have been killed or seriously harmed |\n\n**Notification requirements:**\n- Notify WorkSafe immediately (by fastest means \u2014 phone: 0800 030 040)\n- Preserve scene until WorkSafe inspector arrives or authorises disturbance\n- Keep records of the event\n\n## Penalties Under HSWA\n\n| Offence Category | Individual Penalty | PCBU Penalty |\n|-----------------|-------------------|--------------|\n| Category 1 (reckless conduct) | Up to $300,000 / 5 years imprisonment | Up to $3,000,000 |\n| Category 2 (failure causing death/serious injury) | Up to $150,000 | Up to $1,500,000 |\n| Category 3 (failure to comply with duty) | Up to $50,000 | Up to $500,000 |\n\n## Key Takeaways\n\n- HSWA 2015 replaced HSE Act 1992 following Pike River Royal Commission\n- PCBU = central duty holder \u2014 almost every business qualifies\n- 'Reasonably practicable' \u2014 weigh likelihood, severity, knowledge, availability and cost (in that order)\n- Officers have personal due diligence duties \u2014 not just the company\n- HSRs can issue PINs and direct work to cease in urgent serious risk situations\n- Notify WorkSafe immediately for notifiable events \u2014 preserve the scene"
         },
         {
-          "title": "Notifiable Events \u2014 What and How to Report",
+          "id": "1-2",
+          "title": "WorkSafe NZ \u2014 Enforcement and Powers",
           "type": "lesson",
-          "content": "**Three Categories of Notifiable Events:**\n\n1. Notifiable death \u2014 death of any person in connection with work\n2. Notifiable illness or injury \u2014 requires immediate hospitalisation; amputation; serious head, eye, or spinal injury; loss of bodily function; serious infection\n3. Notifiable incident \u2014 a serious near miss exposing a person to serious risk\n\n**How to Notify WorkSafe:**\n- Call WorkSafe NZ immediately: 0800 030 040\n- Preserve the scene \u2014 do not disturb without WorkSafe permission\n- Follow up with written notification if required\n\n**Internal Reporting Best Practice:**\n- Report ALL near misses, not just injuries\n- Use your company hazard and incident register\n- Near misses are free lessons \u2014 the next one may not be\n\n**Key Contacts:**\n- WorkSafe NZ: 0800 030 040\n- worksafe.govt.nz\n- Dial Before You Dig: 0800 DIG KNOW"
+          "content": "## WorkSafe NZ \u2014 Regulator and Enforcement\n\nWorkSafe New Zealand is the primary workplace health and safety regulator, established under the WorkSafe New Zealand Act 2013. It is a Crown entity with responsibility for administering and enforcing the Health and Safety at Work Act 2015.\n\n## WorkSafe's Functions\n\n- Monitoring and enforcing compliance with HSWA\n- Investigating notifiable events and workplace incidents\n- Providing guidance, education, and tools to businesses\n- Issuing codes of practice and guidelines\n- Engaging with industry sectors on systemic safety issues\n\n## WorkSafe Inspector Powers\n\nWorkSafe inspectors have broad powers under HSWA:\n\n**Entry and inspection:**\n- Enter any workplace at any reasonable time without prior notice\n- Take photographs, video, samples, or measurements\n- Require persons to provide information or answer questions\n- Inspect documents and records\n- Require production of documents or other items\n\n**Enforcement tools:**\n\n| Tool | Description | Duration |\n|------|-------------|----------|\n| **Improvement Notice** | Requires remedy of breach within specified timeframe | Inspector sets timeframe |\n| **Prohibition Notice** | Prohibits activity until risk is addressed \u2014 immediate effect | Until conditions met |\n| **Non-disturbance Notice** | Preserves scene after notifiable event | Until investigation complete |\n| **Infringement Notice** | On-the-spot fine for minor breaches | N/A \u2014 penalty $100\u2013$10,000 |\n\n## Improvement Notices\n\nAn inspector issues an Improvement Notice when they believe a HSWA breach is occurring or has occurred:\n- States the provisions believed to be breached\n- States the reasons\n- Requires the breach to be remedied within a specified period\n- PCBU must fix the issue within the timeframe\n- PCBU may appeal to the District Court within 14 days\n\n## Prohibition Notices\n\nA Prohibition Notice is issued when an inspector believes an activity involves **serious risk** to health and safety:\n- Takes effect immediately\n- Prohibits the activity until the risk is remedied\n- Can apply to an entire site or specific operations\n- Failing to comply with a Prohibition Notice is a Category 2 offence\n- Can be appealed \u2014 but the work stops while appeal is pending unless court orders otherwise\n\n**Civil construction examples when a Prohibition Notice may be issued:**\n- Unprotected excavation with workers at the base in unstable soil\n- Crane operation within reach of overhead power lines without de-energisation\n- Workers without fall protection adjacent to unguarded excavation edges > 1.5 m\n- Mobile plant reversing near workers in a zone with no spotter and restricted visibility\n\n## Prosecution\n\nWorkSafe can prosecute PCBUs, officers, and workers for HSWA offences:\n\n**Prosecution process:**\n1. Investigation (following notifiable event, complaint, or proactive inspection)\n2. Evidence gathering (site inspection, interviews, document review)\n3. Decision to prosecute (public interest test, sufficiency of evidence)\n4. Filing charges in the District Court\n5. Court process \u2014 verdict and sentencing\n\n**Defences:**\n- Took all reasonably practicable steps to ensure health and safety\n- Emergency circumstances beyond control\n\n## WorkSafe Priority Sectors\n\nWorkSafe focuses enforcement resources on high-risk sectors. Construction is consistently a priority sector:\n- Approximately **50\u201370 fatalities per year** in NZ workplaces\n- Construction: typically 10\u201315% of fatalities\n- Agriculture, forestry, and transport are also priority sectors\n\n## Industry Compliance Strategy\n\nWorkSafe uses a compliance and enforcement model:\n1. **Education and awareness**: Guidance, toolkits, sector engagement\n2. **Influence and support**: Work with businesses to lift standards\n3. **Regulate**: Monitor and enforce \u2014 inspections, notices\n4. **Enforce**: Prosecution for serious breaches\n\nThe vast majority of contact with WorkSafe is educational \u2014 prosecution is reserved for the most serious cases.\n\n## Key Takeaways\n\n- WorkSafe NZ is the primary regulator \u2014 established 2013, enforces HSWA\n- Inspectors can enter without notice, take evidence, and require information\n- Improvement Notice: fix breach within timeframe \u2014 appealable within 14 days\n- Prohibition Notice: immediate stop work \u2014 serious risk \u2014 must comply immediately\n- Prosecution: Category 1 up to $3M PCBU / $300k + 5 years imprisonment individual\n- Construction is a WorkSafe priority sector \u2014 proactive inspections occur"
         },
         {
-          "title": "Quiz",
+          "id": "1-q",
+          "title": "Module 1 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "New Zealand primary workplace safety law is:",
+              "q": "What does PCBU stand for and when does a business qualify as a PCBU?",
               "options": [
-                "Health and Safety in Employment Act 1992",
-                "Health and Safety at Work Act 2015",
-                "WorkSafe NZ Act 2013",
-                "Workplace Safety Act 2015"
+                "Person Conducting a Business or Undertaking \u2014 almost every business qualifies",
+                "Principal Construction Business Unit \u2014 only large contractors",
+                "Public Construction and Building Union \u2014 government only",
+                "Person Controlling a Building or Undertaking \u2014 building owners only"
               ],
-              "answer": 1
+              "answer": 0,
+              "explanation": "PCBU = Person Conducting a Business or Undertaking. Almost every business qualifies \u2014 companies, sole traders, contractors, subcontractors, labour hire firms, and franchisors."
             },
             {
-              "q": "A PCBU must ensure health and safety:",
+              "q": "Under HSWA, what must a PCBU consider LAST when assessing reasonably practicable measures?",
               "options": [
-                "At all costs regardless of expense",
-                "So far as is reasonably practicable",
-                "Only of direct employees",
-                "Only during contracted hours"
+                "The likelihood of harm occurring",
+                "The degree of harm that could result",
+                "The cost of eliminating or minimising the risk",
+                "Worker knowledge of the hazard"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Cost is the last factor \u2014 weighed only after considering likelihood, severity, knowledge, and availability of controls. A PCBU cannot avoid safety measures simply because they are expensive."
             },
             {
-              "q": "WorkSafe NZ emergency line:",
+              "q": "A worker's arm is amputated in a civil construction incident. What must the PCBU do immediately?",
               "options": [
-                "111",
-                "0800 030 040",
-                "0800 DIG KNOW",
-                "0508 SAFE NZ"
+                "File a written report with WorkSafe within 48 hours",
+                "Notify WorkSafe immediately by fastest means (phone 0800 030 040) and preserve the scene",
+                "Complete an ACC claim form and notify WorkSafe within 7 days",
+                "Notify the site supervisor only \u2014 WorkSafe notification required only for fatalities"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Amputation is a notifiable injury under HSWA. The PCBU must notify WorkSafe IMMEDIATELY (phone 0800 030 040) and preserve the scene until WorkSafe authorises disturbance."
             },
             {
-              "q": "Maximum fine for a company (PCBU) under HSWA 2015:",
+              "q": "A WorkSafe inspector arrives on site and issues a Prohibition Notice. What must the PCBU do?",
               "options": [
-                "$300,000",
-                "$1,000,000",
+                "Continue work while appealing within 30 days",
+                "Stop the prohibited activity immediately \u2014 the notice takes effect immediately",
+                "Seek legal advice before complying",
+                "Stop work only if a court confirms the notice within 24 hours"
+              ],
+              "answer": 1,
+              "explanation": "Prohibition Notices take effect immediately \u2014 the prohibited activity must stop at once. Failure to comply is a Category 2 offence. While the notice can be appealed, work must stop while the appeal is pending unless a court orders otherwise."
+            },
+            {
+              "q": "What is the maximum penalty for a PCBU convicted of a Category 1 HSWA offence (reckless conduct)?",
+              "options": [
+                "$500,000",
+                "$1,500,000",
                 "$3,000,000",
-                "$500,000"
+                "$5,000,000"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Category 1 (reckless conduct) carries penalties up to $3,000,000 for a PCBU and $300,000 / 5 years imprisonment for individuals. These are the highest HSWA penalties."
             }
           ]
         }
@@ -77,63 +93,68 @@
     },
     {
       "id": 2,
-      "title": "NZ Site Safety Requirements",
-      "duration": "35 min",
+      "title": "Site Safety Essentials",
       "lessons": [
         {
-          "title": "PPE, Site Induction and Fall Protection",
+          "id": "2-1",
+          "title": "Hazard Management",
           "type": "lesson",
-          "content": "**Mandatory PPE on NZ Civil Construction Sites:**\n- Hard hat: AS/NZS 1801 or equivalent\n- High-visibility clothing: Class D/N (AS/NZS 4602.1)\n- Safety footwear: Steel cap boots (AS/NZS 2210.3)\n- Eye protection when required: AS/NZS 1337\n- Hearing protection in high-noise areas\n\n**Site Induction \u2014 Required Before Starting Any Work:**\n- Complete site-specific induction\n- Sign the induction register\n- Know the muster point (emergency assembly area)\n- Know first aider name and location\n- Understand site emergency plan and evacuation route\n\n**Fall Protection in NZ:**\nRequired at 2 metres or more above a lower level.\nPriority order of controls:\n1. Guardrails (most preferred)\n2. Safety nets\n3. Personal fall arrest system (harness \u2014 last resort)\n\n**Underground Services:**\nBefore ANY excavation call 0800 DIG KNOW (Dial Before You Dig NZ).\nCommon services: water, gas, electrical, telecommunications, stormwater.\nUse potholing to expose exact service locations before machine work."
+          "content": "## Hazard Management in Civil Construction\n\nSystematic hazard management is the operational core of any effective safety management system. Under HSWA, PCBUs must identify, assess, and control hazards as far as reasonably practicable.\n\n## Step 1: Hazard Identification\n\nHazards must be identified before work begins \u2014 and continuously during the work:\n\n**Identification methods:**\n- **Pre-start inspections**: Daily plant and site walk before work commences\n- **Site Safety and Health Plan (SSSP)**: Prepared before mobilisation for all notifiable work\n- **Task-specific Job Safety Analysis (JSA)**: Step-by-step breakdown of a specific task\n- **Toolbox talks**: Team discussion of daily hazards\n- **Near miss reporting**: Workers report close calls \u2014 these are leading indicators\n- **Change management review**: Any change in scope, equipment, or method triggers new hazard identification\n\n**Types of hazards on civil construction sites:**\n\n| Category | Examples |\n|----------|---------|\n| Physical | Falls from height, struck-by from plant, excavation collapse |\n| Mechanical | Pinch points, rotating parts, hydraulic failure |\n| Environmental | Noise, vibration, UV radiation, temperature extremes |\n| Chemical | Diesel exhaust, bitumen fumes, hydraulic fluid, solvents |\n| Ergonomic | Manual handling, awkward posture, repetitive strain |\n| Psychosocial | Fatigue, stress, bullying, remote work isolation |\n\n## Step 2: Risk Assessment\n\n**Risk = Likelihood x Severity**\n\n| Risk Level | Likelihood | Severity | Response |\n|-----------|-----------|---------|---------|\n| Extreme | Likely | Fatality | Stop work \u2014 redesign required |\n| High | Possible | Serious injury | Urgent controls \u2014 site manager sign-off |\n| Medium | Unlikely | Moderate injury | Documented controls |\n| Low | Rare | Minor injury | Standard precautions |\n\nRisk assessments must be:\n- Documented (SSSP hazard register)\n- Reviewed when conditions change\n- Communicated to all workers on site\n\n## Step 3: Control Hierarchy\n\nHSWA requires applying controls in priority order (highest effectiveness first):\n\n1. **Elimination**: Remove the hazard entirely\n   - Redesign the task to remove the hazardous element\n   - Use pre-fabricated components to reduce on-site cutting\n2. **Substitution**: Replace with a lower risk option\n   - Replace solvent-based product with water-based alternative\n   - Use an excavator to move heavy material instead of manual lifting\n3. **Isolation**: Separate the hazard from workers\n   - Exclusion zones around plant and machinery\n   - Barrier systems at excavation edges\n4. **Engineering controls**: Physical risk reduction\n   - Guarding on machinery\n   - Noise enclosures\n   - Trench shoring systems\n5. **Administrative controls**: Procedures and work practices\n   - Safe work procedures, permits to work\n   - Supervision, training, job rotation\n   - Toolbox talks communicating specific hazards\n6. **PPE**: Last resort \u2014 protects the individual\n   - Must be used WITH higher-level controls for significant risks\n   - Must fit properly and be maintained\n\n## Site-Specific Safety Plan (SSSP)\n\nAn SSSP is required for all **notifiable work** under HSWA regulations. Notifiable work in construction includes:\n- Excavations deeper than 1.5 m\n- Work on or near live services (electrical, gas, water, telecom)\n- Work at height > 5 m\n- Use of explosive-powered tools\n- Work on or near pressurised systems\n\n**SSSP must include:**\n- Description of the notifiable work\n- Hazard identification for all activities\n- Specific controls for each hazard\n- Emergency procedures\n- Worker consultation records\n- Names of responsible persons\n\nThe SSSP must be accessible to all workers on site. It must be reviewed and updated when conditions change.\n\n## Key Takeaways\n\n- Identify hazards daily \u2014 pre-starts, JSAs, toolbox talks, near miss reports\n- Assess risk: Likelihood x Severity = Risk Level\n- Apply control hierarchy: Elimination first \u2014 PPE last\n- SSSP mandatory for all notifiable work \u2014 kept current, accessible to all workers\n- Near misses are gold \u2014 report them, investigate them, prevent the next event"
         },
         {
-          "title": "Hazardous Substances \u2014 HSNO Act 1996",
+          "id": "2-2",
+          "title": "PPE Requirements",
           "type": "lesson",
-          "content": "**Hazardous Substances and New Organisms (HSNO) Act 1996**\nControls hazardous substances in NZ. Administered by the Environmental Protection Authority (EPA).\n\n**Key HSNO Hazard Classes:**\n- Class 1: Explosives\n- Class 2: Flammable gases\n- Class 3: Flammable liquids (diesel, petrol, solvents)\n- Class 4: Flammable solids\n- Class 5: Oxidising substances\n- Class 6: Toxic substances\n- Class 8: Corrosive substances\n\n**Safety Data Sheets (SDS):**\n- Must be available on site for every hazardous substance used\n- Workers must be trained to understand SDS content\n- Never use any substance without first reading its SDS\n\n**Silica Dust in NZ:**\n- Workplace Exposure Standard: 0.05 mg/m3 respirable\n- Released when cutting concrete, rock, masonry\n- Controls: Wet cutting, vacuum extraction, P2 respirator\n\n**Asbestos:**\n- Found in NZ infrastructure built before 2000\n- Governed by Asbestos Regulations 2016 (under HSWA)\n- Stop work if asbestos suspected \u2014 never disturb without testing\n- Class A removal: licensed asbestos removalist required"
+          "content": "## Personal Protective Equipment (PPE) Requirements\n\nPPE is the last line of defence in the hierarchy of controls \u2014 it does not eliminate or reduce the hazard, it only protects the individual if other controls fail. On civil construction sites, standard PPE is mandatory at all times, with additional specialised PPE for specific tasks.\n\n## Standard Site PPE \u2014 Non-Negotiable\n\nThe following PPE is required on all civil construction sites in New Zealand:\n\n### Hard Hat (Safety Helmet)\n- **Standard**: AS/NZS 1801 Class A or C\n- **Purpose**: Protection from falling objects, overhead hazards, and head strikes\n- **Maintenance**: Replace after any significant impact (even if no visible damage), every 3\u20135 years, or as per manufacturer\n- **Fit**: Must fit correctly \u2014 no backwards wearing (unless chin strap forward-designed)\n- Do NOT paint, drill, or apply stickers to hard hats \u2014 compromises structural integrity\n\n### High-Visibility Vest or Clothing\n- **Standard**: AS/NZS 4602.1 Class D or equivalent\n- **Purpose**: Visibility to plant operators and road users\n- **Minimum**: Fluorescent vest or t-shirt with retroreflective tape\n- All workers and visitors within 10 m of active plant or traffic must wear hi-vis\n- Dirty or damaged hi-vis must be replaced \u2014 reflective tape effectiveness reduces with soil/grease contamination\n\n### Safety Footwear\n- **Standard**: AS/NZS 2210.3 \u2014 steel capped boots\n- **Purpose**: Crush protection (200J toe cap), puncture resistance, slip resistance\n- **Sole requirement**: Steel mid-sole protection recommended for sites with rebar, sharp aggregate, or nail hazards\n- Must cover the ankle \u2014 no runners, sandals, or shoes without steel cap\n\n### Eye Protection\n- **Standard**: AS/NZS 1337\n- **Required for**: Grinding, cutting, drilling, concrete work, chemical handling, chipping\n- **Types**: Safety glasses (splash/chip), goggles (chemical/grinding dust), face shield (grinding, bitumen spray)\n- Prescription glasses alone do NOT meet the standard \u2014 safety glasses worn over or prescription safety glasses required\n\n### Hearing Protection\n- **Required when**: Noise exceeds 85 dB(A) for 8-hour exposure (WorkSafe NZ trigger level)\n- **Types**: Earplugs (foam or reusable, NRR rated), earmuffs (over-ear, higher NRR)\n- **Common noisy tasks**: Jack hammering, compactor operation, grinder use, plate compactor\n- Hearing loss is permanent and cumulative \u2014 damage from years of exposure is irreversible\n\n### Gloves\n- Task-specific: general-purpose leather gloves, chemical-resistant nitrile, cut-resistant\n- **Do NOT wear gloves** near rotating machinery (drill presses, lathes) \u2014 gloves can be caught in rotating parts\n- Chemical gloves must be rated for the specific substance being handled\n\n## Task-Specific PPE\n\n| Task | Additional PPE Required |\n|------|------------------------|\n| Working at height | Full-body harness, shock absorber, lanyard, anchor |\n| Concrete and cement work | Waterproof gloves, rubber boots, eye protection (alkali burns) |\n| Chipseal and bitumen | Heat-resistant gloves, face shield, chemical apron |\n| Grinding and cutting | Face shield over safety glasses, hearing protection |\n| Chemical handling | Chemical-rated gloves, goggles, apron |\n| Confined space | Respiratory protection, SCBA if required |\n| Chainsaw operation | Chainsaw chaps, visor, cut-resistant gloves |\n\n## PPE Management Responsibilities\n\n**PCBU must:**\n- Provide appropriate PPE at no cost to the worker\n- Ensure PPE is correctly fitted to each worker\n- Provide training on correct use, maintenance, and storage\n- Replace worn or damaged PPE promptly\n- Keep records of PPE provision\n\n**Workers must:**\n- Wear PPE as instructed\n- Inspect PPE before use\n- Report damaged or defective PPE immediately\n- Not modify or remove PPE without authorisation\n- Store PPE correctly to maintain effectiveness\n\n## PPE is NOT a Substitute for Higher-Level Controls\n\nA common error is relying on PPE instead of engineering or administrative controls:\n- Providing hi-vis vests does NOT replace traffic management\n- Providing hearing protection does NOT replace noise engineering controls\n- Providing safety glasses does NOT replace machine guarding\nPPE must supplement \u2014 not replace \u2014 higher-level controls for significant hazards.\n\n## Key Takeaways\n\n- Standard site PPE: hard hat (AS/NZS 1801), hi-vis (AS/NZS 4602.1), steel boots (AS/NZS 2210.3)\n- Hearing protection required above 85 dB(A) \u2014 hearing loss is permanent\n- PCBU provides PPE at no cost, properly fitted, with training\n- PPE is the last resort in the control hierarchy \u2014 must not replace higher-level controls\n- Task-specific PPE required for grinding, chemicals, working at height, concrete work"
         },
         {
-          "title": "Quiz",
+          "id": "2-q",
+          "title": "Module 2 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "In NZ fall protection is required at:",
+              "q": "In the HSWA control hierarchy, which control is most effective and should be applied first?",
               "options": [
-                "1 metre",
-                "2 metres",
-                "3 metres",
-                "6 feet"
+                "PPE",
+                "Administrative controls",
+                "Elimination",
+                "Engineering controls"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Elimination \u2014 removing the hazard entirely \u2014 is the most effective control and should always be explored first. PPE is the least effective and is the last resort."
             },
             {
-              "q": "Before excavating in NZ you must call:",
+              "q": "What NZ standard applies to hi-visibility clothing on civil construction sites?",
               "options": [
-                "WorkSafe NZ",
-                "111",
-                "0800 DIG KNOW",
-                "Your local council"
+                "AS/NZS 1801",
+                "AS/NZS 4602.1 Class D",
+                "AS/NZS 2210.3",
+                "AS/NZS 1337"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "AS/NZS 4602.1 Class D applies to high-visibility safety garments for day and night use. AS/NZS 1801 is for hard hats, AS/NZS 2210.3 for safety footwear, AS/NZS 1337 for eye protection."
             },
             {
-              "q": "The HSNO Act 1996 controls:",
+              "q": "At what noise level (8-hour exposure) does WorkSafe NZ require hearing protection?",
               "options": [
-                "Worker compensation",
-                "Hazardous substances",
-                "Traffic management",
-                "Health and safety management systems"
+                "75 dB(A)",
+                "80 dB(A)",
+                "85 dB(A)",
+                "90 dB(A)"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "WorkSafe NZ trigger level for mandatory hearing protection is 85 dB(A) for an 8-hour exposure. Hearing damage from noise is permanent and cumulative \u2014 cannot be reversed."
             },
             {
-              "q": "Asbestos in NZ infrastructure is commonly found in buildings built before:",
+              "q": "Who is responsible for providing PPE to workers on a civil construction site?",
               "options": [
-                "1975",
-                "1985",
-                "1990",
-                "2000"
+                "The worker \u2014 they must supply their own PPE",
+                "The PCBU \u2014 at no cost to the worker",
+                "WorkSafe NZ \u2014 through a PPE scheme",
+                "The main contractor only if workers are directly employed"
               ],
-              "answer": 3
+              "answer": 1,
+              "explanation": "Under HSWA, the PCBU must provide appropriate PPE at no cost to workers, ensure correct fit, provide training, and replace worn or damaged PPE promptly."
             }
           ]
         }
@@ -141,63 +162,84 @@
     },
     {
       "id": 3,
-      "title": "NZ Traffic Management \u2014 CoPTTM",
-      "duration": "30 min",
+      "title": "Traffic Management",
       "lessons": [
         {
-          "title": "Code of Practice for Temporary Traffic Management",
+          "id": "3-1",
+          "title": "CoPTTM Basics",
           "type": "lesson",
-          "content": "**CoPTTM \u2014 Code of Practice for Temporary Traffic Management**\n\nPublished by the NZ Transport Agency (NZTA). CoPTTM sets the national standard for all temporary traffic management on NZ roads.\n\n**NZ Traffic Management Qualifications:**\n\nTCP \u2014 Traffic Control Person\n- Operates stop/slow bat at simple sites\n- No formal cert required but training recommended\n\nTMO1 \u2014 Traffic Management Operative Level 1\n- Minimum qualification to work in most road traffic management roles\n- Covers setting out cones, signs, and operating stop/slow bat\n\nTMO2 \u2014 Traffic Management Operative Level 2\n- Implements full traffic management plans\n\nSTMS \u2014 Site Traffic Management Supervisor\n- Designs and manages all TTM on site\n- Must be present or on-call when TTM is active\n\n**Traffic Management Plan (TMP):**\n- Required for all work affecting traffic\n- Prepared by qualified STMS or designer\n- Approved by road controlling authority before work starts\n- All workers on site must be briefed on the TMP\n\n**Minimum PPE for Traffic Management:**\n- Class D/N high-visibility vest (AS/NZS 4602.1)\n- Hard hat\n- Safety footwear"
+          "content": "## Code of Practice for Temporary Traffic Management (CoPTTM)\n\nCoPTTM is the New Zealand standard for managing road safety around roadworks. Published by Waka Kotahi NZTA, it defines the requirements for planning, implementing, and operating temporary traffic management (TTM) on public roads.\n\n## Why CoPTTM Exists\n\nRoadworks create significant hazards for:\n- **Workers** on and near the road (struck-by risk from vehicles)\n- **Drivers** navigating around work zones (crash risk from unexpected conditions)\n- **Pedestrians and cyclists** diverted through unfamiliar paths\n\nWithout consistent, properly implemented traffic management, road workers face one of the highest struck-by risks in the construction industry.\n\n## CoPTTM Qualification Requirements\n\n| Role | CoPTTM Qualification | Description |\n|------|---------------------|-------------|\n| **Temporary Traffic Controller (TTC)** | TCP (Traffic Control Person) | Controls traffic flow through work zone using stop/slow bat |\n| **Site Traffic Management Supervisor (STMS)** | STMS Level 1 or 2 | Plans and supervises all TTM on site |\n| **Traffic Management Designer** | STMS Level 2 or specialist | Designs complex TTM plans |\n\n**TCP (formerly Traffic Control Person):**\n- Minimum training: 2-day CoPTTM TCP course + assessment\n- Scope: Operating stop/slow bat to control traffic on low-complexity worksites\n\n**STMS (Site Traffic Management Supervisor):**\n- Level 1: Low-complexity urban and rural roads\n- Level 2: High-speed roads, motorways, complex intersections\n- Responsibilities: Prepare TMP, implement TTM, supervise TCPs, liaise with road controlling authority\n\n## Traffic Management Plan (TMP)\n\nA TMP must be prepared for all works affecting public roads:\n- Prepared or approved by a qualified STMS\n- Shows layout of signs, cones, barriers, and vehicle paths\n- References standard CoPTTM layouts (where applicable)\n- Submitted to and approved by the road controlling authority (RCA) before work commences\n- Must be site-specific \u2014 copy-paste generic TMPs are not acceptable\n\n**TMP contents:**\n- Site location and description\n- Type of work and duration\n- Speed environment (posted vs temporary speed limit)\n- Pedestrian and cyclist management\n- Signs, cones, barriers, and delineation layout\n- TCP/STMS on-site hours\n\n## Underground Services \u2014 0800 DIG KNOW\n\nBefore any excavation near roads, all underground services must be identified:\n\n**0800 DIG KNOW** (now beforeUdig.co.nz):\n- Request utility maps from all service owners\n- Minimum 3 working days before excavation\n- Identify electricity, gas, water, wastewater, telecom, and irrigation\n- Use cable locator to verify positions (maps are indicative only)\n- Hand dig within 500 mm of identified service locations\n\n**Safe digging zone near services:**\n- Electric (high voltage): 1.0 m hand dig zone each side\n- Electric (low voltage): 500 mm hand dig zone\n- Gas (distribution): 500 mm hand dig zone\n- Telecom/data: 250 mm hand dig zone\n\n## CoPTTM Speed Management\n\nCoPTTM prescribes temporary speed limits for work zones:\n- **30 km/h**: Workers within 3 m of live traffic lane, urban areas\n- **45 km/h**: Workers within 5 m of live lane, rural areas with adequate sight distance\n- **Variable speed limit signs**: Used on high-speed roads to step speeds down\n\nTemporary speed limits must be enforced consistently \u2014 workers should not allow drivers to exceed the temporary limit without taking action (call Police if required).\n\n## Key Takeaways\n\n- CoPTTM: NZ standard for temporary traffic management \u2014 Waka Kotahi NZTA\n- TCP: controls traffic; STMS: plans, supervises, prepares TMP\n- TMP approved by RCA before work starts \u2014 no copy-paste generic plans\n- 0800 DIG KNOW / beforeUdig: request service plans 3 days before excavation\n- Hand dig within 500 mm of identified services \u2014 never excavate blind near utilities"
         },
         {
-          "title": "NZ Plant and Equipment Safety",
-          "type": "lesson",
-          "content": "**Plant Pre-Start Requirements (NZ):**\n\nUnder HSWA 2015 and Health and Safety at Work (General Risk and Workplace Management) Regulations 2016, all plant must be:\n- Maintained in safe condition\n- Operated only by trained and competent persons\n- Pre-start inspected daily \u2014 defects recorded\n\n**NZ Excavator Operation:**\n- No national government licence required in NZ\n- PCBU must ensure operator is trained and competent\n- Operator must hold or be working toward unit standard competency\n- Key unit: US 17284 \u2014 Operate a hydraulic excavator\n\n**Exclusion Zones:**\n- Establish exclusion zone around operating plant\n- No person inside exclusion zone while machine is operating\n- Spotter required when reversing or working near people\n\n**Safe Digging Near Services:**\n1. Call 0800 DIG KNOW \u2014 get service locations marked\n2. Hand dig or pothole within 500mm of marked services\n3. Reduce dig depth to expose exact service location\n4. Only then use machine outside 500mm clearance zone"
-        },
-        {
-          "title": "Quiz",
+          "id": "3-q",
+          "title": "Module 3 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "CoPTTM is published by:",
+              "q": "What NZ document governs temporary traffic management on public roads?",
               "options": [
-                "WorkSafe NZ",
-                "NZ Transport Agency (NZTA)",
-                "Civil Contractors NZ",
-                "Ministry of Transport"
+                "HSWA 2015 Traffic Schedule",
+                "CoPTTM (Code of Practice for Temporary Traffic Management)",
+                "NZTA M/4 Traffic Supplement",
+                "TNZ B/2 Road Safety Standard"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "CoPTTM (Code of Practice for Temporary Traffic Management) published by Waka Kotahi NZTA governs all TTM on public roads in New Zealand."
             },
             {
-              "q": "TMO1 qualification allows a worker to:",
+              "q": "Who is responsible for preparing the Traffic Management Plan (TMP) on a NZ road project?",
               "options": [
-                "Design traffic management plans",
-                "Work in road traffic management roles \u2014 cones, signs, stop/slow bat",
-                "Supervise all TTM on site",
-                "Approve TMPs"
+                "The site foreman",
+                "Any trained worker",
+                "A qualified STMS (Site Traffic Management Supervisor)",
+                "WorkSafe NZ"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "TMPs must be prepared or approved by a qualified STMS. STMS Level 1 for standard roads, Level 2 for high-speed and complex sites."
             },
             {
-              "q": "Within how many mm of a marked underground service must you hand dig?",
+              "q": "What is the minimum advance notice required when requesting utility plans before excavation via beforeUdig.co.nz?",
               "options": [
-                "100mm",
-                "200mm",
-                "300mm",
-                "500mm"
+                "24 hours",
+                "2 working days",
+                "3 working days",
+                "5 working days"
               ],
-              "answer": 3
+              "answer": 2,
+              "explanation": "Minimum 3 working days notice is required to request utility maps before excavation. This allows all service owners time to respond with their records."
             },
             {
-              "q": "Operating an excavator in NZ requires:",
+              "q": "What is the minimum hand-dig zone width either side of an identified low voltage electricity cable?",
               "options": [
-                "A government-issued licence",
-                "TMO1 qualification",
-                "Training and competency verified by PCBU",
-                "A Class 2 drivers licence"
+                "100 mm",
+                "250 mm",
+                "500 mm",
+                "1000 mm"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "500 mm hand dig zone is required either side of identified low voltage electricity cables. Mechanical excavation within this zone risks cable strike \u2014 electrocution hazard."
+            },
+            {
+              "q": "What does STMS stand for in NZ traffic management?",
+              "options": [
+                "Site Traffic Management Supervisor",
+                "Standard Traffic Management System",
+                "Safe Traffic Movement Standard",
+                "Site Traffic Monitoring System"
+              ],
+              "answer": 0,
+              "explanation": "STMS = Site Traffic Management Supervisor. An STMS is a qualified person who designs and implements Traffic Management Plans (TMPs) on NZ roads. STMS qualification is required to supervise traffic management on roads with speed limits above 70 km/h."
+            },
+            {
+              "q": "Who do you call before excavating near underground services in New Zealand?",
+              "options": [
+                "WorkSafe NZ on 0800 030 040",
+                "0800 DIG KNOW (the national utility locate service)",
+                "Your site supervisor only",
+                "The local council drainage department"
+              ],
+              "answer": 1,
+              "explanation": "0800 DIG KNOW (0800 344 566) is New Zealand's national utility locate service. Before ANY excavation near services, call 0800 DIG KNOW to identify underground utilities and obtain locate information."
             }
           ]
         }
@@ -205,78 +247,84 @@
     },
     {
       "id": 4,
-      "title": "Final Assessment",
-      "duration": "15 min",
+      "title": "Emergency Response",
       "lessons": [
         {
-          "title": "Course Summary",
+          "id": "4-1",
+          "title": "Incident Response and Notifiable Events",
           "type": "lesson",
-          "content": "**Congratulations \u2014 You have completed NZ: Site Safety Induction!**\n\nKey knowledge covered:\n\n- HSWA 2015: PCBU duties, reasonably practicable, worker duties\n- WorkSafe NZ: National regulator \u2014 0800 030 040\n- Notifiable events: Call immediately, preserve scene\n- Fall protection at 2 metres \u2014 guardrails preferred\n- 0800 DIG KNOW: Call before ANY excavation\n- Hand dig or pothole within 500mm of marked services\n- HSNO Act: Hazardous substances \u2014 SDS required on site\n- Silica: Use wet cutting or P2 respirator\n- Asbestos: Stop work if suspected \u2014 never disturb\n- CoPTTM: NZ traffic management standard\n- TMO1 minimum qualification for roadwork roles\n- No government excavator licence in NZ \u2014 PCBU verifies competency"
+          "content": "## Emergency and Incident Response on Civil Construction Sites\n\nEvery civil construction site must have a documented emergency response plan. Emergencies are unpredictable \u2014 when they occur, the first 2\u20133 minutes determine outcomes. Pre-planned, rehearsed response is the difference between a managed event and a catastrophe.\n\n## Site Emergency Plan Requirements\n\n**The emergency plan must cover:**\n- Emergency contacts (111, WorkSafe 0800 030 040, site manager, site address/GPS for emergency services)\n- Location of first aid kit, AED, fire extinguishers, spill kits\n- Designated muster point(s)\n- Emergency warden / first aider contact details\n- Evacuation routes for site\n- Procedures for: medical emergency, fire, buried worker, chemical spill, vehicle rollover\n\n**First aid requirements (NZ):**\n- Minimum one trained first aider must be on site at all times during work hours\n- First aid training: Provide First Aid (Unit Standard 6402) \u2014 valid 3 years\n- First aid kit: Stocked to NZS 8141:2001 standard, inspected monthly\n\n## Responding to an Incident \u2014 DRSABCD\n\nThe standard NZ first aid response sequence:\n\n| Step | Action |\n|------|--------|\n| **D** | Danger \u2014 assess for danger to yourself, others, and the casualty |\n| **R** | Response \u2014 check if casualty is conscious |\n| **S** | Send for help \u2014 call 111 immediately |\n| **A** | Airway \u2014 open and clear the airway |\n| **B** | Breathing \u2014 check for normal breathing |\n| **C** | CPR \u2014 begin 30:2 if not breathing normally |\n| **D** | Defibrillation \u2014 use AED as soon as available |\n\n**Key principle**: Do not move a casualty with a suspected spinal injury unless in immediate danger (e.g., from fire or further collapse).\n\n## Notifiable Events \u2014 Definition and Obligations\n\nUnder HSWA, specific events must be notified to WorkSafe immediately:\n\n**Notifiable Death:**\n- Death of any person arising from a work-related incident\n- Including contractors, subcontractors, visitors, and members of the public\n\n**Notifiable Injury or Illness:**\n- Immediate admission to hospital for treatment (not just observation)\n- Amputation of any body part\n- Serious head or eye injury\n- Serious burn (burns to large body surface areas or full thickness)\n- Loss of a bodily function (e.g., paralysis, loss of sight)\n- Serious laceration requiring surgery\n\n**Notifiable Incident (near miss):**\n- Collapse, failure, or malfunction of equipment that could have caused death/serious injury\n- Unintended explosion, fire, or flood\n- Escape of substances likely to cause serious illness\n- Collapse or failure of an excavation exceeding 1.5 m depth\n- Collapse or partial collapse of a structure\n- Contact with a live electrical service\n\n## Reporting to WorkSafe\n\n**Immediate notification process:**\n1. Call WorkSafe NZ: **0800 030 040** (24/7)\n2. Provide: Site location, nature of event, injuries, hazards still present\n3. **Preserve the scene**: Do not disturb until WorkSafe authorises\n   - Exception: Access to provide first aid and save life\n   - Exception: Prevent further serious injury\n   - Exception: Direction from WorkSafe inspector\n4. Keep all records related to the incident\n5. Provide written notice within 7 days if required by WorkSafe\n\n## Investigation Requirements\n\nAll notifiable events must be investigated:\n- **Purpose**: Identify root causes \u2014 not to assign blame\n- **Team**: Include a worker representative (HSR or JHSC equivalent)\n- **Methods**: Site inspection, interviews, document review, timeline reconstruction\n- **Root cause analysis**: 5 Whys, bow-tie analysis, fishbone diagram\n- **Corrective actions**: Implemented, tracked, and verified for effectiveness\n- **Learnings shared**: Site-wide and across the organisation\n\n**Preserve investigation integrity:**\n- Photograph scene before any disturbance\n- Record witness statements as soon as possible\n- Retain broken equipment, failed components as evidence\n- Document exact timeline of events\n\n## Key Takeaways\n\n- Emergency plan: 111, 0800 030 040, site address, first aid locations, muster point\n- DRSABCD: Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation\n- Notifiable events: deaths, serious injuries, and near-miss incidents \u2014 notify WorkSafe IMMEDIATELY\n- Preserve the scene after notifiable events \u2014 only disturb for first aid or preventing further harm\n- Investigate to find root causes \u2014 share learnings to prevent recurrence"
         },
         {
-          "title": "Quiz",
+          "id": "4-q",
+          "title": "Module 4 Quiz",
           "type": "quiz",
-          "pass_mark": 75,
           "questions": [
             {
-              "q": "WorkSafe NZ contact number:",
+              "q": "What is the WorkSafe NZ 24/7 notification phone number for notifiable events?",
               "options": [
-                "111",
+                "0800 020 020",
                 "0800 030 040",
-                "0508 SAFE NZ",
-                "0800 DIG KNOW"
+                "111",
+                "0800 004 888"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "WorkSafe NZ must be notified of notifiable events on 0800 030 040, available 24/7. This is separate from the emergency 111 call, which should also be made for life-threatening incidents."
             },
             {
-              "q": "Maximum fine for a company under HSWA 2015:",
+              "q": "A large excavation wall collapses but no one is injured. Does this need to be reported to WorkSafe?",
               "options": [
-                "$300,000",
-                "$1,000,000",
-                "$3,000,000",
-                "$500,000"
+                "No \u2014 no injuries means no reporting required",
+                "Yes \u2014 collapse of an excavation exceeding 1.5 m is a notifiable incident even without injuries",
+                "Only if the excavation was deeper than 3 m",
+                "Only if there was property damage over $10,000"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Collapse or failure of an excavation exceeding 1.5 m depth is a notifiable incident under HSWA regardless of whether injuries occurred. Near-miss events of this severity must be reported."
             },
             {
-              "q": "Fall protection in NZ required at:",
+              "q": "After a notifiable event, the scene should be:",
               "options": [
-                "1 metre",
-                "2 metres",
-                "3 metres",
-                "6 feet"
+                "Cleaned up immediately to make the site safe for other workers",
+                "Preserved and not disturbed until WorkSafe authorises \u2014 except for first aid and preventing further harm",
+                "Photographed and then cleared within 2 hours",
+                "Cleared once the injured worker has been transported to hospital"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "HSWA requires scene preservation after notifiable events. Only disturb the scene to provide first aid, prevent further harm, or on direction from WorkSafe. This protects the integrity of the investigation."
             },
             {
-              "q": "CoPTTM is the standard for:",
+              "q": "In the DRSABCD first aid sequence, what does the second 'D' stand for?",
               "options": [
-                "Chemical safety",
-                "Temporary traffic management",
-                "Plant licensing",
-                "Electrical safety"
+                "Documentation",
+                "Defibrillation",
+                "Diagnosis",
+                "Dispatch"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The second D in DRSABCD stands for Defibrillation \u2014 use an AED (automated external defibrillator) as soon as it is available. Early defibrillation dramatically improves survival rates in cardiac arrest."
             },
             {
-              "q": "Before excavating in NZ you call:",
+              "q": "Under HSWA 2015, how quickly must WorkSafe NZ be notified after a notifiable event?",
               "options": [
-                "WorkSafe NZ",
-                "NZTA",
-                "0800 DIG KNOW",
-                "Your local council"
+                "Within 48 hours in writing",
+                "Within 7 days via online form",
+                "Immediately by fastest means (e.g. phone)",
+                "Within 24 hours by email"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "HSWA requires IMMEDIATE notification of notifiable events by the fastest means practicable (typically phone: 0800 030 040). Written notification must follow but the immediate oral notification is the critical first step."
             },
             {
-              "q": "A PCBU must ensure health and safety:",
+              "q": "A worker witnesses a near miss where an excavator nearly struck a worker. Is this a notifiable incident?",
               "options": [
-                "At all costs",
-                "So far as is reasonably practicable",
-                "Only during contracted hours",
-                "Only for direct employees"
+                "No \u2014 nobody was hurt so it does not need to be reported",
+                "Yes \u2014 a notifiable incident includes situations where a person could have been killed or seriously harmed",
+                "Only if the operator witnessed it too",
+                "Only if the near miss is reported within 1 hour"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "A notifiable incident under HSWA includes any unplanned or uncontrolled incident where a person could have been killed or seriously harmed \u2014 even if no injury occurred. Near misses must be notified to WorkSafe NZ."
             }
           ]
         }

@@ -13,63 +13,73 @@
   "modules": [
     {
       "id": 1,
-      "title": "The Australian WHS Framework",
-      "duration": "40 min",
+      "title": "WHS Act 2011",
       "lessons": [
         {
-          "title": "Work Health and Safety Act 2011",
+          "id": "1-1",
+          "title": "Work Health and Safety Act 2011 \u2014 PCBU, Workers and Regulators",
           "type": "lesson",
-          "content": "Australia uses a harmonised Work Health and Safety (WHS) system.\n\n**PCBU \u2014 Person Conducting a Business or Undertaking**\nThe primary duty holder. Civil construction companies, subcontractors and sole traders are all PCBUs.\n\n**Primary Duty of Care (Section 19)**\nA PCBU must ensure, so far as is reasonably practicable:\n- Health and safety of workers\n- Health and safety of others affected by work\n\n**Worker Duties (Section 28)**\n- Take reasonable care for own health and safety\n- Not adversely affect health and safety of others\n- Comply with reasonable PCBU instructions\n\n**State Regulators (Enforcement Bodies)**\nNSW: SafeWork NSW | VIC: WorkSafe Victoria | QLD: WHSQ | WA: WorkSafe WA"
+          "content": "## Work Health and Safety Act 2011 (WHS Act)\n\nThe Work Health and Safety Act 2011 is Australia's harmonised workplace health and safety legislation. Developed by Safe Work Australia, model WHS laws were designed to create consistent national standards across participating jurisdictions, replacing a patchwork of state-based legislation.\n\n## Harmonisation \u2014 Which Jurisdictions Adopted the Model WHS Laws?\n\n| Jurisdiction | Adoption Status |\n|-------------|----------------|\n| Commonwealth | WHS Act 2011 |\n| NSW | WHS Act 2011 |\n| Queensland | WHS Act 2011 |\n| South Australia | WHS Act 2012 |\n| Tasmania | WHS Act 2012 |\n| ACT | WHS Act 2011 |\n| NT | WHS Act 2011 |\n| Victoria | OHS Act 2004 (not harmonised) |\n| Western Australia | WHS Act 2020 (adopted model laws 2022) |\n\n**Safe Work Australia** is the national policy body \u2014 it develops the model laws and codes of practice but does NOT enforce them. Enforcement is the responsibility of each state/territory regulator.\n\n## PCBU \u2014 Person Conducting a Business or Undertaking\n\nThe **PCBU** is the primary duty holder under the WHS Act \u2014 essentially any business entity:\n- Companies, partnerships, sole traders\n- Contractors, subcontractors, and sub-subcontractors\n- Labour hire companies\n- Franchisors\n\n**Primary duty (s.19):** A PCBU must ensure, so far as is reasonably practicable, the health and safety of workers it engages AND others who may be affected by its work activities.\n\n## Workers Under the WHS Act\n\nThe definition of 'worker' under the WHS Act is broad:\n- **Employees** (full-time, part-time, casual)\n- **Contractors and sub-contractors**\n- **Labour hire workers**\n- **Apprentices and trainees**\n- **Students on work experience**\n- **Volunteers** (in some circumstances)\n\nWorkers also have duties \u2014 they must:\n- Take reasonable care for their own health and safety\n- Take reasonable care not to adversely affect others\n- Comply with reasonable instructions from the PCBU\n- Co-operate with PCBU policies and procedures\n\n## Officers \u2014 Due Diligence Duty\n\n**Officers** (company directors, partners, senior managers) have a personal due diligence duty (s.27):\n- Acquire and keep up-to-date knowledge of WHS matters\n- Understand the organisation's operations and WHS hazards\n- Ensure appropriate resources and processes\n- Receive and consider information about incidents and hazards\n- Verify that safety management systems are working\n\nOfficers can be prosecuted personally and independently of any PCBU prosecution.\n\n## State Regulators\n\n| Regulator | Jurisdiction |\n|-----------|-------------|\n| SafeWork NSW | New South Wales |\n| WorkSafe Queensland | Queensland |\n| SafeWork SA | South Australia |\n| WorkSafe WA | Western Australia |\n| WorkSafe Victoria | Victoria (OHS Act) |\n| WorkSafe ACT | Australian Capital Territory |\n| NT WorkSafe | Northern Territory |\n\nRegulators have inspection and enforcement powers: improvement notices, prohibition notices, prosecutions.\n\n## Reasonably Practicable\n\n'Reasonably practicable' is the key standard throughout the WHS Act. It requires weighing:\n1. Likelihood of the hazard or risk occurring\n2. Degree of harm that could result\n3. Knowledge about the hazard and ways to eliminate/minimise it\n4. Availability and suitability of controls\n5. Cost \u2014 only after the above four factors are considered\n\n## Key Takeaways\n\n- WHS Act 2011: harmonised national legislation \u2014 most states adopted, Victoria and WA delayed\n- PCBU = central duty holder \u2014 almost every business qualifies\n- Workers: broad definition including contractors, labour hire, trainees, volunteers\n- Officers have personal due diligence duties \u2014 can be prosecuted independently\n- Reasonably practicable: cost is the LAST factor \u2014 not the first justification"
         },
         {
-          "title": "Incident Reporting and Notifiable Events",
-          "type": "lesson",
-          "content": "**Three Types of Notifiable Incidents (Must Report Immediately)**\n\n1. Death of any person\n2. Serious injury or illness \u2014 hospitalisation, amputation, serious burns, spinal injury, loss of consciousness\n3. Dangerous incident \u2014 uncontrolled escape of hazardous substance, collapse of a structure, electric shock\n\n**How to Report**\n- Call your state regulator immediately \u2014 do not wait\n- Follow up with written notification\n- Preserve the scene \u2014 do not disturb without regulator permission\n\n**Penalty for Non-Reporting**\nUp to $50,000 for an individual, $250,000 for a corporation."
-        },
-        {
-          "title": "Quiz",
+          "id": "1-q",
+          "title": "Module 1 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "What does PCBU stand for?",
+              "q": "Under the WHS Act 2011, which body develops the model WHS laws but does NOT enforce them?",
               "options": [
-                "Person Conducting Business Undertaking",
-                "Person Conducting a Business or Undertaking",
-                "Professional Civil Building Unit",
-                "Public Construction Business Unit"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "Under the WHS Act, workers must:",
-              "options": [
-                "Only follow written instructions",
-                "Take reasonable care for their own and others health and safety",
-                "Report directly to Safe Work Australia",
-                "Only comply with verbal instructions"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "A notifiable incident must be reported:",
-              "options": [
-                "Within 48 hours in writing",
-                "Immediately by phone to the state regulator",
-                "To Safe Work Australia within 24 hours",
-                "After investigation is complete"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "Which body enforces WHS laws in New South Wales?",
-              "options": [
-                "Safe Work Australia",
                 "SafeWork NSW",
-                "Infrastructure Australia",
-                "Fair Work Commission"
+                "Safe Work Australia",
+                "WorkSafe Queensland",
+                "Comcare"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "Safe Work Australia is the national policy body that develops model WHS laws and codes of practice. Enforcement is the responsibility of each state/territory regulator (e.g. SafeWork NSW, WorkSafe Queensland)."
+            },
+            {
+              "q": "A labour hire worker is injured on a civil construction site. Who owes a primary WHS duty of care?",
+              "options": [
+                "Only the labour hire company",
+                "Only the host employer (PCBU on site)",
+                "Both the labour hire company and the host employer PCBU \u2014 overlapping duties",
+                "Neither \u2014 labour hire workers are independent contractors"
+              ],
+              "answer": 2,
+              "explanation": "Both the labour hire company and the host employer are PCBUs with overlapping duties. Each must ensure the worker's health and safety so far as reasonably practicable within their control and influence."
+            },
+            {
+              "q": "An officer of a construction company is prosecuted for a WHS breach. The company is also being prosecuted for the same incident. Can both be held liable?",
+              "options": [
+                "No \u2014 only one can be prosecuted for the same incident",
+                "Yes \u2014 officers have personal due diligence duties and can be prosecuted independently of any company prosecution",
+                "Only if the officer was physically on site at the time",
+                "Only if the company is first found guilty"
+              ],
+              "answer": 1,
+              "explanation": "Officers have independent due diligence duties under s.27 of the WHS Act. They can be prosecuted personally and simultaneously with a PCBU prosecution \u2014 there is no requirement for the company to be convicted first."
+            },
+            {
+              "q": "When assessing 'reasonably practicable' under the WHS Act, when should cost be considered?",
+              "options": [
+                "First \u2014 it determines the budget for safety measures",
+                "Equally alongside all other factors",
+                "Last \u2014 only after considering likelihood, severity, knowledge, and control availability",
+                "Cost is not relevant to reasonably practicable"
+              ],
+              "answer": 2,
+              "explanation": "Cost is the last factor in the reasonably practicable assessment \u2014 weighed only after considering likelihood, severity, knowledge, and availability of controls. A PCBU cannot justify inadequate safety controls simply because measures are expensive."
+            },
+            {
+              "q": "Does the WHS Act apply to unpaid volunteers on a construction site?",
+              "options": [
+                "Never \u2014 volunteers are excluded from the WHS Act",
+                "Yes \u2014 the definition of 'worker' can include volunteers in some circumstances",
+                "Only if the volunteer is registered with the PCBU",
+                "Only after 30 days of volunteering"
+              ],
+              "answer": 1,
+              "explanation": "The WHS Act's definition of 'worker' can include volunteers in some circumstances \u2014 particularly those performing work that would otherwise be done by paid workers. PCBUs must ensure their health and safety while performing work."
             }
           ]
         }
@@ -77,63 +87,73 @@
     },
     {
       "id": 2,
-      "title": "High Risk Work Licensing",
-      "duration": "35 min",
+      "title": "Risk Management",
       "lessons": [
         {
-          "title": "HRW Licensing \u2014 What Requires a Licence?",
+          "id": "2-1",
+          "title": "Hierarchy of Controls, SWMS and JSA",
           "type": "lesson",
-          "content": "**Key Fact: Excavators Do NOT Require an HRW Licence in Australia**\nOperating earthmoving equipment does not require a government-issued licence. Employers must ensure operators are trained and competent.\n\n**Activities That DO Require HRW Licence:**\n- Scaffolding: Basic (SB), Intermediate (SI), Advanced (SA)\n- Dogging and Rigging: DG, RB, RI, RA\n- Cranes: Tower (CT), Vehicle Loading (CV), and more\n- Elevated Work Platforms over 11m (WP)\n- Forklifts (LF)\n\n**HRW Licence Process:**\n1. Complete approved training with a Registered Training Organisation (RTO)\n2. Pass written and practical assessment\n3. Apply to state regulator\n4. Licence issued \u2014 valid nationally under mutual recognition"
+          "content": "## Risk Management Under the WHS Act\n\nRisk management is the operational process by which PCBUs fulfil their duty to ensure health and safety. The WHS Act requires a systematic approach: identify hazards, assess risks, implement controls, and review.\n\n## Hazard Identification\n\nHazards must be identified before work begins \u2014 and continuously during work:\n- **Design phase**: Eliminate hazards at design stage (buildings, processes, equipment)\n- **Pre-start**: Daily site walk and equipment checks before work\n- **SWMS preparation**: Systematic identification for high-risk construction work\n- **Incident investigation**: Near misses reveal latent hazards\n- **Worker consultation**: Workers often know hazards better than management\n\n## Hierarchy of Controls (WHS Regulations)\n\nThe WHS Regulations require controls to be applied in priority order:\n\n| Level | Control Type | Example \u2014 Civil Construction |\n|-------|-------------|------------------------------|\n| 1 | **Elimination** | Remove the hazardous task entirely |\n| 2 | **Substitution** | Replace diesel-powered plant with electric |\n| 3 | **Isolation** | Exclusion zone around moving plant |\n| 4 | **Engineering** | Trench shoring, guarding, noise enclosures |\n| 5 | **Administrative** | Safe work procedures, permits, training |\n| 6 | **PPE** | Hard hat, hi-vis, steel caps \u2014 last resort |\n\nPPE must be used WITH higher-level controls for high-risk activities \u2014 never as a standalone measure.\n\n## Safe Work Method Statements (SWMS)\n\nA **SWMS** is required for all **high-risk construction work (HRCW)** under the WHS Regulations.\n\n**High-risk construction work includes:**\n- Work involving a risk of a person falling more than 2 metres\n- Demolition work\n- Work involving, or likely to involve, disturbance of asbestos\n- Excavation to a depth greater than 1.5 m\n- Work in confined spaces\n- Work on or near pressurised gas distribution mains or piping\n- Work on or near energised electrical installations\n- Work in, on, or adjacent to a road, railway, or other traffic\n- Work on telecommunications towers\n\n**SWMS must:**\n- Identify the high-risk construction work\n- State the hazards and risks associated with the work\n- Describe the measures to control the risks\n- Describe how those measures are implemented, monitored, and reviewed\n\n**SWMS must be:**\n- Prepared before high-risk construction work commences\n- Readily accessible to workers performing the work\n- Complied with by all workers\n- Reviewed and revised if the work changes\n\n## Job Safety Analysis (JSA)\n\nA **JSA** (also called Job Hazard Analysis or JHA) is a task-based risk management tool:\n\n**JSA Process:**\n1. Select the task to be analysed\n2. Break the task into sequential steps\n3. Identify hazards at each step\n4. Assess risk (likelihood \u00d7 consequence)\n5. Identify controls for each hazard (hierarchy of controls)\n6. Assign responsibility and timeline\n7. Review with workers who will perform the task\n8. Workers sign off \u2014 acknowledging they understand the controls\n\nJSAs are not legally required for all work (unlike SWMS for HRCW) but represent best practice for any non-routine or complex task.\n\n## Consulting Workers \u2014 WHS Act Requirement\n\nThe WHS Act (s.47) requires PCBUs to consult workers on health and safety matters:\n- Identifying and assessing hazards\n- Decisions about controls\n- Introducing new or changed systems of work\n- Changing PPE requirements\n- Resolving safety concerns\n\nWorker consultation is not optional \u2014 it is a legal requirement. Workers performing the task often have the most accurate knowledge of the real hazards involved.\n\n## Key Takeaways\n\n- Hierarchy of controls: Elimination first \u2014 PPE last \u2014 never PPE alone for high risks\n- SWMS required for all High-Risk Construction Work \u2014 must be prepared before work starts\n- Excavation >1.5 m = HRCW in Australia \u2014 SWMS mandatory\n- JSA: task-by-step hazard identification \u2014 best practice for all complex tasks\n- Worker consultation is legally required under WHS Act s.47"
         },
         {
-          "title": "White Card \u2014 General Construction Induction",
-          "type": "lesson",
-          "content": "**The White Card is Mandatory for ALL Construction Site Workers**\n\nLegal Basis: Work Health and Safety Regulations 2017, Regulation 316\n\n**What It Covers:**\n- WHS legislation awareness\n- Worker rights and responsibilities\n- Hazard identification and risk management\n- Incident reporting\n- Emergency procedures\n\n**Key Facts:**\n- Valid nationally across all states\n- No expiry date\n- Must carry on site at all times\n- Penalty: Up to $3,600 for working without White Card\n\n**Difference from NZ:** New Zealand has no equivalent White Card requirement."
-        },
-        {
-          "title": "Quiz",
+          "id": "2-q",
+          "title": "Module 2 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "Operating an excavator in Australia requires:",
+              "q": "Excavation to a depth greater than 1.5 m is classified as what type of work under the WHS Regulations?",
               "options": [
-                "A federal HRW licence",
-                "A state HRW licence",
-                "No HRW licence \u2014 but competency required",
-                "A White Card endorsement"
+                "Notifiable work only",
+                "Standard construction work",
+                "High-Risk Construction Work (HRCW) requiring a SWMS",
+                "Confined space work only"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "Excavation deeper than 1.5 m is classified as High-Risk Construction Work under the WHS Regulations. A Safe Work Method Statement (SWMS) must be prepared before this work commences."
             },
             {
-              "q": "The White Card expires:",
+              "q": "At what level of the hierarchy of controls does PPE sit?",
               "options": [
-                "Every 2 years",
-                "Every 5 years",
-                "It does not expire",
-                "After 10 years"
+                "Level 1 \u2014 most effective",
+                "Level 3 \u2014 after elimination and substitution",
+                "Level 6 \u2014 last resort",
+                "PPE is not part of the hierarchy"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "PPE is Level 6 \u2014 the last and least effective control. It protects only the individual and provides no reduction of the hazard itself. For high-risk activities, PPE must be used WITH higher-level controls."
             },
             {
-              "q": "Scaffolding in Australia requires:",
+              "q": "A SWMS for high-risk construction work must be reviewed and revised when:",
               "options": [
-                "No formal licence",
-                "HRW Scaffolding licence (SB/SI/SA)",
-                "Only a White Card",
-                "A PCBU approval letter"
+                "Annually regardless of changes",
+                "The work or site conditions change significantly",
+                "Only after an incident occurs",
+                "When the worker requests it"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "A SWMS must be reviewed and revised if the work scope or site conditions change significantly. It must reflect the actual work being performed \u2014 an outdated SWMS provides no protection."
             },
             {
-              "q": "An HRW licence from Queensland is valid in:",
+              "q": "Under WHS Act s.47, when must a PCBU consult with workers?",
               "options": [
-                "Queensland only",
-                "QLD and NSW only",
-                "All Australian states and territories",
-                "Only harmonised states"
+                "Only during the annual safety review",
+                "When identifying hazards, assessing risks, making decisions about controls, and changing work systems",
+                "Only if a union representative is present",
+                "Only after an incident"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "WHS Act s.47 requires consultation when identifying hazards, assessing risks, making decisions about controls, changing work systems or PPE, and resolving safety concerns. Consultation is a legal requirement \u2014 not optional."
+            },
+            {
+              "q": "What is the primary difference between a SWMS and a JSA?",
+              "options": [
+                "A JSA is legally required for HRCW; a SWMS is voluntary",
+                "A SWMS is legally required for all HRCW; a JSA is best practice for complex tasks but not always legally mandated",
+                "They are identical documents with different names",
+                "A SWMS is only used for confined space work"
+              ],
+              "answer": 1,
+              "explanation": "A SWMS is legally required under the WHS Regulations for all High-Risk Construction Work. A JSA is a best-practice task-based risk management tool \u2014 highly recommended for complex tasks but not always a specific legal requirement."
             }
           ]
         }
@@ -141,53 +161,62 @@
     },
     {
       "id": 3,
-      "title": "Austroads and Technical Standards",
-      "duration": "40 min",
+      "title": "Site Induction",
       "lessons": [
         {
-          "title": "Austroads \u2014 The Road Standards Body",
+          "id": "3-1",
+          "title": "High-Risk Work Licences, White Card and Site Induction",
           "type": "lesson",
-          "content": "**What is Austroads?**\nAustroads is the peak body of Australasian road transport and traffic agencies. It develops technical guidelines used across Australia and New Zealand.\n\n**Key Austroads Publications:**\n- Guide to Pavement Technology (AGPT) \u2014 pavement design, materials, construction\n- AGPT Part 4B \u2014 Bituminous binders\n- AGPT Part 4D \u2014 Stabilised materials\n- Guide to Road Design\n- Guide to Traffic Management\n\n**State Road Authorities:**\n- NSW: Transport for NSW (TfNSW)\n- VIC: VicRoads\n- QLD: Department of Transport and Main Roads (TMR)\n- WA: Main Roads WA\n\n**Key Australian Standards:**\n- AS 1742 series \u2014 Manual of Uniform Traffic Control Devices\n- AS 2436 \u2014 Traffic management in work zones\n- AS 1289 \u2014 Methods of testing soils"
+          "content": "## Site Induction Requirements in Australia\n\nBefore any worker begins work on an Australian construction site, they must complete a site induction. Additionally, working in construction requires a General Construction Induction (White Card) and, for specific activities, a High-Risk Work (HRW) Licence.\n\n## White Card \u2014 General Construction Induction Training\n\nThe **White Card** (formally: General Construction Induction Training certificate) is mandatory for ALL workers entering a construction site in Australia:\n- Covers fundamental WHS knowledge for construction\n- Completed with a Registered Training Organisation (RTO)\n- Nationally recognised \u2014 valid in all Australian states/territories\n- No expiry \u2014 but refresher training recommended after long absence\n\n**White Card content includes:**\n- WHS legal framework and duty holders\n- Hazard identification and risk management\n- Common construction hazards and controls\n- Emergency procedures\n- Worker rights and WHS consultation\n\n**Verification:** Site managers must verify each worker's White Card before they start work. Workers without a valid White Card must NOT be permitted on site.\n\n## High-Risk Work Licences\n\nCertain high-risk activities require a specific **High-Risk Work (HRW) Licence** from the state/territory regulator:\n\n| HRW Licence Class | Activity |\n|-------------------|---------|\n| **CN, C2, C6** | Cranes (tower, mobile, etc.) |\n| **DG** | Dogging \u2014 attaching loads to cranes |\n| **RB** | Rigging \u2014 basic |\n| **RI** | Rigging \u2014 intermediate |\n| **RA** | Rigging \u2014 advanced |\n| **EWP** | Elevating work platform > 11 m boom height |\n| **FL** | Forklift operation |\n| **BF** | Boom-type elevating work platform |\n\n**How to obtain an HRW Licence:**\n1. Complete training with a licensed trainer/assessor\n2. Pass practical and knowledge assessments\n3. Apply to the state/territory regulator (e.g. SafeWork NSW) with evidence\n4. Licence issued \u2014 valid for 5 years, must be renewed\n\n**Civil construction implications:** Any crane lifts, EWP operations, or dogging activities on a civil site require workers with appropriate HRW licences. The PCBU must verify licence classes before assigning work.\n\n## Site-Specific Induction\n\nIn addition to the White Card, every worker must receive a **site-specific induction** before starting work:\n\n**Site induction must cover:**\n- Site layout: entry/exit points, amenities, assembly areas\n- Site hazards and specific controls\n- Emergency procedures: evacuation routes, muster points, first aid locations\n- Site rules: PPE requirements, speed limits, no-go zones\n- Reporting structure: supervisor contacts, incident reporting process\n- Environmental controls: dust, water, waste management\n\n**Documentation:** Site induction must be documented \u2014 signed attendance record. Workers must not enter the active site before induction is complete.\n\n## Principal Contractor Obligations\n\nOn construction projects with a value above the threshold, a **Principal Contractor (PC)** must:\n- Prepare a Construction Work Health and Safety Management Plan (WHS Management Plan)\n- Ensure all contractors comply with WHS requirements\n- Coordinate WHS across all workers on the project\n- Display the WHS Management Plan on site\n\n## Key Takeaways\n\n- White Card: mandatory for ALL workers on Australian construction sites \u2014 nationally recognised, no expiry\n- HRW Licence required for cranes, rigging, dogging, EWPs, forklifts \u2014 5-year validity\n- Site induction: must occur before any worker enters the active site \u2014 document with signed record\n- Principal Contractor: manages WHS across the project \u2014 WHS Management Plan required above threshold value"
         },
         {
-          "title": "Traffic Management in Australia",
-          "type": "lesson",
-          "content": "**Traffic Control on Australian Roads**\nAll roadwork requires a Traffic Management Plan (TMP) and qualified personnel.\n\n**Core Training Units (National):**\n- RIIWHS302E \u2014 Implement Traffic Management Plan\n- RIIWHS205E \u2014 Control traffic with stop-slow bat\n\n**State-Specific Requirements:**\n- NSW: Traffic Control \u2014 Work Site Preparation\n- VIC: Implement Traffic Management Plan\n- QLD: RIIWHS302E required\n\n**Key Rules:**\n- TMP must be prepared by a qualified Traffic Management Designer\n- All workers directing traffic must hold relevant state certification\n- Minimum PPE: High-visibility vest, hard hat, safety footwear\n\n**Call Before You Dig:** Dial 1100 before any excavation work in Australia."
-        },
-        {
-          "title": "Quiz",
+          "id": "3-q",
+          "title": "Module 3 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "Austroads is best described as:",
+              "q": "What is the White Card and who is required to have one on Australian construction sites?",
               "options": [
-                "The federal safety regulator",
-                "The peak body developing road transport technical guidelines for AU/NZ",
-                "A state government road authority",
-                "An insurance body for road workers"
+                "A site access card issued by the principal contractor \u2014 required for supervisors only",
+                "General Construction Induction Training certificate \u2014 required for ALL workers entering any construction site",
+                "A qualification card for plant operators \u2014 renewed every 5 years",
+                "An identity document issued by the state regulator \u2014 required for new workers only"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "The White Card is the General Construction Induction Training certificate \u2014 mandatory for every worker entering any Australian construction site. It is nationally recognised and has no expiry (though refreshers are recommended after long absence)."
             },
             {
-              "q": "Which standard covers traffic management in Australian work zones?",
+              "q": "What HRW Licence class is required to operate an elevating work platform with a boom height exceeding 11 metres?",
               "options": [
-                "AS 1289",
-                "AS 3996",
-                "AS 2436",
-                "AS 1085"
+                "FL (forklift)",
+                "DG (dogging)",
+                "EWP or BF (elevating work platform)",
+                "RB (rigging basic)"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "An EWP or BF (boom-type EWP) High-Risk Work Licence is required to operate an elevating work platform with a boom height exceeding 11 metres. Operating without the correct HRW licence is a WHS breach."
             },
             {
-              "q": "Before excavating in Australia you must call:",
+              "q": "When must a site-specific induction be completed?",
               "options": [
-                "0800 DIG KNOW",
-                "811",
-                "1100",
-                "000"
+                "Within the first week of starting on site",
+                "Before the worker enters the active construction site",
+                "At any point during the first shift",
+                "Only for workers who have never worked in construction before"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Site-specific induction must be completed BEFORE the worker enters the active construction site. Workers must not access the site prior to induction \u2014 the site manager must verify this for every new worker."
+            },
+            {
+              "q": "How long is a High-Risk Work Licence valid in Australia?",
+              "options": [
+                "1 year",
+                "3 years",
+                "5 years",
+                "Indefinitely"
+              ],
+              "answer": 2,
+              "explanation": "High-Risk Work Licences are valid for 5 years and must be renewed before expiry. The PCBU should track licence expiry dates to ensure all licensed workers remain current."
             }
           ]
         }
@@ -195,53 +224,62 @@
     },
     {
       "id": 4,
-      "title": "Site Safety Fundamentals",
-      "duration": "30 min",
+      "title": "Plant and Equipment",
       "lessons": [
         {
-          "title": "PPE Requirements and Site Rules",
+          "id": "4-1",
+          "title": "Pre-Starts, Maintenance, Plant Registration and Operator Competency",
           "type": "lesson",
-          "content": "**Mandatory PPE on Australian Construction Sites:**\n- Hard hat (AS/NZS 1801)\n- High-visibility clothing \u2014 Class D/N day/night (AS/NZS 4602.1)\n- Safety footwear \u2014 steel cap boots (AS/NZS 2210.3)\n- Eye protection when required (AS/NZS 1337)\n- Hearing protection in high-noise areas (AS/NZS 1269)\n\n**Site Access Controls:**\n- Sign in and out every day\n- Attend site induction before starting work\n- Follow Visitor/Worker identification requirements\n\n**Working at Heights:**\nAny work at 2m or above requires fall prevention measures:\n- Guardrails (preferred)\n- Safety mesh\n- Fall arrest harness (last resort \u2014 requires training)"
+          "content": "## Plant and Equipment Safety in Australian Civil Construction\n\nMobile plant \u2014 excavators, graders, rollers, compactors, cranes \u2014 creates some of the highest fatality risks in civil construction. The WHS Regulations impose specific requirements for the management of plant to protect operators and ground workers.\n\n## Plant Registration\n\nCertain 'items of plant' must be **registered** with the state/territory WHS regulator before use:\n\n**Registerable plant examples:**\n- Cranes and hoists with a safe working load > 10 kN\n- Pressure vessels (steam, compressed air)\n- Boilers\n- Lifts (passenger and goods)\n- Mobile cranes > 10 t\n- Tower cranes\n- Amusement devices\n\n**Note:** Standard excavators, rollers, and compactors typically do NOT require plant registration \u2014 but must still meet maintenance, inspection, and operator competency requirements.\n\n## Designs of Plant\n\nPlant designs must also be registered for certain plant items:\n- New design of registerable plant must be registered with a regulator\n- Provides assurance the design has been assessed for safety\n- Design registration number must be recorded in the plant item registration\n\n## Pre-Start Inspections\n\nDaily pre-start inspections are mandatory for all mobile plant on Australian civil sites:\n\n**Pre-start inspection checklist (excavator example):**\n- Engine oil, coolant, hydraulic fluid, fuel levels\n- Hydraulic hoses \u2014 leaks, chafing, damage\n- Undercarriage \u2014 track tension, rollers, idlers, sprockets\n- Attachments \u2014 secure pins, bucket/teeth condition\n- Cab \u2014 seat belt, ROPS, controls function, mirrors\n- Warning devices \u2014 reverse alarm, lights, horn\n- Surroundings \u2014 clear working area before start-up\n\n**Documentation:** Pre-start records must be kept \u2014 typically 1\u20133 month retention minimum. Defects must be reported to the supervisor and plant taken out of service until repaired.\n\n## Maintenance Regime\n\nPCBUs must implement a plant maintenance program:\n- Manufacturer's recommended service intervals (e.g. 250 h, 500 h, 1000 h services)\n- Maintenance records kept for each item of plant\n- Major repairs authorised by a competent person\n- Critical safety components (brakes, ROPS, lifting attachments) must not be bypassed or disabled\n\n## Operator Competency\n\nThe WHS Regulations require that plant is only operated by **competent persons**:\n\n| Plant Type | Competency Evidence |\n|-----------|---------------------|\n| Excavator | RII training package units (e.g. RIIMPO320F) |\n| Crane | HRW Licence (CN, C2, C6 etc.) |\n| EWP >11m | HRW Licence (EWP/BF) |\n| Dogging | HRW Licence (DG) |\n| Forklift | HRW Licence (FL) |\n| Roller/compactor | RII training package units |\n\n**Competency verification process:**\n1. Request evidence of training/licence from worker\n2. Verify currency (HRW licences expire every 5 years)\n3. Conduct site-specific plant induction\n4. Formally authorise the worker for specific plant on site\n5. Record authorisation\n\n## Safe Design of Work Areas for Plant\n\n- Designate pedestrian exclusion zones around all operating plant\n- Separate pedestrian and plant traffic routes where possible\n- All reversing movements of mobile plant require either a spotter or a functioning reversing camera\n- Audit compliance \u2014 randomly check that exclusion zones are being observed\n\n## Key Takeaways\n\n- Cranes and pressure vessels require plant registration \u2014 excavators typically do not but still have strict requirements\n- Pre-start inspections: daily, documented, defects reported and plant taken out of service\n- Competent persons: RII training units for civil plant, HRW licences for cranes/EWP/dogging\n- Maintenance program: follow manufacturer intervals \u2014 keep records\n- Exclusion zones and spotters: mandatory for reversing plant and operating near workers"
         },
         {
-          "title": "Hazardous Materials and Underground Services",
-          "type": "lesson",
-          "content": "**Hazardous Materials in Civil Construction:**\n\n**Asbestos**\n- Found in older infrastructure built before 1990\n- Stop work if asbestos suspected \u2014 contact supervisor\n- Removal requires licensed asbestos removalist\n\n**Silica Dust**\n- Released when cutting/grinding concrete, rock, or sand\n- Causes silicosis \u2014 serious and permanent lung disease\n- Use wet cutting methods or P2 respirator\n\n**Underground Services**\n- Always call 1100 (Dial Before You Dig) before excavating\n- Water, gas, electrical, telecommunications services all underground\n- Use potholing to identify exact service locations\n- Do not use machine within 300mm of a marked service"
-        },
-        {
-          "title": "Quiz",
+          "id": "4-q",
+          "title": "Module 4 Quiz",
           "type": "quiz",
-          "pass_mark": 70,
           "questions": [
             {
-              "q": "Working at heights in Australia requires fall prevention at:",
+              "q": "Which of the following items of plant typically requires registration with the WHS regulator?",
               "options": [
-                "1 metre and above",
-                "2 metres and above",
-                "3 metres and above",
-                "4 metres and above"
+                "A 20-tonne excavator",
+                "A vibratory roller",
+                "A tower crane",
+                "A plate compactor"
               ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Tower cranes are registerable plant under the WHS Regulations \u2014 they must be registered with the state/territory regulator before use. Standard excavators, rollers, and compactors typically do not require registration but must meet other safety requirements."
             },
             {
-              "q": "If you suspect asbestos on site you should:",
+              "q": "What training package provides competency units for excavator operators in Australia?",
               "options": [
-                "Continue working carefully",
-                "Remove it yourself with a mask",
-                "Stop work and contact your supervisor",
-                "Cover it with soil and continue"
+                "CPP (Construction, Plumbing and Services)",
+                "RII (Resources and Infrastructure Industry)",
+                "CPC (Construction, Plumbing and Services)",
+                "TLI (Transport and Logistics)"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "The RII (Resources and Infrastructure Industry) training package provides competency units for civil plant operation, including RIIMPO320F for excavators. These are nationally recognised units within the Australian Qualifications Framework."
             },
             {
-              "q": "The preferred fall prevention method is:",
+              "q": "Pre-start inspection records for mobile plant should be:",
               "options": [
-                "Safety harness",
-                "Safety net",
-                "Guardrails",
-                "Spotter watching"
+                "Kept only when a defect is found",
+                "Completed and documented before each shift, with defects reported and plant taken out of service",
+                "Completed weekly by the site supervisor",
+                "Only required for registered plant"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "Pre-start inspections must be completed before every shift, documented, and defects reported. Plant with defects must be taken out of service until repaired. Records are retained as evidence of due diligence."
+            },
+            {
+              "q": "A reversing excavator has a malfunctioning reverse alarm. What is the minimum acceptable control?",
+              "options": [
+                "Continue using the machine \u2014 the operator has good mirrors",
+                "Use a dedicated spotter with clear communication with the operator during all reversing movements",
+                "Place a sign at the back of the machine warning workers",
+                "Restrict reversing speed to walking pace only"
+              ],
+              "answer": 1,
+              "explanation": "When a reverse alarm is malfunctioning, a dedicated spotter must be used for all reversing movements. The spotter provides equivalent warning to workers. The defect should also be reported and the alarm repaired as soon as possible."
             }
           ]
         }
@@ -249,98 +287,73 @@
     },
     {
       "id": 5,
-      "title": "Final Assessment",
-      "duration": "20 min",
+      "title": "Incident Reporting",
       "lessons": [
         {
-          "title": "Course Summary",
+          "id": "5-1",
+          "title": "Serious Injuries, SafeWork Notifications and Return to Work",
           "type": "lesson",
-          "content": "**Congratulations \u2014 You have completed AU: Civil Construction Induction!**\n\nKey knowledge covered:\n\n- WHS Act 2011: PCBU duties, reasonably practicable, worker duties\n- Notifiable incidents: report immediately, preserve scene\n- High Risk Work: 29 licence classes, excavators do NOT require HRW licence\n- White Card: mandatory for all construction site workers, no expiry\n- Austroads: road and pavement technical standards\n- Traffic management: TMP required, state-specific certification\n- Call 1100 before any excavation\n\n**Key Differences vs NZ:**\n- Australia uses PCBU (NZ uses employer/PCBU)\n- White Card mandatory in AU (no equivalent in NZ)\n- Austroads = NZTA technical equivalent\n- 8 state regulators (NZ has one: WorkSafe NZ)"
+          "content": "## Incident Reporting and Management in Australia\n\nEffective incident reporting is both a legal obligation and a critical safety improvement mechanism. Under the WHS Act and Regulations, certain incidents must be reported to the regulator immediately.\n\n## Notifiable Incidents\n\nPCBUs must notify the WHS regulator immediately of **notifiable incidents**:\n\n| Incident Type | Definition |\n|--------------|-----------|\n| **Notifiable death** | Death of a worker or other person from work-related incident |\n| **Notifiable serious injury or illness** | Requires immediate treatment as an in-patient in hospital; amputation; serious head, eye or ear injury; serious burns; serious spinal injury; loss of a bodily function; serious lacerations |\n| **Dangerous incident** | Near miss with potential for serious injury \u2014 collapse of excavation, uncontrolled spill of hazardous substance, explosion, fire |\n\n**Notification requirements:**\n- Notify the regulator by the **fastest means possible** (phone call)\n- Written notification within 48 hours of dangerous incident; immediately for deaths/serious injuries\n- Preserve the incident site \u2014 do NOT disturb until regulator authorises\n\n**Regulator notification contacts:**\n- SafeWork NSW: 13 10 50\n- WorkSafe Queensland: 1300 362 128\n- SafeWork SA: 1300 365 255\n- WorkSafe WA: 1300 307 877\n\n## Scene Preservation\n\nAfter a notifiable incident, the scene must be preserved:\n- Do not move, interfere with, or disturb the site\n- Exception: to assist an injured person, make the site safe, or comply with regulator direction\n- Document the scene with photographs and measurements before preservation ends\n- Regulator inspector will attend and conduct investigation\n\n## Incident Investigation\n\nAll incidents and near misses should be investigated \u2014 not just notifiable events:\n\n**Investigation process:**\n1. **Immediate response**: Secure scene, treat injured, notify emergency services if needed\n2. **Regulator notification** (if notifiable event)\n3. **Gather evidence**: Photos, measurements, witness statements, CCTV, plant records\n4. **Root cause analysis**: Identify immediate cause, contributing factors, and root causes\n5. **Corrective actions**: Identify controls to prevent recurrence\n6. **Communication**: Share learnings with the site and wider organisation\n7. **Review**: Monitor effectiveness of corrective actions\n\n**Root cause analysis tools:**\n- 5 Whys: Ask 'why' five times to reach root cause\n- Fishbone (Ishikawa) diagram: Categorise causes (People, Plant, Process, Environment)\n- Bow-tie analysis: Map hazard \u2192 barriers \u2192 consequences\n\n## Return to Work (RTW)\n\nWorkers injured at work are entitled to return to work support under workers' compensation schemes:\n- **Workers' compensation**: State-based \u2014 WorkCover NSW, WorkCover QLD, WorkCover SA etc.\n- **RTW plan**: Developed with the injured worker, treating doctor, and employer\n- **Suitable duties**: Temporary modified work within medical capacity\n- **Early intervention**: Contact injured worker early \u2014 return to work sooner improves outcomes\n\nPCBUs have an obligation to offer suitable work to injured workers \u2014 failure can result in workers' compensation premium increases and potential claims.\n\n## Key Takeaways\n\n- Notifiable incidents: death, serious injury, dangerous incident \u2014 notify regulator by fastest means\n- Preserve the scene after a notifiable event \u2014 do not disturb without regulator authorisation\n- Investigate ALL incidents and near misses \u2014 near misses are leading indicators\n- Root cause analysis: 5 Whys, fishbone \u2014 find systemic causes, not just immediate causes\n- Return to work: legal obligation \u2014 early intervention with suitable duties improves outcomes"
         },
         {
-          "title": "Quiz",
+          "id": "5-q",
+          "title": "Module 5 Quiz",
           "type": "quiz",
-          "pass_mark": 75,
           "questions": [
             {
-              "q": "PCBU stands for:",
+              "q": "An excavator bucket strikes and severs a water main, causing the trench to flood. Workers escape uninjured. Is this a notifiable incident?",
               "options": [
-                "Professional Civil Building Unit",
-                "Person Conducting a Business or Undertaking",
-                "Public Construction Board Unit",
-                "Person Certifying Building Undertakings"
+                "No \u2014 no workers were injured",
+                "Yes \u2014 an uncontrolled release creating a dangerous situation is a notifiable dangerous incident even with no injuries",
+                "Only if the flood is above 500 mm deep",
+                "Only if the water main was pressurised above 150 kPa"
               ],
-              "answer": 1
+              "answer": 1,
+              "explanation": "A dangerous incident is notifiable even with no injuries \u2014 it includes uncontrolled releases and collapses with potential for serious injury. The PCBU must notify the regulator by fastest means and preserve the scene."
             },
             {
-              "q": "Safe Work Australia role is to:",
+              "q": "After a notifiable incident, when can the site be disturbed or cleaned up?",
               "options": [
-                "Enforce WHS laws nationally",
-                "Issue HRW licences",
-                "Develop model WHS policy and legislation",
-                "Fine non-compliant workers"
+                "Immediately after the injured person is treated",
+                "After 24 hours",
+                "Only when authorised by the WHS regulator inspector",
+                "When the site supervisor deems it safe to continue"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "The incident site must be preserved and must not be disturbed until the WHS regulator authorises disturbance. The only exceptions are assisting an injured person, making the site safe from immediate danger, or complying with a specific regulator direction."
             },
             {
-              "q": "White Card is valid for:",
+              "q": "What does the '5 Whys' technique achieve in incident investigation?",
               "options": [
-                "2 years",
-                "5 years",
-                "Forever \u2014 no expiry",
-                "1 year"
+                "Allocates blame to 5 specific workers",
+                "Identifies 5 corrective actions for every incident",
+                "Progressively uncovers root causes by asking 'why' at each causal level",
+                "Categorises causes across 5 standard categories"
               ],
-              "answer": 2
+              "answer": 2,
+              "explanation": "The 5 Whys technique asks 'why did this happen?' repeatedly (typically 5 times) to move beyond the immediate/surface cause to the underlying systemic root cause. Addressing root causes prevents recurrence."
             },
             {
-              "q": "Operating an excavator in Australia requires:",
+              "q": "What is the purpose of a Return to Work (RTW) plan?",
               "options": [
-                "A federal HRW licence",
-                "A state HRW licence",
-                "No HRW licence \u2014 competency required",
-                "A White Card endorsement"
+                "To return the worker to their pre-injury role as quickly as possible regardless of medical status",
+                "To provide a documented plan for the injured worker's gradual return to suitable work within their medical capacity",
+                "To document the incident for insurance purposes",
+                "To identify whether the worker is fit to continue employment"
               ],
-              "answer": 2
+              "answer": 1,
+              "explanation": "A RTW plan provides a structured, documented approach for returning the injured worker to suitable work progressively within their medical capacity. Early return to suitable duties improves recovery outcomes and is a legal obligation for the PCBU."
             },
             {
-              "q": "Notifiable incident must be reported:",
+              "q": "How quickly must a PCBU notify the WHS regulator after a worker sustains a serious injury requiring immediate in-patient hospital treatment?",
               "options": [
-                "In writing within 48 hours",
-                "Immediately by phone to state regulator",
-                "To Safe Work Australia within 24 hours",
-                "After investigation is complete"
+                "Within 48 hours in writing",
+                "Within 7 days via online form",
+                "Immediately by the fastest means practicable (e.g. phone)",
+                "Within 24 hours"
               ],
-              "answer": 1
-            },
-            {
-              "q": "Before excavating in Australia you must call:",
-              "options": [
-                "000",
-                "1100",
-                "811",
-                "0800 DIG KNOW"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "Working at heights requires fall prevention measures at:",
-              "options": [
-                "1m",
-                "2m",
-                "3m",
-                "4m"
-              ],
-              "answer": 1
-            },
-            {
-              "q": "Austroads publishes:",
-              "options": [
-                "WHS enforcement notices",
-                "Technical road and pavement guidelines",
-                "HRW licence requirements",
-                "Workers compensation rates"
-              ],
-              "answer": 1
+              "answer": 2,
+              "explanation": "Serious injuries and deaths must be notified IMMEDIATELY by the fastest means practicable \u2014 typically by phone to the state regulator. Written notification follows but the immediate phone notification is the critical legal requirement."
             }
           ]
         }
