@@ -1,0 +1,320 @@
+{
+  "id": "culture-retention-challenge",
+  "title": "Culture & Retention Challenge",
+  "subtitle": "Do You Really Know Your Team? A Leadership Self-Assessment for Civil Construction Owners & Managers",
+  "description": "A confronting self-assessment and leadership system for civil construction owners and managers. Built on 30 years of site leadership experience, this course holds a mirror up to how you lead, how well you know your people, and gives you a practical system for annual reviews and monthly site meetings that make you genuinely approachable. Most managers score lower than they expect — and leave with more than they bargained for.",
+  "duration": "2-3 hours",
+  "level": "Owner / Manager / Site Supervisor",
+  "country": "Global",
+  "flag": "🌏",
+  "price_intro": 10,
+  "price_cert": 97,
+  "gumroad_intro": "https://southconsultants.gumroad.com/l/culturechallenge",
+  "gumroad_cert": "https://southconsultants.gumroad.com/l/culturechallengeplus",
+  "thumbnail": "🤝",
+  "color": "#0f766e",
+  "modules": [
+    {
+      "id": 1,
+      "title": "The Hook — 3 Questions That Tell You Everything",
+      "lessons": [
+        {
+          "id": "1-1",
+          "title": "Before We Start: A Reality Check",
+          "type": "lesson",
+          "content": "## Before We Start: A Reality Check\n\nThis course is not about compliance. It is not about health and safety forms or toolbox talks.\n\nIt is about something harder.\n\n**It is about whether you actually lead the people who work for you — or just manage them.**\n\nAfter 30 years on civil construction sites across New Zealand and Australia, I have watched hundreds of crews. The ones that perform best, stay longest, and have the fewest incidents all share one thing:\n\n> *The boss knows their people.*\n\nNot just names on a timesheet. Their goals. Their families. What lights them up. What worries them. When they last learned something new.\n\nThe crews with high turnover, near misses, and low morale? The boss thinks they know their people — but they do not.\n\n---\n\n## Why This Matters on a Civil Site\n\n| The Cost of Poor Culture | Real Impact |\n|--------------------------|-------------|\n| Replacing a skilled operator | $15,000–$40,000 |\n| Lost productivity during handover | 3–6 months |\n| Incident rates in low-trust teams | 3x higher |\n| Productivity gap: engaged vs disengaged | Up to 21% |\n\n---\n\n## Sam's Philosophy\n\n> *Train to replace yourself — then train them to replace themselves. That is how you build something that lasts.*\n\nAre you ready to find out where you actually stand?"
+        },
+        {
+          "id": "1-2",
+          "title": "The 3 Qualifying Questions",
+          "type": "lesson",
+          "content": "## The 3 Qualifying Questions\n\nAnswer these three questions honestly before we go further.\n\n---\n\n### Question 1: The Name Test\n\nWithout looking at a roster, payroll system, or phone — could you write down the first and last name of every person currently working for you?\n\nNot just the ones on the tools today. Everyone. Including the casual who was in last week. The new apprentice who started a month ago.\n\n**Why it matters:** If you cannot name them, they know it. And they feel it.\n\n---\n\n### Question 2: The Tenure Test\n\nWho has worked for you the longest? How long — in years and months? And do you know WHY they have stayed?\n\nBonuses and wages keep people for a season. Culture keeps them for a career.\n\n---\n\n### Question 3: The Last Thank You\n\nWhen was the last time you said thank you to someone on your crew — specifically, personally, and for something they actually did?\n\nNot a Christmas function. Not a generic good job lads. A real, specific, personal acknowledgment.\n\n> *Hey Mark, I noticed how you sorted that drainage problem yesterday before it became everyone else's problem. That saved us half a day. Thank you.*\n\n**Why it matters:** Recognition is the number one driver of retention in trade-based industries. It costs nothing. Most bosses do it rarely — or never."
+        },
+        {
+          "id": "1-q",
+          "title": "Module 1 Reflection Check",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "Without checking — can you name every person currently working for you (first AND last name)?",
+              "options": [
+                "Yes, every single one without any help",
+                "Most of them — maybe miss 1 or 2",
+                "Permanent staff yes, casuals and subs I would struggle",
+                "Honestly no — I would need to check the roster"
+              ],
+              "answer": 0,
+              "explanation": "There is no wrong answer here — only an honest one. If you scored anything other than the first option, that is your first culture gap. People who feel unknown feel replaceable. And when people feel replaceable, they leave."
+            },
+            {
+              "q": "When was the last time you gave a specific, personal thank you to someone on your crew?",
+              "options": [
+                "This week — I make it a regular habit",
+                "This month — I do it occasionally",
+                "A few months ago — probably at the Christmas function",
+                "I cannot remember the last time I did it specifically"
+              ],
+              "answer": 0,
+              "explanation": "Recognition is the number one driver of retention in trade industries. It costs nothing but time. If your answer was anything but this week, you have an immediate zero-cost action available to you right now."
+            },
+            {
+              "q": "Do you know WHY your longest-serving employee has stayed with you?",
+              "options": [
+                "Yes — I have had that conversation with them directly",
+                "I think so — probably the money and conditions",
+                "Not really — I have never asked",
+                "I do not actually know who my longest-serving person is"
+              ],
+              "answer": 0,
+              "explanation": "If you do not know why people stay, you cannot replicate it. If you do not know why people leave, you cannot stop it. The answer to both questions is a 10-minute conversation you have not had yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The 20-Question Culture Challenge",
+      "lessons": [
+        {
+          "id": "2-1",
+          "title": "Part A — Knowing Your People (Q1–5)",
+          "type": "lesson",
+          "content": "## Part A: Knowing Your People\n\n### Q1: Roles and Responsibilities\nCould you walk around your site right now and describe — without hesitation — exactly what each person does, what they own, and who they report to?\n\nIf someone is doing a job but does not know why it matters, they disengage. If you cannot articulate their role clearly, how can they?\n\n---\n\n### Q2: Life Outside Work\nFor each person on your crew — do you know at least one thing about their life outside work?\n\nAre they a solo parent? Do they coach rugby? Are they sending money home overseas? Studying at night?\n\nYou do not need to be their counsellor. But knowing one real thing about a person says: *I see you as a human being, not just a resource.*\n\n---\n\n### Q3: Tenure and Loyalty\nDo you know — within 3 months — how long each person has worked for you?\n\nWork anniversaries are free recognition opportunities. A simple mention of 5 years last Tuesday takes 30 seconds and is remembered for years.\n\n---\n\n### Q4: Career Goals\nDo you know what each person wants to be doing in 3 years?\n\nThe apprentice who wants to run his own business. The operator who wants a new ticket. The supervisor quietly burning out.\n\nIf you do not know, you cannot help them grow. And if you cannot help them grow, someone else will.\n\n---\n\n### Q5: What Worries Them\nDo you know what is causing stress for your people right now?\n\nMoney? A difficult relationship on site? Health issues? A family problem?\n\nYou do not need to fix everything. But a leader who creates space for their team to say I am not doing great right now is a leader people trust — and stay for."
+        },
+        {
+          "id": "2-2",
+          "title": "Part B — Training & Development (Q6–10)",
+          "type": "lesson",
+          "content": "## Part B: Training & Development\n\nIn civil construction, training is often treated as a compliance cost. The best operators treat it as a competitive advantage.\n\n---\n\n### Q6: Last Training Date\nWhen was the last time each person completed formal training or upskilling?\n\nNot the site induction when they started. Actual training that added a skill, a ticket, or knowledge they did not have before.\n\nIf you have to check the files — that is your answer.\n\n---\n\n### Q7: Tickets and Certificates\nDo you know exactly what tickets, certifications, and licences each person holds — and when they expire?\n\nExpired tickets are a liability. But more importantly: do your people know you value the certificates they have earned?\n\n---\n\n### Q8: Planned Development\nDoes each person on your crew have at least one training or development goal planned for this year?\n\nA goal does not have to be formal. A new machine ticket, a first aid refresher, shadowing a senior operator, attending a site visit to see a new construction method.\n\nIf nobody has a development goal this year — your culture is stagnant.\n\n---\n\n### Q9: Field Days and New Technology\nWhen did you last take your team to a field day, product demonstration, or industry event?\n\nThe civil construction industry is changing faster than at any point in history. Machine control, GPS grading, autonomous compaction, digital site records.\n\nA crew that never sees what is coming feels left behind. A crew that sees the future together gets excited about it — together.\n\n---\n\n### Q10: Self-Improvement Opportunities\nHave you ever supported a team member to attend something outside of pure technical training? A leadership course, financial literacy workshop, health seminar, or personal development programme?\n\nWhen you invest in a person — not just in their ticket — you send a message that changes everything:\n\n> *We believe in you as a person, not just as a worker.*\n\nThat message creates loyalty that money cannot buy."
+        },
+        {
+          "id": "2-3",
+          "title": "Part C — Recognition & Belonging (Q11–15)",
+          "type": "lesson",
+          "content": "## Part C: Recognition and Belonging\n\nBelonging is the foundation of retention. People stay where they feel seen, valued, and part of something.\n\n---\n\n### Q11: Who Deserves Recognition Right Now?\nThink about your crew. Who has gone above and beyond in the last 30 days — and have you told them?\n\nList their names mentally. Now ask: did they know you noticed?\n\n---\n\n### Q12: Milestone Celebrations\nWhen did you last acknowledge a personal or professional milestone for someone on your team?\n\nWork anniversary. New baby. Completed licence. Paid off their first home.\n\nMilestones say: my life is progressing. When a workplace acknowledges that — it becomes part of the story of that progress.\n\n---\n\n### Q13: Psychological Safety\nCan the newest person on your site comfortably tell you when something is not right — without fear of being dismissed, mocked, or ignored?\n\nThis is the single most important cultural indicator in high-risk industries.\n\nIncidents happen when people notice something wrong and say nothing. They say nothing when the culture punishes honesty.\n\n---\n\n### Q14: Why Do People Leave?\nIn the last 3 years, when someone left — do you know the real reason?\n\nNot the reason they gave on their last day. The real reason.\n\nMoney is rarely the real reason. More money is usually the permission slip to leave a situation they had already mentally exited.\n\nThe real reasons: felt invisible. No growth path. Poor relationship with a supervisor. Never felt trusted.\n\n---\n\n### Q15: Why Do People Stay?\nHave you ever directly asked your longest-serving team members what keeps them here?\n\nTheir answer is your culture's greatest asset — and your best recruitment story.\n\nIf you have not asked, you do not know. And if you do not know, you cannot protect it."
+        },
+        {
+          "id": "2-4",
+          "title": "Part D — The Coaching Challenge (Q16–20)",
+          "type": "lesson",
+          "content": "## Part D: The Coaching Challenge\n\nThe highest-performing civil construction leaders do not just manage work — they coach people.\n\n---\n\n### Q16: One-on-One Check-Ins\nWhen did you last have a genuine one-on-one conversation with each direct report — not about a task, but about them?\n\nNot the morning briefing. A sit-down where you asked: how are you going? And then actually listened.\n\n---\n\n### Q17: Training Your Replacement\nCould your business continue to run — at the same quality level — if you were not there for 3 months?\n\nIf the answer is no, you have not built a team. You have built a dependency.\n\nThe goal of great leadership is to make yourself replaceable — and then teach the person who replaces you to do the same thing.\n\n---\n\n### Q18: Site Walks Together\nDo you regularly walk the site WITH your people — not to inspect their work, but to listen and talk?\n\nThere is no better leadership tool than walking alongside someone and saying: show me how you approach this.\n\nYou learn what they know. They feel respected. Problems surface before they become incidents.\n\n---\n\n### Q19: Future Technology Readiness\nHave you talked to your team about where the industry is heading — and what skills they will need in 5 years?\n\nMachine automation, GPS grading, AI-assisted planning, digital compliance — these are coming to every site.\n\nLeaders who prepare their teams for change are the ones their teams trust through change.\n\n---\n\n### Q20: Your Vision of a Great Workplace\nIf you could describe your site culture in 3 words — what would they be? And what would YOUR TEAM say if asked the same question?\n\nThe gap between your answer and their answer is the gap in your culture.\n\nThe only way to close it is to ask the question — and be willing to hear the truth."
+        },
+        {
+          "id": "2-q",
+          "title": "Culture Challenge Self-Score",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "When walking your site, could you stop at each person and name their role, how long they have been with you, and one fact about their life outside work?",
+              "options": [
+                "Yes — confidently for every person",
+                "Most people yes, a couple I would struggle with",
+                "Core team yes, newer or casual staff not so much",
+                "Honestly, I could not do that for most of my crew"
+              ],
+              "answer": 0,
+              "explanation": "This simple walk-around test is the most honest measure of people leadership on a civil site. The goal is not perfection today — it is honest awareness of where you are, so you can close the gap."
+            },
+            {
+              "q": "Does every person on your crew have at least one formal training or development goal planned for this year?",
+              "options": [
+                "Yes — we have discussed it and it is planned",
+                "Most of them do, a couple are not sure yet",
+                "We focus on tickets when compliance requires it",
+                "No — training happens reactively, not by plan"
+              ],
+              "answer": 0,
+              "explanation": "Planned development is the difference between a team that grows together and a team that stagnates. Even one goal per person per year creates forward momentum and signals that you are investing in them."
+            },
+            {
+              "q": "Could your business run at full quality for 3 months without you on site?",
+              "options": [
+                "Yes — I have people ready to step up",
+                "Mostly yes, with some daily calls from me",
+                "It would struggle significantly",
+                "No — it depends almost entirely on me being there"
+              ],
+              "answer": 0,
+              "explanation": "This is Sam's core leadership test. Training to replace yourself is not about leaving — it is about building real capability in the people around you. A business that requires the owner present to function is not a business — it is a job."
+            },
+            {
+              "q": "When was the last time a team member came to you with a concern or problem — unprompted?",
+              "options": [
+                "This week — it happens regularly",
+                "This month — occasionally",
+                "A few months ago",
+                "I cannot remember — people tend not to approach me"
+              ],
+              "answer": 0,
+              "explanation": "If people do not approach you, it does not mean everything is fine. It means the door feels closed — even if it is technically open. Approachability is built through consistent small actions over time, not announced in a speech."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Monthly Site Meetings That Actually Mean Something",
+      "lessons": [
+        {
+          "id": "3-1",
+          "title": "Why Most Site Meetings Fail",
+          "type": "lesson",
+          "content": "## Why Most Site Meetings Fail\n\nMost site meetings follow the same formula:\n\n1. Safety reminders nobody remembers\n2. Schedule update everyone already knows\n3. Someone complains about the same thing as last month\n4. Meeting ends, nothing changes\n\nWhen meetings feel like a waste of time, people disengage. They show up in body but not in mind. The meeting becomes a ritual with no meaning.\n\n**The purpose of a monthly site meeting is not to share information. It is to build a team.**\n\nInformation can be shared in an email. Team is built in a room.\n\n---\n\n## What a Meaningful Monthly Meeting Looks Like\n\nA great monthly site meeting has five elements:\n\n| Element | Time | Purpose |\n|---------|------|---------|\n| Recognition moment | 5 min | Name someone who did something good |\n| What is working | 10 min | Build on strengths, not just fix problems |\n| What needs attention | 10 min | Honest, safe, non-blame discussion |\n| Learning moment | 10 min | Field day recap, new tech, industry news |\n| One individual shoutout | 5 min | Personal acknowledgment by name |\n\nTotal: **40 minutes. Every month. Non-negotiable.**\n\n---\n\n## The Recognition Moment\n\nEvery monthly meeting starts with one rule:\n\n**Before anything else — name someone who did something worth recognising this month.**\n\nIt does not need to be a big thing. It needs to be real.\n\n> Marcus sorted a drainage issue before it became a problem. He spotted it, fixed it, moved on. That is the kind of site awareness that keeps us safe and on schedule. Marcus — thank you.\n\nThat takes 60 seconds. Marcus will remember it for years. Every other person in the room now knows: *if I do good work, it gets noticed here.*\n\n---\n\n## The Learning Moment\n\nOnce a month, bring something new to the room.\n\n- A photo or video from a field day or product demo\n- A new technique or regulation you learned about\n- A question: *What is one thing you have seen on another site that you wish we did here?*\n- A seminar or course someone attended — ask them to share 2 minutes of what they learned\n\nThis signals that learning is part of the culture — not something that only happens when compliance demands it."
+        },
+        {
+          "id": "3-2",
+          "title": "The Monthly Meeting Template",
+          "type": "lesson",
+          "content": "## The Monthly Meeting Template\n\nCopy this. Use it every month. Adapt it as your culture grows.\n\n---\n\n## SOUTH CONSULTANTS\n### Monthly Team Meeting — [Month] [Year]\n\n**Date:** _______________\n**Location:** _______________\n**Present:** _______________\n**Facilitated by:** _______________\n\n---\n\n### 1. RECOGNITION (5 minutes)\n\n*Who went above and beyond this month? Name them, say what they did, say thank you.*\n\nRecognition this month: _______________\n\n_______________________________________________\n\n---\n\n### 2. WHAT IS WORKING (10 minutes)\n\n*Open question to the group: What has gone well this month? What are we proud of?*\n\nKey points raised:\n- _______________\n- _______________\n- _______________\n\n---\n\n### 3. WHAT NEEDS ATTENTION (10 minutes)\n\n*No blame. No hierarchy. Just honest: what could be better? What is slowing us down?*\n\nIssues raised:\n- Issue: _______________ Action: _______________ Owner: _______________\n- Issue: _______________ Action: _______________ Owner: _______________\n\n---\n\n### 4. LEARNING MOMENT (10 minutes)\n\n*What did we learn this month? Industry news, new equipment, field day recap, course completed?*\n\nTopic: _______________\n\nKey takeaway: _______________\n\nAction or follow-up: _______________\n\n---\n\n### 5. INDIVIDUAL SHOUTOUT (5 minutes)\n\n*Call out one person by name for something personal or professional.*\n\n> Not just what they did — who they are as part of this team.\n\nShoutout: _______________\n\n_______________________________________________\n\n---\n\n### CLOSING\n\n*Leader's close: One sentence on where we are headed this month and what you are looking forward to.*\n\n_______________________________________________\n\n**Next meeting:** _______________\n\n---\n\n## The Secret Ingredient\n\nThe meeting template is not the thing. The thing is that you **show up, every month, without fail, and treat it like it matters.**\n\nBecause it does.\n\nA leader who holds consistent, meaningful monthly meetings sends a message that no bonus or pay rise can replicate:\n\n> *You are worth my time. This team is worth building.*"
+        },
+        {
+          "id": "3-q",
+          "title": "Monthly Meeting Reflection",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "What is the primary purpose of a monthly site meeting?",
+              "options": [
+                "To build team connection and culture, not just share information",
+                "To update the schedule and assign tasks",
+                "To cover safety compliance requirements",
+                "To give performance feedback"
+              ],
+              "answer": 0,
+              "explanation": "Information can be shared in an email. Team is built in a room. The monthly meeting is a culture tool — its value comes from consistency, recognition, and honest conversation, not the agenda items."
+            },
+            {
+              "q": "In the 5-element meeting format, what comes FIRST — before anything else?",
+              "options": [
+                "Recognition — naming someone who did something worth acknowledging",
+                "Safety reminders and compliance updates",
+                "Schedule review and upcoming work",
+                "Issues and problems to resolve"
+              ],
+              "answer": 0,
+              "explanation": "Starting with recognition sets the tone for the entire meeting. It signals: this is a place where good work gets noticed. Everything else in the meeting is received differently when it follows a genuine acknowledgment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Annual Growth Review",
+      "lessons": [
+        {
+          "id": "4-1",
+          "title": "Why Annual Reviews Fail — and How to Fix Them",
+          "type": "lesson",
+          "content": "## Why Annual Reviews Fail — and How to Fix Them\n\nMost annual reviews create anxiety, not growth.\n\nThe employee spends a week wondering if they are about to get fired. The manager spends an hour filling out a form they do not believe in. Both leave feeling like it was a waste of time.\n\n**That is not a review. That is a ritual with the wrong purpose.**\n\n---\n\n## The Annual GROWTH Conversation\n\nRename it. Reframe it. Change what it is for.\n\nThis is not a performance review. It is a **Growth Conversation** — a structured annual check-in where the most important question is not *how did you perform?* but *how can I help you grow?*\n\n---\n\n## Before the Meeting: Preparation for Both Sides\n\n**You prepare:**\n- What did they achieve this year that you want to acknowledge?\n- What is one thing you have noticed about how they work?\n- What training or development could benefit them next year?\n- What opportunity could you offer them in the next 12 months?\n\n**They prepare (send them these questions a week before):**\n- What are you most proud of from this year?\n- What did you find challenging?\n- What would you like to learn or do more of?\n- What would make next year a great year for you at work?\n- Is there anything you wish I knew or that we talked about more?\n\n---\n\n## The Tone: Safe, Real, Forward-Looking\n\nThis conversation works only if it feels safe.\n\nSafe means: what I say here will not be used against me. It will not affect my job. It will not be judged.\n\nYou create that safety by:\n1. Listening more than talking\n2. Not defending yourself when you hear criticism\n3. Following up on what you promise\n\nNothing destroys trust faster than a Growth Conversation where the employee is honest — and then nothing changes."
+        },
+        {
+          "id": "4-2",
+          "title": "The Annual Growth Review Template",
+          "type": "lesson",
+          "content": "## The Annual Growth Review Template\n\nUse this for every team member, once per year. Scheduled. Non-negotiable.\n\n---\n\n## SOUTH CONSULTANTS\n### Annual Growth Conversation — [Year]\n\n**Employee Name:** _______________\n**Role:** _______________\n**Start Date:** _______________ (Years with us: _______)\n**Review Date:** _______________\n**Conducted by:** _______________\n\n---\n\n### PART 1: LOOKING BACK (15 minutes)\n\n**What are you most proud of from the past 12 months?**\n\n_______________________________________________\n\n**What did you find most challenging?**\n\n_______________________________________________\n\n**What training or learning did you complete this year?**\n\n| Training | Date | Certificate? |\n|----------|------|-------------|\n| | | |\n| | | |\n\n**Manager observation — what I noticed this year:**\n\n_______________________________________________\n\n**Acknowledgment — what I want to thank you for specifically:**\n\n_______________________________________________\n\n---\n\n### PART 2: LOOKING FORWARD (15 minutes)\n\n**What would you like to learn or develop in the next 12 months?**\n\n_______________________________________________\n\n**Is there a role, responsibility, or project you would like to take on?**\n\n_______________________________________________\n\n**What training or course would be most useful to you this year?**\n\nCourse / Training: _______________ Target date: _______________\n\n**Where do you see yourself in 3 years?**\n\n_______________________________________________\n\n---\n\n### PART 3: WHAT WOULD MAKE THIS A GREAT YEAR (10 minutes)\n\n**What is one thing that would make coming to work better for you?**\n\n_______________________________________________\n\n**Is there anything you wish I knew — or wish we talked about more?**\n\n_______________________________________________\n\n**Is there anything about how the team works together you would like to see change?**\n\n_______________________________________________\n\n---\n\n### PART 4: COMMITMENTS (5 minutes)\n\n*Both parties agree to the following actions before the next review:*\n\n| What | Who | By When |\n|------|-----|---------|\n| | | |\n| | | |\n| | | |\n\n**Employee signature:** _______________ Date: _______________\n\n**Manager signature:** _______________ Date: _______________\n\n**Next Growth Conversation scheduled:** _______________\n\n---\n\n## The Golden Rule\n\n> *Whatever you commit to in this room — do it. Every broken promise here costs you 6 months of trust.*"
+        },
+        {
+          "id": "4-q",
+          "title": "Annual Review Principles Check",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "What is the key difference between a traditional performance review and the Annual Growth Conversation?",
+              "options": [
+                "The Growth Conversation focuses on development and future, not judgment of past performance",
+                "The Growth Conversation is shorter and less formal",
+                "The Growth Conversation only covers training and certificates",
+                "There is no real difference — both assess performance"
+              ],
+              "answer": 0,
+              "explanation": "Traditional reviews answer: how did you perform? The Growth Conversation answers: how can I help you grow? Same meeting, completely different energy — and completely different results for retention and engagement."
+            },
+            {
+              "q": "Why should employees receive the reflection questions a WEEK before the Growth Conversation?",
+              "options": [
+                "So they can think honestly about their answers without being put on the spot",
+                "So HR can review their responses first",
+                "To give them time to prepare complaints",
+                "It is not necessary — questions can be asked on the day"
+              ],
+              "answer": 0,
+              "explanation": "Thoughtful answers require time. When people are surprised in a meeting, they give safe, surface-level answers. Pre-sent questions allow real reflection — and signal that you take this conversation seriously."
+            },
+            {
+              "q": "What is the fastest way to destroy trust built in a Growth Conversation?",
+              "options": [
+                "Making commitments you do not follow through on",
+                "Being too informal in the meeting",
+                "Not filling in the template correctly",
+                "Scheduling the meeting during work hours"
+              ],
+              "answer": 0,
+              "explanation": "Trust is built in small actions over time and destroyed in single moments of broken commitment. If an employee is honest in a Growth Conversation and nothing changes — they will never be honest with you again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Becoming an Approachable Leader",
+      "lessons": [
+        {
+          "id": "5-1",
+          "title": "What Approachable Actually Means on a Civil Site",
+          "type": "lesson",
+          "content": "## What Approachable Actually Means on a Civil Site\n\nApproachable does not mean soft.\n\nApproachable does not mean everyone likes you.\n\nApproachable means: **when something is wrong, someone tells you before it becomes a disaster.**\n\n---\n\n## The Two Types of Site Leaders\n\n| Type A: The Unapproachable Boss | Type B: The Approachable Leader |\n|----------------------------------|----------------------------------|\n| People bring problems when forced | People bring problems when they are still small |\n| Near misses go unreported | Near misses get raised and addressed |\n| Decisions made by the boss alone | Solutions come from the team |\n| High turnover, low trust | High retention, high performance |\n| Always fighting fires | Prevents most fires before they start |\n\n---\n\n## Four Practices That Build Approachability\n\n### 1. The 5-Minute Wander\nEvery morning, before the day starts — walk the site. Not to inspect. Not to find problems. Just to be present.\n\nStop at each person. Say good morning. Ask one real question.\n\n> *How did that concrete pour go yesterday?*\n> *How is your daughter's rugby season going?*\n> *Did you get that sorted with the supplier?*\n\nFive minutes. Every morning. The cumulative effect is enormous.\n\n---\n\n### 2. Acknowledge Before You Correct\nWhen something needs to change — acknowledge the effort before addressing the issue.\n\nNot: *That trench is wrong, fix it.*\n\nYes: *You have been working hard on this section. The grade is coming out about 20mm high at the southern end — what do you think is causing it?*\n\nThe first approach creates defensiveness. The second creates problem-solvers.\n\n---\n\n### 3. Ask Questions More Than You Give Answers\nApproachable leaders are curious. They ask:\n\n> *What would you do if you were in charge of this decision?*\n> *What am I missing here?*\n> *Is there a better way to do this that I have not thought of?*\n\nWhen people are asked for their opinion, they feel valued. When they feel valued, they engage. When they engage, your site runs better.\n\n---\n\n### 4. Repair Quickly When You Get It Wrong\nEvery leader gets it wrong sometimes. What separates approachable leaders is what happens next.\n\n> *Yesterday I snapped at you in front of the crew and that was not fair. I was frustrated about something else and you copped it. I am sorry.*\n\nThat one sentence, said genuinely, builds more trust than a year of correct decisions.\n\n---\n\n## The Compounding Effect\n\nNone of these practices require budget. None require a course. None require a management system.\n\nThey require only one thing: **consistent intention to treat people like people.**\n\nDo them every day, for 90 days, and your site will feel different. Your team will feel different. And you will wonder why you did not start sooner."
+        },
+        {
+          "id": "5-2",
+          "title": "Your 30-Day Culture Action Plan",
+          "type": "lesson",
+          "content": "## Your 30-Day Culture Action Plan\n\nYou have now completed the Culture and Retention Challenge.\n\nYou know your score. You know your gaps. Now it is time to act.\n\n---\n\n## The 30-Day Starter Plan\n\nPick ONE action from each week. Do it. Then come back and pick the next one.\n\n### Week 1: Know Your People\n- Write down every team member's name, role, and one fact about their life outside work — from memory\n- Identify gaps and have one conversation this week to fill them\n- Find out your longest-serving employee's start date and acknowledge it\n\n### Week 2: Recognition and Connection\n- Give one specific, personal thank you each day for 5 days\n- At your next toolbox talk, name someone who did something good this week\n- Ask one team member: what is one thing that would make your job better?\n\n### Week 3: Learning and Development\n- List every team member's last training date and what tickets they hold\n- Identify one person who is ready for a new ticket or development opportunity\n- Research one field day, seminar, or site visit you could take the team to this year\n\n### Week 4: Systems and Structures\n- Schedule your next monthly meeting — lock it in for the next 12 months\n- Book your first Annual Growth Conversations — one per week across your team\n- Send each team member the pre-meeting reflection questions for their Growth Conversation\n\n---\n\n## The One Question That Changes Everything\n\nAt the end of every week, ask yourself one question:\n\n> *Did anyone come to me this week with a problem they did not have to bring?*\n\nIf yes — you are becoming more approachable.\n\nIf no — something in the environment still feels unsafe. Keep going.\n\n---\n\n## Sam's Final Word\n\n> *In 30 years on civil sites, I have seen every kind of leader. The ones whose crews perform best, stay longest, and go home safely every day are never the hardest or the loudest.*\n>\n> *They are the ones whose people know: this boss sees me. This boss will listen. This boss is worth following.*\n>\n> *That is what you are building here. One conversation at a time.*\n\n— Sam Dampier-Crossley, South Consultants"
+        },
+        {
+          "id": "5-q",
+          "title": "Final Reflection — Your Leadership Commitment",
+          "type": "quiz",
+          "questions": [
+            {
+              "q": "In the context of a civil construction site, what does 'approachable' really mean?",
+              "options": [
+                "When something is wrong, people tell you before it becomes a disaster",
+                "Everyone on site likes you personally",
+                "You never raise your voice or create urgency",
+                "You are available to talk at any time of day"
+              ],
+              "answer": 0,
+              "explanation": "Approachability is a safety and performance metric, not a personality trait. A site where problems surface early has fewer incidents, less rework, and lower turnover. That is the business case for approachable leadership."
+            },
+            {
+              "q": "Which of the following is the MOST IMPORTANT thing you can do after a Growth Conversation?",
+              "options": [
+                "Follow through on every commitment you made — without exception",
+                "File the completed template in the HR system",
+                "Share a summary with the rest of the management team",
+                "Schedule the next review immediately"
+              ],
+              "answer": 0,
+              "explanation": "The conversation is worthless without follow-through. In fact, a promise broken after a vulnerable conversation does more damage than never having had the conversation at all. Action is the only currency that builds trust."
+            },
+            {
+              "q": "What is the single most powerful habit for building approachability on a civil site?",
+              "options": [
+                "The 5-minute morning walk — being present with each person every day",
+                "Having an open-door policy announced at the team meeting",
+                "Sending weekly updates by email to keep everyone informed",
+                "Holding quarterly performance reviews"
+              ],
+              "answer": 0,
+              "explanation": "Policies and announcements do not build approachability — consistent presence does. The daily 5-minute wander, done every morning for 90 days, changes the relational fabric of a site more than any system or structure."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
